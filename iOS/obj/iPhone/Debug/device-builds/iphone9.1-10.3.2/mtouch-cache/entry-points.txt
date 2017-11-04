@@ -1,0 +1,27 @@
+Function=xamarin_timezone_get_data
+	/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhone/Debug/device-builds/iphone9.1-10.3.2/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhone/Debug/device-builds/iphone9.1-10.3.2/mtouch-cache/Link/mscorlib.dll
+Function=xamarin_log
+	/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhone/Debug/device-builds/iphone9.1-10.3.2/mtouch-cache/Link/mscorlib.dll
+Function=CreateZStream
+	/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhone/Debug/device-builds/iphone9.1-10.3.2/mtouch-cache/Link/System.dll
+Function=CloseZStream
+	/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhone/Debug/device-builds/iphone9.1-10.3.2/mtouch-cache/Link/System.dll
+Function=Flush
+	/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhone/Debug/device-builds/iphone9.1-10.3.2/mtouch-cache/Link/System.dll
+Function=ReadZStream
+	/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhone/Debug/device-builds/iphone9.1-10.3.2/mtouch-cache/Link/System.dll
+Function=WriteZStream
+	/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhone/Debug/device-builds/iphone9.1-10.3.2/mtouch-cache/Link/System.dll
+Function=xamarin_start_wwan
+	/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhone/Debug/device-builds/iphone9.1-10.3.2/mtouch-cache/Link/System.dll
+Function=UIApplicationMain
+	/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhone/Debug/device-builds/iphone9.1-10.3.2/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhone/Debug/device-builds/iphone9.1-10.3.2/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhone/Debug/device-builds/iphone9.1-10.3.2/mtouch-cache/Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhone/Debug/device-builds/iphone9.1-10.3.2/mtouch-cache/Link/Xamarin.iOS.dll
+Function=mono_pmip

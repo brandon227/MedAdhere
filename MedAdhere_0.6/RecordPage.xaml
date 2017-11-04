@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="MedAdhere_0.RecordPage"
+    Title="Record" 
+    Icon="ic_done.png">
+	<ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Label Text="Record Side-Effects, Blood Pressure, and Adherence Data" TextColor="Green"/>
+            <Button Text="New Entry" Clicked="Handle_Clicked"/>
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

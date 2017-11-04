@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="MedAdhere_0.MedsPage">
+	<ContentPage.Content>
+        <StackLayout Padding="20" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Text="Name:" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" />
+                <Entry Text="{Binding Name}" Grid.Row="0" Grid.Column="1" />
+                <Label Text="Dosage:" Grid.Row="1" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" />
+                <Entry Text="{Binding Dosage}" Grid.Row="1" Grid.Column="1" />
+            </Grid>
+            <Button Text="Save" HorizontalOptions="FillAndExpand" BackgroundColor="Green" TextColor="White" Clicked="Save_Clicked" />
+            <Button Text="Cancel" HorizontalOptions="FillAndExpand" BackgroundColor="Blue" WidthRequest="160" TextColor="White" />
+            <Button Text="Delete" HorizontalOptions="FillAndExpand" BackgroundColor="Red" TextColor="White" Clicked="Delete_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
