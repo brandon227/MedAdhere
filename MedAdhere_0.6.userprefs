@@ -1,8 +1,20 @@
 ﻿<Properties StartupConfiguration="{7BFCBECD-C3DD-458C-A55E-C3904952CAB4}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MedAdhere_0.6 Status">
     <Files>
       <File FileName="iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="MedAdhere_0.6 Status" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MedAdhere_0.6" expanded="True">
+            <Node name="MedAdhere_0.6.iOS" expanded="True">
+              <Node name="AppDelegate.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
