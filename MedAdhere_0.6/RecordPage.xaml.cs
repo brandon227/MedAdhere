@@ -30,7 +30,7 @@ namespace MedAdhere_0
                 BackgroundColor = Color.Red;
                 await Task.Delay(1000);
                 BackgroundColor = Color.Default;
-                BluetoothManager.Instance.OnConnectionLost();
+                //BluetoothManager.Instance.OnConnectionLost();
             }
             else
             {
