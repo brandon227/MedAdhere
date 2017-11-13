@@ -38,7 +38,7 @@ namespace MedAdhere_0
 				var device = e.Item as IDevice;
 				if (BluetoothManager.Instance.AdapterBLE.ConnectedDevices.Count == 0)
 				{
-					await BluetoothManager.Instance.AdapterBLE.ConnectToDeviceAsync(device);
+                    await BluetoothManager.Instance.AdapterBLE.ConnectToDeviceAsync(device);
                     //await 
                     await Navigation.PopToRootAsync();
 				}
