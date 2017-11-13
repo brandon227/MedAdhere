@@ -39,7 +39,7 @@ namespace MedAdhere_0
 				if (BluetoothManager.Instance.AdapterBLE.ConnectedDevices.Count == 0)
 				{
                     await BluetoothManager.Instance.AdapterBLE.ConnectToDeviceAsync(device);
-                    //await 
+                    await DisplayAlert("Bluetooth Successful!","You are now connected to: " + device,"OK")
                     await Navigation.PopToRootAsync();
 				}
 				else

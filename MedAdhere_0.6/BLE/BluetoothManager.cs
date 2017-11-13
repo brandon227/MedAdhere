@@ -88,7 +88,7 @@ namespace MedAdhere_0
         {
             //DeviceDisconnectedEvent.Invoke(sender,e);
             Debug.WriteLine("Device already disconnected");
-            OnConnectionLost(e.Device);
+            OnConnectionLost(BLEDevice);
         }
 
         void Adapter_ScanTimeoutElapsed(object sender, EventArgs e)
