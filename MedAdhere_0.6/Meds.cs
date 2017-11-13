@@ -15,6 +15,7 @@ namespace MedAdhere_0
         public int Id { get; set; }
         public string Name { get; set; }
         public string Dosage { get; set; }
+        public string MedTime { get; set; }
 
     }
 }

@@ -9,6 +9,8 @@
         <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
             <Label Text="Record Side-Effects, Blood Pressure, and Adherence Data" TextColor="Green"/>
             <Button Text="New Entry" Clicked="Handle_Clicked"/>
+            <Button Text="Check Bluetooth Connection" Clicked="Status_Check_Clicked" />
+            <Button Text="Open Device List Page" Clicked="Go_DeviceListPage" />
         </StackLayout>
 	</ContentPage.Content>
 </ContentPage>

@@ -91624,8 +91624,8 @@ ldr x16, [x16, #1856]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x0, [x16, #1864]
-.word 0xd2802321
-.word 0xd2802321
+.word 0xd2802d21
+.word 0xd2802d21
 bl _p_10
 bl _p_564
 .word 0xf90063a0
@@ -91659,8 +91659,8 @@ bl _p_11
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x0, [x16, #1864]
-.word 0xd28024e1
-.word 0xd28024e1
+.word 0xd2802ee1
+.word 0xd2802ee1
 bl _p_10
 bl _p_564
 .word 0xf90063a0
@@ -92896,8 +92896,8 @@ ldr x16, [x16, #1944]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x0, [x16, #1864]
-.word 0xd2802321
-.word 0xd2802321
+.word 0xd2802d21
+.word 0xd2802d21
 bl _p_10
 bl _p_564
 .word 0xf9002ba0
@@ -96504,9 +96504,9 @@ ldr x1, [x16, #16]
 .word 0xf944b631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29e4140
+.word 0xd29e50c0
 .word 0xf2a00020
-.word 0xd29e4140
+.word 0xd29e50c0
 .word 0xf2a00020
 bl _p_470
 .word 0xf9006fa0
@@ -96996,8 +96996,8 @@ ldr x16, [x16, #2256]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x0, [x16, #1864]
-.word 0xd2802321
-.word 0xd2802321
+.word 0xd2802d21
+.word 0xd2802d21
 bl _p_10
 bl _p_564
 .word 0xf90093a0
@@ -97498,8 +97498,8 @@ ldr x16, [x16, #2320]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x0, [x16, #1864]
-.word 0xd2802321
-.word 0xd2802321
+.word 0xd2802d21
+.word 0xd2802d21
 bl _p_10
 bl _p_564
 .word 0xf900bba0
@@ -97533,8 +97533,8 @@ bl _p_11
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x0, [x16, #1864]
-.word 0xd28024e1
-.word 0xd28024e1
+.word 0xd2802ee1
+.word 0xd2802ee1
 bl _p_10
 bl _p_564
 .word 0xf900bba0
@@ -106404,8 +106404,8 @@ ldr x16, [x16, #2848]
 adrp x16, mono_aot_Xamarin_Forms_Xaml_got@PAGE+8192
 add x16, x16, mono_aot_Xamarin_Forms_Xaml_got@PAGEOFF
 ldr x0, [x16, #1864]
-.word 0xd2802321
-.word 0xd2802321
+.word 0xd2802d21
+.word 0xd2802d21
 bl _p_10
 bl _p_564
 .word 0xf90063a0
@@ -117296,7 +117296,7 @@ _mono_aot_file_info:
 	.long 1360,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 93,247,237,11,3,168,116,171,242,228,112,88,155,153,212,159
+	.byte 218,199,38,113,87,252,13,208,174,102,130,155,134,97,110,236
 	.globl _mono_aot_module_Xamarin_Forms_Xaml_info
 	.align 3
 _mono_aot_module_Xamarin_Forms_Xaml_info:

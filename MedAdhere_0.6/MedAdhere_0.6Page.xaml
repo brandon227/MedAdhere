@@ -3,6 +3,7 @@
     <!-- <local:AddPage>
     </local:AddPage> -->
     <!-- <local:TestPage /> -->
+    <local:DeviceListPage />
     <NavigationPage Title="Medication" Icon="ic_add.png">
         <x:Arguments>
             <local:MedsListPage />

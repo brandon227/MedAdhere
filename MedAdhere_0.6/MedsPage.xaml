@@ -13,6 +13,8 @@
                 <Entry Text="{Binding Name}" Grid.Row="0" Grid.Column="1" />
                 <Label Text="Dosage:" Grid.Row="1" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" />
                 <Entry Text="{Binding Dosage}" Grid.Row="1" Grid.Column="1" />
+                <Label Text="Time:" Grid.Row="2" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" />
+                <Entry Text="{Binding MedTime}" Grid.Row="2" Grid.Column="1" />
             </Grid>
             <Button Text="Save" HorizontalOptions="FillAndExpand" BackgroundColor="Green" TextColor="White" Clicked="Save_Clicked" />
             <Button Text="Cancel" HorizontalOptions="FillAndExpand" BackgroundColor="Blue" WidthRequest="160" TextColor="White" />

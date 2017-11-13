@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import <WebKit/WebKit.h>
+#import <CoreBluetooth/CoreBluetooth.h>
 #import <CoreSpotlight/CoreSpotlight.h>
 #import <QuartzCore/QuartzCore.h>
 #import <CloudKit/CloudKit.h>
@@ -92,6 +93,8 @@
 @class Xamarin_Forms_Platform_iOS_ToolbarItemExtensions_SecondaryToolbarItem;
 @class Xamarin_Forms_Platform_iOS_NavigationMenuRenderer_DataSource;
 @class Xamarin_Forms_Platform_iOS_NavigationRenderer_SecondaryToolbar;
+@class CoreBluetooth_CBCentralManager__CBCentralManagerDelegate;
+@class CoreBluetooth_CBPeripheral__CBPeripheralDelegate;
 @class UIKit_UIGestureRecognizer__UIGestureRecognizerDelegate;
 @class __UIGestureRecognizerToken;
 @class __UIGestureRecognizerParameterlessToken;

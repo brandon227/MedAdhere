@@ -19,6 +19,8 @@ extern void *mono_aot_module_SQLite_net_info;
 extern void *mono_aot_module_SQLitePCLRaw_core_info;
 extern void *mono_aot_module_SQLitePCLRaw_batteries_v2_info;
 extern void *mono_aot_module_SQLitePCLRaw_provider_sqlite3_info;
+extern void *mono_aot_module_Plugin_BLE_Abstractions_info;
+extern void *mono_aot_module_Plugin_BLE_info;
 
 void xamarin_register_modules_impl ()
 {
@@ -41,6 +43,8 @@ void xamarin_register_modules_impl ()
 	mono_aot_register_module (mono_aot_module_SQLitePCLRaw_core_info);
 	mono_aot_register_module (mono_aot_module_SQLitePCLRaw_batteries_v2_info);
 	mono_aot_register_module (mono_aot_module_SQLitePCLRaw_provider_sqlite3_info);
+	mono_aot_register_module (mono_aot_module_Plugin_BLE_Abstractions_info);
+	mono_aot_register_module (mono_aot_module_Plugin_BLE_info);
 
 }
 
