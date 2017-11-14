@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.2.0 (tarball Thu Oct  5 20:37:59 EDT 2017)"
+	.asciz "Mono AOT Compiler 5.2.0 (tarball Tue Oct 31 22:22:00 EDT 2017)"
 	.asciz "SQLitePCLRaw.core.dll"
 	.asciz ""
 
@@ -19290,7 +19290,7 @@ Lme_1c3:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_IsValueWriteAtomic
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_IsValueWriteAtomic:
-.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/external/corefx/src/System.Collections.Concurrent/src/System/Collections/Concurrent/ConcurrentDictionary.cs"
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/external/corefx/src/System.Collections.Concurrent/src/System/Collections/Concurrent/ConcurrentDictionary.cs"
 .loc 2 96 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
@@ -33500,7 +33500,7 @@ Lme_213:
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_INTPTR_get_Default
 System_Collections_Generic_EqualityComparer_1_T_INTPTR_get_Default:
-.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/equalitycomparer.cs"
+.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/equalitycomparer.cs"
 .loc 3 32 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -33607,7 +33607,7 @@ LDIFF_SYM3=ut_end - ut_533
 	.align 4
 	.no_dead_strip System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Value
 System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Value:
-.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/keyvaluepair.cs"
+.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/keyvaluepair.cs"
 .loc 4 40 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -33782,7 +33782,7 @@ Lme_217:
 	.align 4
 	.no_dead_strip System_Array_Empty_T_GSHAREDVT
 System_Array_Empty_T_GSHAREDVT:
-.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/mcs/class/corlib/corert/Array.Portable.cs"
+.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/mcs/class/corlib/corert/Array.Portable.cs"
 .loc 5 1309 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -34142,7 +34142,7 @@ Lme_21c:
 	.align 4
 	.no_dead_strip System_Collections_ObjectModel_ReadOnlyCollection_1_T_INTPTR__ctor_System_Collections_Generic_IList_1_T_INTPTR
 System_Collections_ObjectModel_ReadOnlyCollection_1_T_INTPTR__ctor_System_Collections_Generic_IList_1_T_INTPTR:
-.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/mcs/class/referencesource/mscorlib/system/collections/objectmodel/readonlycollection.cs"
+.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/mcs/class/referencesource/mscorlib/system/collections/objectmodel/readonlycollection.cs"
 .loc 6 27 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -34227,7 +34227,7 @@ Lme_21d:
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_INTPTR_Add_T_INTPTR
 System_Collections_Generic_List_1_T_INTPTR_Add_T_INTPTR:
-.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/list.cs"
+.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/list.cs"
 .loc 7 228 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -39725,7 +39725,7 @@ _mono_aot_file_info:
 	.long 744,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 22,110,120,5,168,107,176,106,101,68,119,64,159,219,180,104
+	.byte 34,45,175,59,180,92,160,215,65,48,135,252,101,114,223,106
 	.globl _mono_aot_module_SQLitePCLRaw_core_info
 	.align 3
 _mono_aot_module_SQLitePCLRaw_core_info:

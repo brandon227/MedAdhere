@@ -8,7 +8,6 @@
 #include <objc/message.h>
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import <WebKit/WebKit.h>
 #import <CoreBluetooth/CoreBluetooth.h>
 #import <CoreSpotlight/CoreSpotlight.h>
 #import <QuartzCore/QuartzCore.h>
@@ -104,14 +103,14 @@
 @class UIKit_UIView_UIViewAppearance;
 @class UIKit_UINavigationBar_UINavigationBarAppearance;
 @class __UIPanGestureRecognizer;
-@class __UIPinchGestureRecognizer;
-@class UIKit_UIBarButtonItem_Callback;
 @class UIKit_UIControl_UIControlAppearance;
-@class UIKit_UIButton_UIButtonAppearance;
 @class __UIRotationGestureRecognizer;
 @class __UITapGestureRecognizer;
+@class __UIPinchGestureRecognizer;
 @class __UISwipeGestureRecognizer;
 @class __UIScreenEdgePanGestureRecognizer;
+@class UIKit_UIBarButtonItem_Callback;
+@class UIKit_UIButton_UIButtonAppearance;
 @class UIKit_UISearchBar__UISearchBarDelegate;
 @class UIKit_UITextField__UITextFieldDelegate;
 @class UIKit_UIScrollView__UIScrollViewDelegate;

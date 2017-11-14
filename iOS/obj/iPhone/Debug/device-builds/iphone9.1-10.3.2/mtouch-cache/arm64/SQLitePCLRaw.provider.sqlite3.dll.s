@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.2.0 (tarball Thu Oct  5 20:37:59 EDT 2017)"
+	.asciz "Mono AOT Compiler 5.2.0 (tarball Tue Oct 31 22:22:00 EDT 2017)"
 	.asciz "SQLitePCLRaw.provider.sqlite3.dll"
 	.asciz ""
 
@@ -19045,7 +19045,7 @@ Lme_19e:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_IsValueWriteAtomic
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_IsValueWriteAtomic:
-.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/external/corefx/src/System.Collections.Concurrent/src/System/Collections/Concurrent/ConcurrentDictionary.cs"
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/external/corefx/src/System.Collections.Concurrent/src/System/Collections/Concurrent/ConcurrentDictionary.cs"
 .loc 2 96 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
@@ -28766,7 +28766,7 @@ LDIFF_SYM3=ut_end - ut_472
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 System_Array_InternalEnumerator_1_T_INST__ctor_System_Array:
-.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/mcs/class/corlib/System/Array.cs"
+.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/mcs/class/corlib/System/Array.cs"
 .loc 3 215 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -56612,7 +56612,7 @@ Lme_2a1:
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_INTPTR_get_Default
 System_Collections_Generic_EqualityComparer_1_T_INTPTR_get_Default:
-.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/equalitycomparer.cs"
+.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/equalitycomparer.cs"
 .loc 4 32 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -56712,7 +56712,7 @@ b System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Value
 	.align 4
 	.no_dead_strip System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Value
 System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Value:
-.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/keyvaluepair.cs"
+.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/keyvaluepair.cs"
 .loc 5 40 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -56887,7 +56887,7 @@ Lme_2a5:
 	.align 4
 	.no_dead_strip System_Array_Empty_T_GSHAREDVT
 System_Array_Empty_T_GSHAREDVT:
-.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/mcs/class/corlib/corert/Array.Portable.cs"
+.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/mcs/class/corlib/corert/Array.Portable.cs"
 .loc 6 1309 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -57247,7 +57247,7 @@ Lme_2aa:
 	.align 4
 	.no_dead_strip System_Collections_ObjectModel_ReadOnlyCollection_1_T_INTPTR__ctor_System_Collections_Generic_IList_1_T_INTPTR
 System_Collections_ObjectModel_ReadOnlyCollection_1_T_INTPTR__ctor_System_Collections_Generic_IList_1_T_INTPTR:
-.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/mcs/class/referencesource/mscorlib/system/collections/objectmodel/readonlycollection.cs"
+.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/mcs/class/referencesource/mscorlib/system/collections/objectmodel/readonlycollection.cs"
 .loc 7 27 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -57332,7 +57332,7 @@ Lme_2ab:
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_INTPTR_Add_T_INTPTR
 System_Collections_Generic_List_1_T_INTPTR_Add_T_INTPTR:
-.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/list.cs"
+.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/list.cs"
 .loc 8 228 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -66137,7 +66137,7 @@ _mono_aot_file_info:
 	.long 912,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 31,227,221,3,58,181,237,34,12,21,102,246,240,42,210,95
+	.byte 64,166,121,231,65,208,71,223,194,249,249,164,193,24,62,220
 	.globl _mono_aot_module_SQLitePCLRaw_provider_sqlite3_info
 	.align 3
 _mono_aot_module_SQLitePCLRaw_provider_sqlite3_info:

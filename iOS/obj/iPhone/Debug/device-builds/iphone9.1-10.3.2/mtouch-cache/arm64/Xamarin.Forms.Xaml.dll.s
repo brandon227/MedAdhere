@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.2.0 (tarball Thu Oct  5 20:37:59 EDT 2017)"
+	.asciz "Mono AOT Compiler 5.2.0 (tarball Tue Oct 31 22:22:00 EDT 2017)"
 	.asciz "Xamarin.Forms.Xaml.dll"
 	.asciz ""
 
@@ -65444,7 +65444,7 @@ b System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 System_Array_InternalEnumerator_1_T_INST__ctor_System_Array:
-.file 33 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/mcs/class/corlib/System/Array.cs"
+.file 33 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/mcs/class/corlib/System/Array.cs"
 .loc 33 215 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -67128,7 +67128,7 @@ b System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_F
 	.align 4
 	.no_dead_strip System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode__ctor_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode
 System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode__ctor_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode:
-.file 34 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/keyvaluepair.cs"
+.file 34 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/keyvaluepair.cs"
 .loc 34 31 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
@@ -67627,7 +67627,7 @@ Lme_1e7:
 	.align 4
 	.no_dead_strip System_Collections_Generic_Dictionary_2_KeyCollection_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode__ctor_System_Collections_Generic_Dictionary_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode
 System_Collections_Generic_Dictionary_2_KeyCollection_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode__ctor_System_Collections_Generic_Dictionary_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode:
-.file 35 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/external/corert/src/System.Private.CoreLib/src/System/Collections/Generic/Dictionary.cs"
+.file 35 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/external/corert/src/System.Private.CoreLib/src/System/Collections/Generic/Dictionary.cs"
 .loc 35 973 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -72147,7 +72147,7 @@ Lme_219:
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_Xamarin_Forms_Xaml_XmlName_get_Default
 System_Collections_Generic_EqualityComparer_1_Xamarin_Forms_Xaml_XmlName_get_Default:
-.file 36 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/equalitycomparer.cs"
+.file 36 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/equalitycomparer.cs"
 .loc 36 32 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -75934,7 +75934,7 @@ b System_Collections_Generic_List_1_Enumerator_Xamarin_Forms_Xaml_XmlName__ctor_
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_Enumerator_Xamarin_Forms_Xaml_XmlName__ctor_System_Collections_Generic_List_1_Xamarin_Forms_Xaml_XmlName
 System_Collections_Generic_List_1_Enumerator_Xamarin_Forms_Xaml_XmlName__ctor_System_Collections_Generic_List_1_Xamarin_Forms_Xaml_XmlName:
-.file 37 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/list.cs"
+.file 37 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/list.cs"
 .loc 37 1157 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -90409,7 +90409,7 @@ Lme_2f0:
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_First_System_Reflection_CustomAttributeTypedArgument_System_Collections_Generic_IEnumerable_1_System_Reflection_CustomAttributeTypedArgument
 System_Linq_Enumerable_First_System_Reflection_CustomAttributeTypedArgument_System_Collections_Generic_IEnumerable_1_System_Reflection_CustomAttributeTypedArgument:
-.file 38 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/external/corefx/src/System.Linq/src/System/Linq/First.cs"
+.file 38 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/external/corefx/src/System.Linq/src/System/Linq/First.cs"
 .loc 38 14 0 prologue_end
 .word 0xa9b67bfd
 .word 0x910003fd
@@ -91575,7 +91575,7 @@ Lme_2fc:
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_Any_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_System_Func_2_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_bool
 System_Linq_Enumerable_Any_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_System_Func_2_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_bool:
-.file 39 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/external/corefx/src/System.Linq/src/System/Linq/AnyAll.cs"
+.file 39 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/external/corefx/src/System.Linq/src/System/Linq/AnyAll.cs"
 .loc 39 26 0 prologue_end
 .word 0xa9b37bfd
 .word 0x910003fd
@@ -92857,7 +92857,7 @@ Lme_303:
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_ToList_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode
 System_Linq_Enumerable_ToList_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode:
-.file 40 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/external/corefx/src/System.Linq/src/System/Linq/ToCollection.cs"
+.file 40 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/external/corefx/src/System.Linq/src/System/Linq/ToCollection.cs"
 .loc 40 24 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
@@ -97981,7 +97981,7 @@ Lme_32f:
 	.align 4
 	.no_dead_strip System_Linq_OrderedEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_SortedMap_System_Linq_Buffer_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode
 System_Linq_OrderedEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_SortedMap_System_Linq_Buffer_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode:
-.file 41 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/external/corefx/src/System.Linq/src/System/Linq/OrderedEnumerable.cs"
+.file 41 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/external/corefx/src/System.Linq/src/System/Linq/OrderedEnumerable.cs"
 .loc 41 16 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
@@ -106046,7 +106046,7 @@ b System_Linq_Buffer_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_X
 	.align 4
 	.no_dead_strip System_Linq_Buffer_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode__ctor_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode
 System_Linq_Buffer_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode__ctor_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode:
-.file 42 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/external/corefx/src/System.Linq/src/System/Linq/Buffer.cs"
+.file 42 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/external/corefx/src/System.Linq/src/System/Linq/Buffer.cs"
 .loc 42 31 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
@@ -106356,7 +106356,7 @@ Lme_363:
 	.align 4
 	.no_dead_strip System_Linq_Enumerable_Count_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode
 System_Linq_Enumerable_Count_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode:
-.file 43 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/external/corefx/src/System.Linq/src/System/Linq/Count.cs"
+.file 43 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/external/corefx/src/System.Linq/src/System/Linq/Count.cs"
 .loc 43 14 0 prologue_end
 .word 0xa9b37bfd
 .word 0x910003fd
@@ -107527,7 +107527,7 @@ Lme_36a:
 	.align 4
 	.no_dead_strip System_Array_Empty_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode
 System_Array_Empty_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode:
-.file 44 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/mcs/class/corlib/corert/Array.Portable.cs"
+.file 44 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/mcs/class/corlib/corert/Array.Portable.cs"
 .loc 44 1309 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -107568,7 +107568,7 @@ Lme_36b:
 	.align 4
 	.no_dead_strip System_Linq_OrderedPartition_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode__ctor_System_Linq_OrderedEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_int_int
 System_Linq_OrderedPartition_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode__ctor_System_Linq_OrderedEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_int_int:
-.file 45 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/external/corefx/src/System.Linq/src/System/Linq/Partition.cs"
+.file 45 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/external/corefx/src/System.Linq/src/System/Linq/Partition.cs"
 .loc 45 156 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
@@ -109129,7 +109129,7 @@ Lme_378:
 	.align 4
 	.no_dead_strip System_Collections_Generic_EnumerableHelpers_ToArray_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_int_
 System_Collections_Generic_EnumerableHelpers_ToArray_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode_int_:
-.file 46 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/external/corefx/src/Common/src/System/Collections/Generic/EnumerableHelpers.cs"
+.file 46 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/external/corefx/src/Common/src/System/Collections/Generic/EnumerableHelpers.cs"
 .loc 46 99 0 prologue_end
 .word 0xa9b07bfd
 .word 0x910003fd
@@ -109768,7 +109768,7 @@ Lme_379:
 	.align 4
 	.no_dead_strip System_EmptyArray_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode__cctor
 System_EmptyArray_1_System_Collections_Generic_KeyValuePair_2_Xamarin_Forms_Xaml_XmlName_Xamarin_Forms_Xaml_INode__cctor:
-.file 47 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.2.0.11/src/mono/mcs/class/corlib/System/EmptyArray.cs"
+.file 47 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/mcs/class/corlib/System/EmptyArray.cs"
 .loc 47 33 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -117296,7 +117296,7 @@ _mono_aot_file_info:
 	.long 1360,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 218,199,38,113,87,252,13,208,174,102,130,155,134,97,110,236
+	.byte 149,92,0,9,81,70,187,50,77,176,39,8,200,107,248,114
 	.globl _mono_aot_module_Xamarin_Forms_Xaml_info
 	.align 3
 _mono_aot_module_Xamarin_Forms_Xaml_info:

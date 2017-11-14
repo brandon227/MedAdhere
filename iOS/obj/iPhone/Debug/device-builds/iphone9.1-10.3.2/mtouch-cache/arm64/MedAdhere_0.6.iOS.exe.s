@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.2.0 (tarball Thu Oct  5 20:37:59 EDT 2017)"
+	.asciz "Mono AOT Compiler 5.2.0 (tarball Tue Oct 31 22:22:00 EDT 2017)"
 	.asciz "MedAdhere_0.6.iOS.exe"
 	.asciz ""
 
@@ -773,7 +773,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "5B7C2631-7355-41BE-B7AE-7F498B7A7991"
+	.asciz "6E8D309B-264F-4728-8124-4B6A87410D4E"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -856,7 +856,7 @@ _mono_aot_file_info:
 	.long 32,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 182,222,166,73,168,139,75,199,229,198,134,134,224,178,127,217
+	.byte 65,236,191,8,224,157,37,55,87,70,16,90,120,241,7,213
 	.globl _mono_aot_module_MedAdhere_0_6_iOS_info
 	.align 3
 _mono_aot_module_MedAdhere_0_6_iOS_info:
