@@ -603,6 +603,241 @@ ldr x16, [x16, #288]
 
 Lme_5:
 .text
+	.align 4
+	.no_dead_strip MedAdhere_0_iOS_MedNotification_SaveAlarm
+MedAdhere_0_iOS_MedNotification_SaveAlarm:
+.file 4 "/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/MedNotification.cs"
+.loc 4 13 0 prologue_end
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xf9000fa0
+
+adrp x16, mono_aot_MedAdhere_0_6_iOS_got@PAGE+0
+add x16, x16, mono_aot_MedAdhere_0_6_iOS_got@PAGEOFF
+ldr x16, [x16, #296]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xd280001a
+.word 0xf94013b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 4 14 0
+.word 0xf94013b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_MedAdhere_0_6_iOS_got@PAGE+0
+add x16, x16, mono_aot_MedAdhere_0_6_iOS_got@PAGEOFF
+ldr x0, [x16, #304]
+bl _p_14
+.word 0xf90043a0
+bl _p_15
+.word 0xf94013b1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xaa0003fa
+.loc 4 17 0
+.word 0xf94013b1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9003fa0
+.word 0xd280001e
+.word 0xf2e8029e
+.word 0x9e6703c0
+.word 0xd280001e
+.word 0xf2e8029e
+.word 0x9e6703c0
+bl _p_16
+.word 0xf9003ba0
+.word 0xf94013b1
+.word 0xf940e231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba1
+.word 0xf9403fa2
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf940ec50
+.word 0xd63f0200
+.word 0xf94013b1
+.word 0xf9410a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 4 20 0
+.word 0xf94013b1
+.word 0xf9411a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e2
+
+adrp x16, mono_aot_MedAdhere_0_6_iOS_got@PAGE+0
+add x16, x16, mono_aot_MedAdhere_0_6_iOS_got@PAGEOFF
+ldr x1, [x16, #312]
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf940f850
+.word 0xd63f0200
+.word 0xf94013b1
+.word 0xf9414a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 4 21 0
+.word 0xf94013b1
+.word 0xf9415a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e2
+
+adrp x16, mono_aot_MedAdhere_0_6_iOS_got@PAGE+0
+add x16, x16, mono_aot_MedAdhere_0_6_iOS_got@PAGEOFF
+ldr x1, [x16, #320]
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf940f450
+.word 0xd63f0200
+.word 0xf94013b1
+.word 0xf9418a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 4 24 0
+.word 0xf94013b1
+.word 0xf9419a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf90037a0
+.word 0xd2800020
+.word 0x93407c00
+.word 0xf90033a0
+.word 0xf94013b1
+.word 0xf941be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a1
+.word 0xf94037a2
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf940f050
+.word 0xd63f0200
+.word 0xf94013b1
+.word 0xf941e631
+.word 0xb4000051
+.word 0xd63f0220
+.loc 4 27 0
+.word 0xf94013b1
+.word 0xf941f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9002ba0
+bl _p_17
+.word 0xf9002fa0
+.word 0xf94013b1
+.word 0xf9421631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fa0
+bl _p_18
+.word 0xf90027a0
+.word 0xf94013b1
+.word 0xf9423231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027a1
+.word 0xf9402ba2
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf940e850
+.word 0xd63f0200
+.word 0xf94013b1
+.word 0xf9425a31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 4 30 0
+.word 0xf94013b1
+.word 0xf9426a31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_19
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf9428231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a2
+.word 0xaa1a03e1
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9411450
+.word 0xd63f0200
+.word 0xf94013b1
+.word 0xf942aa31
+.word 0xb4000051
+.word 0xd63f0220
+.loc 4 31 0
+.word 0xf94013b1
+.word 0xf942ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf942ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+
+Lme_6:
+.text
+	.align 4
+	.no_dead_strip MedAdhere_0_iOS_MedNotification__ctor
+MedAdhere_0_iOS_MedNotification__ctor:
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_MedAdhere_0_6_iOS_got@PAGE+0
+add x16, x16, mono_aot_MedAdhere_0_6_iOS_got@PAGEOFF
+ldr x16, [x16, #328]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fb1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_7:
+.text
 	.align 3
 jit_code_end:
 
@@ -617,6 +852,8 @@ bl MedAdhere_0_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_
 bl MedAdhere_0_iOS_AppDelegate__ctor
 bl MedAdhere_0_iOS_LocalFileHelper_GetLocalFilePath_string
 bl MedAdhere_0_iOS_LocalFileHelper__ctor
+bl MedAdhere_0_iOS_MedNotification_SaveAlarm
+bl MedAdhere_0_iOS_MedNotification__ctor
 bl method_addresses
 method_addresses_end:
 
@@ -637,7 +874,7 @@ unwind_info:
 
 	.byte 13,12,31,0,68,14,48,157,6,158,5,68,13,29,25,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,148,18
 	.byte 68,150,17,151,16,68,152,15,24,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,150,16,151,15,68,152,14,153
-	.byte 13
+	.byte 13,17,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,154,16
 
 .text
 	.align 4
@@ -648,109 +885,157 @@ plt_UIKit_UIApplication_Main_string___string_string:
 _p_1:
 adrp x16, mono_aot_MedAdhere_0_6_iOS_got@PAGE+0
 add x16, x16, mono_aot_MedAdhere_0_6_iOS_got@PAGEOFF
-ldr x16, [x16, #304]
+ldr x16, [x16, #344]
 br x16
-.word 335
+.word 357
 	.no_dead_strip plt_System_Environment_GetFolderPath_System_Environment_SpecialFolder
 plt_System_Environment_GetFolderPath_System_Environment_SpecialFolder:
 _p_2:
 adrp x16, mono_aot_MedAdhere_0_6_iOS_got@PAGE+0
 add x16, x16, mono_aot_MedAdhere_0_6_iOS_got@PAGEOFF
-ldr x16, [x16, #312]
+ldr x16, [x16, #352]
 br x16
-.word 340
+.word 362
 	.no_dead_strip plt_System_IO_Path_Combine_string_string_string
 plt_System_IO_Path_Combine_string_string_string:
 _p_3:
 adrp x16, mono_aot_MedAdhere_0_6_iOS_got@PAGE+0
 add x16, x16, mono_aot_MedAdhere_0_6_iOS_got@PAGEOFF
-ldr x16, [x16, #320]
+ldr x16, [x16, #360]
 br x16
-.word 345
+.word 367
 	.no_dead_strip plt_System_IO_Path_Combine_string_string
 plt_System_IO_Path_Combine_string_string:
 _p_4:
 adrp x16, mono_aot_MedAdhere_0_6_iOS_got@PAGE+0
 add x16, x16, mono_aot_MedAdhere_0_6_iOS_got@PAGEOFF
-ldr x16, [x16, #328]
+ldr x16, [x16, #368]
 br x16
-.word 350
+.word 372
 	.no_dead_strip plt_Xamarin_Forms_Forms_Init
 plt_Xamarin_Forms_Forms_Init:
 _p_5:
 adrp x16, mono_aot_MedAdhere_0_6_iOS_got@PAGE+0
 add x16, x16, mono_aot_MedAdhere_0_6_iOS_got@PAGEOFF
-ldr x16, [x16, #336]
+ldr x16, [x16, #376]
 br x16
-.word 355
+.word 377
 	.no_dead_strip plt_wrapper_alloc_object_AllocSmall_intptr_intptr
 plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_6:
 adrp x16, mono_aot_MedAdhere_0_6_iOS_got@PAGE+0
 add x16, x16, mono_aot_MedAdhere_0_6_iOS_got@PAGEOFF
-ldr x16, [x16, #344]
+ldr x16, [x16, #384]
 br x16
-.word 360
+.word 382
 	.no_dead_strip plt_MedAdhere_0_App__ctor
 plt_MedAdhere_0_App__ctor:
 _p_7:
 adrp x16, mono_aot_MedAdhere_0_6_iOS_got@PAGE+0
 add x16, x16, mono_aot_MedAdhere_0_6_iOS_got@PAGEOFF
-ldr x16, [x16, #352]
+ldr x16, [x16, #392]
 br x16
-.word 368
+.word 390
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
 _p_8:
 adrp x16, mono_aot_MedAdhere_0_6_iOS_got@PAGE+0
 add x16, x16, mono_aot_MedAdhere_0_6_iOS_got@PAGEOFF
-ldr x16, [x16, #360]
+ldr x16, [x16, #400]
 br x16
-.word 373
+.word 395
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
 _p_9:
 adrp x16, mono_aot_MedAdhere_0_6_iOS_got@PAGE+0
 add x16, x16, mono_aot_MedAdhere_0_6_iOS_got@PAGEOFF
-ldr x16, [x16, #368]
+ldr x16, [x16, #408]
 br x16
-.word 378
+.word 400
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
 _p_10:
 adrp x16, mono_aot_MedAdhere_0_6_iOS_got@PAGE+0
 add x16, x16, mono_aot_MedAdhere_0_6_iOS_got@PAGEOFF
-ldr x16, [x16, #376]
+ldr x16, [x16, #416]
 br x16
-.word 383
+.word 405
 	.no_dead_strip plt_System_IO_Path_Combine_string_string_string_string
 plt_System_IO_Path_Combine_string_string_string_string:
 _p_11:
 adrp x16, mono_aot_MedAdhere_0_6_iOS_got@PAGE+0
 add x16, x16, mono_aot_MedAdhere_0_6_iOS_got@PAGEOFF
-ldr x16, [x16, #384]
+ldr x16, [x16, #424]
 br x16
-.word 388
+.word 410
 	.no_dead_strip plt_System_IO_Directory_Exists_string
 plt_System_IO_Directory_Exists_string:
 _p_12:
 adrp x16, mono_aot_MedAdhere_0_6_iOS_got@PAGE+0
 add x16, x16, mono_aot_MedAdhere_0_6_iOS_got@PAGEOFF
-ldr x16, [x16, #392]
+ldr x16, [x16, #432]
 br x16
-.word 393
+.word 415
 	.no_dead_strip plt_System_IO_Directory_CreateDirectory_string
 plt_System_IO_Directory_CreateDirectory_string:
 _p_13:
 adrp x16, mono_aot_MedAdhere_0_6_iOS_got@PAGE+0
 add x16, x16, mono_aot_MedAdhere_0_6_iOS_got@PAGEOFF
-ldr x16, [x16, #400]
+ldr x16, [x16, #440]
 br x16
-.word 398
+.word 420
+	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
+plt__jit_icall_ves_icall_object_new_specific:
+_p_14:
+adrp x16, mono_aot_MedAdhere_0_6_iOS_got@PAGE+0
+add x16, x16, mono_aot_MedAdhere_0_6_iOS_got@PAGEOFF
+ldr x16, [x16, #448]
+br x16
+.word 425
+	.no_dead_strip plt_UIKit_UILocalNotification__ctor
+plt_UIKit_UILocalNotification__ctor:
+_p_15:
+adrp x16, mono_aot_MedAdhere_0_6_iOS_got@PAGE+0
+add x16, x16, mono_aot_MedAdhere_0_6_iOS_got@PAGEOFF
+ldr x16, [x16, #456]
+br x16
+.word 457
+	.no_dead_strip plt_Foundation_NSDate_FromTimeIntervalSinceNow_double
+plt_Foundation_NSDate_FromTimeIntervalSinceNow_double:
+_p_16:
+adrp x16, mono_aot_MedAdhere_0_6_iOS_got@PAGE+0
+add x16, x16, mono_aot_MedAdhere_0_6_iOS_got@PAGEOFF
+ldr x16, [x16, #464]
+br x16
+.word 462
+	.no_dead_strip plt_UIKit_UILocalNotification_get_DefaultSoundName
+plt_UIKit_UILocalNotification_get_DefaultSoundName:
+_p_17:
+adrp x16, mono_aot_MedAdhere_0_6_iOS_got@PAGE+0
+add x16, x16, mono_aot_MedAdhere_0_6_iOS_got@PAGEOFF
+ldr x16, [x16, #472]
+br x16
+.word 467
+	.no_dead_strip plt_Foundation_NSString_op_Implicit_Foundation_NSString
+plt_Foundation_NSString_op_Implicit_Foundation_NSString:
+_p_18:
+adrp x16, mono_aot_MedAdhere_0_6_iOS_got@PAGE+0
+add x16, x16, mono_aot_MedAdhere_0_6_iOS_got@PAGEOFF
+ldr x16, [x16, #480]
+br x16
+.word 472
+	.no_dead_strip plt_UIKit_UIApplication_get_SharedApplication
+plt_UIKit_UIApplication_get_SharedApplication:
+_p_19:
+adrp x16, mono_aot_MedAdhere_0_6_iOS_got@PAGE+0
+add x16, x16, mono_aot_MedAdhere_0_6_iOS_got@PAGEOFF
+ldr x16, [x16, #488]
+br x16
+.word 477
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_MedAdhere_0_6_iOS_got, 408
+.lcomm mono_aot_MedAdhere_0_6_iOS_got, 496
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -773,7 +1058,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "6E8D309B-264F-4728-8124-4B6A87410D4E"
+	.asciz "36E8343B-B80A-4CA2-B7FA-0072230A9F5F"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -850,13 +1135,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 37,408,14,7,70,391195135,0,1295
-	.long 128,8,8,10,0,25,2112,808
-	.long 376,184,0,304,344,240,0,176
+	.long 42,496,20,9,70,391195135,0,1702
+	.long 128,8,8,10,0,25,2528,816
+	.long 384,184,0,312,352,240,0,176
 	.long 32,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 65,236,191,8,224,157,37,55,87,70,16,90,120,241,7,213
+	.byte 98,163,112,252,230,175,16,2,234,41,174,28,63,137,204,121
 	.globl _mono_aot_module_MedAdhere_0_6_iOS_info
 	.align 3
 _mono_aot_module_MedAdhere_0_6_iOS_info:
@@ -5894,6 +6179,124 @@ LDIFF_SYM885=Lme_5 - MedAdhere_0_iOS_LocalFileHelper__ctor
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde5_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_139:
+
+	.byte 5
+	.asciz "MedAdhere_0_iOS_MedNotification"
+
+	.byte 16,16
+LDIFF_SYM886=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM886
+	.byte 2,35,0,0,7
+	.asciz "MedAdhere_0_iOS_MedNotification"
+
+LDIFF_SYM887=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM887
+LTDIE_139_POINTER:
+
+	.byte 13
+LDIFF_SYM888=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM888
+LTDIE_139_REFERENCE:
+
+	.byte 14
+LDIFF_SYM889=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM889
+LTDIE_140:
+
+	.byte 5
+	.asciz "UIKit_UILocalNotification"
+
+	.byte 40,16
+LDIFF_SYM890=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM890
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UILocalNotification"
+
+LDIFF_SYM891=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM891
+LTDIE_140_POINTER:
+
+	.byte 13
+LDIFF_SYM892=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM892
+LTDIE_140_REFERENCE:
+
+	.byte 14
+LDIFF_SYM893=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM893
+	.byte 2
+	.asciz "MedAdhere_0.iOS.MedNotification:SaveAlarm"
+	.asciz "MedAdhere_0_iOS_MedNotification_SaveAlarm"
+
+	.byte 4,13
+	.quad MedAdhere_0_iOS_MedNotification_SaveAlarm
+	.quad Lme_6
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM894=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM894
+	.byte 2,141,24,11
+	.asciz "notification"
+
+LDIFF_SYM895=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM895
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM896=Lfde6_end - Lfde6_start
+	.long LDIFF_SYM896
+Lfde6_start:
+
+	.long 0
+	.align 3
+	.quad MedAdhere_0_iOS_MedNotification_SaveAlarm
+
+LDIFF_SYM897=Lme_6 - MedAdhere_0_iOS_MedNotification_SaveAlarm
+	.long LDIFF_SYM897
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,154,16
+	.align 3
+Lfde6_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "MedAdhere_0.iOS.MedNotification:.ctor"
+	.asciz "MedAdhere_0_iOS_MedNotification__ctor"
+
+	.byte 0,0
+	.quad MedAdhere_0_iOS_MedNotification__ctor
+	.quad Lme_7
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM898=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM898
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM899=Lfde7_end - Lfde7_start
+	.long LDIFF_SYM899
+Lfde7_start:
+
+	.long 0
+	.align 3
+	.quad MedAdhere_0_iOS_MedNotification__ctor
+
+LDIFF_SYM900=Lme_7 - MedAdhere_0_iOS_MedNotification__ctor
+	.long LDIFF_SYM900
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde7_end:
 
 .section __DWARF, __debug_info,regular,debug
 

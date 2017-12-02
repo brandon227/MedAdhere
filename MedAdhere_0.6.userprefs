@@ -1,19 +1,33 @@
 ﻿<Properties StartupConfiguration="{7BFCBECD-C3DD-458C-A55E-C3904952CAB4}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MedAdhere_0.6/BLE/BluetoothManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/MainActivity.cs">
     <Files>
-      <File FileName="iOS/Info.plist" />
-      <File FileName="iOS/Entitlements.plist" />
-      <File FileName="MedAdhere_0.6/MedAdhere_0.6Page.xaml" Line="9" Column="35" />
-      <File FileName="MedAdhere_0.6/SchedulePage.xaml" Line="11" Column="65" />
-      <File FileName="MedAdhere_0.6/SchedulePage.xaml.cs" Line="39" Column="9" />
-      <File FileName="MedAdhere_0.6/BLE/BluetoothManager.cs" Line="1" Column="1" />
+      <File FileName="MedAdhere_0.6/App.xaml.cs" Line="54" Column="3" />
+      <File FileName="MedAdhere_0.6/SchedulePage.xaml.cs" Line="48" Column="69" />
+      <File FileName="MedAdhere_0.6/SchedulePage.xaml" Line="17" Column="1" />
+      <File FileName="iOS/MedNotification.cs" Line="29" Column="44" />
+      <File FileName="iOS/LocalFileHelper.cs" Line="1" Column="1" />
+      <File FileName="MedAdhere_0.6/IMedNotification.cs" Line="9" Column="1" />
+      <File FileName="MedAdhere_0.6/NotificationSetup.cs" Line="12" Column="10" />
+      <File FileName="MedAdhere_0.6/AlarmsDatabase.cs" Line="30" Column="45" />
+      <File FileName="MedAdhere_0.6/MedsDatabase.cs" Line="21" Column="10" />
+      <File FileName="MedAdhere_0.6/ILocalFileHelper.cs" Line="1" Column="1" />
+      <File FileName="MedAdhere_0.6/MedsPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="iOS/AppDelegate.cs" Line="103" Column="71" />
+      <File FileName="MedAdhere_0.6/Alarms.cs" Line="15" Column="52" />
+      <File FileName="MedAdhere_0.6/SettingsPage.xaml.cs" Line="56" Column="13" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/IMedNotification.cs" relfile="MedAdhere_0.6/IMedNotification.cs" line="6" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.MedAdhere__0.6.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9206F2A2-ACBE-455A-961A-38FC31B40EFC" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="MedAdhere_0.6/SettingsPage.xaml.cs" line="56" offsetX="638" offsetY="825" expression="DependencyService" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.ItemProperties.MedAdhere__0.6.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.c54e381b4ca1f292ed61b7177dc92de68f3052b0" />
   <MultiItemStartupConfigurations />
 </Properties>

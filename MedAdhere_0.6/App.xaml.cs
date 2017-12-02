@@ -5,7 +5,9 @@ namespace MedAdhere_0
     public partial class App : Application
     {
         //public static string DB_PATH = string.Empty;
-        static MedsDatabase database;
+        static MedsDatabase medsdatabase;
+        static AlarmsDatabase alarmsdatabase;
+        static NotificationSetup sendnotification;
 
         public App()
         {
@@ -18,14 +20,38 @@ namespace MedAdhere_0
         {
             get
             {
-                if (database == null)
+                if (medsdatabase == null)
                 {
-                    database = new MedsDatabase(DependencyService.Get<ILocalFileHelper>().GetLocalFilePath("MedsDb.db3"));
+                    medsdatabase = new MedsDatabase(DependencyService.Get<ILocalFileHelper>().GetLocalFilePath("MedsDb.db3"));
                 }
-                return database;
+                return medsdatabase;
             }
         }
 
+        public static AlarmsDatabase AlarmsDB
+        {
+            get
+            {
+                if (alarmsdatabase == null)
+                {
+                    alarmsdatabase = new AlarmsDatabase(DependencyService.Get<ILocalFileHelper>().GetLocalFilePath("AlarmsDb.db3"));
+                }
+                return alarmsdatabase;
+            }
+        }
+        /*
+        public static NotificationSetup Notify
+        {
+            get
+            {
+                if (sendnotification == null)
+                {
+                    sendnotification = new NotificationSetup(DependencyService.Get<IMedNotification>());   
+                }
+                return sendnotification;
+            }
+        }
+*/
         /*
         //Nilofer Code here
         public App(string DB_Path)

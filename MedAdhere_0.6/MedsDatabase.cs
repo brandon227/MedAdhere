@@ -7,40 +7,41 @@ namespace MedAdhere_0
 {
     public class MedsDatabase
     {
-        readonly SQLiteAsyncConnection database;
+        readonly SQLiteAsyncConnection medsdatabase;
 
         public MedsDatabase(string dbPath)
         {
-            database = new SQLiteAsyncConnection(dbPath);
-            database.CreateTableAsync<Meds>().Wait();
+            medsdatabase = new SQLiteAsyncConnection(dbPath);
+            medsdatabase.CreateTableAsync<Meds>().Wait();
         }
 
         public Task<List<Meds>> GetMedsAsync()
         {
-            return database.Table<Meds>().ToListAsync();
+            return medsdatabase.Table<Meds>().ToListAsync();
         }
-
 
         public Task<Meds> GetMedsAsync(int id)
         {
-            return database.Table<Meds>().Where(i => i.Id == id).FirstOrDefaultAsync();
+            return medsdatabase.Table<Meds>().Where(i => i.Id == id).FirstOrDefaultAsync();
         }
 
         public Task<int> SaveMedsAsync(Meds item)
         {
             if (item.Id != 0)
             {
-                return database.UpdateAsync(item);
+                System.Diagnostics.Debug.WriteLine(item);
+                return medsdatabase.UpdateAsync(item);
             }
             else
             {
-                return database.InsertAsync(item);
+                System.Diagnostics.Debug.WriteLine(item);
+                return medsdatabase.InsertAsync(item);
             }
         }
 
         public Task<int> DeleteMedsAsync(Meds item)
         {
-            return database.DeleteAsync(item);
+            return medsdatabase.DeleteAsync(item);
         }
     }
 }

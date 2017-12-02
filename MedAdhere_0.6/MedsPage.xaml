@@ -14,8 +14,25 @@
                 <Label Text="Dosage:" Grid.Row="1" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" />
                 <Entry Text="{Binding Dosage}" Grid.Row="1" Grid.Column="1" />
                 <Label Text="Time:" Grid.Row="2" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" />
-                <Entry Text="{Binding MedTime}" Grid.Row="2" Grid.Column="1" />
+                <TimePicker Time="{Binding MedTime}" Grid.Row="2" Grid.Column="1" />
+               
+
+                <!--
+                <Label Text="Wake:" Grid.Row="3" Grid.Column="0" />
+                <Switch Toggled="Wake_Toggled" Grid.Row="3" Grid.Column="1" />
+                <Label Text="Breakfast:" Grid.Row="4" Grid.Column="0" />
+                <Switch Toggled="Bfast_Toggled" Grid.Row="4" Grid.Column="1"/>
+                <Label Text="Lunch:" Grid.Row="5" Grid.Column="0" />
+                <Switch Toggled="Lunch_Toggled" Grid.Row="5" Grid.Column="1"/>
+                <Label Text="Dinner:" Grid.Row="6" Grid.Column="0" />
+                <Switch Toggled="Dinner_Toggled" Grid.Row="6" Grid.Column="1"/>
+                <Label Text="Sleep:" Grid.Row="7" Grid.Column="0" />
+                <Switch Toggled="Sleep_Toggled" Grid.Row="7" Grid.Column="1"/>
+                -->
+                
+                <!-- Entry Text="{Binding MedTime}" Grid.Row="2" Grid.Column="1" /-->
             </Grid>
+            <Label Text="{Binding MedTime}" />
             <Button Text="Save" HorizontalOptions="FillAndExpand" BackgroundColor="Green" TextColor="White" Clicked="Save_Clicked" />
             <Button Text="Cancel" HorizontalOptions="FillAndExpand" BackgroundColor="Blue" WidthRequest="160" TextColor="White" />
             <Button Text="Delete" HorizontalOptions="FillAndExpand" BackgroundColor="Red" TextColor="White" Clicked="Delete_Clicked" />

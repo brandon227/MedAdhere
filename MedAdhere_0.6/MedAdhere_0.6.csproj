@@ -39,6 +39,10 @@
     <EmbeddedResource Include="MedsListPage.xaml" />
     <EmbeddedResource Include="AddPage.xaml" />
     <EmbeddedResource Include="DeviceListPage.xaml" />
+    <EmbeddedResource Include="SettingsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -62,6 +66,13 @@
     <Compile Include="ReportPage.xaml.cs" />
     <Compile Include="SchedulePage.xaml.cs" />
     <Compile Include="BLE\BluetoothManager.cs" />
+    <Compile Include="SettingsPage.xaml.cs">
+      <DependentUpon>SettingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AlarmsDatabase.cs" />
+    <Compile Include="Alarms.cs" />
+    <Compile Include="IMedNotification.cs" />
+    <Compile Include="NotificationSetup.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="SQLite-net">

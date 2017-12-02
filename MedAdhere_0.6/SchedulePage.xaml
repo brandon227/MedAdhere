@@ -2,13 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MedAdhere_0.SchedulePage" Title="Schedule" Icon="ic_schedule.png">
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-            <Label Text="View dosing schedule here!" TextColor="Red"/>
+            <Label Text="View dosing schedule here!" TextColor="Black"/>
             <Button Text="Turn on LED 1" Clicked="LED1_Clicked" />
             <Button Text="Turn on LED 2" Clicked="LED2_Clicked" />
             <Button Text="Turn on LED 3" Clicked="LED3_Clicked" />
             <Button Text="Turn on LED 4" Clicked="LED4_Clicked" />
             <Button Text="Turn on Speaker" Clicked="Speaker_Clicked" />
             <Button Text="Turn off all" Clicked="Off_Clicked" />
+            <Button Text="Settings" Clicked="Settings_Clicked" x:Name="Settings" />
+            <Button Text="Notify" Clicked="Notify_Clicked" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using Xamarin.Forms;
 
 namespace MedAdhere_0
@@ -11,6 +10,7 @@ namespace MedAdhere_0
         {
             InitializeComponent();
         }
+
 
         void LED1_Clicked(object sender, System.EventArgs e)
         {
@@ -37,5 +37,18 @@ namespace MedAdhere_0
             BluetoothManager.Instance.Off();
         }
 
+        void Settings_Clicked(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new SettingsPage());
+        }
+
+        void Notify_Clicked(object sender, System.EventArgs e)
+        {
+            //Somehow connect to MedNotification.cs in iOS files
+            //DependencyService.Get<IMedNotification>().SaveAlarm();
+
+        }
+
+      
     }
 }

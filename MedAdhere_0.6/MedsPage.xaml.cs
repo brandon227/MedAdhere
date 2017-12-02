@@ -11,6 +11,7 @@ namespace MedAdhere_0
         {
             InitializeComponent();
         }
+      
         async void Save_Clicked(object sender, System.EventArgs e)
         {
             var medsItem = (Meds)BindingContext;

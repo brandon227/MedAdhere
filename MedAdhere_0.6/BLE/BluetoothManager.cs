@@ -24,6 +24,8 @@ namespace MedAdhere_0
         public IAdapter AdapterBLE { get; set; }
         public IDevice BLEDevice { get; set; }
         public CancellationToken cancellationToken { get; }
+        public IDevice CUREKA;
+        //public static device;
 
         public ObservableCollection<IDevice> DeviceList { get; set; }
         //private bool led1Status;

@@ -11,6 +11,7 @@ namespace MedAdhere_0
         {
             InitializeComponent();
 
+
             var toolbarItem = new ToolbarItem
             {
                 Text = "+"
@@ -20,8 +21,21 @@ namespace MedAdhere_0
                 await Navigation.PushAsync(new MedsPage() { BindingContext = new Meds() });
             };
 
-            ToolbarItems.Add(toolbarItem);
+            ToolbarItems.Add(toolbarItem); 
+
         }
+
+        /*
+        async void Bin1_Clicked(object sender, System.EventArgs e)
+        {
+            if(e != null)
+            {
+                await Navigation.PushAsync(new MedsPage() { BindingContext = new Meds()});
+            }
+        }
+
+       */
+
 
         protected async override void OnAppearing()
         {

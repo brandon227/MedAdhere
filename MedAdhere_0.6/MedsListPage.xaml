@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MedAdhere_0.MedsListPage"
-    Title="Medication" Icon="ic_add.png">
-	<ContentPage.Content>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MedAdhere_0.MedsListPage" Title="Medication" Icon="ic_add.png">
+    <ContentPage.Content>
+       <!--
+        <Button Text="{Binding Name}" HorizontalOptions="FillAndExpand" BackgroundColor="Green" TextColor="White" Clicked="Bin1_Clicked" />
+     
+        <Button Text="{Binding Name}" HorizontalOptions="FillAndExpand" BackgroundColor="Blue" TextColor="White" Clicked="Bin2_Clicked"/>
+        <Button Text="{Binding Name}" HorizontalOptions="FillAndExpand" BackgroundColor="Red" TextColor="White" Clicked="Bin3_Clicked" />
+        <Button Text="{Binding Name}" HorizontalOptions="FillAndExpand" BackgroundColor="Purple" TextColor="White" Clicked="Bin4_Clicked" />
+        -->
+
         <ListView x:Name="MedsListView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" ItemSelected="ListView_ItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding Name}" Detail="{Binding Dosage}, {Binding MedTime}"  />
+                    <TextCell Text="{Binding Name}" Detail="{Binding Dosage}"  />
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-	</ContentPage.Content>
+      
+    </ContentPage.Content>
 </ContentPage>

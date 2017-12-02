@@ -10,8 +10,14 @@
         </x:Arguments>
     </NavigationPage>
     <!-- <local:MedsListPage /> -->
-    <local:SchedulePage>
-    </local:SchedulePage>
+    <NavigationPage Title="Schedule">
+        <x:Arguments>
+                <local:SchedulePage>
+                </local:SchedulePage>
+        </x:Arguments>
+    </NavigationPage>
+
+    <!-- local:SettingsPage /-->
     <NavigationPage Title="Record" Icon="ic_done.png">
         <x:Arguments>
             <local:RecordPage>
