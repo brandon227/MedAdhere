@@ -11,7 +11,7 @@ namespace MedAdhere_0
         {
             InitializeComponent();
 
-
+            /*
             var toolbarItem = new ToolbarItem
             {
                 Text = "+"
@@ -22,7 +22,7 @@ namespace MedAdhere_0
             };
 
             ToolbarItems.Add(toolbarItem); 
-
+*/
         }
 
         /*
@@ -36,19 +36,19 @@ namespace MedAdhere_0
 
        */
 
-
+        /*
         protected async override void OnAppearing()
         {
             base.OnAppearing();
 
             MedsListView.ItemsSource = await App.Database.GetMedsAsync();
         }
-
+*/
         async void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             if (e.SelectedItem != null)
             {
-                await Navigation.PushAsync(new MedsPage() { BindingContext = e.SelectedItem as Meds });
+                //await Navigation.PushAsync(new MedsPage() { BindingContext = e.SelectedItem as Meds });
             }
         }
     }

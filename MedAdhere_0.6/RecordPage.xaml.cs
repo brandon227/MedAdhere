@@ -50,7 +50,9 @@ namespace MedAdhere_0
             //BluetoothManager.Instance.BLEDevice = Guid.Parse("6E400001-B5A3-F393-E0A9-E50E24DCCA9E") as IDevice ;
             //var device = Guid.Parse("6E400001-B5A3-F393-E0A9-E50E24DCCA9E");
             //await BluetoothManager.Instance.AdapterBLE.ConnectToDeviceAsync(device);
+            BluetoothManager.Instance.OnConnectionLost(BluetoothManager.Instance.BLEDevice);
             await DisplayAlert("Bluetooth Successful!", "You are now connected to: ", "OK");
+
         }
     }
 }

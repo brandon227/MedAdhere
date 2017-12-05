@@ -89955,7 +89955,7 @@ _mono_aot_file_info:
 	.long 1032,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 69,216,68,235,169,223,243,251,242,137,246,53,221,20,9,84
+	.byte 212,81,194,60,224,178,119,104,9,175,77,24,133,92,151,94
 	.globl _mono_aot_module_Plugin_BLE_info
 	.align 3
 _mono_aot_module_Plugin_BLE_info:

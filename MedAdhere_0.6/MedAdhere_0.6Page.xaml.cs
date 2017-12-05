@@ -9,6 +9,12 @@ namespace MedAdhere_0
         {
             InitializeComponent();
 
+            /*
+            if (token == 1)
+            {
+                Navigation.PushAsync(new SchedulePage());
+            }*/
+
         }
 
         //public RecentDevice = BluetoothManager.Instance.BLEDevice;

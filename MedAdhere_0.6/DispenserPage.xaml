@@ -1,5 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MedAdhere_0.DispenserPage">
 	<ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Padding="20" >
+            <Button x:name="Bin1" Text="Compartment 1" HeightRequest="90" HorizontalOptions="FillAndExpand" BackgroundColor="Green" TextColor="White" Clicked="Bin1_Clicked" />
+            <Button x:name="Bin2" Text="Compartment 2" HeightRequest="90" HorizontalOptions="FillAndExpand" BackgroundColor="Blue" TextColor="White" Clicked="Bin2_Clicked" />
+            <Button x:name="Bin3" Text="Compartment 3" HeightRequest="90" HorizontalOptions="FillAndExpand" BackgroundColor="Red" TextColor="White" Clicked="Bin3_Clicked" />
+            <Button x:name="Bin4" Text="Compartment 4" HeightRequest="90" HorizontalOptions="FillAndExpand" BackgroundColor="Purple" TextColor="White" Clicked="Bin4_Clicked" />
+        </StackLayout>
 	</ContentPage.Content>
 </ContentPage>

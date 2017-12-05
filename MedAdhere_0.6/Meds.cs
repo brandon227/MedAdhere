@@ -19,7 +19,12 @@ namespace MedAdhere_0
         public int Id { get; set; }
         public string Name { get; set; }
         public string Dosage { get; set; }
-        public TimeSpan MedTime { get; set; }
+        public bool Wake { get; set; }
+        public bool Breakfast { get; set; }
+        public bool Lunch { get; set; }
+        public bool Dinner { get; set; }
+        public bool Sleep { get; set; }
+        //public TimeSpan MedTime { get; set; }
 
     }
 }

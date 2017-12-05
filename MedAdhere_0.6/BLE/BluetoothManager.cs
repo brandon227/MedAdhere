@@ -6,6 +6,7 @@ using Plugin.BLE;
 using Plugin.BLE.Abstractions.Contracts;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Plugin.BLE.Abstractions.Extensions;
 
 namespace MedAdhere_0
 {
@@ -93,6 +94,13 @@ namespace MedAdhere_0
             OnConnectionLost(BLEDevice);
         }
 
+        public void DeviceDisconnected(object sender, Plugin.BLE.Abstractions.EventArgs.DeviceBondStateChangedEventArgs e)
+        {
+            //DeviceDisconnectedEvent.Invoke(sender,e);
+            Debug.WriteLine("Device already disconnected");
+            OnConnectionLost(BLEDevice);
+        }
+
         void Adapter_ScanTimeoutElapsed(object sender, EventArgs e)
         {
             AdapterBLE.StopScanningForDevicesAsync();
@@ -167,6 +175,44 @@ namespace MedAdhere_0
             }
         
         }*/
+
+        public async void LEDSON(int lednumber)
+        {
+            var service = await BLEDevice.GetServiceAsync(Guid.Parse("6E400001-B5A3-F393-E0A9-E50E24DCCA9E"));
+
+            var WriteCharacteristic = await service.GetCharacteristicAsync(Guid.Parse("6E400002-B5A3-F393-E0A9-E50E24DCCA9E"));
+            var ReadCharacteristic = await service.GetCharacteristicAsync(Guid.Parse("6E400003-B5A3-F393-E0A9-E50E24DCCA9E"));
+
+            //byte[] data = new byte[] { 0x31 };
+
+            byte[] ledbyte = BitConverter.GetBytes(lednumber);
+            Array.Reverse(ledbyte);
+            byte[] data = ledbyte;
+
+            if (WriteCharacteristic != null)
+            {
+                if (WriteCharacteristic.CanWrite)
+                {
+                    //byte[] data = new byte[] { 0x31 };
+                    await WriteCharacteristic.WriteAsync(data);
+
+                    //byte[] readdata = new byte;
+                    if (ReadCharacteristic.CanRead)
+                    {
+                        byte[] readdata = await ReadCharacteristic.ReadAsync();
+                        if (readdata == new byte[] { 0x31 })
+                        {
+                            byte[] confirm = new byte[] { 0x33 };
+                            await WriteCharacteristic.WriteAsync(confirm);
+                            await Task.Delay(1000);
+                            await WriteCharacteristic.WriteAsync(new byte[] { 0x36 });
+                        }
+                    }
+
+                }
+            }
+
+        }
 
         public async void LED1()
         {

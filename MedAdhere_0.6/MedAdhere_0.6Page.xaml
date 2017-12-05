@@ -6,7 +6,7 @@
     <!-- <local:DeviceListPage /> -->
     <NavigationPage Title="Medication" Icon="ic_add.png">
         <x:Arguments>
-            <local:MedsListPage />
+            <local:DispenserPage />
         </x:Arguments>
     </NavigationPage>
     <!-- <local:MedsListPage /> -->

@@ -53,7 +53,7 @@ namespace MedAdhere_0
             System.Diagnostics.Debug.WriteLine("New WakeTime is:" + alarm.WakeTime);
            
             await App.AlarmsDB.SaveAlarmsAsync(alarm);
-            DependencyService.Get<IMedNotification>().SaveAlarm(alarm.WakeTime);
+            DependencyService.Get<IMedNotification>().SaveAlarm();
             await DisplayAlert("Success", "Settings have been saved", "OK");
             await Navigation.PopAsync();
         }

@@ -1,6 +1,7 @@
 ﻿using System; using UserNotifications; using UIKit; using Foundation;
 using Xamarin.Forms;
 using MedAdhere_0.iOS;
+using System.Collections.Generic;
 
 [assembly: Dependency(typeof(MedNotification))]
 namespace MedAdhere_0.iOS
@@ -8,26 +9,10 @@ namespace MedAdhere_0.iOS
     public class MedNotification : IMedNotification
     {
                  // create the notification
-        public void SaveAlarm(TimeSpan alarmtime)
+        public async void SaveAlarm()
         {
-            //DateTime.Today;             var notification = new UILocalNotification();             //TimeSpan ts = new TimeSpan(1, 0, 0, 0, 0);              //Change alarmtime to DateTime type             DateTime notificationtime = DateTime.Today;
-            notificationtime = notificationtime + alarmtime;              //Change newly created DateTime to NSDate type             notificationtime = DateTime.SpecifyKind(notificationtime, DateTimeKind.Local);             NSDate nsdate = new NSDate();             nsdate = (NSDate)notificationtime; 
-            // set the fire date (the date time in which it will fire)
-            notification.FireDate = nsdate;             notification.RepeatInterval = NSCalendarUnit.Day;
-            //notification.FireDate = DateTime.Now.AddSeconds(30).DateTimeToNSDate();
-            // configure the alert
-            notification.AlertAction = "View Alert";
-            notification.AlertBody = "Your one minute alert has fired!";
-
-            // modify the badge
-            notification.ApplicationIconBadgeNumber = 1;
-
-            // set the sound to be the default sound
-            notification.SoundName = UILocalNotification.DefaultSoundName;
-
-            // schedule it
-            UIApplication.SharedApplication.ScheduleLocalNotification(notification);
-        }                 
+            //First remove all previous notifications             UIApplication.SharedApplication.CancelAllLocalNotifications();              //initialize variables. Counts the number of compartments with alarms set at that time             List<int> wake = new List<int>();             List<int> breakfast = new List<int>();             List<int> lunch = new List<int>();             List<int> dinner = new List<int>();             List<int> sleep = new List<int>();              Alarms alarmtime = await App.AlarmsDB.GetAlarmsAsync();              //Check if any compartment has switch activated for alarm at specific times             for (int i = 0; i < 4; i++)             {                 Meds meds = await App.Database.GetMedsAsync(i);                 if (meds.Wake == true)                 {                     wake.Add(i);                 }                 if (meds.Breakfast == true)                 {                     breakfast.Add(i);                 }                 if (meds.Lunch == true)                 {                     lunch.Add(i);                 }                 if (meds.Dinner == true)                 {                     dinner.Add(i);                 }                 if (meds.Sleep == true)                 {                     sleep.Add(i);                 }              }              //Set alarm to go off at particular times              if (wake.Count != 0)             {                 SetNotification(alarmtime.WakeTime, wake);             }             if (breakfast.Count != 0)             {                 SetNotification(alarmtime.BreakfastTime, breakfast);             }             if (lunch.Count != 0)             {                 SetNotification(alarmtime.LunchTime, lunch);             }             if (dinner.Count != 0)             {                 SetNotification(alarmtime.DinnerTime, dinner);             }             if (sleep.Count != 0)             {                 SetNotification(alarmtime.SleepTime, sleep);             }            
+        }          public void SetNotification(TimeSpan alarmtime, List<int> bins)         {             //DateTime.Today;             var notification = new UILocalNotification();             //TimeSpan ts = new TimeSpan(1, 0, 0, 0, 0);              //Change alarmtime to DateTime type             DateTime notificationtime = DateTime.Today;             notificationtime = notificationtime + alarmtime;              //Change newly created DateTime to NSDate type             notificationtime = DateTime.SpecifyKind(notificationtime, DateTimeKind.Local);             NSDate nsdate = new NSDate();             nsdate = (NSDate)notificationtime;              // set the fire date (the date time in which it will fire)             notification.FireDate = nsdate;              //UNCOMMENT THIS LINE TO REPEAT DAILY. COMMENTED OUT FOR DEV PUPOSES ONLY             //notification.RepeatInterval = NSCalendarUnit.Day;              // configure the alert             notification.AlertAction = "View Alert";             notification.AlertBody = "It is time to take your medication!";              // modify the badge             notification.ApplicationIconBadgeNumber = 1;              // set the sound to be the default sound             notification.SoundName = UILocalNotification.DefaultSoundName;              // schedule it             UIApplication.SharedApplication.ScheduleLocalNotification(notification);         }                 
     }
 }
 

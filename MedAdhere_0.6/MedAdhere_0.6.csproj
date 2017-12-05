@@ -43,6 +43,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="DispenserPage.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -73,6 +74,8 @@
     <Compile Include="Alarms.cs" />
     <Compile Include="IMedNotification.cs" />
     <Compile Include="NotificationSetup.cs" />
+    <Compile Include="DispenserPage.xaml.cs" />
+    <Compile Include="Lights.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="SQLite-net">
