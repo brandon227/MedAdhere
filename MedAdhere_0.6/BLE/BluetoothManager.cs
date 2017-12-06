@@ -26,6 +26,9 @@ namespace MedAdhere_0
         public IDevice BLEDevice { get; set; }
         public CancellationToken cancellationToken { get; }
         public IDevice CUREKA;
+        public ICharacteristic Characteristic;
+        public IService Service;
+        public CancellationTokenSource _cancellationSource;
         //public static device;
 
         public ObservableCollection<IDevice> DeviceList { get; set; }
@@ -117,10 +120,40 @@ namespace MedAdhere_0
             }
         }
 
+
+        public void CheckBluetoothConnection()
+        {
+            Task.Factory.StartNewTaskContinuously(() =>
+            {
+                //If device is disconnected, note that medication hasn't been missed and reconnect
+                if (Instance.AdapterBLE.ConnectedDevices.Count == 0)
+                {
+
+                    //Reconnect to BLEDevice
+                    if (Instance.BLEDevice != null)
+                    {
+                        Instance.OnConnectionLost(Instance.BLEDevice);
+                    }
+                    else
+                    {
+                        System.Diagnostics.Debug.WriteLine("Cannot Reconnect. Device Not Found.");
+                    }
+                }
+                else
+                {
+                    System.Diagnostics.Debug.WriteLine("Device still connected. Medication has not yet been taken");
+                }
+
+            }, cancellationToken, (TimeSpan.FromSeconds(1)));
+
+        }
+
+
         //Automatically connect to bluetooth if connection lost
         public void OnConnectionLost(IDevice lostDevice)
         {
             AttemptReconnect(lostDevice.Id, cancellationToken);
+
         }
         async void AttemptReconnect(Guid deviceId, CancellationToken token)
         {
@@ -128,13 +161,13 @@ namespace MedAdhere_0
                 return;
             try
             {
-                await AdapterBLE.ConnectToKnownDeviceAsync(deviceId); 
+                await AdapterBLE.ConnectToKnownDeviceAsync(deviceId);
             }
-            catch(TaskCanceledException)
+            catch (TaskCanceledException)
             {
-             //Do nothing, task was cancelled   
+                //Do nothing, task was cancelled   
             }
-            catch(Exception)
+            catch (Exception)
             {
                 AttemptReconnect(deviceId, token);
             }
@@ -214,8 +247,43 @@ namespace MedAdhere_0
 
         }
 
+        public async void ReadTest()
+        {
+            var service = await BLEDevice.GetServiceAsync(Guid.Parse("6E400001-B5A3-F393-E0A9-E50E24DCCA9E"));
+            //var WriteCharacteristic = await service.Get();
+            //var ReadCharacteristic = await service.GetCharacteristicsAsync(); 
+            var WriteCharacteristic = await service.GetCharacteristicAsync(Guid.Parse("6E400002-B5A3-F393-E0A9-E50E24DCCA9E"));
+            var ReadCharacteristic = await service.GetCharacteristicAsync(Guid.Parse("6E400003-B5A3-F393-E0A9-E50E24DCCA9E"));
+            System.Diagnostics.Debug.WriteLine(ReadCharacteristic);
+            Debug.WriteLine("Write Characteristic = " + WriteCharacteristic);
+            System.Diagnostics.Debug.WriteLine("Read Characteristic CanRead = " + ReadCharacteristic.CanRead);
+
+            await WriteCharacteristic.WriteAsync(new byte[] { 0x31 });
+            ReadCharacteristic.ValueUpdated += (s, e) =>
+            {
+                Debug.WriteLine("New value : ", e.Characteristic.Value);
+            };
+
+            await ReadCharacteristic.StartUpdatesAsync();
+            if (ReadCharacteristic.CanRead)
+            {
+                var readdata = await ReadCharacteristic.ReadAsync();
+                System.Diagnostics.Debug.WriteLine(readdata);
+                if (readdata == new byte[] { 0x31 })
+                {
+                    byte[] confirm = new byte[] { 0x33 };
+                    await WriteCharacteristic.WriteAsync(confirm);
+                    await Task.Delay(1000);
+                    await WriteCharacteristic.WriteAsync(new byte[] { 0x36 });
+
+                }
+            }
+
+        }
+
         public async void LED1()
         {
+
             var service = await BLEDevice.GetServiceAsync(Guid.Parse("6E400001-B5A3-F393-E0A9-E50E24DCCA9E"));
 
             var WriteCharacteristic = await service.GetCharacteristicAsync(Guid.Parse("6E400002-B5A3-F393-E0A9-E50E24DCCA9E"));
@@ -351,5 +419,18 @@ namespace MedAdhere_0
             }
 
         }
+
+        public void Test()
+        {
+            CancellationToken token = cancellationToken;
+            Task.Factory.StartNewTaskContinuously(() =>
+            {
+                System.Diagnostics.Debug.WriteLine("Hello");
+            },
+                                                  token,
+            TimeSpan.FromSeconds(2));
+        }
+
+
     }
 }

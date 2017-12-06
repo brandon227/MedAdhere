@@ -12,6 +12,7 @@
             <Button Text="Check Bluetooth Connection" Clicked="Status_Check_Clicked" />
             <Button Text="Open Device List Page" Clicked="Go_DeviceListPage" />
             <Button Text="Connect to Cureka" Clicked="Connect_Clicked" />
+            <Button Text="Read Test" Clicked="Clicked_ReadTest" />
         </StackLayout>
 	</ContentPage.Content>
 </ContentPage>

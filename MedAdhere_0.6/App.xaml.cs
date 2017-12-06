@@ -1,4 +1,7 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using System.Threading;
+using System.Threading.Tasks;
+using Xamarin.Forms;
 
 namespace MedAdhere_0
 {
@@ -7,7 +10,8 @@ namespace MedAdhere_0
         //public static string DB_PATH = string.Empty;
         static MedsDatabase medsdatabase;
         static AlarmsDatabase alarmsdatabase;
-        static NotificationSetup sendnotification;
+        static AdherenceDatabase adherencedatabase;
+        //static NotificationSetup sendnotification;
 
         public App()
         {
@@ -39,6 +43,19 @@ namespace MedAdhere_0
                 return alarmsdatabase;
             }
         }
+
+        public static AdherenceDatabase AdhereDB
+        {
+            get
+            {
+                if (adherencedatabase == null)
+                {
+                    adherencedatabase = new AdherenceDatabase(DependencyService.Get<ILocalFileHelper>().GetLocalFilePath("AdhereDb.db3"));
+                }
+                return adherencedatabase;
+            }
+        }
+
         /*
         public static NotificationSetup Notify
         {
@@ -63,20 +80,40 @@ namespace MedAdhere_0
             MainPage = new NavigationPage(new TestPage());
             //MainPage = new MedAdhere_0_6Page();
         }*/
+        /*
+        private void LoadPersistedValues()
+        {
+            if (Application.Current.Properties.ContainsKey("SleepDate"))
+            {
+                var value = (string)Application.Current.Properties["SleepDate"];
+                DateTime sleepDate;
+                if (DateTime.TryParse(value, out sleepDate))
+                {
+                    _backgroundPage.SleepDate = sleepDate;
+                }
+            }
+
+            if(Application.Current.Properties.ContainsKey("FirstName"))
+            {
+                var firstName = (string)Application.Current.Properties["FirstName"];
+                _backgroundPage.FirstName = firstName;
+            }
+        }*/
+
 
         protected override void OnStart()
         {
-            // Handle when your app starts
+
         }
 
         protected override void OnSleep()
         {
-            // Handle when your app sleeps
+            //LoadPersistedValues();
         }
 
         protected override void OnResume()
         {
-            // Handle when your app resumes
+            //LoadPersistedValues();
         }
     }
 }

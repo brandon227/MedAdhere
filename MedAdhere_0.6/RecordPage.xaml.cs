@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading;
 using System.Threading.Tasks;
 using Plugin.BLE.Abstractions.Contracts;
 using Plugin.BLE.Abstractions.Extensions;
@@ -9,6 +10,9 @@ namespace MedAdhere_0
 {
     public partial class RecordPage : ContentPage
     {
+
+        CancellationTokenSource _cancellationSource;
+
         public RecordPage()
         {
             InitializeComponent();
@@ -41,7 +45,8 @@ namespace MedAdhere_0
             }
         }
 
-        async void Connect_Clicked(object sender, System.EventArgs e)
+
+        public async void Connect_Clicked(object sender, System.EventArgs e)
         {
             //IDevice CUREKAATI;
             //IDevice CUREKA = BluetoothManager.Instance.CUREKA;
@@ -50,9 +55,20 @@ namespace MedAdhere_0
             //BluetoothManager.Instance.BLEDevice = Guid.Parse("6E400001-B5A3-F393-E0A9-E50E24DCCA9E") as IDevice ;
             //var device = Guid.Parse("6E400001-B5A3-F393-E0A9-E50E24DCCA9E");
             //await BluetoothManager.Instance.AdapterBLE.ConnectToDeviceAsync(device);
-            BluetoothManager.Instance.OnConnectionLost(BluetoothManager.Instance.BLEDevice);
-            await DisplayAlert("Bluetooth Successful!", "You are now connected to: ", "OK");
+            //BluetoothManager.Instance.OnConnectionLost(BluetoothManager.Instance.BLEDevice);
+            BluetoothManager.Instance.Test();
 
+            //await BluetoothManager.Instance.AdapterBLE.DiscoverDeviceAsync(dev => dev.Name.Equals("Adafruit Bluefruit LE"));
+            //await DisplayAlert("Bluetooth Successful!", "You are now connected to: ", "OK");
+
+        }
+
+
+
+        void Clicked_ReadTest(object sender, System.EventArgs e)
+        {
+            //bool confirm;
+            BluetoothManager.Instance.ReadTest();
         }
     }
 }

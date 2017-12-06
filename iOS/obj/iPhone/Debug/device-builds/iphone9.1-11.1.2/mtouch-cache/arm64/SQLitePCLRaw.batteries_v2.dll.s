@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.2.0 (tarball Tue Oct 31 22:22:00 EDT 2017)"
+	.asciz "Mono AOT Compiler 5.4.0 (tarball Wed Nov  8 17:08:32 EST 2017)"
 	.asciz "SQLitePCLRaw.batteries_v2.dll"
 	.asciz ""
 
@@ -128,7 +128,7 @@ SQLitePCL_Batteries_V2_Init:
 
 adrp x16, mono_aot_SQLitePCLRaw_batteries_v2_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_batteries_v2_got@PAGEOFF
-ldr x16, [x16, #200]
+ldr x16, [x16, #192]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -147,7 +147,7 @@ ldr x16, [x16, #200]
 
 adrp x16, mono_aot_SQLitePCLRaw_batteries_v2_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_batteries_v2_got@PAGEOFF
-ldr x0, [x16, #208]
+ldr x0, [x16, #200]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_1
@@ -215,29 +215,29 @@ plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_1:
 adrp x16, mono_aot_SQLitePCLRaw_batteries_v2_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_batteries_v2_got@PAGEOFF
-ldr x16, [x16, #224]
+ldr x16, [x16, #216]
 br x16
-.word 293
+.word 266
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3__ctor
 plt_SQLitePCL_SQLite3Provider_sqlite3__ctor:
 _p_2:
 adrp x16, mono_aot_SQLitePCLRaw_batteries_v2_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_batteries_v2_got@PAGEOFF
-ldr x16, [x16, #232]
+ldr x16, [x16, #224]
 br x16
-.word 301
+.word 274
 	.no_dead_strip plt_SQLitePCL_raw_SetProvider_SQLitePCL_ISQLite3Provider
 plt_SQLitePCL_raw_SetProvider_SQLitePCL_ISQLite3Provider:
 _p_3:
 adrp x16, mono_aot_SQLitePCLRaw_batteries_v2_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_batteries_v2_got@PAGEOFF
-ldr x16, [x16, #240]
+ldr x16, [x16, #232]
 br x16
-.word 306
+.word 279
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_SQLitePCLRaw_batteries_v2_got, 248
+.lcomm mono_aot_SQLitePCLRaw_batteries_v2_got, 240
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -337,13 +337,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 27,248,4,2,70,391195135,0,411
-	.long 128,8,8,10,0,25,1184,760
+	.long 26,240,4,2,70,391195135,0,384
+	.long 128,8,8,10,0,24,1152,760
 	.long 352,184,0,296,328,240,0,176
 	.long 32,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 92,86,222,79,243,98,8,30,221,133,91,88,168,130,96,112
+	.byte 175,166,202,89,207,126,160,183,136,141,171,36,100,251,155,254
 	.globl _mono_aot_module_SQLitePCLRaw_batteries_v2_info
 	.align 3
 _mono_aot_module_SQLitePCLRaw_batteries_v2_info:

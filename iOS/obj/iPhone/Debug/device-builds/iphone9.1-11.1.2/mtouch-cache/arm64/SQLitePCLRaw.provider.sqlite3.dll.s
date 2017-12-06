@@ -21,7 +21,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 8,1
-	.asciz "Mono AOT Compiler 5.2.0 (tarball Tue Oct 31 22:22:00 EDT 2017)"
+	.asciz "Mono AOT Compiler 5.4.0 (tarball Wed Nov  8 17:08:32 EST 2017)"
 	.asciz "SQLitePCLRaw.provider.sqlite3.dll"
 	.asciz ""
 
@@ -132,7 +132,7 @@ SQLitePCL_hooks_getOrCreateFor_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #200]
+ldr x16, [x16, #192]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -151,13 +151,13 @@ ldr x16, [x16, #200]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #208]
+ldr x0, [x16, #200]
 .word 0xf9400002
 .word 0xf9401fa1
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #216]
+ldr x0, [x16, #208]
 .word 0xf9400000
 .word 0xaa0003f9
 .word 0xaa1903e0
@@ -172,7 +172,7 @@ ldr x0, [x16, #216]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #224]
+ldr x0, [x16, #216]
 .word 0xf9400000
 .word 0xf90033a0
 .word 0xeb1f001f
@@ -181,7 +181,7 @@ ldr x0, [x16, #224]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #232]
+ldr x0, [x16, #224]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_1
@@ -202,17 +202,17 @@ ldr x3, [x16, #16]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #240]
+ldr x1, [x16, #232]
 .word 0xf9001401
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #248]
+ldr x1, [x16, #240]
 .word 0xf9002001
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #256]
+ldr x1, [x16, #248]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -225,7 +225,7 @@ ldr x1, [x16, #256]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #216]
+ldr x1, [x16, #208]
 .word 0xf9000020
 .word 0xaa0003f6
 .word 0xaa1803e0
@@ -260,7 +260,7 @@ bl _p_2
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xaa1103e1
 bl _p_3
 
@@ -276,7 +276,7 @@ SQLitePCL_hooks_removeFor_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #264]
+ldr x16, [x16, #256]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -296,7 +296,7 @@ ldr x16, [x16, #264]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #208]
+ldr x0, [x16, #200]
 .word 0xf9400003
 .word 0xf9400ba1
 .word 0x9100c3a2
@@ -350,7 +350,7 @@ SQLitePCL_hooks__cctor:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #272]
+ldr x16, [x16, #264]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -369,7 +369,7 @@ ldr x16, [x16, #272]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #280]
+ldr x0, [x16, #272]
 .word 0xd2800701
 .word 0xd2800701
 bl _p_1
@@ -383,7 +383,7 @@ bl _p_6
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #208]
+ldr x0, [x16, #200]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf940a231
@@ -411,7 +411,7 @@ SQLitePCL_util_to_utf8_string:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #288]
+ldr x16, [x16, #280]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -480,7 +480,7 @@ bl _p_7
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #296]
+ldr x0, [x16, #288]
 .word 0xaa1803e1
 bl _p_8
 .word 0xaa0003f9
@@ -564,7 +564,7 @@ bl _p_7
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -581,7 +581,7 @@ SQLitePCL_util_GetNativeUTF8Size_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #304]
+ldr x16, [x16, #296]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -607,7 +607,7 @@ ldr x16, [x16, #304]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #312]
+ldr x0, [x16, #304]
 .word 0xf9400001
 .word 0xaa1a03e0
 bl _p_9
@@ -702,7 +702,7 @@ SQLitePCL_util_from_utf8_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #320]
+ldr x16, [x16, #312]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -730,7 +730,7 @@ ldr x16, [x16, #320]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #312]
+ldr x0, [x16, #304]
 .word 0xf9400001
 .word 0xaa1a03e0
 bl _p_9
@@ -768,7 +768,7 @@ bl _p_11
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #296]
+ldr x0, [x16, #288]
 bl _p_8
 .word 0xaa0003f7
 .word 0xf9401bb1
@@ -858,7 +858,7 @@ SQLitePCL_util_from_utf8_intptr_int:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #328]
+ldr x16, [x16, #320]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -885,7 +885,7 @@ ldr x16, [x16, #328]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #312]
+ldr x0, [x16, #304]
 .word 0xf9400001
 .word 0xaa1903e0
 bl _p_9
@@ -905,7 +905,7 @@ bl _p_9
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #296]
+ldr x0, [x16, #288]
 .word 0xaa1a03e1
 bl _p_8
 .word 0xaa0003f7
@@ -993,7 +993,7 @@ SQLitePCL_util__ctor:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #336]
+ldr x16, [x16, #328]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1041,7 +1041,7 @@ SQLitePCL_log_hook_info__ctor_SQLitePCL_delegate_log_object:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #344]
+ldr x16, [x16, #336]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -1145,7 +1145,7 @@ SQLitePCL_log_hook_info_get_ptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #352]
+ldr x16, [x16, #344]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1204,7 +1204,7 @@ SQLitePCL_log_hook_info_from_ptr_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #360]
+ldr x16, [x16, #352]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -1257,7 +1257,7 @@ bl _p_16
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #368]
+ldr x1, [x16, #360]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800018
@@ -1295,7 +1295,7 @@ SQLitePCL_log_hook_info_call_int_string:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #376]
+ldr x16, [x16, #368]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -1352,7 +1352,7 @@ SQLitePCL_log_hook_info_free:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #384]
+ldr x16, [x16, #376]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1404,7 +1404,7 @@ bl _p_17
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801dc0
+.word 0xd2801f20
 .word 0xaa1103e1
 bl _p_3
 
@@ -1423,7 +1423,7 @@ SQLitePCL_commit_hook_info__ctor_SQLitePCL_delegate_commit_object:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #392]
+ldr x16, [x16, #384]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -1527,7 +1527,7 @@ SQLitePCL_commit_hook_info_get_ptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #400]
+ldr x16, [x16, #392]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1586,7 +1586,7 @@ SQLitePCL_commit_hook_info_from_ptr_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #408]
+ldr x16, [x16, #400]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -1639,7 +1639,7 @@ bl _p_16
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #416]
+ldr x1, [x16, #408]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800018
@@ -1675,7 +1675,7 @@ SQLitePCL_commit_hook_info_call:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #424]
+ldr x16, [x16, #416]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1738,7 +1738,7 @@ SQLitePCL_commit_hook_info_free:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #432]
+ldr x16, [x16, #424]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1790,7 +1790,7 @@ bl _p_17
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801dc0
+.word 0xd2801f20
 .word 0xaa1103e1
 bl _p_3
 
@@ -1809,7 +1809,7 @@ SQLitePCL_rollback_hook_info__ctor_SQLitePCL_delegate_rollback_object:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #440]
+ldr x16, [x16, #432]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -1913,7 +1913,7 @@ SQLitePCL_rollback_hook_info_get_ptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #448]
+ldr x16, [x16, #440]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -1972,7 +1972,7 @@ SQLitePCL_rollback_hook_info_from_ptr_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #456]
+ldr x16, [x16, #448]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -2025,7 +2025,7 @@ bl _p_16
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #464]
+ldr x1, [x16, #456]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800018
@@ -2061,7 +2061,7 @@ SQLitePCL_rollback_hook_info_call:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #472]
+ldr x16, [x16, #464]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -2116,7 +2116,7 @@ SQLitePCL_rollback_hook_info_free:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #480]
+ldr x16, [x16, #472]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -2168,7 +2168,7 @@ bl _p_17
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801dc0
+.word 0xd2801f20
 .word 0xaa1103e1
 bl _p_3
 
@@ -2187,7 +2187,7 @@ SQLitePCL_trace_hook_info__ctor_SQLitePCL_delegate_trace_object:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #488]
+ldr x16, [x16, #480]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -2291,7 +2291,7 @@ SQLitePCL_trace_hook_info_get_ptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #496]
+ldr x16, [x16, #488]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -2350,7 +2350,7 @@ SQLitePCL_trace_hook_info_from_ptr_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #504]
+ldr x16, [x16, #496]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -2403,7 +2403,7 @@ bl _p_16
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #512]
+ldr x1, [x16, #504]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800018
@@ -2440,7 +2440,7 @@ SQLitePCL_trace_hook_info_call_string:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #520]
+ldr x16, [x16, #512]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -2496,7 +2496,7 @@ SQLitePCL_trace_hook_info_free:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #528]
+ldr x16, [x16, #520]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -2548,7 +2548,7 @@ bl _p_17
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801dc0
+.word 0xd2801f20
 .word 0xaa1103e1
 bl _p_3
 
@@ -2567,7 +2567,7 @@ SQLitePCL_profile_hook_info__ctor_SQLitePCL_delegate_profile_object:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #536]
+ldr x16, [x16, #528]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -2671,7 +2671,7 @@ SQLitePCL_profile_hook_info_get_ptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #544]
+ldr x16, [x16, #536]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -2730,7 +2730,7 @@ SQLitePCL_profile_hook_info_from_ptr_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #552]
+ldr x16, [x16, #544]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -2783,7 +2783,7 @@ bl _p_16
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #560]
+ldr x1, [x16, #552]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800018
@@ -2821,7 +2821,7 @@ SQLitePCL_profile_hook_info_call_string_long:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #568]
+ldr x16, [x16, #560]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -2878,7 +2878,7 @@ SQLitePCL_profile_hook_info_free:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #576]
+ldr x16, [x16, #568]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -2930,7 +2930,7 @@ bl _p_17
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801dc0
+.word 0xd2801f20
 .word 0xaa1103e1
 bl _p_3
 
@@ -2949,7 +2949,7 @@ SQLitePCL_progress_handler_hook_info__ctor_SQLitePCL_delegate_progress_handler_o
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #584]
+ldr x16, [x16, #576]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -3053,7 +3053,7 @@ SQLitePCL_progress_handler_hook_info_get_ptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #592]
+ldr x16, [x16, #584]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3112,7 +3112,7 @@ SQLitePCL_progress_handler_hook_info_from_ptr_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #600]
+ldr x16, [x16, #592]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -3165,7 +3165,7 @@ bl _p_16
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #608]
+ldr x1, [x16, #600]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800018
@@ -3201,7 +3201,7 @@ SQLitePCL_progress_handler_hook_info_call:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #616]
+ldr x16, [x16, #608]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3264,7 +3264,7 @@ SQLitePCL_progress_handler_hook_info_free:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #624]
+ldr x16, [x16, #616]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3316,7 +3316,7 @@ bl _p_17
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801dc0
+.word 0xd2801f20
 .word 0xaa1103e1
 bl _p_3
 
@@ -3335,7 +3335,7 @@ SQLitePCL_update_hook_info__ctor_SQLitePCL_delegate_update_object:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #632]
+ldr x16, [x16, #624]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -3439,7 +3439,7 @@ SQLitePCL_update_hook_info_get_ptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #640]
+ldr x16, [x16, #632]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3498,7 +3498,7 @@ SQLitePCL_update_hook_info_from_ptr_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #648]
+ldr x16, [x16, #640]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -3551,7 +3551,7 @@ bl _p_16
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #656]
+ldr x1, [x16, #648]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800018
@@ -3591,7 +3591,7 @@ SQLitePCL_update_hook_info_call_int_string_string_long:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #664]
+ldr x16, [x16, #656]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -3650,7 +3650,7 @@ SQLitePCL_update_hook_info_free:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #672]
+ldr x16, [x16, #664]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3702,7 +3702,7 @@ bl _p_17
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801dc0
+.word 0xd2801f20
 .word 0xaa1103e1
 bl _p_3
 
@@ -3721,7 +3721,7 @@ SQLitePCL_collation_hook_info__ctor_SQLitePCL_delegate_collation_object:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #680]
+ldr x16, [x16, #672]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -3825,7 +3825,7 @@ SQLitePCL_collation_hook_info_get_ptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #688]
+ldr x16, [x16, #680]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3884,7 +3884,7 @@ SQLitePCL_collation_hook_info_from_ptr_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #696]
+ldr x16, [x16, #688]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -3937,7 +3937,7 @@ bl _p_16
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #704]
+ldr x1, [x16, #696]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800018
@@ -3975,7 +3975,7 @@ SQLitePCL_collation_hook_info_call_string_string:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #712]
+ldr x16, [x16, #704]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -4040,7 +4040,7 @@ SQLitePCL_collation_hook_info_free:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #720]
+ldr x16, [x16, #712]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4092,7 +4092,7 @@ bl _p_17
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801dc0
+.word 0xd2801f20
 .word 0xaa1103e1
 bl _p_3
 
@@ -4111,7 +4111,7 @@ SQLitePCL_exec_hook_info__ctor_SQLitePCL_delegate_exec_object:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #728]
+ldr x16, [x16, #720]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -4215,7 +4215,7 @@ SQLitePCL_exec_hook_info_get_ptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #736]
+ldr x16, [x16, #728]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4274,7 +4274,7 @@ SQLitePCL_exec_hook_info_from_ptr_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #744]
+ldr x16, [x16, #736]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -4327,7 +4327,7 @@ bl _p_16
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #752]
+ldr x1, [x16, #744]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800018
@@ -4369,7 +4369,7 @@ SQLitePCL_exec_hook_info_call_int_intptr_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #760]
+ldr x16, [x16, #752]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4394,7 +4394,7 @@ ldr x16, [x16, #760]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #768]
+ldr x0, [x16, #760]
 .word 0xaa1803e1
 bl _p_8
 .word 0xaa0003f6
@@ -4406,7 +4406,7 @@ bl _p_8
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #768]
+ldr x0, [x16, #760]
 .word 0xaa1803e1
 bl _p_8
 .word 0xf90037a0
@@ -4417,7 +4417,7 @@ bl _p_8
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #776]
+ldr x0, [x16, #768]
 bl _p_18
 .word 0x93407c00
 .word 0xf9003ba0
@@ -4591,7 +4591,7 @@ SQLitePCL_exec_hook_info_free:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #784]
+ldr x16, [x16, #776]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4643,7 +4643,7 @@ bl _p_17
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801dc0
+.word 0xd2801f20
 .word 0xaa1103e1
 bl _p_3
 
@@ -4662,7 +4662,7 @@ SQLitePCL_scalar_function_hook_info__ctor_SQLitePCL_delegate_function_scalar_obj
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #792]
+ldr x16, [x16, #784]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -4766,7 +4766,7 @@ SQLitePCL_scalar_function_hook_info_get_ptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #800]
+ldr x16, [x16, #792]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4825,7 +4825,7 @@ SQLitePCL_scalar_function_hook_info_from_ptr_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #808]
+ldr x16, [x16, #800]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -4878,7 +4878,7 @@ bl _p_16
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #816]
+ldr x1, [x16, #808]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800018
@@ -4920,7 +4920,7 @@ SQLitePCL_scalar_function_hook_info_call_intptr_int_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #824]
+ldr x16, [x16, #816]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4949,7 +4949,7 @@ ldr x16, [x16, #824]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #832]
+ldr x0, [x16, #824]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_1
@@ -4971,7 +4971,7 @@ bl _p_21
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #840]
+ldr x0, [x16, #832]
 .word 0xaa1903e1
 bl _p_8
 .word 0xf90037a0
@@ -4982,7 +4982,7 @@ bl _p_8
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #776]
+ldr x0, [x16, #768]
 bl _p_18
 .word 0x93407c00
 .word 0xf9003ba0
@@ -5032,7 +5032,7 @@ bl _p_19
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #848]
+ldr x0, [x16, #840]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_1
@@ -5118,7 +5118,7 @@ SQLitePCL_scalar_function_hook_info_free:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #856]
+ldr x16, [x16, #848]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5170,7 +5170,7 @@ bl _p_17
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801dc0
+.word 0xd2801f20
 .word 0xaa1103e1
 bl _p_3
 
@@ -5190,7 +5190,7 @@ SQLitePCL_agg_function_hook_info__ctor_SQLitePCL_delegate_function_aggregate_ste
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #856]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -5313,7 +5313,7 @@ SQLitePCL_agg_function_hook_info_get_ptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #864]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -5372,7 +5372,7 @@ SQLitePCL_agg_function_hook_info_from_ptr_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #880]
+ldr x16, [x16, #872]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -5425,7 +5425,7 @@ bl _p_16
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #888]
+ldr x1, [x16, #880]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800018
@@ -5465,7 +5465,7 @@ SQLitePCL_agg_function_hook_info_get_context_intptr_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #896]
+ldr x16, [x16, #888]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -5507,7 +5507,7 @@ bl _p_23
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #312]
+ldr x1, [x16, #304]
 .word 0xf9400021
 bl _p_24
 .word 0x53001c00
@@ -5528,7 +5528,7 @@ bl _p_24
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #904]
+ldr x0, [x16, #896]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_1
@@ -5629,7 +5629,7 @@ bl _p_16
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #912]
+ldr x1, [x16, #904]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800014
@@ -5696,7 +5696,7 @@ SQLitePCL_agg_function_hook_info_call_step_intptr_intptr_int_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #920]
+ldr x16, [x16, #912]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -5736,7 +5736,7 @@ bl _p_28
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #840]
+ldr x0, [x16, #832]
 .word 0xaa1903e1
 bl _p_8
 .word 0xf9003ba0
@@ -5747,7 +5747,7 @@ bl _p_8
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #776]
+ldr x0, [x16, #768]
 bl _p_18
 .word 0x93407c00
 .word 0xf90043a0
@@ -5797,7 +5797,7 @@ bl _p_19
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #848]
+ldr x0, [x16, #840]
 .word 0xd2800301
 .word 0xd2800301
 bl _p_1
@@ -5885,7 +5885,7 @@ SQLitePCL_agg_function_hook_info_call_final_intptr_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #928]
+ldr x16, [x16, #920]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -6000,7 +6000,7 @@ SQLitePCL_agg_function_hook_info_free:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #936]
+ldr x16, [x16, #928]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -6059,7 +6059,7 @@ bl _p_17
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801dc0
+.word 0xd2801f20
 .word 0xaa1103e1
 bl _p_3
 
@@ -6078,7 +6078,7 @@ SQLitePCL_authorizer_hook_info__ctor_SQLitePCL_delegate_authorizer_object:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #944]
+ldr x16, [x16, #936]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -6182,7 +6182,7 @@ SQLitePCL_authorizer_hook_info_get_ptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #952]
+ldr x16, [x16, #944]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -6241,7 +6241,7 @@ SQLitePCL_authorizer_hook_info_from_ptr_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #960]
+ldr x16, [x16, #952]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -6294,7 +6294,7 @@ bl _p_16
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #968]
+ldr x1, [x16, #960]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800018
@@ -6335,7 +6335,7 @@ SQLitePCL_authorizer_hook_info_call_int_string_string_string_string:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #976]
+ldr x16, [x16, #968]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -6403,7 +6403,7 @@ SQLitePCL_authorizer_hook_info_free:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #976]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -6455,7 +6455,7 @@ bl _p_17
 .word 0x910003bf
 .word 0xa8c37bfd
 .word 0xd65f03c0
-.word 0xd2801dc0
+.word 0xd2801f20
 .word 0xaa1103e1
 bl _p_3
 
@@ -6470,7 +6470,7 @@ SQLitePCL_Settings__cctor:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #992]
+ldr x16, [x16, #984]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -6507,7 +6507,7 @@ SQLitePCL_SQLite3Provider_sqlite3__ctor:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1000]
+ldr x16, [x16, #992]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -6528,24 +6528,24 @@ ldr x16, [x16, #1000]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1008]
+ldr x0, [x16, #1000]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_1
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1016]
+ldr x1, [x16, #1008]
 .word 0xf9001401
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1024]
+ldr x1, [x16, #1016]
 .word 0xf9002001
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1032]
+ldr x1, [x16, #1024]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -6574,24 +6574,24 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1040]
+ldr x0, [x16, #1032]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_1
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1048]
+ldr x1, [x16, #1040]
 .word 0xf9001401
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1056]
+ldr x1, [x16, #1048]
 .word 0xf9002001
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1064]
+ldr x1, [x16, #1056]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -6620,24 +6620,24 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1072]
+ldr x0, [x16, #1064]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_1
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1080]
+ldr x1, [x16, #1072]
 .word 0xf9001401
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1088]
+ldr x1, [x16, #1080]
 .word 0xf9002001
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1096]
+ldr x1, [x16, #1088]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -6666,24 +6666,24 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1104]
+ldr x0, [x16, #1096]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_1
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1112]
+ldr x1, [x16, #1104]
 .word 0xf9001401
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1120]
+ldr x1, [x16, #1112]
 .word 0xf9002001
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1128]
+ldr x1, [x16, #1120]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -6712,24 +6712,24 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1136]
+ldr x0, [x16, #1128]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_1
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1144]
+ldr x1, [x16, #1136]
 .word 0xf9001401
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1152]
+ldr x1, [x16, #1144]
 .word 0xf9002001
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1160]
+ldr x1, [x16, #1152]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -6758,24 +6758,24 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1168]
+ldr x0, [x16, #1160]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_1
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1176]
+ldr x1, [x16, #1168]
 .word 0xf9001401
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1184]
+ldr x1, [x16, #1176]
 .word 0xf9002001
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1192]
+ldr x1, [x16, #1184]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -6804,24 +6804,24 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1200]
+ldr x0, [x16, #1192]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_1
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1208]
+ldr x1, [x16, #1200]
 .word 0xf9001401
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1216]
+ldr x1, [x16, #1208]
 .word 0xf9002001
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1224]
+ldr x1, [x16, #1216]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -6850,24 +6850,24 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1232]
+ldr x0, [x16, #1224]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_1
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1240]
+ldr x1, [x16, #1232]
 .word 0xf9001401
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1248]
+ldr x1, [x16, #1240]
 .word 0xf9002001
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1256]
+ldr x1, [x16, #1248]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -6896,24 +6896,24 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1264]
+ldr x0, [x16, #1256]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_1
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1272]
+ldr x1, [x16, #1264]
 .word 0xf9001401
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1280]
+ldr x1, [x16, #1272]
 .word 0xf9002001
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1288]
+ldr x1, [x16, #1280]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -6942,24 +6942,24 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1296]
+ldr x0, [x16, #1288]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_1
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1304]
+ldr x1, [x16, #1296]
 .word 0xf9001401
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1312]
+ldr x1, [x16, #1304]
 .word 0xf9002001
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1320]
+ldr x1, [x16, #1312]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -6988,24 +6988,24 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1328]
+ldr x0, [x16, #1320]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_1
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1336]
+ldr x1, [x16, #1328]
 .word 0xf9001401
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1344]
+ldr x1, [x16, #1336]
 .word 0xf9002001
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1352]
+ldr x1, [x16, #1344]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -7034,24 +7034,24 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1360]
+ldr x0, [x16, #1352]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_1
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1368]
+ldr x1, [x16, #1360]
 .word 0xf9001401
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1376]
+ldr x1, [x16, #1368]
 .word 0xf9002001
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1384]
+ldr x1, [x16, #1376]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -7107,7 +7107,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_win32_set_d
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1392]
+ldr x16, [x16, #1384]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -7123,9 +7123,9 @@ ldr x16, [x16, #1392]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801d80
+.word 0xd2801ee0
 .word 0xf2a04000
-.word 0xd2801d80
+.word 0xd2801ee0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_29
@@ -7151,7 +7151,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_open_string
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1400]
+ldr x16, [x16, #1392]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -7216,7 +7216,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_open_v2_str
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1408]
+ldr x16, [x16, #1400]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -7294,7 +7294,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3__vfs__delet
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1416]
+ldr x16, [x16, #1408]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -7337,7 +7337,7 @@ bl _p_33
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1424]
+ldr x1, [x16, #1416]
 bl _p_34
 .word 0xf90087a0
 .word 0xf9401fb1
@@ -7355,7 +7355,7 @@ bl _p_34
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x2, [x16, #1432]
+ldr x2, [x16, #1424]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54000681
@@ -7410,7 +7410,7 @@ bl _p_30
 .word 0x910003bf
 .word 0xa8d37bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_3
 
@@ -7428,7 +7428,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_close_v2_in
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1440]
+ldr x16, [x16, #1432]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -7492,7 +7492,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_close_intpt
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1448]
+ldr x16, [x16, #1440]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -7555,7 +7555,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_enable_shar
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1456]
+ldr x16, [x16, #1448]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -7609,7 +7609,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_interrupt_i
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1464]
+ldr x16, [x16, #1456]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -7658,7 +7658,7 @@ SQLitePCL_SQLite3Provider_sqlite3_exec_hook_bridge_intptr_int_intptr_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1472]
+ldr x16, [x16, #1464]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -7732,7 +7732,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_exec_intptr
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1480]
+ldr x16, [x16, #1472]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -7763,7 +7763,7 @@ ldr x16, [x16, #1480]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1488]
+ldr x0, [x16, #1480]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_1
@@ -7794,24 +7794,24 @@ bl _p_30
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1496]
+ldr x0, [x16, #1488]
 .word 0xd2800e01
 .word 0xd2800e01
 bl _p_1
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1504]
+ldr x1, [x16, #1496]
 .word 0xf9001401
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1512]
+ldr x1, [x16, #1504]
 .word 0xf9002001
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1520]
+ldr x1, [x16, #1512]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -7877,7 +7877,7 @@ bl _p_30
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #312]
+ldr x0, [x16, #304]
 .word 0xf9400003
 .word 0x9101a3a4
 .word 0xaa1603e0
@@ -7903,7 +7903,7 @@ bl _p_45
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #312]
+ldr x1, [x16, #304]
 .word 0xf9400021
 bl _p_24
 .word 0x53001c00
@@ -8004,7 +8004,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_complete_st
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1528]
+ldr x16, [x16, #1520]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8065,7 +8065,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_compileopti
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1536]
+ldr x16, [x16, #1528]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8125,7 +8125,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_compileopti
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1544]
+ldr x16, [x16, #1536]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8199,7 +8199,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_table_colum
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1552]
+ldr x16, [x16, #1544]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -8261,7 +8261,7 @@ bl _p_51
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #312]
+ldr x1, [x16, #304]
 .word 0xf9400021
 bl _p_24
 .word 0x53001c00
@@ -8320,7 +8320,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #312]
+ldr x1, [x16, #304]
 .word 0xf9400021
 bl _p_24
 .word 0x53001c00
@@ -8421,7 +8421,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_prepare_v2_
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1560]
+ldr x16, [x16, #1552]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -8502,7 +8502,7 @@ bl _p_54
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #312]
+ldr x1, [x16, #304]
 .word 0xf9400021
 bl _p_24
 .word 0x53001c00
@@ -8599,7 +8599,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_db_status_i
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1568]
+ldr x16, [x16, #1560]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -8657,7 +8657,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_sql_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1576]
+ldr x16, [x16, #1568]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8717,7 +8717,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_db_handle_i
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1584]
+ldr x16, [x16, #1576]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8776,7 +8776,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_blob_open_i
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1592]
+ldr x16, [x16, #1584]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -8859,7 +8859,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_blob_bytes_
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1600]
+ldr x16, [x16, #1592]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8913,7 +8913,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_blob_close_
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1608]
+ldr x16, [x16, #1600]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -8970,7 +8970,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_blob_read_i
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1616]
+ldr x16, [x16, #1608]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -9030,7 +9030,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_blob_write_
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1624]
+ldr x16, [x16, #1616]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -9091,7 +9091,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_blob_read_i
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1632]
+ldr x16, [x16, #1624]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -9216,7 +9216,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_blob_write_
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1640]
+ldr x16, [x16, #1632]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -9340,7 +9340,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_backup_init
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1648]
+ldr x16, [x16, #1640]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -9415,7 +9415,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_backup_step
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1656]
+ldr x16, [x16, #1648]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -9470,7 +9470,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_backup_fini
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1664]
+ldr x16, [x16, #1656]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -9524,7 +9524,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_backup_rema
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1672]
+ldr x16, [x16, #1664]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -9578,7 +9578,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_backup_page
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1680]
+ldr x16, [x16, #1672]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -9633,7 +9633,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_next_stmt_i
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1688]
+ldr x16, [x16, #1680]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -9687,7 +9687,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_last_insert
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1696]
+ldr x16, [x16, #1688]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -9740,7 +9740,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_changes_int
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1704]
+ldr x16, [x16, #1696]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -9794,7 +9794,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_total_chang
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1712]
+ldr x16, [x16, #1704]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -9849,7 +9849,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_extended_re
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1720]
+ldr x16, [x16, #1712]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -9904,7 +9904,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_errstr_int:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1728]
+ldr x16, [x16, #1720]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -9964,7 +9964,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_errcode_int
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1736]
+ldr x16, [x16, #1728]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10018,7 +10018,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_extended_er
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1744]
+ldr x16, [x16, #1736]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10073,7 +10073,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_busy_timeou
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1752]
+ldr x16, [x16, #1744]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -10128,7 +10128,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_get_autocom
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1760]
+ldr x16, [x16, #1752]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10183,7 +10183,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_db_readonly
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1768]
+ldr x16, [x16, #1760]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -10248,7 +10248,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_db_filename
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1776]
+ldr x16, [x16, #1768]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -10318,7 +10318,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_errmsg_intp
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1784]
+ldr x16, [x16, #1776]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10377,7 +10377,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_libversion:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1792]
+ldr x16, [x16, #1784]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10435,7 +10435,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_libversion_
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1800]
+ldr x16, [x16, #1792]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10487,7 +10487,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_threadsafe:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1808]
+ldr x16, [x16, #1800]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10540,7 +10540,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_config_int:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1816]
+ldr x16, [x16, #1808]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10595,7 +10595,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_config_int_
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1824]
+ldr x16, [x16, #1816]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -10649,7 +10649,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_initialize:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1832]
+ldr x16, [x16, #1824]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10701,7 +10701,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_shutdown:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1840]
+ldr x16, [x16, #1832]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10755,7 +10755,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_enable_load
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1848]
+ldr x16, [x16, #1840]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -10809,7 +10809,7 @@ SQLitePCL_SQLite3Provider_sqlite3_commit_hook_bridge_impl_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1856]
+ldr x16, [x16, #1848]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10876,7 +10876,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_commit_hook
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1864]
+ldr x16, [x16, #1856]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -10953,7 +10953,7 @@ bl _p_96
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1872]
+ldr x0, [x16, #1864]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_1
@@ -11019,7 +11019,7 @@ bl _p_99
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #312]
+ldr x0, [x16, #304]
 .word 0xf9400002
 .word 0xaa1803e0
 .word 0xd2800001
@@ -11057,7 +11057,7 @@ SQLitePCL_SQLite3Provider_sqlite3_scalar_function_hook_bridge_impl_intptr_int_in
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1880]
+ldr x16, [x16, #1872]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -11138,7 +11138,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_create_func
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1888]
+ldr x16, [x16, #1880]
 .word 0xf90037b0
 .word 0xf9400a11
 .word 0xf9003bb1
@@ -11160,14 +11160,14 @@ ldr x16, [x16, #1888]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1896]
+ldr x0, [x16, #1888]
 .word 0xf90053a0
 .word 0xb98053a0
 .word 0xf90057a0
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1904]
+ldr x0, [x16, #1896]
 .word 0xd2800281
 .word 0xd2800281
 bl _p_1
@@ -11280,7 +11280,7 @@ bl _p_107
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1912]
+ldr x0, [x16, #1904]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_1
@@ -11389,7 +11389,7 @@ bl _p_30
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #312]
+ldr x0, [x16, #304]
 .word 0xf9400004
 .word 0xd2800000
 .word 0xd2800000
@@ -11443,7 +11443,7 @@ SQLitePCL_SQLite3Provider_sqlite3_log_hook_bridge_impl_intptr_int_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1920]
+ldr x16, [x16, #1912]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -11512,7 +11512,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_config_log_
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1928]
+ldr x16, [x16, #1920]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -11531,7 +11531,7 @@ ldr x16, [x16, #1928]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1936]
+ldr x0, [x16, #1928]
 .word 0xf9400000
 .word 0xb4000320
 .word 0xf94017b1
@@ -11541,7 +11541,7 @@ ldr x0, [x16, #1936]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1936]
+ldr x0, [x16, #1928]
 .word 0xf9400001
 .word 0xaa0103e0
 .word 0xf940003e
@@ -11558,7 +11558,7 @@ bl _p_114
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1936]
+ldr x0, [x16, #1928]
 .word 0xf900001f
 .word 0xf9401bb1
 .word 0xf9400231
@@ -11580,7 +11580,7 @@ ldr x0, [x16, #1936]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1944]
+ldr x0, [x16, #1936]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_1
@@ -11596,7 +11596,7 @@ bl _p_115
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1936]
+ldr x0, [x16, #1928]
 .word 0xf9000001
 .word 0xf94017b1
 .word 0xf9417231
@@ -11609,7 +11609,7 @@ ldr x0, [x16, #1936]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1936]
+ldr x0, [x16, #1928]
 .word 0xf9400001
 .word 0xaa0103e0
 .word 0xf940003e
@@ -11648,7 +11648,7 @@ bl _p_117
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #312]
+ldr x0, [x16, #304]
 .word 0xf9400002
 .word 0xd2800200
 .word 0xd2800001
@@ -11692,7 +11692,7 @@ SQLitePCL_SQLite3Provider_sqlite3_agg_function_hook_bridge_step_impl_intptr_int_
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1952]
+ldr x16, [x16, #1944]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -11779,7 +11779,7 @@ SQLitePCL_SQLite3Provider_sqlite3_agg_function_hook_bridge_final_impl_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1960]
+ldr x16, [x16, #1952]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -11877,7 +11877,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_create_func
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1968]
+ldr x16, [x16, #1960]
 .word 0xf9003bb0
 .word 0xf9400a11
 .word 0xf9003fb1
@@ -11899,14 +11899,14 @@ ldr x16, [x16, #1968]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1896]
+ldr x0, [x16, #1888]
 .word 0xf9005ba0
 .word 0xb98053a0
 .word 0xf9005fa0
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1904]
+ldr x0, [x16, #1896]
 .word 0xd2800281
 .word 0xd2800281
 bl _p_1
@@ -12021,7 +12021,7 @@ bl _p_125
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1976]
+ldr x0, [x16, #1968]
 .word 0xd2800601
 .word 0xd2800601
 bl _p_1
@@ -12131,7 +12131,7 @@ bl _p_30
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #312]
+ldr x0, [x16, #304]
 .word 0xf9400004
 .word 0xd2800000
 .word 0xd2800000
@@ -12187,7 +12187,7 @@ SQLitePCL_SQLite3Provider_sqlite3_collation_hook_bridge_impl_intptr_int_intptr_i
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1984]
+ldr x16, [x16, #1976]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -12275,7 +12275,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_create_coll
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1992]
+ldr x16, [x16, #1984]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -12385,7 +12385,7 @@ bl _p_135
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2000]
+ldr x0, [x16, #1992]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_1
@@ -12484,7 +12484,7 @@ bl _p_30
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #312]
+ldr x0, [x16, #304]
 .word 0xf9400003
 .word 0xd2800000
 .word 0xaa1703e0
@@ -12534,7 +12534,7 @@ SQLitePCL_SQLite3Provider_sqlite3_update_hook_bridge_impl_intptr_int_intptr_intp
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2008]
+ldr x16, [x16, #2000]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -12614,7 +12614,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_update_hook
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2016]
+ldr x16, [x16, #2008]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -12691,7 +12691,7 @@ bl _p_142
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2024]
+ldr x0, [x16, #2016]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_1
@@ -12757,7 +12757,7 @@ bl _p_145
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #312]
+ldr x0, [x16, #304]
 .word 0xf9400002
 .word 0xaa1803e0
 .word 0xd2800001
@@ -12792,7 +12792,7 @@ SQLitePCL_SQLite3Provider_sqlite3_rollback_hook_bridge_impl_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2032]
+ldr x16, [x16, #2024]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -12852,7 +12852,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_rollback_ho
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2040]
+ldr x16, [x16, #2032]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -12929,7 +12929,7 @@ bl _p_148
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2048]
+ldr x0, [x16, #2040]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_1
@@ -12995,7 +12995,7 @@ bl _p_151
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #312]
+ldr x0, [x16, #304]
 .word 0xf9400002
 .word 0xaa1803e0
 .word 0xd2800001
@@ -13031,7 +13031,7 @@ SQLitePCL_SQLite3Provider_sqlite3_trace_hook_bridge_impl_intptr_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2056]
+ldr x16, [x16, #2048]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -13099,7 +13099,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_trace_intpt
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2064]
+ldr x16, [x16, #2056]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -13176,7 +13176,7 @@ bl _p_154
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2072]
+ldr x0, [x16, #2064]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_1
@@ -13242,7 +13242,7 @@ bl _p_157
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #312]
+ldr x0, [x16, #304]
 .word 0xf9400002
 .word 0xaa1803e0
 .word 0xd2800001
@@ -13279,7 +13279,7 @@ SQLitePCL_SQLite3Provider_sqlite3_profile_hook_bridge_impl_intptr_intptr_long:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2080]
+ldr x16, [x16, #2072]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -13348,7 +13348,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_profile_int
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2088]
+ldr x16, [x16, #2080]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -13425,7 +13425,7 @@ bl _p_160
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2096]
+ldr x0, [x16, #2088]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_1
@@ -13491,7 +13491,7 @@ bl _p_163
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #312]
+ldr x0, [x16, #304]
 .word 0xf9400002
 .word 0xaa1803e0
 .word 0xd2800001
@@ -13526,7 +13526,7 @@ SQLitePCL_SQLite3Provider_sqlite3_progress_handler_hook_bridge_impl_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2104]
+ldr x16, [x16, #2096]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -13595,7 +13595,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_progress_ha
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2112]
+ldr x16, [x16, #2104]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -13672,7 +13672,7 @@ bl _p_166
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2120]
+ldr x0, [x16, #2112]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_1
@@ -13741,7 +13741,7 @@ bl _p_169
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #312]
+ldr x0, [x16, #304]
 .word 0xf9400003
 .word 0xaa1703e0
 .word 0xaa1803e1
@@ -13783,7 +13783,7 @@ SQLitePCL_SQLite3Provider_sqlite3_authorizer_hook_bridge_impl_intptr_int_intptr_
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2128]
+ldr x16, [x16, #2120]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -13885,7 +13885,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_set_authori
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2136]
+ldr x16, [x16, #2128]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -13962,7 +13962,7 @@ bl _p_172
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2144]
+ldr x0, [x16, #2136]
 .word 0xd2800501
 .word 0xd2800501
 bl _p_1
@@ -14035,7 +14035,7 @@ bl _p_175
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #312]
+ldr x0, [x16, #304]
 .word 0xf9400002
 .word 0xaa1803e0
 .word 0xd2800001
@@ -14077,7 +14077,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_memory_used
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2152]
+ldr x16, [x16, #2144]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -14129,7 +14129,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_memory_high
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2160]
+ldr x16, [x16, #2152]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -14185,7 +14185,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_status_int_
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2168]
+ldr x16, [x16, #2160]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -14241,7 +14241,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_sourceid:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2176]
+ldr x16, [x16, #2168]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -14301,7 +14301,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_result_int6
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2184]
+ldr x16, [x16, #2176]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -14350,7 +14350,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_result_int_
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2192]
+ldr x16, [x16, #2184]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -14399,7 +14399,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_result_doub
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2200]
+ldr x16, [x16, #2192]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -14447,7 +14447,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_result_null
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2208]
+ldr x16, [x16, #2200]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -14495,7 +14495,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_result_erro
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2216]
+ldr x16, [x16, #2208]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -14557,7 +14557,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_result_text
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2224]
+ldr x16, [x16, #2216]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -14634,7 +14634,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_result_blob
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2232]
+ldr x16, [x16, #2224]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -14705,7 +14705,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_result_zero
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2240]
+ldr x16, [x16, #2232]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -14753,7 +14753,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_result_erro
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2248]
+ldr x16, [x16, #2240]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -14800,7 +14800,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_result_erro
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2256]
+ldr x16, [x16, #2248]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -14848,7 +14848,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_result_erro
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2264]
+ldr x16, [x16, #2256]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -14898,7 +14898,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_value_blob_
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2272]
+ldr x16, [x16, #2264]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -14937,7 +14937,7 @@ bl _p_192
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #312]
+ldr x1, [x16, #304]
 .word 0xf9400021
 bl _p_24
 .word 0x53001c00
@@ -14988,7 +14988,7 @@ bl _p_193
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #296]
+ldr x0, [x16, #288]
 bl _p_8
 .word 0xaa0003f7
 .word 0xf9401fb1
@@ -15045,7 +15045,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_value_bytes
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2280]
+ldr x16, [x16, #2272]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15099,7 +15099,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_value_doubl
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2288]
+ldr x16, [x16, #2280]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15152,7 +15152,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_value_int_i
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2296]
+ldr x16, [x16, #2288]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15206,7 +15206,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_value_int64
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2304]
+ldr x16, [x16, #2296]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15259,7 +15259,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_value_type_
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2312]
+ldr x16, [x16, #2304]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15313,7 +15313,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_value_text_
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2320]
+ldr x16, [x16, #2312]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15375,7 +15375,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_bind_int_in
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2328]
+ldr x16, [x16, #2320]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -15433,7 +15433,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_bind_int64_
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2336]
+ldr x16, [x16, #2328]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -15491,7 +15491,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_bind_text_i
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2344]
+ldr x16, [x16, #2336]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -15578,7 +15578,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_bind_double
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2352]
+ldr x16, [x16, #2344]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -15637,7 +15637,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_bind_blob_i
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2360]
+ldr x16, [x16, #2352]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -15720,7 +15720,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_bind_blob_i
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2368]
+ldr x16, [x16, #2360]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -15801,7 +15801,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_bind_zerobl
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2376]
+ldr x16, [x16, #2368]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -15858,7 +15858,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_bind_null_i
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2384]
+ldr x16, [x16, #2376]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -15913,7 +15913,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_bind_parame
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2392]
+ldr x16, [x16, #2384]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -15968,7 +15968,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_bind_parame
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2400]
+ldr x16, [x16, #2392]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -16030,7 +16030,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_bind_parame
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2408]
+ldr x16, [x16, #2400]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -16094,7 +16094,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_step_intptr
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2416]
+ldr x16, [x16, #2408]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -16148,7 +16148,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_stmt_busy_i
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2424]
+ldr x16, [x16, #2416]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -16202,7 +16202,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_stmt_readon
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2432]
+ldr x16, [x16, #2424]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -16257,7 +16257,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_column_int_
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2440]
+ldr x16, [x16, #2432]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -16313,7 +16313,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_column_int6
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2448]
+ldr x16, [x16, #2440]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -16368,7 +16368,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_column_text
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2456]
+ldr x16, [x16, #2448]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -16430,7 +16430,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_column_decl
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2464]
+ldr x16, [x16, #2456]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -16492,7 +16492,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_column_doub
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2472]
+ldr x16, [x16, #2464]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -16550,7 +16550,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_column_blob
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2480]
+ldr x16, [x16, #2472]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -16591,7 +16591,7 @@ bl _p_217
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #312]
+ldr x1, [x16, #304]
 .word 0xf9400021
 bl _p_24
 .word 0x53001c00
@@ -16644,7 +16644,7 @@ bl _p_218
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #296]
+ldr x0, [x16, #288]
 bl _p_8
 .word 0xaa0003f6
 .word 0xf94023b1
@@ -16708,7 +16708,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_column_blob
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2488]
+ldr x16, [x16, #2480]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -16782,7 +16782,7 @@ bl _p_217
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #312]
+ldr x1, [x16, #304]
 .word 0xf9400021
 bl _p_24
 .word 0x53001c00
@@ -16909,7 +16909,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_column_type
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2496]
+ldr x16, [x16, #2488]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -16965,7 +16965,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_column_byte
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2504]
+ldr x16, [x16, #2496]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -17020,7 +17020,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_column_coun
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2512]
+ldr x16, [x16, #2504]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -17074,7 +17074,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_data_count_
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2520]
+ldr x16, [x16, #2512]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -17129,7 +17129,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_column_name
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2528]
+ldr x16, [x16, #2520]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -17191,7 +17191,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_column_orig
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2536]
+ldr x16, [x16, #2528]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -17253,7 +17253,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_column_tabl
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2544]
+ldr x16, [x16, #2536]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -17315,7 +17315,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_column_data
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2552]
+ldr x16, [x16, #2544]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -17376,7 +17376,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_reset_intpt
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2560]
+ldr x16, [x16, #2552]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -17430,7 +17430,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_clear_bindi
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2568]
+ldr x16, [x16, #2560]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -17486,7 +17486,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_stmt_status
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2576]
+ldr x16, [x16, #2568]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -17542,7 +17542,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_finalize_in
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2584]
+ldr x16, [x16, #2576]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -17597,7 +17597,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_wal_autoche
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2592]
+ldr x16, [x16, #2584]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -17653,7 +17653,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_wal_checkpo
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2600]
+ldr x16, [x16, #2592]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -17721,7 +17721,7 @@ SQLitePCL_SQLite3Provider_sqlite3_SQLitePCL_ISQLite3Provider_sqlite3_wal_checkpo
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2608]
+ldr x16, [x16, #2600]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -17788,7 +17788,7 @@ SQLitePCL_hooks_info_free:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2616]
+ldr x16, [x16, #2608]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -17868,7 +17868,7 @@ bl _p_234
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x15, [x16, #2624]
+ldr x15, [x16, #2616]
 bl _p_235
 .word 0xf90083a0
 .word 0xf9400fb1
@@ -17895,7 +17895,7 @@ bl _p_134
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x15, [x16, #2624]
+ldr x15, [x16, #2616]
 bl _p_236
 .word 0x53001c00
 .word 0xf90083a0
@@ -17924,7 +17924,7 @@ bl _p_236
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x15, [x16, #2624]
+ldr x15, [x16, #2616]
 bl _p_237
 .word 0xf9400fb1
 .word 0xf9424231
@@ -17993,7 +17993,7 @@ bl _p_239
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x15, [x16, #2632]
+ldr x15, [x16, #2624]
 bl _p_240
 .word 0xf90083a0
 .word 0xf9400fb1
@@ -18020,7 +18020,7 @@ bl _p_106
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x15, [x16, #2632]
+ldr x15, [x16, #2624]
 bl _p_241
 .word 0x53001c00
 .word 0xf90083a0
@@ -18049,7 +18049,7 @@ bl _p_241
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x15, [x16, #2632]
+ldr x15, [x16, #2624]
 bl _p_242
 .word 0xf9400fb1
 .word 0xf9442a31
@@ -18118,7 +18118,7 @@ bl _p_244
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x15, [x16, #2640]
+ldr x15, [x16, #2632]
 bl _p_245
 .word 0xf90083a0
 .word 0xf9400fb1
@@ -18145,7 +18145,7 @@ bl _p_124
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x15, [x16, #2640]
+ldr x15, [x16, #2632]
 bl _p_246
 .word 0x53001c00
 .word 0xf90083a0
@@ -18174,7 +18174,7 @@ bl _p_246
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x15, [x16, #2640]
+ldr x15, [x16, #2632]
 bl _p_247
 .word 0xf9400fb1
 .word 0xf9461231
@@ -18412,7 +18412,7 @@ SQLitePCL_hooks_info__ctor:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2648]
+ldr x16, [x16, #2640]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -18432,7 +18432,7 @@ ldr x16, [x16, #2648]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2656]
+ldr x0, [x16, #2648]
 .word 0xd2800a01
 .word 0xd2800a01
 bl _p_1
@@ -18464,7 +18464,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2664]
+ldr x0, [x16, #2656]
 .word 0xd2800a01
 .word 0xd2800a01
 bl _p_1
@@ -18496,7 +18496,7 @@ ldr x2, [x16, #16]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2672]
+ldr x0, [x16, #2664]
 .word 0xd2800a01
 .word 0xd2800a01
 bl _p_1
@@ -18553,7 +18553,7 @@ SQLitePCL_hooks__c__cctor:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2680]
+ldr x16, [x16, #2672]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -18572,7 +18572,7 @@ ldr x16, [x16, #2680]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2688]
+ldr x0, [x16, #2680]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_1
@@ -18586,7 +18586,7 @@ bl _p_251
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #224]
+ldr x0, [x16, #216]
 .word 0xf9000001
 .word 0xf9400bb1
 .word 0xf940a231
@@ -18612,7 +18612,7 @@ SQLitePCL_hooks__c__ctor:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2696]
+ldr x16, [x16, #2688]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -18658,7 +18658,7 @@ SQLitePCL_hooks__c__getOrCreateForb__3_0_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2704]
+ldr x16, [x16, #2696]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -18677,7 +18677,7 @@ ldr x16, [x16, #2704]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2712]
+ldr x0, [x16, #2704]
 .word 0xd2800c01
 .word 0xd2800c01
 bl _p_1
@@ -18719,7 +18719,7 @@ SQLitePCL_scalar_function_hook_info_scalar_sqlite3_context__ctor_intptr_object:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2720]
+ldr x16, [x16, #2712]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -18781,7 +18781,7 @@ SQLitePCL_agg_function_hook_info_agg_sqlite3_context__ctor_object:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2728]
+ldr x16, [x16, #2720]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -18829,7 +18829,7 @@ SQLitePCL_agg_function_hook_info_agg_sqlite3_context_fix_ptr_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2736]
+ldr x16, [x16, #2728]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -18875,7 +18875,7 @@ SQLitePCL_SQLite3Provider_sqlite3_NativeMethods__cctor:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2744]
+ldr x16, [x16, #2736]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -18915,7 +18915,7 @@ wrapper_delegate_invoke_System_Func_2_intptr_SQLitePCL_hooks_info_invoke_TResult
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2752]
+ldr x16, [x16, #2744]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -18932,7 +18932,7 @@ ldr x16, [x16, #2752]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000140
 bl _p_255
@@ -19036,7 +19036,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -19045,7 +19045,7 @@ Lme_19e:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_IsValueWriteAtomic
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_IsValueWriteAtomic:
-.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/external/corefx/src/System.Collections.Concurrent/src/System/Collections/Concurrent/ConcurrentDictionary.cs"
+.file 2 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.4.0.214/src/mono/external/corefx/src/System.Collections.Concurrent/src/System/Collections/Concurrent/ConcurrentDictionary.cs"
 .loc 2 96 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
@@ -19055,7 +19055,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_IsVa
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2768]
+ldr x16, [x16, #2760]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -19127,7 +19127,7 @@ bl _p_258
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2776]
+ldr x0, [x16, #2768]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
@@ -19180,13 +19180,13 @@ Lme_19f:
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF__ctor
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF__ctor:
 .loc 2 129 0 prologue_end
-.word 0xa9ba7bfd
+.word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2784]
+ldr x16, [x16, #2776]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -19203,15 +19203,15 @@ ldr x16, [x16, #2784]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-.word 0xf90027a0
+.word 0xf90023a0
 .word 0xf9400ba0
 .word 0xf9400000
 bl _p_260
-.word 0xf9002fa0
+.word 0xf90027a0
 .word 0xf9400ba0
 .word 0xf9400000
 bl _p_261
-.word 0xf9402faf
+.word 0xf94027af
 .word 0xd63f0000
 .word 0x93407c00
 .word 0xf9001fa0
@@ -19219,45 +19219,32 @@ bl _p_261
 .word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28003e0
-.word 0xd2800020
-.word 0xf9400ba0
-.word 0xf9400000
-bl _p_262
-.word 0xf9002ba0
-.word 0xf9400ba0
-.word 0xf9400000
-bl _p_263
-.word 0xf9402baf
-.word 0xd63f0000
-.word 0xf90023a0
-.word 0xf9400fb1
-.word 0xf940d631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027a0
+.word 0xf94023a0
+.word 0xd28003e1
+.word 0xd2800021
+.word 0xd2800001
 .word 0xf940001e
 .word 0xf9001ba0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_264
+bl _p_262
 .word 0xaa0003e5
 .word 0xf9401ba0
 .word 0xf9401fa1
-.word 0xf94023a4
 .word 0xd28003e2
 .word 0xd2800023
+.word 0xd2800004
 .word 0xd63f00a0
 .word 0xf9400fb1
-.word 0xf9411a31
+.word 0xf940e631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fb1
-.word 0xf9412a31
+.word 0xf940f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910003bf
-.word 0xa8c67bfd
+.word 0xa8c57bfd
 .word 0xd65f03c0
 
 Lme_1a0:
@@ -19265,7 +19252,7 @@ Lme_1a0:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_InitializeFromCollection_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_InitializeFromCollection_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF:
-.loc 2 233 0 prologue_end
+.loc 2 227 0 prologue_end
 .word 0xa9af7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -19273,7 +19260,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Init
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2792]
+ldr x16, [x16, #2784]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -19299,12 +19286,12 @@ ldr x16, [x16, #2792]
 .word 0xf9004fa0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_265
+bl _p_263
 .word 0xaa0003ef
 .word 0xf9404fa1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x92800ef0
+.word 0x92800ff0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -19328,14 +19315,14 @@ bl _p_265
 .word 0xf90053a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_266
+bl _p_264
 .word 0xaa0003ef
 .word 0xf94053a1
 .word 0x9100e3a0
 .word 0xf90037a0
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0x92800af0
+.word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706830
 .word 0xd63f0200
@@ -19352,7 +19339,7 @@ bl _p_266
 .word 0xf90027a0
 .word 0xf94023a0
 .word 0xf9002ba0
-.loc 2 235 0
+.loc 2 229 0
 .word 0xf94013b1
 .word 0xf9416231
 .word 0xb4000051
@@ -19361,11 +19348,11 @@ bl _p_266
 .word 0xf9004ba0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_267
+bl _p_265
 .word 0xf9004fa0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_268
+bl _p_266
 .word 0xaa0003e1
 .word 0xf9404ba0
 .word 0xf9404faf
@@ -19385,14 +19372,14 @@ bl _p_268
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_269
+bl _p_267
 .word 0xf9004ba0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_270
+bl _p_268
 .word 0xf9404baf
 .word 0xd63f0000
-.loc 2 237 0
+.loc 2 231 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
@@ -19407,11 +19394,11 @@ bl _p_270
 .word 0xf9007fa0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_267
+bl _p_265
 .word 0xf90083a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_268
+bl _p_266
 .word 0xaa0003e1
 .word 0xf9407fa0
 .word 0xf94083af
@@ -19428,11 +19415,11 @@ bl _p_268
 .word 0xf90077a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_267
+bl _p_265
 .word 0xf9007ba0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_268
+bl _p_266
 .word 0xaa0003e1
 .word 0xf94077a0
 .word 0xf9407baf
@@ -19444,13 +19431,13 @@ bl _p_268
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_271
+bl _p_269
 .word 0xaa0003ef
 .word 0xf9406fa1
 .word 0xf94073a2
 .word 0xaa0203e0
 .word 0xf9400042
-.word 0x92800cf0
+.word 0x92800af0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -19464,11 +19451,11 @@ bl _p_271
 .word 0xf90067a0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_267
+bl _p_265
 .word 0xf9006ba0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_272
+bl _p_270
 .word 0xaa0003e1
 .word 0xf94067a0
 .word 0xf9406baf
@@ -19487,7 +19474,7 @@ bl _p_272
 .word 0xf9004fa0
 .word 0xf9400ba0
 .word 0xf9400000
-bl _p_273
+bl _p_271
 .word 0xaa0003e7
 .word 0xf9404fa0
 .word 0xf94053a1
@@ -19505,7 +19492,7 @@ bl _p_273
 .word 0xd63f0220
 .word 0xf9404ba0
 .word 0x350002a0
-.loc 2 239 0
+.loc 2 233 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
@@ -19514,19 +19501,19 @@ bl _p_273
 .word 0xf943ce31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29e8b60
+.word 0xd29ecf60
 .word 0xf2a00020
-.word 0xd29e8b60
+.word 0xd29ecf60
 .word 0xf2a00020
-bl _p_274
+bl _p_272
 .word 0xaa0003e1
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xf2a04000
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_29
-.loc 2 233 0
+.loc 2 227 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
@@ -19541,7 +19528,7 @@ bl _p_29
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x15, [x16, #2800]
+ldr x15, [x16, #2792]
 .word 0x92800ef0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -19565,7 +19552,7 @@ ldr x15, [x16, #2800]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x15, [x16, #2808]
+ldr x15, [x16, #2800]
 .word 0x928004f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -19576,7 +19563,7 @@ ldr x15, [x16, #2808]
 .word 0xd63f0220
 .word 0xf94043be
 .word 0xd61f03c0
-.loc 2 243 0
+.loc 2 237 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
@@ -19587,8 +19574,8 @@ ldr x15, [x16, #2808]
 .word 0xd63f0220
 .word 0xf9400ba0
 .word 0xb9802c00
-.word 0x35000660
-.loc 2 245 0
+.word 0x35000720
+.loc 2 239 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
@@ -19598,12 +19585,18 @@ ldr x15, [x16, #2808]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-.word 0xf9400ba1
-.word 0xf9400821
-.word 0xf9400821
-.word 0xb9801821
-.word 0xf9400ba2
-.word 0xf9400842
+.word 0xf9004ba0
+.word 0xf9400ba0
+.word 0xf9400800
+.word 0xf9004fa0
+.word 0xd50330bf
+.word 0xf9404fa0
+.word 0xf9400800
+.word 0xb9801801
+.word 0xf9400ba0
+.word 0xf9400802
+.word 0xd50330bf
+.word 0xf9404ba0
 .word 0xf9400c42
 .word 0xb9801842
 .word 0x6b1f005f
@@ -19639,26 +19632,26 @@ ldr x15, [x16, #2808]
 .word 0x54000240
 .word 0x1ac20c21
 .word 0xb9002c01
-.loc 2 247 0
+.loc 2 241 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf945ce31
+.word 0xf945e631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf945de31
+.word 0xf945f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910003bf
 .word 0xa8d17bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
-.word 0xd28014e0
+.word 0xd2801640
 .word 0xaa1103e1
 bl _p_3
 
@@ -19667,44 +19660,44 @@ Lme_1a1:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF__ctor_int_int_bool_System_Collections_Generic_IEqualityComparer_1_TKey_INTPTR
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF__ctor_int_int_bool_System_Collections_Generic_IEqualityComparer_1_TKey_INTPTR:
-.loc 2 272 0 prologue_end
-.word 0xa9b67bfd
+.loc 2 264 0 prologue_end
+.word 0xa9b47bfd
 .word 0x910003fd
 .word 0xa90153b3
 .word 0xa9025bb5
 .word 0xa90363b7
-.word 0xf90023ba
-.word 0xf90027a0
+.word 0xa9046bb9
+.word 0xf9002ba0
 .word 0xaa0103f7
 .word 0xaa0203f8
-.word 0xf9002ba3
-.word 0xaa0403fa
+.word 0xf9002fa3
+.word 0xf90033a4
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2816]
-.word 0xf9002fb0
+ldr x16, [x16, #2808]
+.word 0xf90037b0
 .word 0xf9400a11
-.word 0xf90033b1
+.word 0xf9003bb1
 .word 0xd2800016
 .word 0xd2800015
 .word 0xd2800014
 .word 0xd2800013
-.word 0xf9402fb1
+.word 0xf94037b1
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94033b1
+.word 0xf9403bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402fb1
+.word 0xf94037b1
 .word 0xf9408231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94027a0
-.loc 2 274 0
-.word 0xf9402fb1
+.word 0xf9402ba0
+.loc 2 266 0
+.word 0xf94037b1
 .word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
@@ -19713,32 +19706,32 @@ ldr x16, [x16, #2816]
 .word 0xd280003e
 .word 0x6b1e02ff
 .word 0x5400030a
-.loc 2 276 0
-.word 0xf9402fb1
+.loc 2 268 0
+.word 0xf94037b1
 .word 0xf940ba31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29e96a0
+.word 0xd29edaa0
 .word 0xf2a00020
-.word 0xd29e96a0
+.word 0xd29edaa0
 .word 0xf2a00020
-bl _p_274
-.word 0xf9003ba0
-.word 0xd29e9ae0
+bl _p_272
+.word 0xf9004ba0
+.word 0xd29edee0
 .word 0xf2a00020
-.word 0xd29e9ae0
+.word 0xd29edee0
 .word 0xf2a00020
-bl _p_274
+bl _p_272
 .word 0xaa0003e2
-.word 0xf9403ba1
-.word 0xd28010e0
+.word 0xf9404ba1
+.word 0xd2801240
 .word 0xf2a04000
-.word 0xd28010e0
+.word 0xd2801240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_29
-.loc 2 278 0
-.word 0xf9402fb1
+.loc 2 270 0
+.word 0xf94037b1
 .word 0xf9411631
 .word 0xb4000051
 .word 0xd63f0220
@@ -19746,92 +19739,71 @@ bl _p_29
 .word 0xd2800000
 .word 0x6b1f031f
 .word 0x540002ca
-.loc 2 280 0
-.word 0xf9402fb1
+.loc 2 272 0
+.word 0xf94037b1
 .word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29236c0
-.word 0xd29236c0
-bl _p_274
-.word 0xf9003ba0
-.word 0xd29ea6e0
+.word 0xd2935dc0
+.word 0xd2935dc0
+bl _p_272
+.word 0xf9004ba0
+.word 0xd29eeae0
 .word 0xf2a00020
-.word 0xd29ea6e0
+.word 0xd29eeae0
 .word 0xf2a00020
-bl _p_274
+bl _p_272
 .word 0xaa0003e2
-.word 0xf9403ba1
-.word 0xd28010e0
+.word 0xf9404ba1
+.word 0xd2801240
 .word 0xf2a04000
-.word 0xd28010e0
+.word 0xd2801240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_29
-.loc 2 282 0
-.word 0xf9402fb1
+.loc 2 277 0
+.word 0xf94037b1
 .word 0xf9418a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xb50001fa
-.word 0xf9402fb1
-.word 0xf941a231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd299e2a0
-.word 0xd299e2a0
-bl _p_274
-.word 0xaa0003e1
-.word 0xd28010c0
-.word 0xf2a04000
-.word 0xd28010c0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_29
-.loc 2 286 0
-.word 0xf9402fb1
-.word 0xf941da31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1703e0
 .word 0x6b17031f
 .word 0x540000ea
-.loc 2 288 0
-.word 0xf9402fb1
-.word 0xf941fa31
+.loc 2 279 0
+.word 0xf94037b1
+.word 0xf941aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xaa1703f8
-.loc 2 291 0
-.word 0xf94033b1
+.loc 2 282 0
+.word 0xf9403bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9422231
+.word 0xf94037b1
+.word 0xf941d231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2824]
+ldr x0, [x16, #2816]
 .word 0xaa1703e1
 bl _p_8
 .word 0xaa0003f6
-.loc 2 292 0
-.word 0xf9402fb1
-.word 0xf9424e31
+.loc 2 283 0
+.word 0xf94037b1
+.word 0xf941fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800013
 .word 0x14000020
-.loc 2 294 0
-.word 0xf9402fb1
-.word 0xf9426631
+.loc 2 285 0
+.word 0xf94037b1
+.word 0xf9421631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
@@ -19839,36 +19811,36 @@ bl _p_8
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2832]
+ldr x0, [x16, #2824]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_1
-.word 0xf9003ba0
-bl _p_275
-.word 0xf9402fb1
-.word 0xf9429e31
+.word 0xf9004ba0
+bl _p_273
+.word 0xf94037b1
+.word 0xf9424e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9403ba2
+.word 0xf9404ba2
 .word 0xaa1603e0
 .word 0xaa1303e1
 .word 0xf94002c3
 .word 0xf9408070
 .word 0xd63f0200
-.loc 2 292 0
-.word 0xf9402fb1
-.word 0xf942c631
+.loc 2 283 0
+.word 0xf94037b1
+.word 0xf9427631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1303e0
 .word 0x11000660
 .word 0xaa0003f3
-.word 0xf94033b1
+.word 0xf9403bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf942f231
+.word 0xf94037b1
+.word 0xf942a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1303e0
@@ -19876,9 +19848,9 @@ bl _p_275
 .word 0xb9801ac0
 .word 0x6b00027f
 .word 0x54fffaab
-.loc 2 297 0
-.word 0xf9402fb1
-.word 0xf9431631
+.loc 2 288 0
+.word 0xf94037b1
+.word 0xf942c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
@@ -19886,57 +19858,57 @@ bl _p_275
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2840]
+ldr x0, [x16, #2832]
 bl _p_8
 .word 0xaa0003f5
-.loc 2 298 0
-.word 0xf9402fb1
-.word 0xf9434231
+.loc 2 289 0
+.word 0xf94037b1
+.word 0xf942f231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-.word 0xf94027a0
+.word 0xf9402ba0
 .word 0xf9400000
-bl _p_276
+bl _p_274
 .word 0xaa1803e1
 bl _p_8
 .word 0xaa0003f4
-.loc 2 299 0
-.word 0xf9402fb1
-.word 0xf9436e31
+.loc 2 290 0
+.word 0xf94037b1
+.word 0xf9431e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94027a0
-.word 0xf9003fa0
+.word 0xf9402ba0
+.word 0xf9004fa0
 .word 0xaa1403e0
-.word 0xf90047a0
+.word 0xf90057a0
 .word 0xaa1603e0
 .word 0xaa1503e0
-.word 0xf9004ba0
-.word 0xf94027a0
+.word 0xf9005ba0
+.word 0xf9402ba0
 .word 0xf9400000
-bl _p_277
+bl _p_275
 .word 0xd2800501
 .word 0xd2800501
 bl _p_1
-.word 0xf90043a0
-.word 0xf94027a0
+.word 0xf90053a0
+.word 0xf9402ba0
 .word 0xf9400000
-bl _p_278
+bl _p_276
 .word 0xaa0003e4
-.word 0xf94043a0
-.word 0xf94047a1
-.word 0xf9404ba3
-.word 0xf9003ba0
+.word 0xf94053a0
+.word 0xf94057a1
+.word 0xf9405ba3
+.word 0xf9004ba0
 .word 0xaa1603e2
 .word 0xd63f0080
-.word 0xf9402fb1
-.word 0xf943de31
+.word 0xf94037b1
+.word 0xf9438e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9403fa1
+.word 0xf9404fa1
 .word 0xd50330bf
-.word 0xf9403ba0
+.word 0xf9404ba0
 .word 0xf9000820
 .word 0x91004021
 .word 0xd349fc21
@@ -19950,42 +19922,68 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 2 301 0
-.word 0xf9402fb1
-.word 0xf9442a31
+.loc 2 292 0
+.word 0xf94037b1
+.word 0xf943da31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94027a0
-.word 0xaa1a03e1
-.word 0xf9000c1a
-.word 0x91006000
-.word 0xd349fc00
+.word 0xf9402ba1
+.word 0xf94033a0
+.word 0xaa0003fa
+.word 0xaa1a03e0
+.word 0xaa1a03e2
+.word 0xaa0103f9
+.word 0xf90043a0
+.word 0xb500027a
+.word 0xaa1903e0
+.word 0xf94043a0
+.word 0xf9402ba0
+.word 0xf9400000
+bl _p_277
+.word 0xf9004fa0
+.word 0xf9402ba0
+.word 0xf9400000
+bl _p_278
+.word 0xf9404faf
+.word 0xd63f0000
+.word 0xf9004ba0
+.word 0xf94037b1
+.word 0xf9443a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba0
+.word 0xf90043a0
+.word 0xaa1903e0
+.word 0xf94043a0
+.word 0xf9000f20
+.word 0x91006321
+.word 0xd349fc21
 .word 0xd29ffffe
 .word 0xf2a00ffe
-.word 0x8a1e0000
+.word 0x8a1e0021
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #16]
-.word 0x8b010000
+ldr x2, [x16, #16]
+.word 0x8b020021
 .word 0xd280003e
-.word 0x3900001e
-.loc 2 302 0
-.word 0xf9402fb1
-.word 0xf9447231
+.word 0x3900003e
+.loc 2 293 0
+.word 0xf94037b1
+.word 0xf9448a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94027a0
-.word 0x394143a1
+.word 0xf9402ba0
+.word 0x394163a1
 .word 0x3900a001
-.loc 2 303 0
-.word 0xf9402fb1
-.word 0xf9448e31
+.loc 2 294 0
+.word 0xf94037b1
+.word 0xf944a631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94027a0
+.word 0xf9402ba0
 .word 0xaa1403e1
-.word 0xb9801821
+.word 0xb9801a81
 .word 0xaa1603e2
 .word 0xb9801ac2
 .word 0x6b1f005f
@@ -20021,26 +20019,26 @@ ldr x1, [x16, #16]
 .word 0x54000240
 .word 0x1ac20c21
 .word 0xb9002c01
-.loc 2 304 0
-.word 0xf9402fb1
-.word 0xf9453631
+.loc 2 295 0
+.word 0xf94037b1
+.word 0xf9454e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf9454631
+.word 0xf94037b1
+.word 0xf9455e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94153b3
 .word 0xa9425bb5
 .word 0xa94363b7
-.word 0xf94023ba
+.word 0xa9446bb9
 .word 0x910003bf
-.word 0xa8ca7bfd
+.word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
-.word 0xd28014e0
+.word 0xd2801640
 .word 0xaa1103e1
 bl _p_3
 
@@ -20049,7 +20047,7 @@ Lme_1a2:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_OnSerializing_System_Runtime_Serialization_StreamingContext
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_OnSerializing_System_Runtime_Serialization_StreamingContext:
-.loc 2 310 0 prologue_end
+.loc 2 301 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -20059,7 +20057,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_OnSe
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2848]
+ldr x16, [x16, #2840]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -20078,10 +20076,13 @@ ldr x16, [x16, #2848]
 .word 0xd63f0220
 .word 0xf9400fa0
 .word 0xf9400800
+.word 0xf90037a0
+.word 0xd50330bf
+.word 0xf94037a0
 .word 0xaa0003fa
-.loc 2 313 0
+.loc 2 304 0
 .word 0xf9401bb1
-.word 0xf9407e31
+.word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
@@ -20097,7 +20098,7 @@ bl _p_279
 .word 0xd63f0020
 .word 0xf9002ba0
 .word 0xf9401bb1
-.word 0xf940be31
+.word 0xf940ca31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -20115,9 +20116,9 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 2 314 0
+.loc 2 305 0
 .word 0xf9401bb1
-.word 0xf9410631
+.word 0xf9411231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
@@ -20125,9 +20126,9 @@ ldr x2, [x16, #16]
 .word 0xf9400c21
 .word 0xb9801821
 .word 0xb9003001
-.loc 2 315 0
+.loc 2 306 0
 .word 0xf9401bb1
-.word 0xf9412a31
+.word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
@@ -20135,13 +20136,13 @@ ldr x2, [x16, #16]
 .word 0xf9400821
 .word 0xb9801821
 .word 0xb9003401
-.loc 2 316 0
+.loc 2 307 0
 .word 0xf9401bb1
-.word 0xf9414e31
+.word 0xf9415a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9415e31
+.word 0xf9416a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bba
@@ -20154,7 +20155,7 @@ Lme_1a3:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_OnSerialized_System_Runtime_Serialization_StreamingContext
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_OnSerialized_System_Runtime_Serialization_StreamingContext:
-.loc 2 322 0 prologue_end
+.loc 2 313 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -20163,7 +20164,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_OnSe
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2856]
+ldr x16, [x16, #2848]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -20182,7 +20183,7 @@ ldr x16, [x16, #2856]
 .word 0xf9400ba0
 .word 0xd2800001
 .word 0xf900101f
-.loc 2 323 0
+.loc 2 314 0
 .word 0xf94017b1
 .word 0xf9407631
 .word 0xb4000051
@@ -20200,7 +20201,7 @@ Lme_1a4:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_OnDeserialized_System_Runtime_Serialization_StreamingContext
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_OnDeserialized_System_Runtime_Serialization_StreamingContext:
-.loc 2 329 0 prologue_end
+.loc 2 320 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa9015fb6
@@ -20212,7 +20213,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_OnDe
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2864]
+ldr x16, [x16, #2856]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -20236,7 +20237,7 @@ ldr x16, [x16, #2864]
 .word 0xf9401fa0
 .word 0xf9401000
 .word 0xaa0003fa
-.loc 2 331 0
+.loc 2 322 0
 .word 0xf9402bb1
 .word 0xf9409631
 .word 0xb4000051
@@ -20250,7 +20251,7 @@ bl _p_280
 .word 0xf9403ba1
 bl _p_8
 .word 0xaa0003f9
-.loc 2 332 0
+.loc 2 323 0
 .word 0xf9402bb1
 .word 0xf940ca31
 .word 0xb4000051
@@ -20260,10 +20261,10 @@ bl _p_8
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2840]
+ldr x0, [x16, #2832]
 bl _p_8
 .word 0xaa0003f8
-.loc 2 333 0
+.loc 2 324 0
 .word 0xf9402bb1
 .word 0xf940f631
 .word 0xb4000051
@@ -20273,17 +20274,17 @@ bl _p_8
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2824]
+ldr x0, [x16, #2816]
 bl _p_8
 .word 0xaa0003f7
-.loc 2 334 0
+.loc 2 325 0
 .word 0xf9402bb1
 .word 0xf9412231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800016
 .word 0x14000020
-.loc 2 336 0
+.loc 2 327 0
 .word 0xf9402bb1
 .word 0xf9413a31
 .word 0xb4000051
@@ -20293,12 +20294,12 @@ bl _p_8
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2832]
+ldr x0, [x16, #2824]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_1
 .word 0xf9003ba0
-bl _p_275
+bl _p_273
 .word 0xf9402bb1
 .word 0xf9417231
 .word 0xb4000051
@@ -20309,7 +20310,7 @@ bl _p_275
 .word 0xf94002e3
 .word 0xf9408070
 .word 0xd63f0200
-.loc 2 334 0
+.loc 2 325 0
 .word 0xf9402bb1
 .word 0xf9419a31
 .word 0xb4000051
@@ -20330,7 +20331,7 @@ bl _p_275
 .word 0xb9801ae0
 .word 0x6b0002df
 .word 0x54fffaab
-.loc 2 338 0
+.loc 2 329 0
 .word 0xf9402bb1
 .word 0xf941ea31
 .word 0xb4000051
@@ -20377,7 +20378,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 2 340 0
+.loc 2 331 0
 .word 0xf9402bb1
 .word 0xf9429e31
 .word 0xb4000051
@@ -20393,7 +20394,7 @@ bl _p_283
 .word 0xf9403ba0
 .word 0xaa1a03e1
 .word 0xd63f0040
-.loc 2 341 0
+.loc 2 332 0
 .word 0xf9402bb1
 .word 0xf942da31
 .word 0xb4000051
@@ -20401,7 +20402,7 @@ bl _p_283
 .word 0xf9401fa0
 .word 0xd2800001
 .word 0xf900101f
-.loc 2 342 0
+.loc 2 333 0
 .word 0xf9402bb1
 .word 0xf942f631
 .word 0xb4000051
@@ -20422,7 +20423,7 @@ Lme_1a5:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryAdd_TKey_INTPTR_TValue_REF
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryAdd_TKey_INTPTR_TValue_REF:
-.loc 2 360 0 prologue_end
+.loc 2 351 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xf9000bb9
@@ -20432,7 +20433,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryA
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2872]
+ldr x16, [x16, #2864]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -20464,7 +20465,7 @@ bl _p_284
 bl _p_285
 .word 0xf9402baf
 .word 0xd63f0000
-.loc 2 362 0
+.loc 2 353 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -20488,7 +20489,7 @@ bl _p_286
 .word 0xaa0203e0
 .word 0xaa1903e1
 .word 0xf9400042
-.word 0x92800cf0
+.word 0x92800af0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -20540,7 +20541,7 @@ Lme_1a6:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_ContainsKey_TKey_INTPTR
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_ContainsKey_TKey_INTPTR:
-.loc 2 377 0 prologue_end
+.loc 2 368 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -20549,7 +20550,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Cont
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2880]
+ldr x16, [x16, #2872]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -20581,7 +20582,7 @@ bl _p_288
 bl _p_289
 .word 0xf94023af
 .word 0xd63f0000
-.loc 2 380 0
+.loc 2 371 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
@@ -20625,7 +20626,7 @@ Lme_1a7:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryRemove_TKey_INTPTR_TValue_REF_
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryRemove_TKey_INTPTR_TValue_REF_:
-.loc 2 397 0 prologue_end
+.loc 2 388 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xa90167b8
@@ -20635,7 +20636,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryR
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2888]
+ldr x16, [x16, #2880]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -20667,7 +20668,7 @@ bl _p_291
 bl _p_292
 .word 0xf9402baf
 .word 0xd63f0000
-.loc 2 399 0
+.loc 2 390 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -20716,8 +20717,8 @@ Lme_1a8:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryRemoveInternal_TKey_INTPTR_TValue_REF__bool_TValue_REF
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryRemoveInternal_TKey_INTPTR_TValue_REF__bool_TValue_REF:
-.loc 2 414 0 prologue_end
-.word 0xa9b07bfd
+.loc 2 405 0 prologue_end
+.word 0xa9af7bfd
 .word 0x910003fd
 .word 0xa90153b3
 .word 0xa9025bb5
@@ -20731,7 +20732,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryR
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2896]
+ldr x16, [x16, #2888]
 .word 0xf9003bb0
 .word 0xf9400a11
 .word 0xf9003fb1
@@ -20768,7 +20769,7 @@ bl _p_294
 .word 0xaa0203e0
 .word 0xaa1703e1
 .word 0xf9400042
-.word 0x92800cf0
+.word 0x92800af0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -20780,7 +20781,7 @@ bl _p_294
 .word 0xd63f0220
 .word 0xf9406ba0
 .word 0xaa0003f6
-.loc 2 417 0
+.loc 2 408 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -20791,23 +20792,28 @@ bl _p_294
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9400800
+.word 0xf90083a0
+.word 0xd50330bf
+.word 0xf94083a0
+.word 0xf9007fa0
 .word 0xaa0003f5
-.loc 2 420 0
+.loc 2 411 0
 .word 0xf9403bb1
-.word 0xf9413231
+.word 0xf9414231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1603e0
-.word 0x910223a0
-.word 0xf9006ba0
-.word 0x910243a0
-.word 0xf9006fa0
-.word 0xaa1503e0
-.word 0xf9400aa0
-.word 0xb9801800
-.word 0xf90073a0
-.word 0xaa1503e0
-.word 0xf9400ea0
+.word 0xf9407fa0
+.word 0xaa1603e1
+.word 0x910223a1
+.word 0xf9006ba1
+.word 0x910243a1
+.word 0xf9006fa1
+.word 0xaa0003e1
+.word 0xf9400801
+.word 0xb9801821
+.word 0xf90073a1
+.word 0xaa0003e1
+.word 0xf9400c00
 .word 0xb9801800
 .word 0xf90077a0
 .word 0xf9402ba0
@@ -20825,9 +20831,9 @@ bl _p_296
 .word 0xf9407baf
 .word 0xaa1603e0
 .word 0xd63f00a0
-.loc 2 422 0
+.loc 2 413 0
 .word 0xf9403bb1
-.word 0xf941b231
+.word 0xf941c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1503e0
@@ -20837,7 +20843,7 @@ bl _p_296
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54003209
+.word 0x54003369
 .word 0xd37df021
 .word 0x8b010000
 .word 0x91008000
@@ -20853,44 +20859,47 @@ bl _mono_monitor_enter_v4_fast
 .word 0xaa1903e0
 .word 0xaa1803e1
 bl _p_297
-.loc 2 426 0
+.loc 2 417 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9422e31
+.word 0xf9424231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1503e0
 .word 0xf9402ba0
 .word 0xf9400800
+.word 0xf9006ba0
+.word 0xd50330bf
+.word 0xf9406ba0
 .word 0xeb0002bf
 .word 0x54000160
-.loc 2 428 0
+.loc 2 419 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9426231
+.word 0xf9428231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x9400013a
-.word 0x17ffffa4
-.loc 2 431 0
+.word 0x94000142
+.word 0x17ffff9c
+.loc 2 422 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9428a31
+.word 0xf942aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800014
-.loc 2 432 0
+.loc 2 423 0
 .word 0xf9403bb1
-.word 0xf9429e31
+.word 0xf942be31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1503e0
@@ -20900,27 +20909,27 @@ bl _p_297
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54002aa9
+.word 0x54002ba9
 .word 0xd37df021
 .word 0x8b010000
 .word 0x91008000
 .word 0xf9400000
 .word 0xaa0003f3
-.word 0x1400010a
-.loc 2 436 0
+.word 0x14000112
+.loc 2 427 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf942f631
+.word 0xf9431631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
 .word 0xaa1303e0
 .word 0xb9802a60
 .word 0x6b0002df
-.word 0x54001d81
+.word 0x54001e21
 .word 0xf9402ba0
 .word 0xf9400c00
 .word 0xf90073a0
@@ -20937,36 +20946,36 @@ bl _p_298
 .word 0xaa0303e0
 .word 0xaa1703e2
 .word 0xf9400063
-.word 0x928007f0
+.word 0x92800af0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf9006ba0
 .word 0xf9403bb1
-.word 0xf9437231
+.word 0xf9439231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9406ba0
-.word 0x34001a00
-.loc 2 438 0
+.word 0x34001aa0
+.loc 2 429 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9439a31
+.word 0xf943ba31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x394183a0
 .word 0x34000680
-.loc 2 440 0
+.loc 2 431 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf943c231
+.word 0xf943e231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -20976,7 +20985,7 @@ bl _p_299
 bl _p_300
 .word 0xf9006fa0
 .word 0xf9403bb1
-.word 0xf943ea31
+.word 0xf9440a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9406fa3
@@ -20985,54 +20994,54 @@ bl _p_300
 .word 0xf9400a62
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9404470
+.word 0xf9404c70
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf9006ba0
-.loc 2 441 0
+.loc 2 432 0
 .word 0xf9403bb1
-.word 0xf9442231
+.word 0xf9444231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9406ba0
 .word 0x35000240
-.loc 2 443 0
+.loc 2 434 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9444a31
+.word 0xf9446a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fa0
 .word 0xf900001f
-.loc 2 444 0
+.loc 2 435 0
 .word 0xf9403bb1
-.word 0xf9446231
+.word 0xf9448231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd280001a
-.word 0x940000b9
-.word 0x140000d4
-.loc 2 448 0
+.word 0x940000c1
+.word 0x140000dc
+.loc 2 439 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9448e31
+.word 0xf944ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1403e0
-.word 0xb50007b4
-.loc 2 450 0
+.word 0xb50007d4
+.loc 2 441 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf944b631
+.word 0xf944d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1503e0
@@ -21051,12 +21060,12 @@ bl _p_301
 .word 0xf9407ba2
 .word 0xeb03005f
 .word 0x10000011
-.word 0x54001921
+.word 0x54001a21
 .word 0x93407c21
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54001829
+.word 0x54001929
 .word 0xd37df021
 .word 0x8b010000
 .word 0x91008000
@@ -21064,6 +21073,7 @@ bl _p_301
 .word 0xaa1303e0
 .word 0xf9400e60
 .word 0xf9006ba0
+.word 0xd50330bf
 .word 0xf9402ba0
 .word 0xf9400000
 bl _p_302
@@ -21083,25 +21093,26 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 2 451 0
+.loc 2 442 0
 .word 0xf9403bb1
-.word 0xf9458231
+.word 0xf945a631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x1400001b
-.loc 2 454 0
+.word 0x1400001c
+.loc 2 445 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf945a631
+.word 0xf945ca31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1403e0
 .word 0xaa1303e0
 .word 0xf9400e60
 .word 0xf9006ba0
+.word 0xd50330bf
 .word 0xd50330bf
 .word 0xf9406ba0
 .word 0xf9000e80
@@ -21117,13 +21128,13 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 2 457 0
+.loc 2 448 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9460e31
+.word 0xf9463631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fa1
@@ -21141,19 +21152,22 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 2 458 0
+.loc 2 449 0
 .word 0xf9403bb1
-.word 0xf9465631
+.word 0xf9467e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1503e0
 .word 0xf94012a0
+.word 0xf9006ba0
+.word 0xd50330bf
+.word 0xf9406ba0
 .word 0xb98093a1
 .word 0x93407c21
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54000ce9
+.word 0x54000d49
 .word 0xd37ef421
 .word 0x8b010000
 .word 0x91008000
@@ -21163,50 +21177,53 @@ ldr x2, [x16, #16]
 .word 0xb9800021
 .word 0x51000421
 .word 0xb9000001
-.loc 2 459 0
+.loc 2 450 0
 .word 0xf9403bb1
-.word 0xf946aa31
+.word 0xf946de31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd280003a
-.word 0x94000027
-.word 0x14000042
-.loc 2 461 0
+.word 0x9400002a
+.word 0x14000045
+.loc 2 452 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf946d631
+.word 0xf9470a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1303e0
 .word 0xaa1303f4
-.loc 2 432 0
+.loc 2 423 0
 .word 0xf9403bb1
-.word 0xf946ee31
+.word 0xf9472231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1303e0
 .word 0xf9400e60
+.word 0xf9006ba0
+.word 0xd50330bf
+.word 0xf9406ba0
 .word 0xaa0003f3
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9471a31
+.word 0xf9475a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1303e0
-.word 0xb5ffddd3
-.loc 2 463 0
+.word 0xb5ffdcd3
+.loc 2 454 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9474231
+.word 0xf9478231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x94000002
@@ -21217,43 +21234,43 @@ ldr x2, [x16, #16]
 .word 0xf9404fa0
 bl _p_303
 .word 0xf9403bb1
-.word 0xf9476e31
+.word 0xf947ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94063be
 .word 0xd61f03c0
-.loc 2 465 0
+.loc 2 456 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9479631
+.word 0xf947d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fa0
 .word 0xf900001f
-.loc 2 466 0
+.loc 2 457 0
 .word 0xf9403bb1
-.word 0xf947ae31
+.word 0xf947ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800000
 .word 0xd2800000
 .word 0x1400000b
-.loc 2 468 0
+.loc 2 459 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf947da31
+.word 0xf9481a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf9403bb1
-.word 0xf947f231
+.word 0xf9483231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94153b3
@@ -21261,12 +21278,12 @@ bl _p_303
 .word 0xa94363b7
 .word 0xa9446bb9
 .word 0x910003bf
-.word 0xa8d07bfd
+.word 0xa8d17bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
-.word 0xd2801160
+.word 0xd28012c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -21275,7 +21292,7 @@ Lme_1a9:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryGetValue_TKey_INTPTR_TValue_REF_
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryGetValue_TKey_INTPTR_TValue_REF_:
-.loc 2 485 0 prologue_end
+.loc 2 476 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xf9000bb9
@@ -21285,7 +21302,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryG
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2904]
+ldr x16, [x16, #2896]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -21316,7 +21333,7 @@ bl _p_304
 bl _p_305
 .word 0xf94023af
 .word 0xd63f0000
-.loc 2 486 0
+.loc 2 477 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -21340,7 +21357,7 @@ bl _p_306
 .word 0xaa0203e0
 .word 0xaa1903e1
 .word 0xf9400042
-.word 0x92800cf0
+.word 0x92800af0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -21385,8 +21402,8 @@ Lme_1aa:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryGetValueInternal_TKey_INTPTR_int_TValue_REF_
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryGetValueInternal_TKey_INTPTR_int_TValue_REF_:
-.loc 2 494 0 prologue_end
-.word 0xa9b57bfd
+.loc 2 485 0 prologue_end
+.word 0xa9b47bfd
 .word 0x910003fd
 .word 0xa9015bb5
 .word 0xa90263b7
@@ -21398,7 +21415,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryG
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2912]
+ldr x16, [x16, #2904]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -21419,15 +21436,20 @@ ldr x16, [x16, #2912]
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf9400800
+.word 0xf9005ba0
+.word 0xd50330bf
+.word 0xf9405ba0
+.word 0xf90057a0
 .word 0xaa0003f7
-.loc 2 496 0
+.loc 2 487 0
 .word 0xf94027b1
-.word 0xf9409231
+.word 0xf940a231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xaa1903e0
-.word 0xaa1703e0
-.word 0xf9400ae0
+.word 0xf94057a0
+.word 0xaa1903e1
+.word 0xaa0003e1
+.word 0xf9400800
 .word 0xb9801800
 .word 0xf9004fa0
 .word 0xf94023a0
@@ -21445,15 +21467,15 @@ bl _p_309
 .word 0x93407c00
 .word 0xf9004ba0
 .word 0xf94027b1
-.word 0xf940ee31
+.word 0xf9410231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404ba0
 .word 0xf90047a0
 .word 0xaa0003f6
-.loc 2 500 0
+.loc 2 491 0
 .word 0xf94027b1
-.word 0xf9410a31
+.word 0xf9411e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94047a1
@@ -21472,12 +21494,12 @@ bl _p_310
 .word 0xf94043a2
 .word 0xeb03005f
 .word 0x10000011
-.word 0x540010a1
+.word 0x54001101
 .word 0x93407c21
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54000fa9
+.word 0x54001009
 .word 0xd37df021
 .word 0x8b010000
 .word 0x91008000
@@ -21491,15 +21513,15 @@ bl _p_311
 .word 0xc8dfffc0
 .word 0xf90033a0
 .word 0xf94027b1
-.word 0xf941a231
+.word 0xf941b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
 .word 0xaa0003f5
-.word 0x1400004a
-.loc 2 504 0
+.word 0x1400004d
+.loc 2 495 0
 .word 0xf94027b1
-.word 0xf941be31
+.word 0xf941d231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -21523,21 +21545,21 @@ bl _p_312
 .word 0xaa0303e0
 .word 0xaa1803e2
 .word 0xf9400063
-.word 0x928007f0
+.word 0x92800af0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf94027b1
-.word 0xf9423a31
+.word 0xf9424e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
 .word 0x34000340
-.loc 2 506 0
+.loc 2 497 0
 .word 0xf94027b1
-.word 0xf9425231
+.word 0xf9426631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -21555,65 +21577,68 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 2 507 0
+.loc 2 498 0
 .word 0xf94027b1
-.word 0xf9429a31
+.word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800020
 .word 0xd2800020
-.word 0x14000022
-.loc 2 509 0
+.word 0x14000025
+.loc 2 500 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf942c631
+.word 0xf942da31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1503e0
 .word 0xf9400ea0
+.word 0xf90033a0
+.word 0xd50330bf
+.word 0xf94033a0
 .word 0xaa0003f5
-.loc 2 502 0
+.loc 2 493 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf942f231
+.word 0xf9431231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1503e0
-.word 0xb5fff5d5
-.loc 2 512 0
+.word 0xb5fff575
+.loc 2 503 0
 .word 0xf94027b1
-.word 0xf9430a31
+.word 0xf9432a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf900035f
-.loc 2 513 0
+.loc 2 504 0
 .word 0xf94027b1
-.word 0xf9432231
+.word 0xf9434231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800000
 .word 0xd2800000
 .word 0xf94027b1
-.word 0xf9433a31
+.word 0xf9435a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9415bb5
 .word 0xa94263b7
 .word 0xa9436bb9
 .word 0x910003bf
-.word 0xa8cb7bfd
+.word 0xa8cc7bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
-.word 0xd2801160
+.word 0xd28012c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -21622,15 +21647,15 @@ Lme_1ab:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Clear
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Clear:
-.loc 2 623 0 prologue_end
-.word 0xa9b57bfd
+.loc 2 614 0 prologue_end
+.word 0xa9b37bfd
 .word 0x910003fd
 .word 0xf9000bba
 .word 0xf9000fa0
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2920]
+ldr x16, [x16, #2912]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -21649,7 +21674,7 @@ ldr x16, [x16, #2920]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb9003bbf
-.loc 2 626 0
+.loc 2 617 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
@@ -21660,17 +21685,17 @@ ldr x16, [x16, #2920]
 .word 0xd63f0220
 .word 0xf9400fa0
 .word 0x9100e3a1
-.word 0xf90057a1
+.word 0xf90063a1
 .word 0xf940001e
-.word 0xf90053a0
+.word 0xf9005fa0
 .word 0xf9400fa0
 .word 0xf9400000
 bl _p_313
 .word 0xaa0003e2
-.word 0xf94053a0
-.word 0xf94057a1
+.word 0xf9405fa0
+.word 0xf94063a1
 .word 0xd63f0040
-.loc 2 628 0
+.loc 2 619 0
 .word 0xf94013b1
 .word 0xf940c231
 .word 0xb4000051
@@ -21684,16 +21709,25 @@ bl _p_8
 .word 0xf90047a0
 .word 0xf9400fa0
 .word 0xf9400800
+.word 0xf9005ba0
+.word 0xd50330bf
+.word 0xf9405ba0
 .word 0xf9400c00
 .word 0xf9004ba0
 .word 0xf9400fa0
 .word 0xf9400800
+.word 0xf90057a0
+.word 0xd50330bf
+.word 0xf94057a0
 .word 0xf9401000
+.word 0xf90053a0
+.word 0xd50330bf
+.word 0xf94053a0
 .word 0xb9801801
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2840]
+ldr x0, [x16, #2832]
 bl _p_8
 .word 0xf9004fa0
 .word 0xf9400fa0
@@ -21714,14 +21748,14 @@ bl _p_316
 .word 0xf9003fa0
 .word 0xd63f0080
 .word 0xf94013b1
-.word 0xf9416631
+.word 0xf9418a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403fa0
 .word 0xaa0003fa
-.loc 2 629 0
+.loc 2 620 0
 .word 0xf94013b1
-.word 0xf9417e31
+.word 0xf941a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
@@ -21742,9 +21776,9 @@ ldr x1, [x16, #16]
 .word 0x8b010000
 .word 0xd280003e
 .word 0x3900001e
-.loc 2 630 0
+.loc 2 621 0
 .word 0xf94013b1
-.word 0xf941d231
+.word 0xf941f631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
@@ -21793,23 +21827,23 @@ bl _p_317
 .word 0x93407c00
 .word 0xf90037a0
 .word 0xf94013b1
-.word 0xf9429631
+.word 0xf942ba31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
 .word 0xf94037a1
 .word 0xb9002c01
-.loc 2 631 0
+.loc 2 622 0
 .word 0xf94013b1
-.word 0xf942b231
+.word 0xf942d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x94000002
 .word 0x1400001a
 .word 0xf9002bbe
-.loc 2 634 0
+.loc 2 625 0
 .word 0xf94013b1
-.word 0xf942ce31
+.word 0xf942f231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
@@ -21826,34 +21860,34 @@ bl _p_318
 .word 0xf94037a2
 .word 0xd2800001
 .word 0xd63f0060
-.loc 2 635 0
+.loc 2 626 0
 .word 0xf94013b1
-.word 0xf9431631
+.word 0xf9433a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402bbe
 .word 0xd61f03c0
-.loc 2 636 0
+.loc 2 627 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9433e31
+.word 0xf9436231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf9434e31
+.word 0xf9437231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bba
 .word 0x910003bf
-.word 0xa8cb7bfd
+.word 0xa8cd7bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
-.word 0xd28014e0
+.word 0xd2801640
 .word 0xaa1103e1
 bl _p_3
 
@@ -21862,7 +21896,7 @@ Lme_1ac:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue_CopyTo_System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF___int
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue_CopyTo_System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF___int:
-.loc 2 661 0 prologue_end
+.loc 2 652 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xa90163b7
@@ -21873,7 +21907,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Syst
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2928]
+ldr x16, [x16, #2920]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -21902,17 +21936,17 @@ ldr x16, [x16, #2928]
 .word 0xf9409631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2860860
-.word 0xd2860860
-bl _p_274
+.word 0xd2843460
+.word 0xd2843460
+bl _p_272
 .word 0xaa0003e1
-.word 0xd28010c0
+.word 0xd2801220
 .word 0xf2a04000
-.word 0xd28010c0
+.word 0xd2801220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_29
-.loc 2 662 0
+.loc 2 653 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
@@ -21933,24 +21967,24 @@ bl _p_29
 .word 0xf9410e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28538c0
-.word 0xd28538c0
-bl _p_274
+.word 0xd28472e0
+.word 0xd28472e0
+bl _p_272
 .word 0xf9003ba0
-.word 0xd29eb620
+.word 0xd29efa20
 .word 0xf2a00020
-.word 0xd29eb620
+.word 0xd29efa20
 .word 0xf2a00020
-bl _p_274
+bl _p_272
 .word 0xaa0003e2
 .word 0xf9403ba1
-.word 0xd28010e0
+.word 0xd2801240
 .word 0xf2a04000
-.word 0xd28010e0
+.word 0xd2801240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_29
-.loc 2 664 0
+.loc 2 655 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
@@ -21960,7 +21994,7 @@ bl _p_29
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb90053bf
-.loc 2 667 0
+.loc 2 658 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
@@ -21981,20 +22015,20 @@ bl _p_319
 .word 0xf9403ba0
 .word 0xf9403fa1
 .word 0xd63f0040
-.loc 2 669 0
+.loc 2 660 0
 .word 0xf9401fb1
 .word 0xf941d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800018
-.loc 2 671 0
+.loc 2 662 0
 .word 0xf9401fb1
 .word 0xf941ea31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800017
-.word 0x14000020
-.loc 2 673 0
+.word 0x14000026
+.loc 2 664 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
@@ -22006,22 +22040,28 @@ bl _p_319
 .word 0xaa1803e0
 .word 0xf9401ba0
 .word 0xf9400800
+.word 0xf9003fa0
+.word 0xd50330bf
+.word 0xf9403fa0
 .word 0xf9401000
+.word 0xf9003ba0
+.word 0xd50330bf
+.word 0xf9403ba0
 .word 0xaa1703e1
 .word 0x93407ee1
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x540011a9
+.word 0x54001209
 .word 0xd37ef421
 .word 0x8b010000
 .word 0x91008000
 .word 0xb9800000
 .word 0xb000300
 .word 0xaa0003f8
-.loc 2 671 0
+.loc 2 662 0
 .word 0xf9401fb1
-.word 0xf9426231
+.word 0xf9427a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
@@ -22032,12 +22072,15 @@ bl _p_319
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf9428e31
+.word 0xf942a631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xf9401ba0
 .word 0xf9400800
+.word 0xf9003ba0
+.word 0xd50330bf
+.word 0xf9403ba0
 .word 0xf9400c00
 .word 0xb9801800
 .word 0x6b0002ff
@@ -22045,14 +22088,14 @@ bl _p_319
 .word 0xaa1803e0
 .word 0xd2800000
 .word 0x6b1f031f
-.word 0x54fff9ea
-.loc 2 676 0
+.word 0x54fff8ca
+.loc 2 667 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf942da31
+.word 0xf942fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -22066,34 +22109,34 @@ bl _p_319
 .word 0xd2800000
 .word 0x6b1f031f
 .word 0x540002aa
-.loc 2 678 0
+.loc 2 669 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf9432631
+.word 0xf9434a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29ebfa0
+.word 0xd29f03a0
 .word 0xf2a00020
-.word 0xd29ebfa0
+.word 0xd29f03a0
 .word 0xf2a00020
-bl _p_274
+bl _p_272
 .word 0xaa0003e1
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xf2a04000
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_29
-.loc 2 681 0
+.loc 2 672 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf9437631
+.word 0xf9439a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401ba0
@@ -22109,17 +22152,17 @@ bl _p_320
 .word 0xaa1903e1
 .word 0xaa1a03e2
 .word 0xd63f0060
-.loc 2 682 0
+.loc 2 673 0
 .word 0xf9401fb1
-.word 0xf943ba31
+.word 0xf943de31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x94000002
 .word 0x1400001a
 .word 0xf90037be
-.loc 2 685 0
+.loc 2 676 0
 .word 0xf9401fb1
-.word 0xf943d631
+.word 0xf943fa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401ba0
@@ -22136,24 +22179,24 @@ bl _p_321
 .word 0xf9403fa2
 .word 0xd2800001
 .word 0xd63f0060
-.loc 2 686 0
+.loc 2 677 0
 .word 0xf9401fb1
-.word 0xf9441e31
+.word 0xf9444231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037be
 .word 0xd61f03c0
-.loc 2 687 0
+.loc 2 678 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf9444631
+.word 0xf9446a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf9445631
+.word 0xf9447a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94163b7
@@ -22161,7 +22204,7 @@ bl _p_321
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -22170,7 +22213,7 @@ Lme_1ad:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_ToArray
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_ToArray:
-.loc 2 697 0 prologue_end
+.loc 2 688 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xa90163b7
@@ -22179,7 +22222,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_ToAr
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2936]
+ldr x16, [x16, #2928]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -22201,7 +22244,7 @@ ldr x16, [x16, #2936]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb90053bf
-.loc 2 700 0
+.loc 2 691 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
@@ -22222,20 +22265,20 @@ bl _p_322
 .word 0xf9403ba0
 .word 0xf9403fa1
 .word 0xd63f0040
-.loc 2 701 0
+.loc 2 692 0
 .word 0xf9401fb1
 .word 0xf940d231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd280001a
-.loc 2 704 0
+.loc 2 695 0
 .word 0xf9401fb1
 .word 0xf940e631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800018
-.word 0x14000025
-.loc 2 706 0
+.word 0x1400002b
+.loc 2 697 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
@@ -22247,65 +22290,74 @@ bl _p_322
 .word 0xaa1a03e0
 .word 0xf9401ba0
 .word 0xf9400800
+.word 0xf9003fa0
+.word 0xd50330bf
+.word 0xf9403fa0
 .word 0xf9401000
+.word 0xf9003ba0
+.word 0xd50330bf
+.word 0xf9403ba0
 .word 0xaa1803e1
 .word 0x93407f01
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x540013c9
+.word 0x54001429
 .word 0xd37ef421
 .word 0x8b010000
 .word 0x91008000
 .word 0xb9800000
 .word 0x2b000340
 .word 0x10000011
-.word 0x54001286
+.word 0x540012e6
 .word 0xaa0003fa
-.loc 2 704 0
+.loc 2 695 0
 .word 0xf9401fb1
-.word 0xf9416631
+.word 0xf9417e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xd2800020
 .word 0x2b000300
 .word 0x10000011
-.word 0x54001146
+.word 0x540011a6
 .word 0xaa0003f8
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf9419e31
+.word 0xf941b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xf9401ba0
 .word 0xf9400800
+.word 0xf9003ba0
+.word 0xd50330bf
+.word 0xf9403ba0
 .word 0xf9400c00
 .word 0xb9801800
 .word 0x6b00031f
-.word 0x54fff9cb
-.loc 2 710 0
+.word 0x54fff8ab
+.loc 2 701 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf941da31
+.word 0xf941fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0x3500037a
-.loc 2 712 0
+.loc 2 703 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf9420231
+.word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401ba0
@@ -22319,20 +22371,20 @@ bl _p_324
 .word 0xd63f0000
 .word 0xf9003ba0
 .word 0xf9401fb1
-.word 0xf9423a31
+.word 0xf9425e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403ba0
 .word 0xaa0003f7
 .word 0x9400002b
 .word 0x14000043
-.loc 2 715 0
+.loc 2 706 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf9426a31
+.word 0xf9428e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -22342,9 +22394,9 @@ bl _p_325
 .word 0xaa1a03e1
 bl _p_8
 .word 0xaa0003f9
-.loc 2 716 0
+.loc 2 707 0
 .word 0xf9401fb1
-.word 0xf9429631
+.word 0xf942ba31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401ba0
@@ -22361,9 +22413,9 @@ bl _p_326
 .word 0xf9403fa1
 .word 0xd2800002
 .word 0xd63f0060
-.loc 2 717 0
+.loc 2 708 0
 .word 0xf9401fb1
-.word 0xf942de31
+.word 0xf9430231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -22371,9 +22423,9 @@ bl _p_326
 .word 0x94000002
 .word 0x1400001a
 .word 0xf90037be
-.loc 2 721 0
+.loc 2 712 0
 .word 0xf9401fb1
-.word 0xf9430231
+.word 0xf9432631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401ba0
@@ -22390,26 +22442,26 @@ bl _p_327
 .word 0xf9403fa2
 .word 0xd2800001
 .word 0xd63f0060
-.loc 2 722 0
+.loc 2 713 0
 .word 0xf9401fb1
-.word 0xf9434a31
+.word 0xf9436e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037be
 .word 0xd61f03c0
-.loc 2 723 0
+.loc 2 714 0
 .word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fb1
-.word 0xf9437231
+.word 0xf9439631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xaa1703e0
 .word 0xf9401fb1
-.word 0xf9438a31
+.word 0xf943ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94163b7
@@ -22417,10 +22469,10 @@ bl _p_327
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -22429,8 +22481,214 @@ Lme_1ae:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_CopyToPairs_System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF___int
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_CopyToPairs_System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF___int:
-.loc 2 732 0 prologue_end
-.word 0xa9b67bfd
+.loc 2 723 0 prologue_end
+.word 0xa9b57bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001bba
+.word 0xf9001fa0
+.word 0xaa0103f9
+.word 0xaa0203fa
+
+adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
+add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
+ldr x16, [x16, #2936]
+.word 0xf90023b0
+.word 0xf9400a11
+.word 0xf90027b1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xf94023b1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fa0
+.word 0xf9400800
+.word 0xf90043a0
+.word 0xd50330bf
+.word 0xf94043a0
+.word 0xf9400800
+.word 0xaa0003f8
+.loc 2 724 0
+.word 0xf94023b1
+.word 0xf9409e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800017
+.word 0x14000077
+.loc 2 726 0
+.word 0xf94023b1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1703e0
+.word 0x93407ee0
+.word 0xb9801b01
+.word 0xeb00003f
+.word 0x10000011
+.word 0x540010e9
+.word 0xd37df000
+.word 0x8b000300
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f6
+.word 0x14000055
+.loc 2 728 0
+.word 0xf94023b1
+.word 0xf940fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa1603e0
+.word 0xf94012c0
+.word 0xf9004ba0
+.word 0xaa1603e0
+.word 0xf9400ac0
+.word 0xf9004fa0
+.word 0x9101a3a0
+.word 0xd2800000
+.word 0xf90037a0
+.word 0xf9003ba0
+.word 0x9101a3a0
+.word 0xf90047a0
+.word 0xf9401fa0
+.word 0xf9400000
+bl _p_328
+.word 0xf90053a0
+.word 0xf9401fa0
+.word 0xf9400000
+bl _p_329
+.word 0xaa0003e3
+.word 0xf94047a0
+.word 0xf9404ba1
+.word 0xf9404fa2
+.word 0xf94053af
+.word 0xd63f0060
+.word 0x9101a3a0
+.word 0x910163a0
+.word 0xf94037a0
+.word 0xf9002fa0
+.word 0xf9403ba0
+.word 0xf90033a0
+.word 0xf94023b1
+.word 0xf9418e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x93407f40
+.word 0xb9801b21
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000a69
+.word 0xd37cec00
+.word 0x8b000320
+.word 0x91008000
+.word 0x910163a1
+.word 0xaa0003e1
+.word 0xaa0003e1
+.word 0xf9402fa1
+.word 0xf9000001
+.word 0x91002001
+.word 0xf94033a0
+.word 0xf9000020
+.word 0xd349fc21
+.word 0xd29ffffe
+.word 0xf2a00ffe
+.word 0x8a1e0021
+
+adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
+add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
+ldr x2, [x16, #16]
+.word 0x8b020021
+.word 0xd280003e
+.word 0x3900003e
+.loc 2 729 0
+.word 0xf94023b1
+.word 0xf9420631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0x11000740
+.word 0xaa0003fa
+.loc 2 726 0
+.word 0xf94023b1
+.word 0xf9422231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xf9400ec0
+.word 0xf90043a0
+.word 0xd50330bf
+.word 0xf94043a0
+.word 0xaa0003f6
+.word 0xf94027b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf9425a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xb5fff476
+.loc 2 724 0
+.word 0xf94023b1
+.word 0xf9427231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0x110006e0
+.word 0xaa0003f7
+.word 0xf94027b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf9429e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xaa1803e0
+.word 0xb9801b00
+.word 0x6b0002ff
+.word 0x54ffefcb
+.loc 2 732 0
+.word 0xf94023b1
+.word 0xf942c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf942d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0xf9401bba
+.word 0x910003bf
+.word 0xa8cb7bfd
+.word 0xd65f03c0
+.word 0xd2801c80
+.word 0xaa1103e1
+bl _p_3
+
+Lme_1af:
+.text
+	.align 4
+	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_CopyToEntries_System_Collections_DictionaryEntry___int
+System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_CopyToEntries_System_Collections_DictionaryEntry___int:
+.loc 2 741 0 prologue_end
+.word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa9015fb6
 .word 0xa90267b8
@@ -22462,18 +22720,21 @@ ldr x16, [x16, #2944]
 .word 0xd63f0220
 .word 0xf9401fa0
 .word 0xf9400800
+.word 0xf90043a0
+.word 0xd50330bf
+.word 0xf94043a0
 .word 0xf9400800
 .word 0xaa0003f8
-.loc 2 733 0
+.loc 2 742 0
 .word 0xf94023b1
-.word 0xf9409231
+.word 0xf9409e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800017
-.word 0x14000074
-.loc 2 735 0
+.word 0x1400007c
+.loc 2 744 0
 .word 0xf94023b1
-.word 0xf940aa31
+.word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -22482,16 +22743,16 @@ ldr x16, [x16, #2944]
 .word 0xb9801b01
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54001089
+.word 0x54001189
 .word 0xd37df000
 .word 0x8b000300
 .word 0x91008000
 .word 0xf9400000
 .word 0xaa0003f6
-.word 0x14000052
-.loc 2 737 0
+.word 0x1400005a
+.loc 2 746 0
 .word 0xf94023b1
-.word 0xf940ee31
+.word 0xf940fa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -22499,206 +22760,6 @@ ldr x16, [x16, #2944]
 .word 0xaa1603e0
 .word 0xf94012c0
 .word 0xf90047a0
-.word 0xaa1603e0
-.word 0xf9400ac0
-.word 0xf9004ba0
-.word 0x9101a3a0
-.word 0xd2800000
-.word 0xf90037a0
-.word 0xf9003ba0
-.word 0x9101a3a0
-.word 0xf90043a0
-.word 0xf9401fa0
-.word 0xf9400000
-bl _p_328
-.word 0xf9004fa0
-.word 0xf9401fa0
-.word 0xf9400000
-bl _p_329
-.word 0xaa0003e3
-.word 0xf94043a0
-.word 0xf94047a1
-.word 0xf9404ba2
-.word 0xf9404faf
-.word 0xd63f0060
-.word 0x9101a3a0
-.word 0x910163a0
-.word 0xf94037a0
-.word 0xf9002fa0
-.word 0xf9403ba0
-.word 0xf90033a0
-.word 0xf94023b1
-.word 0xf9418231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x93407f40
-.word 0xb9801b21
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54000a09
-.word 0xd37cec00
-.word 0x8b000320
-.word 0x91008000
-.word 0x910163a1
-.word 0xaa0003e1
-.word 0xaa0003e1
-.word 0xf9402fa1
-.word 0xf9000001
-.word 0x91002001
-.word 0xf94033a0
-.word 0xf9000020
-.word 0xd349fc21
-.word 0xd29ffffe
-.word 0xf2a00ffe
-.word 0x8a1e0021
-
-adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
-add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x2, [x16, #16]
-.word 0x8b020021
-.word 0xd280003e
-.word 0x3900003e
-.loc 2 738 0
-.word 0xf94023b1
-.word 0xf941fa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0x11000740
-.word 0xaa0003fa
-.loc 2 735 0
-.word 0xf94023b1
-.word 0xf9421631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1603e0
-.word 0xf9400ec0
-.word 0xaa0003f6
-.word 0xf94027b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023b1
-.word 0xf9424231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1603e0
-.word 0xb5fff4d6
-.loc 2 733 0
-.word 0xf94023b1
-.word 0xf9425a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.word 0x110006e0
-.word 0xaa0003f7
-.word 0xf94027b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023b1
-.word 0xf9428631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.word 0xaa1803e0
-.word 0xb9801b00
-.word 0x6b0002ff
-.word 0x54fff02b
-.loc 2 741 0
-.word 0xf94023b1
-.word 0xf942aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023b1
-.word 0xf942ba31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa9415fb6
-.word 0xa94267b8
-.word 0xf9401bba
-.word 0x910003bf
-.word 0xa8ca7bfd
-.word 0xd65f03c0
-.word 0xd2801b20
-.word 0xaa1103e1
-bl _p_3
-
-Lme_1af:
-.text
-	.align 4
-	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_CopyToEntries_System_Collections_DictionaryEntry___int
-System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_CopyToEntries_System_Collections_DictionaryEntry___int:
-.loc 2 750 0 prologue_end
-.word 0xa9b77bfd
-.word 0x910003fd
-.word 0xa9015fb6
-.word 0xa90267b8
-.word 0xf9001bba
-.word 0xf9001fa0
-.word 0xaa0103f9
-.word 0xaa0203fa
-
-adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
-add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2952]
-.word 0xf90023b0
-.word 0xf9400a11
-.word 0xf90027b1
-.word 0xd2800018
-.word 0xd2800017
-.word 0xd2800016
-.word 0xf94023b1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94027b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023b1
-.word 0xf9407231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fa0
-.word 0xf9400800
-.word 0xf9400800
-.word 0xaa0003f8
-.loc 2 751 0
-.word 0xf94023b1
-.word 0xf9409231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800017
-.word 0x14000079
-.loc 2 753 0
-.word 0xf94023b1
-.word 0xf940aa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xaa1703e0
-.word 0x93407ee0
-.word 0xb9801b01
-.word 0xeb00003f
-.word 0x10000011
-.word 0x54001129
-.word 0xd37df000
-.word 0x8b000300
-.word 0x91008000
-.word 0xf9400000
-.word 0xaa0003f6
-.word 0x14000057
-.loc 2 755 0
-.word 0xf94023b1
-.word 0xf940ee31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xaa1a03e0
-.word 0xaa1603e0
-.word 0xf94012c0
-.word 0xf90043a0
 .word 0xf9401fa0
 .word 0xf9400000
 bl _p_330
@@ -22706,7 +22767,7 @@ bl _p_330
 .word 0xd2800301
 bl _p_1
 .word 0xaa0003e1
-.word 0xf94043a0
+.word 0xf94047a0
 .word 0xf9000820
 .word 0xaa1603e0
 .word 0xf9400ac2
@@ -22723,14 +22784,14 @@ bl _p_331
 .word 0xf9403ba0
 .word 0xf90033a0
 .word 0xf94023b1
-.word 0xf9416e31
+.word 0xf9417a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x93407f40
 .word 0xb9801b21
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54000b49
+.word 0x54000ba9
 .word 0xd37cec00
 .word 0x8b000320
 .word 0x91008000
@@ -22764,35 +22825,38 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 2 756 0
+.loc 2 747 0
 .word 0xf94023b1
-.word 0xf9420e31
+.word 0xf9421a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0x11000740
 .word 0xaa0003fa
-.loc 2 753 0
+.loc 2 744 0
 .word 0xf94023b1
-.word 0xf9422a31
+.word 0xf9423631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
 .word 0xf9400ec0
+.word 0xf90043a0
+.word 0xd50330bf
+.word 0xf94043a0
 .word 0xaa0003f6
 .word 0xf94027b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023b1
-.word 0xf9425631
+.word 0xf9426e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
-.word 0xb5fff436
-.loc 2 751 0
+.word 0xb5fff3d6
+.loc 2 742 0
 .word 0xf94023b1
-.word 0xf9426e31
+.word 0xf9428631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
@@ -22803,21 +22867,21 @@ ldr x2, [x16, #16]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023b1
-.word 0xf9429a31
+.word 0xf942b231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xaa1803e0
 .word 0xb9801b00
 .word 0x6b0002ff
-.word 0x54ffef8b
-.loc 2 759 0
+.word 0x54ffef2b
+.loc 2 750 0
 .word 0xf94023b1
-.word 0xf942be31
+.word 0xf942d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023b1
-.word 0xf942ce31
+.word 0xf942e631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9415fb6
@@ -22826,7 +22890,7 @@ ldr x2, [x16, #16]
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -22835,8 +22899,8 @@ Lme_1b0:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_CopyToObjects_object___int
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_CopyToObjects_object___int:
-.loc 2 768 0 prologue_end
-.word 0xa9b67bfd
+.loc 2 759 0 prologue_end
+.word 0xa9b57bfd
 .word 0x910003fd
 .word 0xa9015fb6
 .word 0xa90267b8
@@ -22847,7 +22911,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Copy
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2960]
+ldr x16, [x16, #2952]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -22868,18 +22932,21 @@ ldr x16, [x16, #2960]
 .word 0xd63f0220
 .word 0xf9401fa0
 .word 0xf9400800
+.word 0xf90043a0
+.word 0xd50330bf
+.word 0xf94043a0
 .word 0xf9400800
 .word 0xaa0003f8
-.loc 2 769 0
+.loc 2 760 0
 .word 0xf94023b1
-.word 0xf9409231
+.word 0xf9409e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800017
-.word 0x14000078
-.loc 2 771 0
+.word 0x1400007b
+.loc 2 762 0
 .word 0xf94023b1
-.word 0xf940aa31
+.word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -22888,44 +22955,44 @@ ldr x16, [x16, #2960]
 .word 0xb9801b01
 .word 0xeb00003f
 .word 0x10000011
-.word 0x54001109
+.word 0x54001169
 .word 0xd37df000
 .word 0x8b000300
 .word 0x91008000
 .word 0xf9400000
 .word 0xaa0003f6
-.word 0x14000056
-.loc 2 773 0
+.word 0x14000059
+.loc 2 764 0
 .word 0xf94023b1
-.word 0xf940ee31
+.word 0xf940fa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1a03e0
 .word 0xaa1603e0
 .word 0xf94012c0
-.word 0xf90047a0
+.word 0xf9004ba0
 .word 0xaa1603e0
 .word 0xf9400ac0
-.word 0xf9004ba0
+.word 0xf9004fa0
 .word 0x9101a3a0
 .word 0xd2800000
 .word 0xf90037a0
 .word 0xf9003ba0
 .word 0x9101a3a0
-.word 0xf90043a0
+.word 0xf90047a0
 .word 0xf9401fa0
 .word 0xf9400000
 bl _p_332
-.word 0xf9004fa0
+.word 0xf90053a0
 .word 0xf9401fa0
 .word 0xf9400000
 bl _p_333
 .word 0xaa0003e3
-.word 0xf94043a0
-.word 0xf94047a1
-.word 0xf9404ba2
-.word 0xf9404faf
+.word 0xf94047a0
+.word 0xf9404ba1
+.word 0xf9404fa2
+.word 0xf94053af
 .word 0xd63f0060
 .word 0x9101a3a0
 .word 0x910163a0
@@ -22934,7 +23001,7 @@ bl _p_333
 .word 0xf9403ba0
 .word 0xf90033a0
 .word 0xf94023b1
-.word 0xf9418231
+.word 0xf9418e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fa0
@@ -22968,35 +23035,38 @@ ldr x3, [x16, #16]
 .word 0xf9400323
 .word 0xf9408070
 .word 0xd63f0200
-.loc 2 774 0
+.loc 2 765 0
 .word 0xf94023b1
-.word 0xf9420a31
+.word 0xf9421631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0x11000740
 .word 0xaa0003fa
-.loc 2 771 0
+.loc 2 762 0
 .word 0xf94023b1
-.word 0xf9422631
+.word 0xf9423231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
 .word 0xf9400ec0
+.word 0xf90043a0
+.word 0xd50330bf
+.word 0xf94043a0
 .word 0xaa0003f6
 .word 0xf94027b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023b1
-.word 0xf9425231
+.word 0xf9426a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
-.word 0xb5fff456
-.loc 2 769 0
+.word 0xb5fff3f6
+.loc 2 760 0
 .word 0xf94023b1
-.word 0xf9426a31
+.word 0xf9428231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
@@ -23007,30 +23077,30 @@ ldr x3, [x16, #16]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023b1
-.word 0xf9429631
+.word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xaa1803e0
 .word 0xb9801b00
 .word 0x6b0002ff
-.word 0x54ffefab
-.loc 2 777 0
+.word 0x54ffef4b
+.loc 2 768 0
 .word 0xf94023b1
-.word 0xf942ba31
+.word 0xf942d231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023b1
-.word 0xf942ca31
+.word 0xf942e231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9415fb6
 .word 0xa94267b8
 .word 0xf9401bba
 .word 0x910003bf
-.word 0xa8ca7bfd
+.word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -23046,7 +23116,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetE
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2968]
+ldr x16, [x16, #2960]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -23106,8 +23176,8 @@ Lme_1b2:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryAddInternal_TKey_INTPTR_int_TValue_REF_bool_bool_TValue_REF_
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryAddInternal_TKey_INTPTR_int_TValue_REF_bool_bool_TValue_REF_:
-.loc 2 818 0 prologue_end
-.word 0xa9ae7bfd
+.loc 2 809 0 prologue_end
+.word 0xa9ad7bfd
 .word 0x910003fd
 .word 0xa90153b3
 .word 0xa9025bb5
@@ -23123,7 +23193,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryA
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2976]
+ldr x16, [x16, #2968]
 .word 0xf9003bb0
 .word 0xf9400a11
 .word 0xf9003fb1
@@ -23150,10 +23220,13 @@ ldr x16, [x16, #2976]
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9400800
+.word 0xf90087a0
+.word 0xd50330bf
+.word 0xf94087a0
 .word 0xf9004fa0
-.loc 2 819 0
+.loc 2 810 0
 .word 0xf9403bb1
-.word 0xf940ba31
+.word 0xf940c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
@@ -23184,36 +23257,36 @@ bl _p_337
 .word 0xf94083af
 .word 0xaa1603e0
 .word 0xd63f00a0
-.loc 2 821 0
+.loc 2 812 0
 .word 0xf9403bb1
-.word 0xf9413a31
+.word 0xf9414631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800014
-.loc 2 822 0
+.loc 2 813 0
 .word 0xf9403bb1
-.word 0xf9414e31
+.word 0xf9415a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x390283bf
-.loc 2 825 0
+.loc 2 816 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9417231
+.word 0xf9417e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x394183a0
 .word 0x340003a0
-.loc 2 826 0
+.loc 2 817 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9419a31
+.word 0xf941a631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404fa0
@@ -23223,7 +23296,7 @@ bl _p_337
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54004be9
+.word 0x54004d89
 .word 0xd37df021
 .word 0x8b010000
 .word 0x91008000
@@ -23236,44 +23309,47 @@ bl _mono_monitor_enter_v4_fast
 .word 0xaa1903e0
 .word 0xaa1803e1
 bl _p_297
-.loc 2 830 0
+.loc 2 821 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9420a31
+.word 0xf9421631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404fa0
-.word 0xf9402ba1
-.word 0xf9400821
+.word 0xf90073a0
+.word 0xf9402ba0
+.word 0xf9400801
+.word 0xd50330bf
+.word 0xf94073a0
 .word 0xeb01001f
 .word 0x54000160
-.loc 2 832 0
+.loc 2 823 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9423e31
+.word 0xf9425631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x940001c9
-.word 0x17ffff8f
-.loc 2 836 0
+.word 0x940001d3
+.word 0x17ffff89
+.loc 2 827 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9426631
+.word 0xf9427e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800013
-.loc 2 837 0
+.loc 2 828 0
 .word 0xf9403bb1
-.word 0xf9427a31
+.word 0xf9429231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404fa0
@@ -23283,27 +23359,27 @@ bl _p_297
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x540044e9
+.word 0x54004629
 .word 0xd37df021
 .word 0x8b010000
 .word 0x91008000
 .word 0xf9400000
 .word 0xaa0003fa
-.word 0x1400010a
-.loc 2 840 0
+.word 0x1400010e
+.loc 2 831 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf942d231
+.word 0xf942ea31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
 .word 0xaa1a03e0
 .word 0xb9802b40
 .word 0x6b0002df
-.word 0x54001d81
+.word 0x54001da1
 .word 0xf9402ba0
 .word 0xf9400c00
 .word 0xf9007ba0
@@ -23320,36 +23396,36 @@ bl _p_338
 .word 0xaa0303e0
 .word 0xaa1503e2
 .word 0xf9400063
-.word 0x928007f0
+.word 0x92800af0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf90073a0
 .word 0xf9403bb1
-.word 0xf9434e31
+.word 0xf9436631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94073a0
-.word 0x34001a00
-.loc 2 845 0
+.word 0x34001a20
+.loc 2 836 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9437631
+.word 0xf9438e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x394163a0
-.word 0x340014a0
-.loc 2 847 0
+.word 0x340014c0
+.loc 2 838 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9439e31
+.word 0xf943b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -23363,13 +23439,13 @@ bl _p_339
 bl _p_340
 .word 0x39400000
 .word 0x34000380
-.loc 2 849 0
+.loc 2 840 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf943ea31
+.word 0xf9440231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -23387,19 +23463,19 @@ ldr x1, [x16, #16]
 .word 0x8b010000
 .word 0xd280003e
 .word 0x3900001e
-.loc 2 850 0
+.loc 2 841 0
 .word 0xf9403bb1
-.word 0xf9443231
+.word 0xf9444a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x1400005d
-.loc 2 853 0
+.word 0x1400005e
+.loc 2 844 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9445631
+.word 0xf9446e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -23410,6 +23486,7 @@ ldr x1, [x16, #16]
 .word 0xaa1a03e0
 .word 0xf9400f40
 .word 0xf9007fa0
+.word 0xd50330bf
 .word 0xf9402ba0
 .word 0xf9400000
 bl _p_341
@@ -23429,25 +23506,25 @@ bl _p_342
 .word 0xaa1603e3
 .word 0xd63f00a0
 .word 0xf9403bb1
-.word 0xf944ce31
+.word 0xf944ea31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94073a0
 .word 0xf90057a0
-.loc 2 854 0
+.loc 2 845 0
 .word 0xf9403bb1
-.word 0xf944e631
+.word 0xf9450231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1303e0
 .word 0xb50002d3
-.loc 2 856 0
+.loc 2 847 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9450e31
+.word 0xf9452a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404fa0
@@ -23458,19 +23535,19 @@ bl _p_342
 .word 0xf9400063
 .word 0xf9408070
 .word 0xd63f0200
-.loc 2 857 0
+.loc 2 848 0
 .word 0xf9403bb1
-.word 0xf9453e31
+.word 0xf9455a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400001a
-.loc 2 860 0
+.loc 2 851 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9456231
+.word 0xf9457e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1303e0
@@ -23491,13 +23568,13 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 2 863 0
+.loc 2 854 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf945c631
+.word 0xf945e231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037a0
@@ -23514,19 +23591,19 @@ ldr x1, [x16, #16]
 .word 0x8b010000
 .word 0xd280003e
 .word 0x3900001e
-.loc 2 864 0
+.loc 2 855 0
 .word 0xf9403bb1
-.word 0xf9460a31
+.word 0xf9462631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000017
-.loc 2 867 0
+.loc 2 858 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9462e31
+.word 0xf9464a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037a1
@@ -23544,48 +23621,40 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 2 869 0
+.loc 2 860 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9468631
+.word 0xf946a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x3902c3bf
-.word 0x940000b6
-.word 0x14000115
-.loc 2 871 0
+.word 0x940000bf
+.word 0x1400011e
+.loc 2 862 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf946b231
+.word 0xf946ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03f3
-.loc 2 837 0
+.loc 2 828 0
 .word 0xf9403bb1
-.word 0xf946ca31
+.word 0xf946e631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf9400f40
+.word 0xf90073a0
+.word 0xd50330bf
+.word 0xf94073a0
 .word 0xaa0003fa
-.word 0xf9403fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9403bb1
-.word 0xf946f631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xb5ffddda
-.loc 2 875 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -23594,32 +23663,43 @@ ldr x2, [x16, #16]
 .word 0xf9471e31
 .word 0xb4000051
 .word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xb5ffdd5a
+.loc 2 866 0
+.word 0xf9403fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403bb1
+.word 0xf9474631
+.word 0xb4000051
+.word 0xd63f0220
 .word 0xf9404fa0
 .word 0xf9400800
 .word 0xb9808ba1
-.word 0xf90087a1
-.word 0xf90083a0
-.word 0xf9400000
+.word 0xf9008fa1
 .word 0xf9008ba0
+.word 0xf9400000
+.word 0xf90093a0
 .word 0xf9402ba0
 .word 0xf9400000
 bl _p_343
 .word 0xaa0003e3
-.word 0xf94083a0
-.word 0xf94087a1
-.word 0xf9408ba2
+.word 0xf9408ba0
+.word 0xf9408fa1
+.word 0xf94093a2
 .word 0xeb03005f
 .word 0x10000011
-.word 0x54001f61
+.word 0x54002021
 .word 0x93407c21
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54001e09
+.word 0x54001ec9
 .word 0xd37df021
 .word 0x8b010000
 .word 0x91008000
-.word 0xf90077a0
+.word 0xf9007fa0
 .word 0xaa1503e0
 .word 0xaa1703e0
 .word 0xaa1603e0
@@ -23630,40 +23710,40 @@ bl _p_343
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54001c29
+.word 0x54001ce9
 .word 0xd37df021
 .word 0x8b010000
 .word 0x91008000
 .word 0xf9400000
-.word 0xf9007fa0
+.word 0xf90087a0
 .word 0xf9402ba0
 .word 0xf9400000
 bl _p_341
 .word 0xd2800601
 .word 0xd2800601
 bl _p_1
-.word 0xf9007ba0
+.word 0xf90083a0
 .word 0xf9402ba0
 .word 0xf9400000
 bl _p_342
 .word 0xaa0003e5
-.word 0xf9407ba0
-.word 0xf9407fa4
-.word 0xf90073a0
+.word 0xf94083a0
+.word 0xf94087a4
+.word 0xf9007ba0
 .word 0xaa1503e1
 .word 0xaa1703e2
 .word 0xaa1603e3
 .word 0xd63f00a0
 .word 0xf9403bb1
-.word 0xf9481e31
+.word 0xf9484631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9400000
 bl _p_344
 .word 0xaa0003e2
-.word 0xf94073a0
-.word 0xf94077a1
+.word 0xf9407ba0
+.word 0xf9407fa1
 .word 0x9100003e
 .word 0xc89fffc0
 .word 0xd349fc21
@@ -23677,19 +23757,22 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 2 878 0
+.loc 2 869 0
 .word 0xf9403bb1
-.word 0xf9487631
+.word 0xf9489e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404fa0
 .word 0xf9401000
+.word 0xf90077a0
+.word 0xd50330bf
+.word 0xf94077a0
 .word 0xb98093a1
 .word 0x93407c21
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54001509
+.word 0x54001569
 .word 0xd37ef421
 .word 0x8b010000
 .word 0x91008000
@@ -23700,15 +23783,18 @@ ldr x2, [x16, #16]
 .word 0xd2800022
 .word 0x2b020021
 .word 0x10000011
-.word 0x54001406
+.word 0x54001466
 .word 0xb9000001
-.loc 2 886 0
+.loc 2 877 0
 .word 0xf9403bb1
-.word 0xf948d631
+.word 0xf9490a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404fa0
 .word 0xf9401000
+.word 0xf90073a0
+.word 0xd50330bf
+.word 0xf94073a0
 .word 0xb98093a1
 .word 0x93407c21
 .word 0xb9801802
@@ -23723,42 +23809,42 @@ ldr x2, [x16, #16]
 .word 0xb9802c21
 .word 0x6b01001f
 .word 0x5400014d
-.loc 2 888 0
+.loc 2 879 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9493631
+.word 0xf9497631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800034
-.loc 2 890 0
+.loc 2 881 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9495a31
+.word 0xf9499a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x94000002
 .word 0x14000027
 .word 0xf9006bbe
-.loc 2 893 0
+.loc 2 884 0
 .word 0xf9403bb1
-.word 0xf9497631
+.word 0xf949b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x394283a0
 .word 0x340002c0
-.loc 2 894 0
+.loc 2 885 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf9499e31
+.word 0xf949de31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404fa0
@@ -23774,35 +23860,35 @@ ldr x2, [x16, #16]
 .word 0x91008000
 .word 0xf9400000
 bl _p_303
-.loc 2 895 0
+.loc 2 886 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf949f231
+.word 0xf94a3231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9406bbe
 .word 0xd61f03c0
-.loc 2 905 0
+.loc 2 896 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf94a1a31
+.word 0xf94a5a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1403e0
 .word 0x340002b4
-.loc 2 907 0
+.loc 2 898 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf94a4231
+.word 0xf94a8231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -23817,13 +23903,13 @@ bl _p_345
 .word 0xf94073a0
 .word 0xf94077a1
 .word 0xd63f0040
-.loc 2 910 0
+.loc 2 901 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf94a9231
+.word 0xf94ad231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037a0
@@ -23840,26 +23926,26 @@ ldr x1, [x16, #16]
 .word 0x8b010000
 .word 0xd280003e
 .word 0x3900001e
-.loc 2 911 0
+.loc 2 902 0
 .word 0xf9403bb1
-.word 0xf94ad631
+.word 0xf94b1631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800020
 .word 0xd2800020
 .word 0x1400000a
-.loc 2 913 0
+.loc 2 904 0
 .word 0xf9403fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403bb1
-.word 0xf94b0231
+.word 0xf94b4231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x3942c3a0
 .word 0xf9403bb1
-.word 0xf94b1631
+.word 0xf94b5631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94153b3
@@ -23867,15 +23953,15 @@ ldr x1, [x16, #16]
 .word 0xa94363b7
 .word 0xa9446bb9
 .word 0x910003bf
-.word 0xa8d27bfd
+.word 0xa8d37bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
-.word 0xd2801ea0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
-.word 0xd2801160
+.word 0xd28012c0
 .word 0xaa1103e1
 bl _p_3
 
@@ -23884,7 +23970,7 @@ Lme_1b3:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_get_Item_TKey_INTPTR
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_get_Item_TKey_INTPTR:
-.loc 2 933 0 prologue_end
+.loc 2 924 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -23892,7 +23978,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_get_
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2984]
+ldr x16, [x16, #2976]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -23932,7 +24018,7 @@ bl _p_346
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x350001c0
-.loc 2 935 0
+.loc 2 926 0
 .word 0xf94013b1
 .word 0xf940c631
 .word 0xb4000051
@@ -23946,7 +24032,7 @@ bl _p_347
 bl _p_348
 .word 0xf94023af
 .word 0xd63f0000
-.loc 2 937 0
+.loc 2 928 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
@@ -23969,7 +24055,7 @@ Lme_1b4:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_set_Item_TKey_INTPTR_TValue_REF
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_set_Item_TKey_INTPTR_TValue_REF:
-.loc 2 941 0 prologue_end
+.loc 2 932 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xf9000bb9
@@ -23979,7 +24065,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_set_
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2992]
+ldr x16, [x16, #2984]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -24011,7 +24097,7 @@ bl _p_349
 bl _p_350
 .word 0xf9402baf
 .word 0xd63f0000
-.loc 2 943 0
+.loc 2 934 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -24035,7 +24121,7 @@ bl _p_351
 .word 0xaa0203e0
 .word 0xaa1903e1
 .word 0xf9400042
-.word 0x92800cf0
+.word 0x92800af0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -24071,7 +24157,7 @@ bl _p_352
 .word 0xf9418a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 944 0
+.loc 2 935 0
 .word 0xf94017b1
 .word 0xf9419a31
 .word 0xb4000051
@@ -24090,7 +24176,49 @@ Lme_1b5:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_ThrowKeyNotFoundException
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_ThrowKeyNotFoundException:
-.loc 2 954 0 prologue_end
+.loc 2 945 0 prologue_end
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf90017af
+
+adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
+add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
+ldr x16, [x16, #2992]
+.word 0xf9000bb0
+.word 0xf9400a11
+.word 0xf9000fb1
+.word 0xf9400bb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb1
+.word 0xf9405231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2809040
+.word 0xf2a04000
+.word 0xd2809040
+.word 0xf2a04000
+bl _mono_create_corlib_exception_0
+bl _p_29
+.word 0xf9400bb1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_1b6:
+.text
+	.align 4
+	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_ThrowKeyNullException
+System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_ThrowKeyNullException:
+.loc 2 951 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf90017af
@@ -24113,55 +24241,13 @@ ldr x16, [x16, #3000]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2808b80
-.word 0xf2a04000
-.word 0xd2808b80
-.word 0xf2a04000
-bl _mono_create_corlib_exception_0
-bl _p_29
-.word 0xf9400bb1
-.word 0xf9407a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910003bf
-.word 0xa8c37bfd
-.word 0xd65f03c0
-
-Lme_1b6:
-.text
-	.align 4
-	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_ThrowKeyNullException
-System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_ThrowKeyNullException:
-.loc 2 960 0 prologue_end
-.word 0xa9bd7bfd
-.word 0x910003fd
-.word 0xf90017af
-
-adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
-add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3008]
-.word 0xf9000bb0
-.word 0xf9400a11
-.word 0xf9000fb1
-.word 0xf9400bb1
-.word 0xf9403231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bb1
-.word 0xf9405231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2924940
-.word 0xd2924940
-bl _p_274
+.word 0xd2937040
+.word 0xd2937040
+bl _p_272
 .word 0xaa0003e1
-.word 0xd28010c0
+.word 0xd2801220
 .word 0xf2a04000
-.word 0xd28010c0
+.word 0xd2801220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_29
@@ -24178,7 +24264,7 @@ Lme_1b7:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_get_Count
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_get_Count:
-.loc 2 978 0 prologue_end
+.loc 2 969 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -24186,7 +24272,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_get_
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3016]
+ldr x16, [x16, #3008]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -24205,7 +24291,7 @@ ldr x16, [x16, #3016]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb9003bbf
-.loc 2 982 0
+.loc 2 973 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
@@ -24226,7 +24312,7 @@ bl _p_353
 .word 0xf9403ba0
 .word 0xf9403fa1
 .word 0xd63f0040
-.loc 2 984 0
+.loc 2 975 0
 .word 0xf94013b1
 .word 0xf940c231
 .word 0xb4000051
@@ -24251,7 +24337,7 @@ bl _p_354
 .word 0x94000002
 .word 0x1400001a
 .word 0xf9002bbe
-.loc 2 989 0
+.loc 2 980 0
 .word 0xf94013b1
 .word 0xf9412231
 .word 0xb4000051
@@ -24270,14 +24356,14 @@ bl _p_355
 .word 0xf94037a2
 .word 0xd2800001
 .word 0xd63f0060
-.loc 2 990 0
+.loc 2 981 0
 .word 0xf94013b1
 .word 0xf9416a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402bbe
 .word 0xd61f03c0
-.loc 2 991 0
+.loc 2 982 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
@@ -24302,15 +24388,15 @@ Lme_1b8:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetCountInternal
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetCountInternal:
-.loc 2 1008 0 prologue_end
-.word 0xa9bc7bfd
+.loc 2 999 0 prologue_end
+.word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xa9016bb9
 .word 0xf90013a0
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3024]
+ldr x16, [x16, #3016]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -24329,14 +24415,14 @@ ldr x16, [x16, #3024]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd280001a
-.loc 2 1011 0
+.loc 2 1002 0
 .word 0xf94017b1
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800019
-.word 0x1400001c
-.loc 2 1013 0
+.word 0x14000022
+.loc 2 1004 0
 .word 0xf94017b1
 .word 0xf9408a31
 .word 0xb4000051
@@ -24344,22 +24430,28 @@ ldr x16, [x16, #3024]
 .word 0xaa1a03e0
 .word 0xf94013a0
 .word 0xf9400800
+.word 0xf90027a0
+.word 0xd50330bf
+.word 0xf94027a0
 .word 0xf9401000
+.word 0xf90023a0
+.word 0xd50330bf
+.word 0xf94023a0
 .word 0xaa1903e1
 .word 0x93407f21
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54000569
+.word 0x54000629
 .word 0xd37ef421
 .word 0x8b010000
 .word 0x91008000
 .word 0xb9800000
 .word 0xb000340
 .word 0xaa0003fa
-.loc 2 1011 0
+.loc 2 1002 0
 .word 0xf94017b1
-.word 0xf940da31
+.word 0xf940f231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -24370,32 +24462,38 @@ ldr x16, [x16, #3024]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017b1
-.word 0xf9410631
+.word 0xf9411e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf94013a0
 .word 0xf9400800
+.word 0xf90027a0
+.word 0xd50330bf
+.word 0xf94027a0
 .word 0xf9401000
+.word 0xf90023a0
+.word 0xd50330bf
+.word 0xf94023a0
 .word 0xb9801800
 .word 0x6b00033f
-.word 0x54fffaeb
-.loc 2 1016 0
+.word 0x54fff96b
+.loc 2 1007 0
 .word 0xf94017b1
-.word 0xf9413231
+.word 0xf9416231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 .word 0xf94017b1
-.word 0xf9414a31
+.word 0xf9417a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
 .word 0x910003bf
-.word 0xa8c47bfd
+.word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -24404,7 +24502,7 @@ Lme_1b9:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetOrAdd_TKey_INTPTR_System_Func_2_TKey_INTPTR_TValue_REF
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetOrAdd_TKey_INTPTR_System_Func_2_TKey_INTPTR_TValue_REF:
-.loc 2 1036 0 prologue_end
+.loc 2 1027 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa90167b8
@@ -24415,7 +24513,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetO
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3032]
+ldr x16, [x16, #3024]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -24448,7 +24546,7 @@ bl _p_356
 bl _p_357
 .word 0xf9402baf
 .word 0xd63f0000
-.loc 2 1037 0
+.loc 2 1028 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -24463,17 +24561,17 @@ bl _p_357
 .word 0xf940de31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2846ca0
-.word 0xd2846ca0
-bl _p_274
+.word 0xd2861b80
+.word 0xd2861b80
+bl _p_272
 .word 0xaa0003e1
-.word 0xd28010c0
+.word 0xd2801220
 .word 0xf2a04000
-.word 0xd28010c0
+.word 0xd2801220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_29
-.loc 2 1039 0
+.loc 2 1030 0
 .word 0xf9401bb1
 .word 0xf9411631
 .word 0xb4000051
@@ -24490,7 +24588,7 @@ bl _p_358
 .word 0xaa0203e0
 .word 0xaa1903e1
 .word 0xf9400042
-.word 0x92800cf0
+.word 0x92800af0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
@@ -24503,7 +24601,7 @@ bl _p_358
 .word 0xf9403fa0
 .word 0xf9003ba0
 .word 0xaa0003f8
-.loc 2 1042 0
+.loc 2 1033 0
 .word 0xf9401bb1
 .word 0xf9418a31
 .word 0xb4000051
@@ -24533,7 +24631,7 @@ bl _p_359
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0x35000580
-.loc 2 1044 0
+.loc 2 1035 0
 .word 0xf9401bb1
 .word 0xf941fe31
 .word 0xb4000051
@@ -24577,7 +24675,7 @@ bl _p_360
 .word 0xf9429a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 1046 0
+.loc 2 1037 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -24602,7 +24700,7 @@ Lme_1ba:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_IDictionary_TKey_TValue_Add_TKey_INTPTR_TValue_REF
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_IDictionary_TKey_TValue_Add_TKey_INTPTR_TValue_REF:
-.loc 2 1308 0 prologue_end
+.loc 2 1299 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -24611,7 +24709,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Syst
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3040]
+ldr x16, [x16, #3032]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -24650,24 +24748,24 @@ bl _p_361
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0x35000220
-.loc 2 1310 0
+.loc 2 1301 0
 .word 0xf94017b1
 .word 0xf940c631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29eef80
+.word 0xd29f3380
 .word 0xf2a00020
-.word 0xd29eef80
+.word 0xd29f3380
 .word 0xf2a00020
-bl _p_274
+bl _p_272
 .word 0xaa0003e1
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xf2a04000
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_29
-.loc 2 1312 0
+.loc 2 1303 0
 .word 0xf94017b1
 .word 0xf9410631
 .word 0xb4000051
@@ -24685,7 +24783,7 @@ Lme_1bb:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_IDictionary_TKey_TValue_Remove_TKey_INTPTR
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_IDictionary_TKey_TValue_Remove_TKey_INTPTR:
-.loc 2 1329 0 prologue_end
+.loc 2 1320 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -24693,7 +24791,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Syst
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3048]
+ldr x16, [x16, #3040]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -24745,14 +24843,14 @@ Lme_1bc:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_get_Values
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_get_Values:
-.loc 2 1363 0 prologue_end
+.loc 2 1354 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3056]
+ldr x16, [x16, #3048]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -24796,7 +24894,7 @@ Lme_1bd:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue_Add_System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue_Add_System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF:
-.loc 2 1396 0 prologue_end
+.loc 2 1387 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -24805,7 +24903,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Syst
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3064]
+ldr x16, [x16, #3056]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -24868,11 +24966,11 @@ bl _p_367
 .word 0xf9402ba3
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0x928009f0
+.word 0x92800ef0
 .word 0xf2bffff0
 .word 0xf8706870
 .word 0xd63f0200
-.loc 2 1397 0
+.loc 2 1388 0
 .word 0xf94017b1
 .word 0xf9413631
 .word 0xb4000051
@@ -24890,7 +24988,7 @@ Lme_1be:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue_Contains_System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue_Contains_System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF:
-.loc 2 1411 0 prologue_end
+.loc 2 1402 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -24899,7 +24997,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Syst
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3072]
+ldr x16, [x16, #3064]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -24957,7 +25055,7 @@ bl _p_370
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0x35000100
-.loc 2 1413 0
+.loc 2 1404 0
 .word 0xf94017b1
 .word 0xf9411231
 .word 0xb4000051
@@ -24965,7 +25063,7 @@ bl _p_370
 .word 0xd2800000
 .word 0xd2800000
 .word 0x14000031
-.loc 2 1415 0
+.loc 2 1406 0
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -25005,7 +25103,7 @@ bl _p_372
 .word 0xf94037a3
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf9404470
+.word 0xf9404c70
 .word 0xd63f0200
 .word 0x53001c00
 .word 0xf9002ba0
@@ -25027,14 +25125,14 @@ Lme_1bf:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue_get_IsReadOnly
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue_get_IsReadOnly:
-.loc 2 1427 0 prologue_end
+.loc 2 1418 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3080]
+ldr x16, [x16, #3072]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -25065,7 +25163,7 @@ Lme_1c0:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue_Remove_System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue_Remove_System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF:
-.loc 2 1443 0 prologue_end
+.loc 2 1434 0 prologue_end
 .word 0xa9b67bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -25074,7 +25172,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Syst
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3088]
+ldr x16, [x16, #3080]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -25113,26 +25211,26 @@ bl _p_374
 .word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29efa40
+.word 0xd29f3e40
 .word 0xf2a00020
-.word 0xd29efa40
+.word 0xd29f3e40
 .word 0xf2a00020
-bl _p_274
+bl _p_272
 .word 0xf9002ba0
-.word 0xd29efd80
+.word 0xd29f4180
 .word 0xf2a00020
-.word 0xd29efd80
+.word 0xd29f4180
 .word 0xf2a00020
-bl _p_274
+bl _p_272
 .word 0xaa0003e2
 .word 0xf9402ba1
-.word 0xd28010c0
+.word 0xd2801220
 .word 0xf2a04000
-.word 0xd28010c0
+.word 0xd2801220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_29
-.loc 2 1446 0
+.loc 2 1437 0
 .word 0xf94017b1
 .word 0xf9411231
 .word 0xb4000051
@@ -25211,14 +25309,14 @@ Lme_1c1:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_IEnumerable_GetEnumerator
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_IEnumerable_GetEnumerator:
-.loc 2 1464 0 prologue_end
+.loc 2 1455 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3096]
+ldr x16, [x16, #3088]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -25262,14 +25360,14 @@ Lme_1c2:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_IDictionary_GetEnumerator
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_IDictionary_GetEnumerator:
-.loc 2 1529 0 prologue_end
+.loc 2 1520 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3104]
+ldr x16, [x16, #3096]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -25320,14 +25418,14 @@ Lme_1c3:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_IDictionary_get_Keys
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_IDictionary_get_Keys:
-.loc 2 1566 0 prologue_end
+.loc 2 1557 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3112]
+ldr x16, [x16, #3104]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -25371,7 +25469,7 @@ Lme_1c4:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_IDictionary_get_Item_object
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_IDictionary_get_Item_object:
-.loc 2 1620 0 prologue_end
+.loc 2 1611 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -25380,7 +25478,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Syst
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3120]
+ldr x16, [x16, #3112]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -25412,7 +25510,7 @@ bl _p_381
 bl _p_382
 .word 0xf9402baf
 .word 0xd63f0000
-.loc 2 1623 0
+.loc 2 1614 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
@@ -25473,14 +25571,14 @@ bl _p_386
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0x340000e0
-.loc 2 1625 0
+.loc 2 1616 0
 .word 0xf94013b1
 .word 0xf9419a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fa0
 .word 0x1400000b
-.loc 2 1628 0
+.loc 2 1619 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
@@ -25499,7 +25597,7 @@ bl _p_386
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_3
 
@@ -25508,7 +25606,7 @@ Lme_1c5:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_IDictionary_set_Item_object_object
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_IDictionary_set_Item_object_object:
-.loc 2 1632 0 prologue_end
+.loc 2 1623 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -25518,7 +25616,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Syst
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3128]
+ldr x16, [x16, #3120]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -25549,7 +25647,7 @@ bl _p_387
 bl _p_388
 .word 0xf94033af
 .word 0xd63f0000
-.loc 2 1634 0
+.loc 2 1625 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -25571,19 +25669,19 @@ bl _p_384
 .word 0xf940ee31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29f0940
+.word 0xd29f4d40
 .word 0xf2a00020
-.word 0xd29f0940
+.word 0xd29f4d40
 .word 0xf2a00020
-bl _p_274
+bl _p_272
 .word 0xaa0003e1
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xf2a04000
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_29
-.loc 2 1635 0
+.loc 2 1626 0
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -25601,19 +25699,19 @@ bl _p_384
 .word 0xf9416231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29f16c0
+.word 0xd29f5ac0
 .word 0xf2a00020
-.word 0xd29f16c0
+.word 0xd29f5ac0
 .word 0xf2a00020
-bl _p_274
+bl _p_272
 .word 0xaa0003e1
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xf2a04000
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_29
-.loc 2 1637 0
+.loc 2 1628 0
 .word 0xf94017b1
 .word 0xf941a231
 .word 0xb4000051
@@ -25661,7 +25759,7 @@ bl _p_393
 .word 0xf94037a1
 .word 0xf9403ba2
 .word 0xd63f0060
-.loc 2 1638 0
+.loc 2 1629 0
 .word 0xf94017b1
 .word 0xf9425e31
 .word 0xb4000051
@@ -25674,7 +25772,7 @@ bl _p_393
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_3
 
@@ -25683,8 +25781,8 @@ Lme_1c6:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_ICollection_CopyTo_System_Array_int
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_ICollection_CopyTo_System_Array_int:
-.loc 2 1665 0 prologue_end
-.word 0xa9b27bfd
+.loc 2 1656 0 prologue_end
+.word 0xa9b17bfd
 .word 0x910003fd
 .word 0xa90153b3
 .word 0xa9025bb5
@@ -25696,7 +25794,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Syst
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3136]
+ldr x16, [x16, #3128]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -25729,17 +25827,17 @@ ldr x16, [x16, #3136]
 .word 0xf940ae31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2860860
-.word 0xd2860860
-bl _p_274
+.word 0xd2843460
+.word 0xd2843460
+bl _p_272
 .word 0xaa0003e1
-.word 0xd28010c0
+.word 0xd2801220
 .word 0xf2a04000
-.word 0xd28010c0
+.word 0xd2801220
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_29
-.loc 2 1666 0
+.loc 2 1657 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -25760,24 +25858,24 @@ bl _p_29
 .word 0xf9412631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28538c0
-.word 0xd28538c0
-bl _p_274
+.word 0xd28472e0
+.word 0xd28472e0
+bl _p_272
 .word 0xf9006ba0
-.word 0xd29eb620
+.word 0xd29efa20
 .word 0xf2a00020
-.word 0xd29eb620
+.word 0xd29efa20
 .word 0xf2a00020
-bl _p_274
+bl _p_272
 .word 0xaa0003e2
 .word 0xf9406ba1
-.word 0xd28010e0
+.word 0xd2801240
 .word 0xf2a04000
-.word 0xd28010e0
+.word 0xd2801240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_29
-.loc 2 1668 0
+.loc 2 1659 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -25787,7 +25885,7 @@ bl _p_29
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb90073bf
-.loc 2 1671 0
+.loc 2 1662 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
@@ -25798,49 +25896,55 @@ bl _p_29
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0x9101c3a1
-.word 0xf9006fa1
+.word 0xf90073a1
 .word 0xf940001e
-.word 0xf9006ba0
+.word 0xf9006fa0
 .word 0xf9402ba0
 .word 0xf9400000
 bl _p_394
 .word 0xaa0003e2
-.word 0xf9406ba0
-.word 0xf9406fa1
+.word 0xf9406fa0
+.word 0xf94073a1
 .word 0xd63f0040
-.loc 2 1672 0
+.loc 2 1663 0
 .word 0xf9402fb1
 .word 0xf941ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
 .word 0xf9400800
+.word 0xf9006ba0
+.word 0xd50330bf
+.word 0xf9406ba0
 .word 0xaa0003f8
-.loc 2 1674 0
+.loc 2 1665 0
 .word 0xf9402fb1
-.word 0xf9420a31
+.word 0xf9421631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800017
-.loc 2 1676 0
+.loc 2 1667 0
 .word 0xf9402fb1
-.word 0xf9421e31
+.word 0xf9422a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800013
-.word 0x1400001f
-.loc 2 1678 0
+.word 0x14000022
+.loc 2 1669 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9424631
+.word 0xf9425231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xaa1803e0
 .word 0xf9401300
+.word 0xf9006ba0
+.word 0xd50330bf
+.word 0xf9406ba0
 .word 0xaa1303e1
 .word 0x93407e61
 .word 0xb9801802
@@ -25853,9 +25957,9 @@ bl _p_394
 .word 0xb9800000
 .word 0xb0002e0
 .word 0xaa0003f7
-.loc 2 1676 0
+.loc 2 1667 0
 .word 0xf9402fb1
-.word 0xf9429231
+.word 0xf942aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1303e0
@@ -25866,7 +25970,7 @@ bl _p_394
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf942be31
+.word 0xf942d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1303e0
@@ -25878,21 +25982,21 @@ bl _p_394
 .word 0xaa1703e0
 .word 0xd2800000
 .word 0x6b1f02ff
-.word 0x54fffa2a
-.loc 2 1681 0
+.word 0x54fff9ca
+.loc 2 1672 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9430631
+.word 0xf9431e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xb9801b20
 .word 0xf9006ba0
 .word 0xf9402fb1
-.word 0xf9432231
+.word 0xf9433a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9406ba0
@@ -25905,34 +26009,34 @@ bl _p_394
 .word 0xd2800000
 .word 0x6b1f02ff
 .word 0x540002aa
+.loc 2 1674 0
+.word 0xf94033b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf9438231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd29f03a0
+.word 0xf2a00020
+.word 0xd29f03a0
+.word 0xf2a00020
+bl _p_272
+.word 0xaa0003e1
+.word 0xd2801200
+.word 0xf2a04000
+.word 0xd2801200
+.word 0xf2a04000
+bl _mono_create_corlib_exception_1
+bl _p_29
 .loc 2 1683 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9436a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd29ebfa0
-.word 0xf2a00020
-.word 0xd29ebfa0
-.word 0xf2a00020
-bl _p_274
-.word 0xaa0003e1
-.word 0xd28010a0
-.word 0xf2a04000
-.word 0xd28010a0
-.word 0xf2a04000
-bl _mono_create_corlib_exception_1
-bl _p_29
-.loc 2 1692 0
-.word 0xf94033b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fb1
-.word 0xf943ba31
+.word 0xf943d231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9003fb9
@@ -25944,20 +26048,20 @@ bl _p_395
 .word 0xf9403fa0
 bl _p_384
 .word 0xaa0003f6
-.loc 2 1693 0
+.loc 2 1684 0
 .word 0xf9402fb1
-.word 0xf943ee31
+.word 0xf9440631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
 .word 0xb4000396
-.loc 2 1695 0
+.loc 2 1686 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9441631
+.word 0xf9442e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -25973,20 +26077,20 @@ bl _p_396
 .word 0xaa1603e1
 .word 0xaa1a03e2
 .word 0xd63f0060
-.loc 2 1696 0
+.loc 2 1687 0
 .word 0xf9402fb1
-.word 0xf9445a31
+.word 0xf9447231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x940000b0
 .word 0x140000c8
-.loc 2 1699 0
+.loc 2 1690 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9448231
+.word 0xf9449a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf90043b9
@@ -26013,27 +26117,27 @@ bl _p_396
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #3144]
+ldr x1, [x16, #3136]
 .word 0xeb01001f
 .word 0x54000060
 .word 0xf90047bf
 .word 0x14000001
 .word 0xf94047a0
 .word 0xaa0003f5
-.loc 2 1700 0
+.loc 2 1691 0
 .word 0xf9402fb1
-.word 0xf9450a31
+.word 0xf9452231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1503e0
 .word 0xb4000395
-.loc 2 1702 0
+.loc 2 1693 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9453231
+.word 0xf9454a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -26049,20 +26153,20 @@ bl _p_397
 .word 0xaa1503e1
 .word 0xaa1a03e2
 .word 0xd63f0060
-.loc 2 1703 0
+.loc 2 1694 0
 .word 0xf9402fb1
-.word 0xf9457631
+.word 0xf9458e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x94000069
 .word 0x14000081
-.loc 2 1706 0
+.loc 2 1697 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9459e31
+.word 0xf945b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9004bb9
@@ -26089,13 +26193,13 @@ bl _p_397
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #3152]
+ldr x1, [x16, #3144]
 .word 0xeb01001f
 .word 0x54000141
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #3160]
+ldr x1, [x16, #3152]
 .word 0xf94057a0
 .word 0xeb01001f
 .word 0x54000080
@@ -26104,20 +26208,20 @@ ldr x1, [x16, #3160]
 .word 0x14000001
 .word 0xf9404fa0
 .word 0xaa0003f4
-.loc 2 1707 0
+.loc 2 1698 0
 .word 0xf9402fb1
-.word 0xf9464231
+.word 0xf9465a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1403e0
 .word 0xb4000394
-.loc 2 1709 0
+.loc 2 1700 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9466a31
+.word 0xf9468231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -26133,43 +26237,43 @@ bl _p_398
 .word 0xaa1403e1
 .word 0xaa1a03e2
 .word 0xd63f0060
-.loc 2 1710 0
+.loc 2 1701 0
 .word 0xf9402fb1
-.word 0xf946ae31
+.word 0xf946c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x9400001b
 .word 0x14000033
-.loc 2 1713 0
+.loc 2 1704 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf946d631
+.word 0xf946ee31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29f24c0
+.word 0xd29f68c0
 .word 0xf2a00020
-.word 0xd29f24c0
+.word 0xd29f68c0
 .word 0xf2a00020
-bl _p_274
+bl _p_272
 .word 0xf9006ba0
-.word 0xd2860860
-.word 0xd2860860
-bl _p_274
+.word 0xd2843460
+.word 0xd2843460
+bl _p_272
 .word 0xaa0003e2
 .word 0xf9406ba1
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xf2a04000
-.word 0xd28010a0
+.word 0xd2801200
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
 bl _p_29
 .word 0xf90067be
-.loc 2 1717 0
+.loc 2 1708 0
 .word 0xf9402fb1
-.word 0xf9472e31
+.word 0xf9474631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
@@ -26186,24 +26290,24 @@ bl _p_399
 .word 0xf9406fa2
 .word 0xd2800001
 .word 0xd63f0060
-.loc 2 1718 0
+.loc 2 1709 0
 .word 0xf9402fb1
-.word 0xf9477631
+.word 0xf9478e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94067be
 .word 0xd61f03c0
-.loc 2 1719 0
+.loc 2 1710 0
 .word 0xf94033b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf9479e31
+.word 0xf947b631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402fb1
-.word 0xf947ae31
+.word 0xf947c631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94153b3
@@ -26211,9 +26315,9 @@ bl _p_399
 .word 0xa94363b7
 .word 0xa9446bb9
 .word 0x910003bf
-.word 0xa8ce7bfd
+.word 0xa8cf7bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -26222,14 +26326,14 @@ Lme_1c7:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_ICollection_get_IsSynchronized
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_ICollection_get_IsSynchronized:
-.loc 2 1731 0 prologue_end
+.loc 2 1722 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3168]
+ldr x16, [x16, #3160]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -26260,14 +26364,14 @@ Lme_1c8:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_ICollection_get_SyncRoot
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_ICollection_get_SyncRoot:
-.loc 2 1743 0 prologue_end
+.loc 2 1734 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3176]
+ldr x16, [x16, #3168]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -26283,15 +26387,15 @@ ldr x16, [x16, #3176]
 .word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29f45e0
+.word 0xd29f89e0
 .word 0xf2a00020
-.word 0xd29f45e0
+.word 0xd29f89e0
 .word 0xf2a00020
-bl _p_274
+bl _p_272
 .word 0xaa0003e1
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
-.word 0xd2801da0
+.word 0xd2801f00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_29
@@ -26308,7 +26412,7 @@ Lme_1c9:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GrowTable_System_Collections_Concurrent_ConcurrentDictionary_2_Tables_TKey_INTPTR_TValue_REF
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GrowTable_System_Collections_Concurrent_ConcurrentDictionary_2_Tables_TKey_INTPTR_TValue_REF:
-.loc 2 1758 0 prologue_end
+.loc 2 1749 0 prologue_end
 .word 0xa9aa7bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -26317,7 +26421,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Grow
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3184]
+ldr x16, [x16, #3176]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -26347,7 +26451,7 @@ ldr x16, [x16, #3184]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb9004bbf
-.loc 2 1762 0
+.loc 2 1753 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -26360,74 +26464,80 @@ ldr x16, [x16, #3184]
 .word 0xd2800001
 .word 0xd2800021
 .word 0x910123a1
-.word 0xf90077a1
+.word 0xf9007ba1
 .word 0xf940001e
-.word 0xf90073a0
+.word 0xf90077a0
 .word 0xf94013a0
 .word 0xf9400000
 bl _p_400
 .word 0xaa0003e4
-.word 0xf94073a0
-.word 0xf94077a3
+.word 0xf94077a0
+.word 0xf9407ba3
 .word 0xd2800001
 .word 0xd2800022
 .word 0xd63f0080
-.loc 2 1765 0
+.loc 2 1756 0
 .word 0xf9401bb1
 .word 0xf9410231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017a0
-.word 0xf94013a1
-.word 0xf9400821
+.word 0xf90073a0
+.word 0xf94013a0
+.word 0xf9400801
+.word 0xd50330bf
+.word 0xf94073a0
 .word 0xeb01001f
 .word 0x54000160
-.loc 2 1770 0
+.loc 2 1761 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9413631
+.word 0xf9414231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x94000325
-.word 0x1400033d
-.loc 2 1774 0
+.word 0x9400032c
+.word 0x14000344
+.loc 2 1765 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9415e31
+.word 0xf9416a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd280001a
-.loc 2 1775 0
+.loc 2 1766 0
 .word 0xf9401bb1
-.word 0xf9417231
+.word 0xf9417e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800019
-.word 0x14000020
-.loc 2 1777 0
+.word 0x14000023
+.loc 2 1768 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9419a31
+.word 0xf941a631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf94017a0
 .word 0xf9401000
+.word 0xf90073a0
+.word 0xd50330bf
+.word 0xf94073a0
 .word 0xaa1903e1
 .word 0x93407f21
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54006669
+.word 0x540066e9
 .word 0xd37ef421
 .word 0x8b010000
 .word 0x91008000
@@ -26435,9 +26545,9 @@ bl _p_400
 .word 0x93407c00
 .word 0x8b000340
 .word 0xaa0003fa
-.loc 2 1775 0
+.loc 2 1766 0
 .word 0xf9401bb1
-.word 0xf941ea31
+.word 0xf9420231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -26448,22 +26558,25 @@ bl _p_400
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9421631
+.word 0xf9422e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf94017a0
 .word 0xf9401000
+.word 0xf90073a0
+.word 0xd50330bf
+.word 0xf94073a0
 .word 0xb9801800
 .word 0x6b00033f
-.word 0x54fffa8b
-.loc 2 1783 0
+.word 0x54fff9cb
+.loc 2 1774 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9424e31
+.word 0xf9427231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -26477,13 +26590,13 @@ bl _p_400
 .word 0x93407c00
 .word 0xeb00035f
 .word 0x5400060a
-.loc 2 1785 0
+.loc 2 1776 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9429a31
+.word 0xf942be31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013a0
@@ -26492,9 +26605,9 @@ bl _p_400
 .word 0xb9802c21
 .word 0x531f7821
 .word 0xb9002c01
-.loc 2 1786 0
+.loc 2 1777 0
 .word 0xf9401bb1
-.word 0xf942c231
+.word 0xf942e631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013a0
@@ -26502,13 +26615,13 @@ bl _p_400
 .word 0xd2800001
 .word 0x6b1f001f
 .word 0x540001ea
-.loc 2 1788 0
+.loc 2 1779 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf942f631
+.word 0xf9431a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013a0
@@ -26517,40 +26630,40 @@ bl _p_400
 .word 0xd29ffffe
 .word 0xf2affffe
 .word 0xb9002c1e
-.loc 2 1790 0
+.loc 2 1781 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9432e31
+.word 0xf9435231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x940002a7
-.word 0x140002bf
-.loc 2 1796 0
+.word 0x940002a8
+.word 0x140002c0
+.loc 2 1787 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9435631
+.word 0xf9437a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb90053bf
-.loc 2 1797 0
+.loc 2 1788 0
 .word 0xf9401bb1
-.word 0xf9436a31
+.word 0xf9438e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x390163bf
-.loc 2 1803 0
+.loc 2 1794 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9438e31
+.word 0xf943b231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017a0
@@ -26563,38 +26676,38 @@ bl _p_401
 .word 0xd2800021
 .word 0x2b010000
 .word 0x10000011
-.word 0x540055c6
+.word 0x540055e6
 .word 0xb90053a0
 .word 0x1400000f
-.loc 2 1809 0
+.loc 2 1800 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf943e231
+.word 0xf9440631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb98053a0
 .word 0xd2800041
 .word 0x2b010000
 .word 0x10000011
-.word 0x540053e6
+.word 0x54005406
 .word 0xb90053a0
-.loc 2 1807 0
+.loc 2 1798 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9441a31
+.word 0xf9443e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb98053a0
 .word 0xd2800061
 .word 0xf100003f
 .word 0x10000011
-.word 0x54005280
+.word 0x540052a0
 .word 0x929ffff0
 .word 0xf2b00010
 .word 0xeb10001f
@@ -26606,7 +26719,7 @@ bl _p_401
 .word 0x8a110210
 .word 0xf100061f
 .word 0x10000011
-.word 0x540050a0
+.word 0x540050c0
 .word 0x1ac10c1e
 .word 0x1b0183c0
 .word 0x34fffae0
@@ -26614,7 +26727,7 @@ bl _p_401
 .word 0xd28000a1
 .word 0xf100003f
 .word 0x10000011
-.word 0x54005000
+.word 0x54005020
 .word 0x929ffff0
 .word 0xf2b00010
 .word 0xeb10001f
@@ -26626,7 +26739,7 @@ bl _p_401
 .word 0x8a110210
 .word 0xf100061f
 .word 0x10000011
-.word 0x54004e20
+.word 0x54004e40
 .word 0x1ac10c1e
 .word 0x1b0183c0
 .word 0x34fff860
@@ -26634,7 +26747,7 @@ bl _p_401
 .word 0xd28000e1
 .word 0xf100003f
 .word 0x10000011
-.word 0x54004d80
+.word 0x54004da0
 .word 0x929ffff0
 .word 0xf2b00010
 .word 0xeb10001f
@@ -26646,17 +26759,17 @@ bl _p_401
 .word 0x8a110210
 .word 0xf100061f
 .word 0x10000011
-.word 0x54004ba0
+.word 0x54004bc0
 .word 0x1ac10c1e
 .word 0x1b0183c0
 .word 0x34fff5e0
-.loc 2 1814 0
+.loc 2 1805 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9452a31
+.word 0xf9454e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb98053a0
@@ -26666,44 +26779,44 @@ bl _p_401
 .word 0xf2affdfe
 .word 0x6b1e001f
 .word 0x5400016d
-.loc 2 1816 0
+.loc 2 1807 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9456631
+.word 0xf9458a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd280003e
 .word 0x390163be
-.loc 2 1819 0
+.loc 2 1810 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9458e31
+.word 0xf945b231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000018
 .word 0xf90057a0
 .word 0xf94057a0
-.loc 2 1820 0
+.loc 2 1811 0
 .word 0xf9401bb1
-.word 0xf945aa31
+.word 0xf945ce31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 1822 0
+.loc 2 1813 0
 .word 0xf9401bb1
-.word 0xf945ba31
+.word 0xf945de31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd280003e
 .word 0x390163be
-.loc 2 1823 0
+.loc 2 1814 0
 .word 0xf9401bb1
-.word 0xf945d231
+.word 0xf945f631
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_402
@@ -26713,32 +26826,32 @@ bl _p_402
 .word 0xf9406fa0
 bl _p_29
 .word 0x14000001
-.loc 2 1825 0
+.loc 2 1816 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9460e31
+.word 0xf9463231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x394163a0
 .word 0x340002c0
-.loc 2 1827 0
+.loc 2 1818 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9463631
+.word 0xf9465a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd29ffffe
 .word 0xf2affdfe
 .word 0xb90053be
-.loc 2 1834 0
+.loc 2 1825 0
 .word 0xf9401bb1
-.word 0xf9465231
+.word 0xf9467631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013a0
@@ -26747,13 +26860,13 @@ bl _p_29
 .word 0xd29ffffe
 .word 0xf2affffe
 .word 0xb9002c1e
-.loc 2 1838 0
+.loc 2 1829 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9468a31
+.word 0xf946ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013a0
@@ -26775,17 +26888,17 @@ bl _p_400
 .word 0xf9407ba3
 .word 0xd2800021
 .word 0xd63f0080
-.loc 2 1840 0
+.loc 2 1831 0
 .word 0xf9401bb1
-.word 0xf946e631
+.word 0xf9470a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017a0
 .word 0xf9400c00
 .word 0xf90033a0
-.loc 2 1843 0
+.loc 2 1834 0
 .word 0xf9401bb1
-.word 0xf9470231
+.word 0xf9472631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013a0
@@ -26798,13 +26911,13 @@ bl _p_400
 .word 0xd280801e
 .word 0x6b1e001f
 .word 0x54000baa
-.loc 2 1845 0
+.loc 2 1836 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9474a31
+.word 0xf9476e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017a0
@@ -26814,12 +26927,12 @@ bl _p_400
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2824]
+ldr x0, [x16, #2816]
 bl _p_8
 .word 0xf90033a0
-.loc 2 1846 0
+.loc 2 1837 0
 .word 0xf9401bb1
-.word 0xf9477e31
+.word 0xf947a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017a0
@@ -26833,9 +26946,9 @@ bl _p_8
 .word 0xd2800001
 .word 0xd2800003
 bl _p_403
-.loc 2 1847 0
+.loc 2 1838 0
 .word 0xf9401bb1
-.word 0xf947ba31
+.word 0xf947de31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017a0
@@ -26843,13 +26956,13 @@ bl _p_403
 .word 0xb9801800
 .word 0xb9007ba0
 .word 0x14000027
-.loc 2 1849 0
+.loc 2 1840 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf947ee31
+.word 0xf9481231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
@@ -26859,14 +26972,14 @@ bl _p_403
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2832]
+ldr x0, [x16, #2824]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_1
 .word 0xf90077a0
-bl _p_275
+bl _p_273
 .word 0xf9401bb1
-.word 0xf9482e31
+.word 0xf9485231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94073a1
@@ -26876,9 +26989,9 @@ bl _p_275
 .word 0xf9400063
 .word 0xf9408070
 .word 0xd63f0200
-.loc 2 1847 0
+.loc 2 1838 0
 .word 0xf9401bb1
-.word 0xf9485a31
+.word 0xf9487e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb9807ba0
@@ -26889,7 +27002,7 @@ bl _p_275
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9488631
+.word 0xf948aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb9807ba0
@@ -26897,13 +27010,13 @@ bl _p_275
 .word 0xb9801821
 .word 0x6b01001f
 .word 0x54fff9cb
-.loc 2 1853 0
+.loc 2 1844 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf948ba31
+.word 0xf948de31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb98053a0
@@ -26914,9 +27027,9 @@ bl _p_404
 .word 0xf94073a1
 bl _p_8
 .word 0xf90037a0
-.loc 2 1854 0
+.loc 2 1845 0
 .word 0xf9401bb1
-.word 0xf948ea31
+.word 0xf9490e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
@@ -26924,23 +27037,23 @@ bl _p_8
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2840]
+ldr x0, [x16, #2832]
 bl _p_8
 .word 0xf9003ba0
-.loc 2 1857 0
+.loc 2 1848 0
 .word 0xf9401bb1
-.word 0xf9491631
+.word 0xf9493a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb90083bf
-.word 0x140000ae
-.loc 2 1859 0
+.word 0x140000af
+.loc 2 1850 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9493e31
+.word 0xf9496231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94017a0
@@ -26950,28 +27063,29 @@ bl _p_8
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54002969
+.word 0x54002989
 .word 0xd37df021
 .word 0x8b010000
 .word 0x91008000
 .word 0xf9400000
 .word 0xf90047a0
-.word 0x14000083
-.loc 2 1862 0
+.word 0x14000084
+.loc 2 1853 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9499631
+.word 0xf949ba31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94047a0
 .word 0xf9400c00
 .word 0xf90073a0
-.loc 2 1864 0
+.word 0xd50330bf
+.loc 2 1855 0
 .word 0xf9401bb1
-.word 0xf949b231
+.word 0xf949da31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94047a0
@@ -27002,9 +27116,9 @@ bl _p_406
 .word 0xf940a7a4
 .word 0xf940abaf
 .word 0xd63f00a0
-.loc 2 1866 0
+.loc 2 1857 0
 .word 0xf9401bb1
-.word 0xf94a3231
+.word 0xf94a5a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037a0
@@ -27051,7 +27165,7 @@ bl _p_408
 .word 0xf9007ba0
 .word 0xd63f00a0
 .word 0xf9401bb1
-.word 0xf94aee31
+.word 0xf94b1631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94077a1
@@ -27061,9 +27175,9 @@ bl _p_408
 .word 0xf9400063
 .word 0xf9408070
 .word 0xd63f0200
-.loc 2 1870 0
+.loc 2 1861 0
 .word 0xf9401bb1
-.word 0xf94b1a31
+.word 0xf94b4231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403ba0
@@ -27085,31 +27199,31 @@ bl _p_408
 .word 0x10000011
 .word 0x54001886
 .word 0xb9000001
-.loc 2 1873 0
-.word 0xf9401bb1
-.word 0xf94b7631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94073a0
-.word 0xf90047a0
-.loc 2 1860 0
-.word 0xf9401fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
+.loc 2 1864 0
 .word 0xf9401bb1
 .word 0xf94b9e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94047a0
-.word 0xb5ffeea0
-.loc 2 1857 0
+.word 0xf94073a0
+.word 0xf90047a0
+.loc 2 1851 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
 .word 0xf94bc631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94047a0
+.word 0xb5ffee80
+.loc 2 1848 0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf94bee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb98083a0
@@ -27120,7 +27234,7 @@ bl _p_408
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf94bf231
+.word 0xf94c1a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb98083a0
@@ -27128,14 +27242,14 @@ bl _p_408
 .word 0xf9400821
 .word 0xb9801821
 .word 0x6b01001f
-.word 0x54ffe8cb
-.loc 2 1878 0
+.word 0x54ffe8ab
+.loc 2 1869 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf94c2a31
+.word 0xf94c5231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013a0
@@ -27182,15 +27296,15 @@ bl _p_317
 .word 0x93407c00
 .word 0xf9008fa0
 .word 0xf9401bb1
-.word 0xf94ce631
+.word 0xf94d0e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9408ba0
 .word 0xf9408fa1
 .word 0xb9002c01
-.loc 2 1881 0
+.loc 2 1872 0
 .word 0xf9401bb1
-.word 0xf94d0231
+.word 0xf94d2a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013a0
@@ -27219,7 +27333,7 @@ bl _p_410
 .word 0xf90073a0
 .word 0xd63f0080
 .word 0xf9401bb1
-.word 0xf94d7631
+.word 0xf94d9e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94077a1
@@ -27238,17 +27352,17 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 2 1882 0
+.loc 2 1873 0
 .word 0xf9401bb1
-.word 0xf94dc231
+.word 0xf94dea31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x94000002
 .word 0x1400001a
 .word 0xf9006bbe
-.loc 2 1886 0
+.loc 2 1877 0
 .word 0xf9401bb1
-.word 0xf94dde31
+.word 0xf94e0631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013a0
@@ -27265,37 +27379,37 @@ bl _p_411
 .word 0xf94077a2
 .word 0xd2800001
 .word 0xd63f0060
-.loc 2 1887 0
+.loc 2 1878 0
 .word 0xf9401bb1
-.word 0xf94e2631
+.word 0xf94e4e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9406bbe
 .word 0xd61f03c0
-.loc 2 1888 0
+.loc 2 1879 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf94e4e31
+.word 0xf94e7631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf94e5e31
+.word 0xf94e8631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9416bb9
 .word 0x910003bf
 .word 0xa8d67bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
-.word 0xd28014e0
+.word 0xd2801640
 .word 0xaa1103e1
 bl _p_3
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -27304,7 +27418,7 @@ Lme_1ca:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetBucket_int_int
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetBucket_int_int:
-.loc 2 1895 0 prologue_end
+.loc 2 1886 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9001faf
@@ -27313,7 +27427,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetB
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3192]
+ldr x16, [x16, #3184]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -27368,7 +27482,7 @@ ldr x16, [x16, #3192]
 .word 0x1ac10c1e
 .word 0x1b0183c0
 .word 0xf90023a0
-.loc 2 1897 0
+.loc 2 1888 0
 .word 0xf94013b1
 .word 0xf9410631
 .word 0xb4000051
@@ -27381,10 +27495,10 @@ ldr x16, [x16, #3192]
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
-.word 0xd28014e0
+.word 0xd2801640
 .word 0xaa1103e1
 bl _p_3
 
@@ -27393,7 +27507,7 @@ Lme_1cb:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetBucketAndLockNo_int_int__int__int_int
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetBucketAndLockNo_int_int__int__int_int:
-.loc 2 1905 0 prologue_end
+.loc 2 1896 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000bb7
@@ -27406,7 +27520,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetB
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3200]
+ldr x16, [x16, #3192]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -27462,7 +27576,7 @@ ldr x16, [x16, #3200]
 .word 0x1ac10c1e
 .word 0x1b0183c0
 .word 0xb90002e0
-.loc 2 1906 0
+.loc 2 1897 0
 .word 0xf9401fb1
 .word 0xf9411a31
 .word 0xb4000051
@@ -27505,7 +27619,7 @@ ldr x16, [x16, #3200]
 .word 0x1ac20c3e
 .word 0x1b0287c1
 .word 0xb9000001
-.loc 2 1910 0
+.loc 2 1901 0
 .word 0xf9401fb1
 .word 0xf941c231
 .word 0xb4000051
@@ -27518,10 +27632,10 @@ ldr x16, [x16, #3200]
 .word 0x910003bf
 .word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801ea0
+.word 0xd2802000
 .word 0xaa1103e1
 bl _p_3
-.word 0xd28014e0
+.word 0xd2801640
 .word 0xaa1103e1
 bl _p_3
 
@@ -27530,14 +27644,14 @@ Lme_1cc:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_get_DefaultConcurrencyLevel
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_get_DefaultConcurrencyLevel:
-.loc 2 1917 0 prologue_end
+.loc 2 1908 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf90017af
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3208]
+ldr x16, [x16, #3200]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -27574,7 +27688,7 @@ Lme_1cd:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_AcquireAllLocks_int_
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_AcquireAllLocks_int_:
-.loc 2 1927 0 prologue_end
+.loc 2 1918 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -27583,7 +27697,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Acqu
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3216]
+ldr x16, [x16, #3208]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -27602,7 +27716,7 @@ ldr x16, [x16, #3216]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #3224]
+ldr x0, [x16, #3216]
 .word 0xf9400001
 .word 0xaa0103e0
 .word 0xf940003e
@@ -27614,8 +27728,8 @@ bl _p_413
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-.word 0x34000200
-.loc 2 1929 0
+.word 0x34000260
+.loc 2 1920 0
 .word 0xf94013b1
 .word 0xf940a631
 .word 0xb4000051
@@ -27623,22 +27737,25 @@ bl _p_413
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #3224]
+ldr x0, [x16, #3216]
 .word 0xf9400002
 .word 0xf9400fa0
 .word 0xf9400800
+.word 0xf90023a0
+.word 0xd50330bf
+.word 0xf94023a0
 .word 0xf9400800
 .word 0xb9801801
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_414
-.loc 2 1933 0
+.loc 2 1924 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf940f231
+.word 0xf940fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
@@ -27646,25 +27763,28 @@ bl _p_414
 .word 0xd2800021
 .word 0xaa1a03e1
 .word 0xf940001e
-.word 0xf9002ba0
+.word 0xf9002fa0
 .word 0xf9400fa0
 .word 0xf9400000
 bl _p_415
 .word 0xaa0003e4
-.word 0xf9402ba0
+.word 0xf9402fa0
 .word 0xd2800001
 .word 0xd2800022
 .word 0xaa1a03e3
 .word 0xd63f0080
-.loc 2 1937 0
+.loc 2 1928 0
 .word 0xf94013b1
-.word 0xf9413e31
+.word 0xf9414a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-.word 0xd2800021
-.word 0xf9400fa1
-.word 0xf9400821
+.word 0xf9002ba0
+.word 0xd2800020
+.word 0xf9400fa0
+.word 0xf9400801
+.word 0xd50330bf
+.word 0xf9402ba0
 .word 0xf9400c21
 .word 0xb9801821
 .word 0xf90027a1
@@ -27680,13 +27800,13 @@ bl _p_415
 .word 0xd2800021
 .word 0xaa1a03e3
 .word 0xd63f0080
-.loc 2 1939 0
+.loc 2 1930 0
 .word 0xf94013b1
-.word 0xf9419a31
+.word 0xf941b231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013b1
-.word 0xf941aa31
+.word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bba
@@ -27699,8 +27819,8 @@ Lme_1ce:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_AcquireLocks_int_int_int_
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_AcquireLocks_int_int_int_:
-.loc 2 1949 0 prologue_end
-.word 0xa9b77bfd
+.loc 2 1940 0 prologue_end
+.word 0xa9b67bfd
 .word 0x910003fd
 .word 0xa9015bb5
 .word 0xa90263b7
@@ -27712,7 +27832,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Acqu
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3232]
+ldr x16, [x16, #3224]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -27733,33 +27853,36 @@ ldr x16, [x16, #3232]
 .word 0xd63f0220
 .word 0xf9401fa0
 .word 0xf9400800
+.word 0xf9004ba0
+.word 0xd50330bf
+.word 0xf9404ba0
 .word 0xf9400c00
 .word 0xaa0003f8
-.loc 2 1951 0
+.loc 2 1942 0
 .word 0xf9402bb1
-.word 0xf9409631
+.word 0xf940a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb98043a0
 .word 0xaa0003f7
 .word 0x14000058
-.loc 2 1953 0
+.loc 2 1944 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402bb1
-.word 0xf940c231
+.word 0xf940ce31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x3901a3bf
-.loc 2 1956 0
+.loc 2 1947 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402bb1
-.word 0xf940e631
+.word 0xf940f231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -27781,32 +27904,32 @@ bl _mono_monitor_enter_v4_fast
 .word 0xaa1603e0
 .word 0xaa1503e1
 bl _p_297
-.loc 2 1957 0
+.loc 2 1948 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402bb1
-.word 0xf9415231
+.word 0xf9415e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x94000002
 .word 0x1400001f
 .word 0xf90043be
-.loc 2 1960 0
+.loc 2 1951 0
 .word 0xf9402bb1
-.word 0xf9416e31
+.word 0xf9417a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x3941a3a0
 .word 0x340001c0
-.loc 2 1962 0
+.loc 2 1953 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402bb1
-.word 0xf9419631
+.word 0xf941a231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027a0
@@ -27814,24 +27937,24 @@ bl _p_297
 .word 0xb9800021
 .word 0x11000421
 .word 0xb9000001
-.loc 2 1964 0
+.loc 2 1955 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402bb1
-.word 0xf941ca31
+.word 0xf941d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94043be
 .word 0xd61f03c0
-.loc 2 1951 0
+.loc 2 1942 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402bb1
-.word 0xf941f231
+.word 0xf941fe31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
@@ -27842,33 +27965,33 @@ bl _p_297
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402bb1
-.word 0xf9421e31
+.word 0xf9422a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xaa1a03e0
 .word 0x6b1a02ff
 .word 0x54fff3cb
-.loc 2 1966 0
+.loc 2 1957 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402bb1
-.word 0xf9424e31
+.word 0xf9425a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402bb1
-.word 0xf9425e31
+.word 0xf9426a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9415bb5
 .word 0xa94263b7
 .word 0xf9401bba
 .word 0x910003bf
-.word 0xa8c97bfd
+.word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -27877,8 +28000,8 @@ Lme_1cf:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_ReleaseLocks_int_int
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_ReleaseLocks_int_int:
-.loc 2 1975 0 prologue_end
-.word 0xa9bb7bfd
+.loc 2 1966 0 prologue_end
+.word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000bb8
 .word 0xf9000fba
@@ -27888,7 +28011,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Rele
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3240]
+ldr x16, [x16, #3232]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -27907,14 +28030,17 @@ ldr x16, [x16, #3240]
 .word 0xd63f0220
 .word 0xb9802ba0
 .word 0xaa0003f8
-.word 0x1400001a
-.loc 2 1977 0
+.word 0x1400001d
+.loc 2 1968 0
 .word 0xf9401bb1
 .word 0xf9408231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94013a0
 .word 0xf9400800
+.word 0xf9002ba0
+.word 0xd50330bf
+.word 0xf9402ba0
 .word 0xf9400c00
 .word 0xaa1803e1
 .word 0x93407f01
@@ -27927,9 +28053,9 @@ ldr x16, [x16, #3240]
 .word 0x91008000
 .word 0xf9400000
 bl _p_303
-.loc 2 1975 0
+.loc 2 1966 0
 .word 0xf9401bb1
-.word 0xf940ca31
+.word 0xf940d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
@@ -27940,28 +28066,28 @@ bl _p_303
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf940f631
+.word 0xf9410231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa1a03e0
 .word 0x6b1a031f
-.word 0x54fffb8b
-.loc 2 1979 0
+.word 0x54fffb2b
+.loc 2 1970 0
 .word 0xf9401bb1
-.word 0xf9411631
+.word 0xf9412231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401bb1
-.word 0xf9412631
+.word 0xf9413231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400bb8
 .word 0xf9400fba
 .word 0x910003bf
-.word 0xa8c57bfd
+.word 0xa8c67bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -27970,7 +28096,7 @@ Lme_1d0:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetKeys
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetKeys:
-.loc 2 1986 0 prologue_end
+.loc 2 1977 0 prologue_end
 .word 0xa9b67bfd
 .word 0x910003fd
 .word 0xa9015bb5
@@ -27980,7 +28106,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetK
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3248]
+ldr x16, [x16, #3240]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -28002,7 +28128,7 @@ ldr x16, [x16, #3248]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb90063bf
-.loc 2 1989 0
+.loc 2 1980 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -28023,7 +28149,7 @@ bl _p_416
 .word 0xf9404ba0
 .word 0xf9404fa1
 .word 0xd63f0040
-.loc 2 1991 0
+.loc 2 1982 0
 .word 0xf94027b1
 .word 0xf940d631
 .word 0xb4000051
@@ -28039,7 +28165,7 @@ bl _p_417
 .word 0xd63f0020
 .word 0x93407c00
 .word 0xf90043a0
-.loc 2 1992 0
+.loc 2 1983 0
 .word 0xf94027b1
 .word 0xf9411231
 .word 0xb4000051
@@ -28057,13 +28183,13 @@ bl _p_417
 .word 0xf9414631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801e80
+.word 0xd2801fe0
 .word 0xf2a04000
-.word 0xd2801e80
+.word 0xd2801fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_29
-.loc 2 1994 0
+.loc 2 1985 0
 .word 0xaa1503e0
 .word 0xf94027b1
 .word 0xf9417231
@@ -28096,14 +28222,14 @@ bl _p_419
 .word 0xd63f0220
 .word 0xf94043a0
 .word 0xaa0003fa
-.loc 2 1995 0
+.loc 2 1986 0
 .word 0xf94027b1
 .word 0xf941ee31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800019
-.word 0x1400004e
-.loc 2 1997 0
+.word 0x14000054
+.loc 2 1988 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -28114,32 +28240,35 @@ bl _p_419
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf9400800
+.word 0xf90043a0
+.word 0xd50330bf
+.word 0xf94043a0
 .word 0xf9400800
 .word 0xaa1903e1
 .word 0x93407f21
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x54001329
+.word 0x540013e9
 .word 0xd37df021
 .word 0x8b010000
 .word 0x91008000
 .word 0xf9400000
 .word 0xaa0003f8
-.word 0x14000022
-.loc 2 2000 0
+.word 0x14000025
+.loc 2 1991 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf9427231
+.word 0xf9427e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1803e0
 .word 0xf9401300
-.word 0xf90043a0
+.word 0xf90047a0
 .word 0xf94023a0
 .word 0xf9400000
 bl _p_418
@@ -28151,35 +28280,38 @@ bl _p_339
 .word 0xf9400000
 bl _p_420
 .word 0xaa0003e2
-.word 0xf94043a1
+.word 0xf94047a1
 .word 0xaa1a03e0
 .word 0xd63f0040
-.loc 2 2001 0
+.loc 2 1992 0
 .word 0xf94027b1
-.word 0xf942ca31
+.word 0xf942d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xf9400f00
+.word 0xf90043a0
+.word 0xd50330bf
+.word 0xf94043a0
 .word 0xaa0003f8
-.loc 2 1998 0
+.loc 2 1989 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf942f631
+.word 0xf9430e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-.word 0xb5fffad8
-.loc 2 1995 0
+.word 0xb5fffa78
+.loc 2 1986 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf9431e31
+.word 0xf9433631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -28190,23 +28322,26 @@ bl _p_420
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf9434a31
+.word 0xf9436231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf94023a0
 .word 0xf9400800
+.word 0xf90043a0
+.word 0xd50330bf
+.word 0xf94043a0
 .word 0xf9400800
 .word 0xb9801800
 .word 0x6b00033f
-.word 0x54fff4ab
-.loc 2 2005 0
+.word 0x54fff38b
+.loc 2 1996 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf9438631
+.word 0xf943aa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -28226,7 +28361,7 @@ bl _p_422
 .word 0xaa1a03e1
 .word 0xd63f0040
 .word 0xf94027b1
-.word 0xf943d631
+.word 0xf943fa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94043a0
@@ -28234,9 +28369,9 @@ bl _p_422
 .word 0x94000002
 .word 0x1400001a
 .word 0xf9003fbe
-.loc 2 2009 0
+.loc 2 2000 0
 .word 0xf94027b1
-.word 0xf943fa31
+.word 0xf9441e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -28253,26 +28388,26 @@ bl _p_423
 .word 0xf94047a2
 .word 0xd2800001
 .word 0xd63f0060
-.loc 2 2010 0
+.loc 2 2001 0
 .word 0xf94027b1
-.word 0xf9444231
+.word 0xf9446631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403fbe
 .word 0xd61f03c0
-.loc 2 2011 0
+.loc 2 2002 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf9446a31
+.word 0xf9448e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xaa1703e0
 .word 0xf94027b1
-.word 0xf9448231
+.word 0xf944a631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9415bb5
@@ -28281,7 +28416,7 @@ bl _p_423
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -28290,7 +28425,7 @@ Lme_1d1:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetValues
 System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetValues:
-.loc 2 2018 0 prologue_end
+.loc 2 2009 0 prologue_end
 .word 0xa9b67bfd
 .word 0x910003fd
 .word 0xa9015bb5
@@ -28300,7 +28435,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetV
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3256]
+ldr x16, [x16, #3248]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -28322,7 +28457,7 @@ ldr x16, [x16, #3256]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xb90063bf
-.loc 2 2021 0
+.loc 2 2012 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -28343,7 +28478,7 @@ bl _p_424
 .word 0xf9404ba0
 .word 0xf9404fa1
 .word 0xd63f0040
-.loc 2 2023 0
+.loc 2 2014 0
 .word 0xf94027b1
 .word 0xf940d631
 .word 0xb4000051
@@ -28359,7 +28494,7 @@ bl _p_425
 .word 0xd63f0020
 .word 0x93407c00
 .word 0xf90043a0
-.loc 2 2024 0
+.loc 2 2015 0
 .word 0xf94027b1
 .word 0xf9411231
 .word 0xb4000051
@@ -28377,13 +28512,13 @@ bl _p_425
 .word 0xf9414631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd2801e80
+.word 0xd2801fe0
 .word 0xf2a04000
-.word 0xd2801e80
+.word 0xd2801fe0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_0
 bl _p_29
-.loc 2 2026 0
+.loc 2 2017 0
 .word 0xaa1503e0
 .word 0xf94027b1
 .word 0xf9417231
@@ -28410,14 +28545,14 @@ bl _p_427
 .word 0xd63f0220
 .word 0xf94043a0
 .word 0xaa0003fa
-.loc 2 2027 0
+.loc 2 2018 0
 .word 0xf94027b1
 .word 0xf941d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800019
-.word 0x1400004a
-.loc 2 2029 0
+.word 0x14000050
+.loc 2 2020 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -28428,68 +28563,74 @@ bl _p_427
 .word 0xd63f0220
 .word 0xf94023a0
 .word 0xf9400800
+.word 0xf90043a0
+.word 0xd50330bf
+.word 0xf94043a0
 .word 0xf9400800
 .word 0xaa1903e1
 .word 0x93407f21
 .word 0xb9801802
 .word 0xeb01005f
 .word 0x10000011
-.word 0x540011e9
+.word 0x540012a9
 .word 0xd37df021
 .word 0x8b010000
 .word 0x91008000
 .word 0xf9400000
 .word 0xaa0003f8
-.word 0x1400001e
-.loc 2 2032 0
+.word 0x14000021
+.loc 2 2023 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf9425a31
+.word 0xf9426631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1803e0
 .word 0xf9400b00
-.word 0xf90043a0
+.word 0xf90047a0
 .word 0xf94023a0
 .word 0xf9400000
 bl _p_426
 .word 0x3980b410
 .word 0xb5000050
 bl _p_339
-.word 0xf94043a1
+.word 0xf94047a1
 .word 0xaa1a03e0
 .word 0xf940035e
 bl _p_428
-.loc 2 2033 0
+.loc 2 2024 0
 .word 0xf94027b1
-.word 0xf942a231
+.word 0xf942ae31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xf9400f00
+.word 0xf90043a0
+.word 0xd50330bf
+.word 0xf94043a0
 .word 0xaa0003f8
-.loc 2 2030 0
+.loc 2 2021 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf942ce31
+.word 0xf942e631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-.word 0xb5fffb58
-.loc 2 2027 0
+.word 0xb5fffaf8
+.loc 2 2018 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf942f631
+.word 0xf9430e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
@@ -28500,23 +28641,26 @@ bl _p_428
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf9432231
+.word 0xf9433a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf94023a0
 .word 0xf9400800
+.word 0xf90043a0
+.word 0xd50330bf
+.word 0xf94043a0
 .word 0xf9400800
 .word 0xb9801800
 .word 0x6b00033f
-.word 0x54fff52b
-.loc 2 2037 0
+.word 0x54fff40b
+.loc 2 2028 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf9435e31
+.word 0xf9438231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
@@ -28530,7 +28674,7 @@ bl _p_1
 .word 0xaa1a03e1
 bl _p_430
 .word 0xf94027b1
-.word 0xf9439631
+.word 0xf943ba31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94043a0
@@ -28538,9 +28682,9 @@ bl _p_430
 .word 0x94000002
 .word 0x1400001a
 .word 0xf9003fbe
-.loc 2 2041 0
+.loc 2 2032 0
 .word 0xf94027b1
-.word 0xf943ba31
+.word 0xf943de31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
@@ -28557,26 +28701,26 @@ bl _p_431
 .word 0xf94047a2
 .word 0xd2800001
 .word 0xd63f0060
-.loc 2 2042 0
+.loc 2 2033 0
 .word 0xf94027b1
-.word 0xf9440231
+.word 0xf9442631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403fbe
 .word 0xd61f03c0
-.loc 2 2043 0
+.loc 2 2034 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94027b1
-.word 0xf9442a31
+.word 0xf9444e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xaa1703e0
 .word 0xf94027b1
-.word 0xf9444231
+.word 0xf9446631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9415bb5
@@ -28585,7 +28729,7 @@ bl _p_431
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -28601,7 +28745,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF__cct
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3264]
+ldr x16, [x16, #3256]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -28657,7 +28801,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_Tables_TKey_INTPTR_TValue_R
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3272]
+ldr x16, [x16, #3264]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -28766,7 +28910,7 @@ LDIFF_SYM3=ut_end - ut_472
 	.align 4
 	.no_dead_strip System_Array_InternalEnumerator_1_T_INST__ctor_System_Array
 System_Array_InternalEnumerator_1_T_INST__ctor_System_Array:
-.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/mcs/class/corlib/System/Array.cs"
+.file 3 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.4.0.214/src/mono/mcs/class/corlib/System/Array.cs"
 .loc 3 215 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
@@ -28777,7 +28921,7 @@ System_Array_InternalEnumerator_1_T_INST__ctor_System_Array:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3280]
+ldr x16, [x16, #3272]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -28850,7 +28994,7 @@ System_Array_InternalEnumerator_1_T_INST_Dispose:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3288]
+ldr x16, [x16, #3280]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -28903,7 +29047,7 @@ System_Array_InternalEnumerator_1_T_INST_MoveNext:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3296]
+ldr x16, [x16, #3288]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -29008,7 +29152,7 @@ System_Array_InternalEnumerator_1_T_INST_get_Current:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3304]
+ldr x16, [x16, #3296]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -29037,13 +29181,13 @@ ldr x16, [x16, #3304]
 .word 0xf9408a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd299fc60
-.word 0xd299fc60
-bl _p_274
+.word 0xd285d000
+.word 0xd285d000
+bl _p_272
 .word 0xaa0003e1
-.word 0xd2801c00
+.word 0xd2801d60
 .word 0xf2a04000
-.word 0xd2801c00
+.word 0xd2801d60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_29
@@ -29065,13 +29209,13 @@ bl _p_29
 .word 0xf940f231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd29a0720
-.word 0xd29a0720
-bl _p_274
+.word 0xd285dac0
+.word 0xd285dac0
+bl _p_272
 .word 0xaa0003e1
-.word 0xd2801c00
+.word 0xd2801d60
 .word 0xf2a04000
-.word 0xd2801c00
+.word 0xd2801d60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_29
@@ -29155,7 +29299,7 @@ System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3312]
+ldr x16, [x16, #3304]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -29207,7 +29351,7 @@ System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Curr
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3320]
+ldr x16, [x16, #3312]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -29303,7 +29447,7 @@ System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3328]
+ldr x16, [x16, #3320]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -29398,7 +29542,7 @@ wrapper_delegate_invoke__Module_invoke_int_intptr_byte___int_intptr_byte___int:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3336]
+ldr x16, [x16, #3328]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -29423,7 +29567,7 @@ ldr x16, [x16, #3336]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -29638,7 +29782,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -29661,7 +29805,7 @@ wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___intptr_b
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3344]
+ldr x16, [x16, #3336]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -29819,7 +29963,7 @@ wrapper_delegate_end_invoke__Module_end_invoke_int__this___IAsyncResult_System_I
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3352]
+ldr x16, [x16, #3344]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -29888,7 +30032,7 @@ bl _p_443
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x2, [x16, #3360]
+ldr x2, [x16, #3352]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x540002c1
@@ -29913,7 +30057,7 @@ ldr x2, [x16, #3360]
 .word 0x910003bf
 .word 0xa8c77bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_3
 
@@ -29942,7 +30086,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_sqlite3_vfs_SQLiteDe
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3368]
+ldr x16, [x16, #3360]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -29999,7 +30143,7 @@ bl _p_444
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x4, [x16, #3376]
+ldr x4, [x16, #3368]
 .word 0xeb04007f
 .word 0x10000011
 .word 0x54000901
@@ -30016,7 +30160,7 @@ ldr x4, [x16, #3376]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9401bb1
@@ -30075,7 +30219,7 @@ bl _p_445
 .word 0x910003bf
 .word 0xa8ce7bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_3
 
@@ -30098,7 +30242,7 @@ wrapper_delegate_invoke__Module_invoke_bound_int_object_intptr_byte___int_intptr
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3384]
+ldr x16, [x16, #3376]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -30123,7 +30267,7 @@ ldr x16, [x16, #3384]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402fb1
@@ -30298,7 +30442,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -30321,7 +30465,7 @@ wrapper_delegate_invoke__Module_invoke_void_intptr_int_intptr_intptr_int_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3392]
+ldr x16, [x16, #3384]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -30345,7 +30489,7 @@ ldr x16, [x16, #3392]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -30530,7 +30674,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -30553,7 +30697,7 @@ wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___intptr_i
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3400]
+ldr x16, [x16, #3392]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -30711,7 +30855,7 @@ wrapper_delegate_end_invoke__Module_end_invoke_void__this___IAsyncResult_System_
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3408]
+ldr x16, [x16, #3400]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -30809,7 +30953,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callba
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3416]
+ldr x16, [x16, #3408]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -30857,7 +31001,7 @@ ldr x0, [x16, #112]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x5, [x16, #3376]
+ldr x5, [x16, #3368]
 .word 0xeb05009f
 .word 0x10000011
 .word 0x54000661
@@ -30871,7 +31015,7 @@ ldr x5, [x16, #3376]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9401bb1
@@ -30912,7 +31056,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8ce7bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_3
 
@@ -30935,7 +31079,7 @@ wrapper_delegate_invoke__Module_invoke_bound_void_object_intptr_int_intptr_intpt
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3424]
+ldr x16, [x16, #3416]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -30959,7 +31103,7 @@ ldr x16, [x16, #3424]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -31114,7 +31258,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -31135,7 +31279,7 @@ wrapper_delegate_invoke__Module_invoke_void_intptr_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3432]
+ldr x16, [x16, #3424]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -31159,7 +31303,7 @@ ldr x16, [x16, #3432]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -31333,7 +31477,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -31354,7 +31498,7 @@ wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___intptr_A
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3440]
+ldr x16, [x16, #3432]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -31488,7 +31632,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callba
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3448]
+ldr x16, [x16, #3440]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -31534,7 +31678,7 @@ ldr x0, [x16, #112]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x3, [x16, #3376]
+ldr x3, [x16, #3368]
 .word 0xeb03005f
 .word 0x10000011
 .word 0x54000661
@@ -31548,7 +31692,7 @@ ldr x3, [x16, #3376]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -31589,7 +31733,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8cd7bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_3
 
@@ -31610,7 +31754,7 @@ wrapper_delegate_invoke__Module_invoke_bound_void_object_intptr_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3456]
+ldr x16, [x16, #3448]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -31634,7 +31778,7 @@ ldr x16, [x16, #3456]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -31782,7 +31926,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8c87bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -31791,6 +31935,138 @@ Lme_1ec:
 	.align 4
 	.no_dead_strip wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_scalar_function_wrapper_aot_native_object_intptr_int_intptr
 wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_scalar_function_wrapper_aot_native_object_intptr_int_intptr:
+.loc 1 1 0
+.word 0xa9b27bfd
+.word 0x910003fd
+.word 0x1000001e
+.word 0xf9002fbe
+.word 0xa90653b3
+.word 0xa9075bb5
+.word 0xa90863b7
+.word 0xa9096bb9
+.word 0xa90a73bb
+.word 0xf9005bbd
+.word 0x910003f1
+.word 0xf9005fb1
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+.word 0xf90017a3
+
+adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
+add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
+ldr x16, [x16, #3456]
+.word 0xf9001bb0
+.word 0xf9400a11
+.word 0xf9001fb1
+.word 0xf90063bf
+.word 0xf90067bf
+.word 0x390343bf
+
+adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
+add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
+ldr x0, [x16, #112]
+.word 0xd63f0000
+.word 0xaa0003f5
+.word 0x910123a0
+.word 0xf94002a1
+.word 0xf90027a1
+.word 0xf90002a0
+.word 0xf9401bb1
+.word 0xf9409631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf940b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x390343bf
+.word 0xf9401bb1
+.word 0xf940ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fa0
+.word 0xb98023a1
+.word 0xf94017a2
+.word 0xf9400ba3
+.word 0xf9400064
+.word 0x3940b085
+.word 0xeb1f00bf
+.word 0x10000011
+.word 0x54000761
+.word 0xf9400084
+.word 0xf9400084
+
+adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
+add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
+ldr x5, [x16, #3368]
+.word 0xeb05009f
+.word 0x10000011
+.word 0x54000661
+.word 0x91004064
+.word 0xf9400863
+.word 0xd63f0060
+.word 0xf9401bb1
+.word 0xf9412a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
+add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
+ldr x0, [x16, #2752]
+.word 0xb9400000
+.word 0x34000260
+.word 0xf9401bb1
+.word 0xf9414e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9415e31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_255
+.word 0xaa0003f4
+.word 0xaa1403e0
+.word 0xaa1403e1
+.word 0xaa0003f3
+.word 0xb4000094
+.word 0xaa1303e0
+.word 0xaa1303e0
+bl _p_29
+.word 0xaa1303e0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf941a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910123a0
+.word 0xf94027a0
+.word 0xf90002a0
+.word 0xf9401bb1
+.word 0xf941c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94653b3
+.word 0xf9403bb5
+.word 0x910003bf
+.word 0xa8ce7bfd
+.word 0xd65f03c0
+.word 0xd2801d40
+.word 0xaa1103e1
+bl _p_3
+
+Lme_1ed:
+.text
+	.align 4
+	.no_dead_strip wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_agg_function_step_wrapper_aot_native_object_intptr_int_intptr
+wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_agg_function_step_wrapper_aot_native_object_intptr_int_intptr:
 .loc 1 1 0
 .word 0xa9b27bfd
 .word 0x910003fd
@@ -31859,7 +32135,7 @@ ldr x0, [x16, #112]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x5, [x16, #3376]
+ldr x5, [x16, #3368]
 .word 0xeb05009f
 .word 0x10000011
 .word 0x54000661
@@ -31873,7 +32149,7 @@ ldr x5, [x16, #3376]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9401bb1
@@ -31914,139 +32190,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8ce7bfd
 .word 0xd65f03c0
-.word 0xd2801be0
-.word 0xaa1103e1
-bl _p_3
-
-Lme_1ed:
-.text
-	.align 4
-	.no_dead_strip wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_agg_function_step_wrapper_aot_native_object_intptr_int_intptr
-wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_agg_function_step_wrapper_aot_native_object_intptr_int_intptr:
-.loc 1 1 0
-.word 0xa9b27bfd
-.word 0x910003fd
-.word 0x1000001e
-.word 0xf9002fbe
-.word 0xa90653b3
-.word 0xa9075bb5
-.word 0xa90863b7
-.word 0xa9096bb9
-.word 0xa90a73bb
-.word 0xf9005bbd
-.word 0x910003f1
-.word 0xf9005fb1
-.word 0xf9000ba0
-.word 0xf9000fa1
-.word 0xf90013a2
-.word 0xf90017a3
-
-adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
-add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3472]
-.word 0xf9001bb0
-.word 0xf9400a11
-.word 0xf9001fb1
-.word 0xf90063bf
-.word 0xf90067bf
-.word 0x390343bf
-
-adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
-add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #112]
-.word 0xd63f0000
-.word 0xaa0003f5
-.word 0x910123a0
-.word 0xf94002a1
-.word 0xf90027a1
-.word 0xf90002a0
-.word 0xf9401bb1
-.word 0xf9409631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf940b631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x390343bf
-.word 0xf9401bb1
-.word 0xf940ca31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fa0
-.word 0xb98023a1
-.word 0xf94017a2
-.word 0xf9400ba3
-.word 0xf9400064
-.word 0x3940b085
-.word 0xeb1f00bf
-.word 0x10000011
-.word 0x54000761
-.word 0xf9400084
-.word 0xf9400084
-
-adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
-add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x5, [x16, #3376]
-.word 0xeb05009f
-.word 0x10000011
-.word 0x54000661
-.word 0x91004064
-.word 0xf9400863
-.word 0xd63f0060
-.word 0xf9401bb1
-.word 0xf9412a31
-.word 0xb4000051
-.word 0xd63f0220
-
-adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
-add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
-.word 0xb9400000
-.word 0x34000260
-.word 0xf9401bb1
-.word 0xf9414e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9415e31
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_255
-.word 0xaa0003f4
-.word 0xaa1403e0
-.word 0xaa1403e1
-.word 0xaa0003f3
-.word 0xb4000094
-.word 0xaa1303e0
-.word 0xaa1303e0
-bl _p_29
-.word 0xaa1303e0
-.word 0xf9401fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf941a631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0x910123a0
-.word 0xf94027a0
-.word 0xf90002a0
-.word 0xf9401bb1
-.word 0xf941c231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94653b3
-.word 0xf9403bb5
-.word 0x910003bf
-.word 0xa8ce7bfd
-.word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_3
 
@@ -32073,7 +32217,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callba
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3480]
+ldr x16, [x16, #3472]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -32119,7 +32263,7 @@ ldr x0, [x16, #112]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x3, [x16, #3376]
+ldr x3, [x16, #3368]
 .word 0xeb03005f
 .word 0x10000011
 .word 0x54000661
@@ -32133,7 +32277,7 @@ ldr x3, [x16, #3376]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -32174,7 +32318,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8cd7bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_3
 
@@ -32199,7 +32343,7 @@ wrapper_delegate_invoke__Module_invoke_int_intptr_int_intptr_int_intptr_intptr_i
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3488]
+ldr x16, [x16, #3480]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -32224,7 +32368,7 @@ ldr x16, [x16, #3488]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf94033b1
@@ -32445,7 +32589,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -32470,7 +32614,7 @@ wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___intptr_i
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3496]
+ldr x16, [x16, #3488]
 .word 0xf9003bb0
 .word 0xf9400a11
 .word 0xf9003fb1
@@ -32672,7 +32816,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callba
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3504]
+ldr x16, [x16, #3496]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -32723,7 +32867,7 @@ ldr x0, [x16, #112]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x7, [x16, #3376]
+ldr x7, [x16, #3368]
 .word 0xeb0700df
 .word 0x10000011
 .word 0x54000821
@@ -32739,7 +32883,7 @@ ldr x7, [x16, #3376]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94023b1
@@ -32792,7 +32936,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8d07bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_3
 
@@ -32817,7 +32961,7 @@ wrapper_delegate_invoke__Module_invoke_bound_int_object_intptr_int_intptr_int_in
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3512]
+ldr x16, [x16, #3504]
 .word 0xf90037b0
 .word 0xf9400a11
 .word 0xf9003bb1
@@ -32842,7 +32986,7 @@ ldr x16, [x16, #3512]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf94037b1
@@ -33021,7 +33165,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -33046,7 +33190,7 @@ wrapper_delegate_invoke__Module_invoke_void_intptr_int_intptr_intptr_long_intptr
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3520]
+ldr x16, [x16, #3512]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -33070,7 +33214,7 @@ ldr x16, [x16, #3520]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf94033b1
@@ -33261,7 +33405,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -33286,7 +33430,7 @@ wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___intptr_i
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3528]
+ldr x16, [x16, #3520]
 .word 0xf9003bb0
 .word 0xf9400a11
 .word 0xf9003fb1
@@ -33488,7 +33632,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callba
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3536]
+ldr x16, [x16, #3528]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -33538,7 +33682,7 @@ ldr x0, [x16, #112]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x7, [x16, #3376]
+ldr x7, [x16, #3368]
 .word 0xeb0700df
 .word 0x10000011
 .word 0x54000621
@@ -33552,7 +33696,7 @@ ldr x7, [x16, #3376]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf94023b1
@@ -33591,7 +33735,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8d07bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_3
 
@@ -33616,7 +33760,7 @@ wrapper_delegate_invoke__Module_invoke_bound_void_object_intptr_int_intptr_intpt
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3544]
+ldr x16, [x16, #3536]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -33640,7 +33784,7 @@ ldr x16, [x16, #3544]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf94033b1
@@ -33799,7 +33943,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -33820,7 +33964,7 @@ wrapper_delegate_invoke__Module_invoke_int_intptr_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3552]
+ldr x16, [x16, #3544]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -33845,7 +33989,7 @@ ldr x16, [x16, #3552]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -34048,7 +34192,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -34075,7 +34219,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callba
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3560]
+ldr x16, [x16, #3552]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -34122,7 +34266,7 @@ ldr x0, [x16, #112]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x3, [x16, #3376]
+ldr x3, [x16, #3368]
 .word 0xeb03005f
 .word 0x10000011
 .word 0x540007e1
@@ -34138,7 +34282,7 @@ ldr x3, [x16, #3376]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -34189,7 +34333,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8cd7bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_3
 
@@ -34210,7 +34354,7 @@ wrapper_delegate_invoke__Module_invoke_bound_int_object_intptr_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3568]
+ldr x16, [x16, #3560]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -34235,7 +34379,7 @@ ldr x16, [x16, #3568]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -34405,7 +34549,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -34428,7 +34572,7 @@ wrapper_delegate_invoke__Module_invoke_void_intptr_intptr_long_intptr_intptr_lon
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3576]
+ldr x16, [x16, #3568]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -34452,7 +34596,7 @@ ldr x16, [x16, #3576]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -34637,7 +34781,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -34660,7 +34804,7 @@ wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___intptr_i
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3584]
+ldr x16, [x16, #3576]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -34828,7 +34972,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callba
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3592]
+ldr x16, [x16, #3584]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -34876,7 +35020,7 @@ ldr x0, [x16, #112]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x5, [x16, #3376]
+ldr x5, [x16, #3368]
 .word 0xeb05009f
 .word 0x10000011
 .word 0x54000661
@@ -34890,7 +35034,7 @@ ldr x5, [x16, #3376]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9401bb1
@@ -34931,7 +35075,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8ce7bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_3
 
@@ -34954,7 +35098,7 @@ wrapper_delegate_invoke__Module_invoke_bound_void_object_intptr_intptr_long_intp
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3600]
+ldr x16, [x16, #3592]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -34978,7 +35122,7 @@ ldr x16, [x16, #3600]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -35133,7 +35277,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -35160,7 +35304,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callba
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3608]
+ldr x16, [x16, #3600]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -35207,7 +35351,7 @@ ldr x0, [x16, #112]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x3, [x16, #3376]
+ldr x3, [x16, #3368]
 .word 0xeb03005f
 .word 0x10000011
 .word 0x540007e1
@@ -35223,7 +35367,7 @@ ldr x3, [x16, #3376]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -35274,7 +35418,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8cd7bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_3
 
@@ -35300,7 +35444,7 @@ wrapper_delegate_invoke__Module_invoke_int_intptr_int_intptr_intptr_intptr_intpt
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3616]
+ldr x16, [x16, #3608]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -35325,7 +35469,7 @@ ldr x16, [x16, #3616]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf94033b1
@@ -35552,7 +35696,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -35579,7 +35723,7 @@ wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___intptr_i
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3624]
+ldr x16, [x16, #3616]
 .word 0xf9003fb0
 .word 0xf9400a11
 .word 0xf90043b1
@@ -35799,7 +35943,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callba
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3632]
+ldr x16, [x16, #3624]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -35851,7 +35995,7 @@ ldr x0, [x16, #112]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x9, [x16, #3376]
+ldr x9, [x16, #3368]
 .word 0xeb0900ff
 .word 0x10000011
 .word 0x54000801
@@ -35867,7 +36011,7 @@ ldr x9, [x16, #3376]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94027b1
@@ -35919,7 +36063,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8cf7bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_3
 
@@ -35945,7 +36089,7 @@ wrapper_delegate_invoke__Module_invoke_bound_int_object_intptr_int_intptr_intptr
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3640]
+ldr x16, [x16, #3632]
 .word 0xf9003bb0
 .word 0xf9400a11
 .word 0xf9003fb1
@@ -35970,7 +36114,7 @@ ldr x16, [x16, #3640]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9403bb1
@@ -36151,7 +36295,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8cb7bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -36173,7 +36317,7 @@ wrapper_delegate_invoke__Module_invoke_void_intptr_intptr_intptr_intptr:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3648]
+ldr x16, [x16, #3640]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -36197,7 +36341,7 @@ ldr x16, [x16, #3648]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -36377,7 +36521,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -36399,7 +36543,7 @@ wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___intptr_i
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3656]
+ldr x16, [x16, #3648]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -36550,7 +36694,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callba
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3664]
+ldr x16, [x16, #3656]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -36597,7 +36741,7 @@ ldr x0, [x16, #112]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x4, [x16, #3376]
+ldr x4, [x16, #3368]
 .word 0xeb04007f
 .word 0x10000011
 .word 0x54000661
@@ -36611,7 +36755,7 @@ ldr x4, [x16, #3376]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94017b1
@@ -36652,7 +36796,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8cd7bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_3
 
@@ -36674,7 +36818,7 @@ wrapper_delegate_invoke__Module_invoke_bound_void_object_intptr_intptr_intptr_in
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3672]
+ldr x16, [x16, #3664]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -36698,7 +36842,7 @@ ldr x16, [x16, #3672]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -36850,7 +36994,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8c97bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -36877,7 +37021,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callba
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3680]
+ldr x16, [x16, #3672]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -36923,7 +37067,7 @@ ldr x0, [x16, #112]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x3, [x16, #3376]
+ldr x3, [x16, #3368]
 .word 0xeb03005f
 .word 0x10000011
 .word 0x54000661
@@ -36937,7 +37081,7 @@ ldr x3, [x16, #3376]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -36978,7 +37122,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8cd7bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_3
 
@@ -37002,7 +37146,7 @@ wrapper_delegate_invoke__Module_invoke_int_intptr_int_intptr_intptr_intptr_int_i
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3688]
+ldr x16, [x16, #3680]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -37027,7 +37171,7 @@ ldr x16, [x16, #3688]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402fb1
@@ -37245,7 +37389,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -37269,7 +37413,7 @@ wrapper_delegate_begin_invoke__Module_begin_invoke_IAsyncResult__this___intptr_i
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3696]
+ldr x16, [x16, #3688]
 .word 0xf90037b0
 .word 0xf9400a11
 .word 0xf9003bb1
@@ -37454,7 +37598,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callba
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3704]
+ldr x16, [x16, #3696]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -37504,7 +37648,7 @@ ldr x0, [x16, #112]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x6, [x16, #3376]
+ldr x6, [x16, #3368]
 .word 0xeb0600bf
 .word 0x10000011
 .word 0x540007a1
@@ -37520,7 +37664,7 @@ ldr x6, [x16, #3376]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9401fb1
@@ -37569,7 +37713,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8cf7bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_3
 
@@ -37593,7 +37737,7 @@ wrapper_delegate_invoke__Module_invoke_bound_int_object_intptr_int_intptr_intptr
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3712]
+ldr x16, [x16, #3704]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -37618,7 +37762,7 @@ ldr x16, [x16, #3712]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf94033b1
@@ -37795,7 +37939,7 @@ bl _p_29
 .word 0x910003bf
 .word 0xa8ca7bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -37821,7 +37965,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3720]
+ldr x16, [x16, #3712]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -37867,7 +38011,7 @@ bl _p_446
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -37941,7 +38085,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3728]
+ldr x16, [x16, #3720]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -37987,7 +38131,7 @@ bl _p_447
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -38061,7 +38205,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3736]
+ldr x16, [x16, #3728]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -38107,7 +38251,7 @@ bl _p_448
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -38181,7 +38325,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3744]
+ldr x16, [x16, #3736]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -38224,7 +38368,7 @@ bl _p_449
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -38288,7 +38432,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3752]
+ldr x16, [x16, #3744]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -38334,7 +38478,7 @@ bl _p_450
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -38408,7 +38552,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3760]
+ldr x16, [x16, #3752]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -38454,7 +38598,7 @@ bl _p_451
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -38528,7 +38672,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3768]
+ldr x16, [x16, #3760]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -38574,7 +38718,7 @@ bl _p_452
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -38650,7 +38794,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3776]
+ldr x16, [x16, #3768]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -38698,7 +38842,7 @@ bl _p_453
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94017b1
@@ -38773,7 +38917,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3784]
+ldr x16, [x16, #3776]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -38819,7 +38963,7 @@ bl _p_454
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -38894,7 +39038,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3792]
+ldr x16, [x16, #3784]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -38940,7 +39084,7 @@ bl _p_455
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -39015,7 +39159,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3800]
+ldr x16, [x16, #3792]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -39061,7 +39205,7 @@ bl _p_456
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -39136,7 +39280,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3808]
+ldr x16, [x16, #3800]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -39182,7 +39326,7 @@ bl _p_457
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -39257,7 +39401,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3816]
+ldr x16, [x16, #3808]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -39303,7 +39447,7 @@ bl _p_458
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -39378,7 +39522,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3824]
+ldr x16, [x16, #3816]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -39424,7 +39568,7 @@ bl _p_459
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -39499,7 +39643,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3832]
+ldr x16, [x16, #3824]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -39545,7 +39689,7 @@ bl _p_460
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -39620,7 +39764,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3840]
+ldr x16, [x16, #3832]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -39666,7 +39810,7 @@ bl _p_461
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -39741,7 +39885,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3848]
+ldr x16, [x16, #3840]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -39787,7 +39931,7 @@ bl _p_462
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -39862,7 +40006,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3856]
+ldr x16, [x16, #3848]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -39908,7 +40052,7 @@ bl _p_463
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -39983,7 +40127,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3864]
+ldr x16, [x16, #3856]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -40029,7 +40173,7 @@ bl _p_464
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -40104,7 +40248,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3872]
+ldr x16, [x16, #3864]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -40150,7 +40294,7 @@ bl _p_465
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -40225,7 +40369,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3880]
+ldr x16, [x16, #3872]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -40271,7 +40415,7 @@ bl _p_466
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -40345,7 +40489,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3888]
+ldr x16, [x16, #3880]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -40390,7 +40534,7 @@ bl _p_467
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -40465,7 +40609,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3896]
+ldr x16, [x16, #3888]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -40522,7 +40666,7 @@ bl _p_468
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -40608,7 +40752,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3904]
+ldr x16, [x16, #3896]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -40664,7 +40808,7 @@ bl _p_469
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -40753,7 +40897,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3912]
+ldr x16, [x16, #3904]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -40803,7 +40947,7 @@ bl _p_470
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9401fb1
@@ -40879,7 +41023,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3920]
+ldr x16, [x16, #3912]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -40929,7 +41073,7 @@ bl _p_471
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9401fb1
@@ -41005,7 +41149,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3928]
+ldr x16, [x16, #3920]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -41055,7 +41199,7 @@ bl _p_472
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9401fb1
@@ -41127,7 +41271,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3936]
+ldr x16, [x16, #3928]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -41183,7 +41327,7 @@ bl _p_473
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400bb1
@@ -41268,7 +41412,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3944]
+ldr x16, [x16, #3936]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -41324,7 +41468,7 @@ bl _p_474
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400bb1
@@ -41409,7 +41553,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3952]
+ldr x16, [x16, #3944]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -41454,7 +41598,7 @@ bl _p_475
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -41540,7 +41684,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3960]
+ldr x16, [x16, #3952]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -41620,7 +41764,7 @@ bl _p_476
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9402bb1
@@ -41721,7 +41865,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3968]
+ldr x16, [x16, #3960]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -41766,7 +41910,7 @@ bl _p_477
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -41840,7 +41984,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3976]
+ldr x16, [x16, #3968]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -41885,7 +42029,7 @@ bl _p_478
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -41960,7 +42104,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3984]
+ldr x16, [x16, #3976]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -42007,7 +42151,7 @@ bl _p_479
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -42084,7 +42228,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3992]
+ldr x16, [x16, #3984]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -42150,7 +42294,7 @@ bl _p_480
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9401bb1
@@ -42239,7 +42383,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #4000]
+ldr x16, [x16, #3992]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -42284,7 +42428,7 @@ bl _p_481
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400bb1
@@ -42357,7 +42501,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #4008]
+ldr x16, [x16, #4000]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -42402,7 +42546,7 @@ bl _p_482
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400bb1
@@ -42475,7 +42619,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #4016]
+ldr x16, [x16, #4008]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -42519,7 +42663,7 @@ bl _p_483
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400bb1
@@ -42592,7 +42736,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #4024]
+ldr x16, [x16, #4016]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -42637,7 +42781,7 @@ bl _p_484
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400bb1
@@ -42710,7 +42854,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #4032]
+ldr x16, [x16, #4024]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -42755,7 +42899,7 @@ bl _p_485
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400bb1
@@ -42828,7 +42972,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #4040]
+ldr x16, [x16, #4032]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -42872,7 +43016,7 @@ bl _p_486
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400bb1
@@ -42946,7 +43090,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #4048]
+ldr x16, [x16, #4040]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -42991,7 +43135,7 @@ bl _p_487
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -43066,7 +43210,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #4056]
+ldr x16, [x16, #4048]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -43112,7 +43256,7 @@ bl _p_488
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -43186,7 +43330,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #4064]
+ldr x16, [x16, #4056]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -43229,7 +43373,7 @@ bl _p_489
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -43294,7 +43438,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #4072]
+ldr x16, [x16, #4064]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -43351,7 +43495,7 @@ bl _p_490
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -43439,7 +43583,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #4080]
+ldr x16, [x16, #4072]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -43505,7 +43649,7 @@ bl _p_491
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9401bb1
@@ -43596,7 +43740,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #4088]
+ldr x16, [x16, #4080]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -43651,7 +43795,7 @@ bl _p_492
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400bb1
@@ -43735,9 +43879,9 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 .word 0xf9000ba0
 .word 0xf9000fa1
 
-adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
+adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #0]
+ldr x16, [x16, #4088]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -43793,7 +43937,7 @@ bl _p_494
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -43868,7 +44012,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #8]
+ldr x16, [x16, #0]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -43913,7 +44057,7 @@ bl _p_495
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -43987,7 +44131,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #16]
+ldr x16, [x16, #8]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -44033,7 +44177,7 @@ bl _p_496
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -44107,7 +44251,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #24]
+ldr x16, [x16, #16]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -44153,7 +44297,7 @@ bl _p_497
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -44226,7 +44370,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #32]
+ldr x16, [x16, #24]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -44270,7 +44414,7 @@ bl _p_498
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400bb1
@@ -44344,7 +44488,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #40]
+ldr x16, [x16, #32]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -44389,7 +44533,7 @@ bl _p_499
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -44466,7 +44610,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #48]
+ldr x16, [x16, #40]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -44515,7 +44659,7 @@ bl _p_500
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9401bb1
@@ -44589,7 +44733,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #56]
+ldr x16, [x16, #48]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -44636,7 +44780,7 @@ bl _p_501
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -44714,7 +44858,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #64]
+ldr x16, [x16, #56]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -44773,7 +44917,7 @@ bl _p_502
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9401fb1
@@ -44856,7 +45000,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #72]
+ldr x16, [x16, #64]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -44904,7 +45048,7 @@ bl _p_503
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94017b1
@@ -44980,7 +45124,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #80]
+ldr x16, [x16, #72]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -45028,7 +45172,7 @@ bl _p_504
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94017b1
@@ -45104,7 +45248,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #88]
+ldr x16, [x16, #80]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -45152,7 +45296,7 @@ bl _p_505
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94017b1
@@ -45228,7 +45372,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #96]
+ldr x16, [x16, #88]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -45276,7 +45420,7 @@ bl _p_506
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94017b1
@@ -45351,7 +45495,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #104]
+ldr x16, [x16, #96]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -45398,7 +45542,7 @@ bl _p_507
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -45476,7 +45620,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #112]
+ldr x16, [x16, #104]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -45535,7 +45679,7 @@ bl _p_508
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9401fb1
@@ -45616,7 +45760,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #120]
+ldr x16, [x16, #112]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -45662,7 +45806,7 @@ bl _p_509
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -45737,7 +45881,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #128]
+ldr x16, [x16, #120]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -45794,7 +45938,7 @@ bl _p_510
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -45879,7 +46023,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #136]
+ldr x16, [x16, #128]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -45925,7 +46069,7 @@ bl _p_511
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -45999,7 +46143,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #144]
+ldr x16, [x16, #136]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -46045,7 +46189,7 @@ bl _p_512
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -46119,7 +46263,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #152]
+ldr x16, [x16, #144]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -46165,7 +46309,7 @@ bl _p_513
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -46239,7 +46383,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #160]
+ldr x16, [x16, #152]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -46284,7 +46428,7 @@ bl _p_514
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -46359,7 +46503,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #168]
+ldr x16, [x16, #160]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -46406,7 +46550,7 @@ bl _p_515
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -46482,7 +46626,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #176]
+ldr x16, [x16, #168]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -46529,7 +46673,7 @@ bl _p_516
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -46604,7 +46748,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #184]
+ldr x16, [x16, #176]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -46650,7 +46794,7 @@ bl _p_517
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -46725,7 +46869,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #192]
+ldr x16, [x16, #184]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -46771,7 +46915,7 @@ bl _p_518
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -46846,7 +46990,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #200]
+ldr x16, [x16, #192]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -46893,7 +47037,7 @@ bl _p_519
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -46968,7 +47112,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #208]
+ldr x16, [x16, #200]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -47015,7 +47159,7 @@ bl _p_520
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -47089,7 +47233,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #216]
+ldr x16, [x16, #208]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -47135,7 +47279,7 @@ bl _p_521
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -47209,7 +47353,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #224]
+ldr x16, [x16, #216]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -47254,7 +47398,7 @@ bl _p_522
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -47328,7 +47472,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #232]
+ldr x16, [x16, #224]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -47374,7 +47518,7 @@ bl _p_523
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -47448,7 +47592,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #240]
+ldr x16, [x16, #232]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -47494,7 +47638,7 @@ bl _p_524
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -47569,7 +47713,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #248]
+ldr x16, [x16, #240]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -47615,7 +47759,7 @@ bl _p_525
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -47689,7 +47833,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #256]
+ldr x16, [x16, #248]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -47734,7 +47878,7 @@ bl _p_526
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -47808,7 +47952,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #264]
+ldr x16, [x16, #256]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -47854,7 +47998,7 @@ bl _p_527
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -47928,7 +48072,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #272]
+ldr x16, [x16, #264]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -47973,7 +48117,7 @@ bl _p_528
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -48050,7 +48194,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #280]
+ldr x16, [x16, #272]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -48105,7 +48249,7 @@ bl _p_529
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9401bb1
@@ -48179,7 +48323,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #288]
+ldr x16, [x16, #280]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -48223,7 +48367,7 @@ bl _p_530
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -48289,7 +48433,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #296]
+ldr x16, [x16, #288]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -48344,7 +48488,7 @@ bl _p_531
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -48419,7 +48563,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #304]
+ldr x16, [x16, #296]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -48463,7 +48607,7 @@ bl _p_532
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -48528,7 +48672,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #312]
+ldr x16, [x16, #304]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -48572,7 +48716,7 @@ bl _p_533
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -48636,7 +48780,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #320]
+ldr x16, [x16, #312]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -48679,7 +48823,7 @@ bl _p_534
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -48746,7 +48890,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #328]
+ldr x16, [x16, #320]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -48801,7 +48945,7 @@ bl _p_535
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9401bb1
@@ -48875,7 +49019,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #336]
+ldr x16, [x16, #328]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -48919,7 +49063,7 @@ bl _p_536
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -48983,7 +49127,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #344]
+ldr x16, [x16, #336]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -49026,7 +49170,7 @@ bl _p_537
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -49090,7 +49234,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #352]
+ldr x16, [x16, #344]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -49133,7 +49277,7 @@ bl _p_538
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -49198,7 +49342,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #360]
+ldr x16, [x16, #352]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -49242,7 +49386,7 @@ bl _p_539
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -49307,7 +49451,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #368]
+ldr x16, [x16, #360]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -49353,7 +49497,7 @@ bl _p_540
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -49431,7 +49575,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #376]
+ldr x16, [x16, #368]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -49490,7 +49634,7 @@ bl _p_541
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9401fb1
@@ -49567,7 +49711,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #384]
+ldr x16, [x16, #376]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -49621,7 +49765,7 @@ bl _p_542
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94017b1
@@ -49688,7 +49832,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #392]
+ldr x16, [x16, #384]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -49743,7 +49887,7 @@ bl _p_543
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9401bb1
@@ -49806,7 +49950,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #400]
+ldr x16, [x16, #392]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -49852,7 +49996,7 @@ bl _p_544
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -49927,7 +50071,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #408]
+ldr x16, [x16, #400]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -49974,7 +50118,7 @@ bl _p_545
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -50050,7 +50194,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #416]
+ldr x16, [x16, #408]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -50107,7 +50251,7 @@ bl _p_547
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf94017b1
@@ -50192,7 +50336,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #424]
+ldr x16, [x16, #416]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -50287,7 +50431,7 @@ bl _p_548
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -50375,7 +50519,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #432]
+ldr x16, [x16, #424]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -50442,7 +50586,7 @@ bl _p_549
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9401fb1
@@ -50526,7 +50670,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #440]
+ldr x16, [x16, #432]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -50582,7 +50726,7 @@ bl _p_550
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf94017b1
@@ -50657,7 +50801,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #448]
+ldr x16, [x16, #440]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -50713,7 +50857,7 @@ bl _p_551
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf94017b1
@@ -50788,7 +50932,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #456]
+ldr x16, [x16, #448]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -50844,7 +50988,7 @@ bl _p_552
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf94017b1
@@ -50920,7 +51064,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #464]
+ldr x16, [x16, #456]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -50977,7 +51121,7 @@ bl _p_553
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9401bb1
@@ -51052,7 +51196,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #472]
+ldr x16, [x16, #464]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -51108,7 +51252,7 @@ bl _p_554
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf94017b1
@@ -51183,7 +51327,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #480]
+ldr x16, [x16, #472]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -51239,7 +51383,7 @@ bl _p_555
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf94017b1
@@ -51312,7 +51456,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #488]
+ldr x16, [x16, #480]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -51357,7 +51501,7 @@ bl _p_556
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -51432,7 +51576,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #496]
+ldr x16, [x16, #488]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -51478,7 +51622,7 @@ bl _p_557
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -51552,7 +51696,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #504]
+ldr x16, [x16, #496]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -51598,7 +51742,7 @@ bl _p_558
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -51672,7 +51816,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #512]
+ldr x16, [x16, #504]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -51718,7 +51862,7 @@ bl _p_559
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -51796,7 +51940,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #520]
+ldr x16, [x16, #512]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -51863,7 +52007,7 @@ bl _p_560
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9401fb1
@@ -51945,7 +52089,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #528]
+ldr x16, [x16, #520]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -51991,7 +52135,7 @@ bl _p_561
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -52066,7 +52210,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #536]
+ldr x16, [x16, #528]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -52113,7 +52257,7 @@ bl _p_562
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -52187,7 +52331,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #544]
+ldr x16, [x16, #536]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -52233,7 +52377,7 @@ bl _p_563
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -52307,7 +52451,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #552]
+ldr x16, [x16, #544]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -52353,7 +52497,7 @@ bl _p_564
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -52427,7 +52571,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #560]
+ldr x16, [x16, #552]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -52472,7 +52616,7 @@ bl _p_565
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -52547,7 +52691,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #568]
+ldr x16, [x16, #560]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -52601,7 +52745,7 @@ bl _p_566
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -52678,7 +52822,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #576]
+ldr x16, [x16, #568]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -52736,7 +52880,7 @@ bl _p_567
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9401bb1
@@ -52821,7 +52965,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #584]
+ldr x16, [x16, #576]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -52886,7 +53030,7 @@ bl _p_568
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9401bb1
@@ -52978,7 +53122,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #592]
+ldr x16, [x16, #584]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -53025,7 +53169,7 @@ bl _p_569
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -53099,7 +53243,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #600]
+ldr x16, [x16, #592]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -53145,7 +53289,7 @@ bl _p_570
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -53219,7 +53363,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #608]
+ldr x16, [x16, #600]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -53265,7 +53409,7 @@ bl _p_571
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -53339,7 +53483,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #616]
+ldr x16, [x16, #608]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -53385,7 +53529,7 @@ bl _p_572
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -53465,7 +53609,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #624]
+ldr x16, [x16, #616]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -53542,7 +53686,7 @@ bl _p_573
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94027b1
@@ -53645,7 +53789,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #632]
+ldr x16, [x16, #624]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -53703,7 +53847,7 @@ bl _p_574
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9401bb1
@@ -53788,7 +53932,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #640]
+ldr x16, [x16, #632]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -53846,7 +53990,7 @@ bl _p_575
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9401bb1
@@ -53931,7 +54075,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_other_
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #648]
+ldr x16, [x16, #640]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -53980,7 +54124,7 @@ bl _p_576
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9401bb1
@@ -54056,7 +54200,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_other_
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #656]
+ldr x16, [x16, #648]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -54105,7 +54249,7 @@ bl _p_577
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9401bb1
@@ -54178,7 +54322,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #664]
+ldr x16, [x16, #656]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -54224,7 +54368,7 @@ bl _p_578
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -54298,7 +54442,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #672]
+ldr x16, [x16, #664]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -54344,7 +54488,7 @@ bl _p_579
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -54419,7 +54563,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #680]
+ldr x16, [x16, #672]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -54466,7 +54610,7 @@ bl _p_580
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf94013b1
@@ -54541,7 +54685,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #688]
+ldr x16, [x16, #680]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -54598,7 +54742,7 @@ bl _p_581
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000260
 .word 0xf9400fb1
@@ -54687,7 +54831,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #696]
+ldr x16, [x16, #688]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -54746,7 +54890,7 @@ bl _p_582
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9401fb1
@@ -54829,7 +54973,7 @@ wrapper_managed_to_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #704]
+ldr x16, [x16, #696]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -54886,7 +55030,7 @@ bl _p_583
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf94017b1
@@ -54953,7 +55097,7 @@ wrapper_native_to_managed_SQLitePCL_SQLite3Provider_sqlite3_exec_hook_bridge_int
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #712]
+ldr x16, [x16, #704]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -55005,7 +55149,7 @@ ldr x1, [x16, #128]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000160
 bl _p_255
@@ -55084,7 +55228,7 @@ wrapper_native_to_managed_SQLitePCL_SQLite3Provider_sqlite3_commit_hook_bridge_i
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #720]
+ldr x16, [x16, #712]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -55136,7 +55280,7 @@ ldr x1, [x16, #128]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000160
 bl _p_255
@@ -55214,7 +55358,7 @@ wrapper_native_to_managed_SQLitePCL_SQLite3Provider_sqlite3_scalar_function_hook
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #728]
+ldr x16, [x16, #720]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -55265,7 +55409,7 @@ ldr x1, [x16, #128]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000160
 bl _p_255
@@ -55340,7 +55484,7 @@ wrapper_native_to_managed_SQLitePCL_SQLite3Provider_sqlite3_log_hook_bridge_impl
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #736]
+ldr x16, [x16, #728]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -55391,7 +55535,7 @@ ldr x1, [x16, #128]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000160
 bl _p_255
@@ -55466,7 +55610,7 @@ wrapper_native_to_managed_SQLitePCL_SQLite3Provider_sqlite3_agg_function_hook_br
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #744]
+ldr x16, [x16, #736]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -55517,7 +55661,7 @@ ldr x1, [x16, #128]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000160
 bl _p_255
@@ -55590,7 +55734,7 @@ wrapper_native_to_managed_SQLitePCL_SQLite3Provider_sqlite3_agg_function_hook_br
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #752]
+ldr x16, [x16, #744]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -55641,7 +55785,7 @@ ldr x1, [x16, #128]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000160
 bl _p_255
@@ -55717,7 +55861,7 @@ wrapper_native_to_managed_SQLitePCL_SQLite3Provider_sqlite3_collation_hook_bridg
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #760]
+ldr x16, [x16, #752]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -55769,7 +55913,7 @@ ldr x1, [x16, #128]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000160
 bl _p_255
@@ -55855,7 +55999,7 @@ wrapper_native_to_managed_SQLitePCL_SQLite3Provider_sqlite3_update_hook_bridge_i
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #768]
+ldr x16, [x16, #760]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -55906,7 +56050,7 @@ ldr x1, [x16, #128]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000160
 bl _p_255
@@ -55982,7 +56126,7 @@ wrapper_native_to_managed_SQLitePCL_SQLite3Provider_sqlite3_rollback_hook_bridge
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #776]
+ldr x16, [x16, #768]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -56033,7 +56177,7 @@ ldr x1, [x16, #128]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000160
 bl _p_255
@@ -56105,7 +56249,7 @@ wrapper_native_to_managed_SQLitePCL_SQLite3Provider_sqlite3_trace_hook_bridge_im
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #784]
+ldr x16, [x16, #776]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -56156,7 +56300,7 @@ ldr x1, [x16, #128]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000160
 bl _p_255
@@ -56230,7 +56374,7 @@ wrapper_native_to_managed_SQLitePCL_SQLite3Provider_sqlite3_profile_hook_bridge_
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #792]
+ldr x16, [x16, #784]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -56281,7 +56425,7 @@ ldr x1, [x16, #128]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000160
 bl _p_255
@@ -56354,7 +56498,7 @@ wrapper_native_to_managed_SQLitePCL_SQLite3Provider_sqlite3_progress_handler_hoo
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #800]
+ldr x16, [x16, #792]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -56406,7 +56550,7 @@ ldr x1, [x16, #128]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000160
 bl _p_255
@@ -56487,7 +56631,7 @@ wrapper_native_to_managed_SQLitePCL_SQLite3Provider_sqlite3_authorizer_hook_brid
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #808]
+ldr x16, [x16, #800]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -56539,7 +56683,7 @@ ldr x1, [x16, #128]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+0
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #2760]
+ldr x0, [x16, #2752]
 .word 0xb9400000
 .word 0x34000160
 bl _p_255
@@ -56609,111 +56753,15 @@ bl _p_586
 
 Lme_2a1:
 .text
-	.align 4
-	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_INTPTR_get_Default
-System_Collections_Generic_EqualityComparer_1_T_INTPTR_get_Default:
-.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/equalitycomparer.cs"
-.loc 4 32 0 prologue_end
-.word 0xa9b97bfd
-.word 0x910003fd
-.word 0xf9000bba
-.word 0xf9001baf
-
-adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
-add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #816]
-.word 0xf9000fb0
-.word 0xf9400a11
-.word 0xf90013b1
-.word 0xd280001a
-.word 0xf9400fb1
-.word 0xf9403a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9405a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401ba0
-bl _p_599
-.word 0xf9400000
-.word 0xaa0003fa
-.loc 4 33 0
-.word 0xf9400fb1
-.word 0xf9407a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xb500043a
-.loc 4 34 0
-.word 0xf9400fb1
-.word 0xf9409231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401ba0
-bl _p_600
-.word 0xf90033a0
-.word 0xf9401ba0
-bl _p_601
-.word 0xf94033af
-.word 0xd63f0000
-.word 0xf9002fa0
-.word 0xf9400fb1
-.word 0xf940c231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402fa0
-.word 0xf9002ba0
-.word 0xaa0003fa
-.loc 4 35 0
-.word 0xf9400fb1
-.word 0xf940de31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba0
-.word 0xf90027a0
-.word 0xf9401ba0
-bl _p_599
-.word 0xf90023a0
-.word 0xf94027a1
-.word 0xd50330bf
-.word 0xf94023a0
-.word 0xf9000001
-.loc 4 37 0
-.word 0xf94013b1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400fb1
-.word 0xf9412231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03e0
-.word 0xf9400fb1
-.word 0xf9413a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9400bba
-.word 0x910003bf
-.word 0xa8c77bfd
-.word 0xd65f03c0
-
-Lme_2a2:
-.text
-ut_675:
+ut_674:
 add x0, x0, 16
 b System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Value
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Value
 System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Value:
-.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/keyvaluepair.cs"
-.loc 5 40 0 prologue_end
+.file 4 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.4.0.214/src/mono/external/corert/src/System.Private.CoreLib/shared/System/Collections/Generic/KeyValuePair.cs"
+.loc 4 69 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9001baf
@@ -56721,7 +56769,7 @@ System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Value:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #824]
+ldr x16, [x16, #808]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -56747,16 +56795,16 @@ ldr x16, [x16, #824]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_2a3:
+Lme_2a2:
 .text
-ut_676:
+ut_675:
 add x0, x0, 16
 b System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Key
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Key
 System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Key:
-.loc 5 36 0 prologue_end
+.loc 4 64 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9001baf
@@ -56764,7 +56812,7 @@ System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Key:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #832]
+ldr x16, [x16, #816]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -56790,12 +56838,108 @@ ldr x16, [x16, #832]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
+Lme_2a3:
+.text
+	.align 4
+	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_INTPTR_get_Default
+System_Collections_Generic_EqualityComparer_1_T_INTPTR_get_Default:
+.file 5 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.4.0.214/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/equalitycomparer.cs"
+.loc 5 32 0 prologue_end
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xf9001baf
+
+adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
+add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
+ldr x16, [x16, #824]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xd280001a
+.word 0xf9400fb1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba0
+bl _p_599
+.word 0xf9400000
+.word 0xaa0003fa
+.loc 5 33 0
+.word 0xf9400fb1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xb500043a
+.loc 5 34 0
+.word 0xf9400fb1
+.word 0xf9409231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba0
+bl _p_600
+.word 0xf90033a0
+.word 0xf9401ba0
+bl _p_601
+.word 0xf94033af
+.word 0xd63f0000
+.word 0xf9002fa0
+.word 0xf9400fb1
+.word 0xf940c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fa0
+.word 0xf9002ba0
+.word 0xaa0003fa
+.loc 5 35 0
+.word 0xf9400fb1
+.word 0xf940de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0xf90027a0
+.word 0xf9401ba0
+bl _p_599
+.word 0xf90023a0
+.word 0xf94027a1
+.word 0xd50330bf
+.word 0xf94023a0
+.word 0xf9000001
+.loc 5 37 0
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9412231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+.word 0xf9400fb1
+.word 0xf9413a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+
 Lme_2a4:
 .text
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_REF_get_Default
 System_Collections_Generic_EqualityComparer_1_T_REF_get_Default:
-.loc 4 32 0 prologue_end
+.loc 5 32 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -56803,7 +56947,7 @@ System_Collections_Generic_EqualityComparer_1_T_REF_get_Default:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #840]
+ldr x16, [x16, #832]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -56824,14 +56968,14 @@ ldr x16, [x16, #840]
 bl _p_602
 .word 0xf9400000
 .word 0xaa0003fa
-.loc 4 33 0
+.loc 5 33 0
 .word 0xf9400fb1
 .word 0xf9407a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xb50003da
-.loc 4 34 0
+.loc 5 34 0
 .word 0xf9400fb1
 .word 0xf9409231
 .word 0xb4000051
@@ -56848,7 +56992,7 @@ bl _p_604
 .word 0xf9402fa0
 .word 0xf9002ba0
 .word 0xaa0003fa
-.loc 4 35 0
+.loc 5 35 0
 .word 0xf9400fb1
 .word 0xf940d231
 .word 0xb4000051
@@ -56862,7 +57006,7 @@ bl _p_602
 .word 0xd50330bf
 .word 0xf94023a0
 .word 0xf9000001
-.loc 4 37 0
+.loc 5 37 0
 .word 0xf94013b1
 .word 0xf9400231
 .word 0xb4000051
@@ -56887,15 +57031,14 @@ Lme_2a5:
 	.align 4
 	.no_dead_strip System_Array_Empty_T_GSHAREDVT
 System_Array_Empty_T_GSHAREDVT:
-.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/mcs/class/corlib/corert/Array.Portable.cs"
-.loc 6 1309 0 prologue_end
+.loc 3 614 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf90017af
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #848]
+ldr x16, [x16, #840]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -56950,7 +57093,7 @@ b System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF__ctor_TKey_IN
 	.align 4
 	.no_dead_strip System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF__ctor_TKey_INTPTR_TValue_REF
 System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF__ctor_TKey_INTPTR_TValue_REF:
-.loc 5 31 0 prologue_end
+.loc 4 58 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000bb8
@@ -56961,7 +57104,7 @@ System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF__ctor_TKey_INTP
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #856]
+ldr x16, [x16, #848]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -56980,7 +57123,7 @@ ldr x16, [x16, #856]
 .word 0xaa1803e0
 .word 0xf9400fa0
 .word 0xf9000300
-.loc 5 32 0
+.loc 4 59 0
 .word 0xf94017b1
 .word 0xf9407e31
 .word 0xb4000051
@@ -57000,7 +57143,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 5 33 0
+.loc 4 60 0
 .word 0xf94017b1
 .word 0xf940c631
 .word 0xb4000051
@@ -57026,7 +57169,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2__GetEnumeratord__38_TKey_IN
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #856]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -57055,7 +57198,7 @@ Lme_2a8:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_Node_TKey_INTPTR_TValue_REF__ctor_TKey_INTPTR_TValue_REF_int_System_Collections_Concurrent_ConcurrentDictionary_2_Node_TKey_INTPTR_TValue_REF
 System_Collections_Concurrent_ConcurrentDictionary_2_Node_TKey_INTPTR_TValue_REF__ctor_TKey_INTPTR_TValue_REF_int_System_Collections_Concurrent_ConcurrentDictionary_2_Node_TKey_INTPTR_TValue_REF:
-.loc 2 2056 0 prologue_end
+.loc 2 2047 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -57066,7 +57209,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_Node_TKey_INTPTR_TValue_REF
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #864]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -57083,7 +57226,7 @@ ldr x16, [x16, #872]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-.loc 2 2058 0
+.loc 2 2049 0
 .word 0xf9401fb1
 .word 0xf9407631
 .word 0xb4000051
@@ -57091,7 +57234,7 @@ ldr x16, [x16, #872]
 .word 0xf9400ba0
 .word 0xf9400fa1
 .word 0xf9001001
-.loc 2 2059 0
+.loc 2 2050 0
 .word 0xf9401fb1
 .word 0xf9409231
 .word 0xb4000051
@@ -57111,7 +57254,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 2 2060 0
+.loc 2 2051 0
 .word 0xf9401fb1
 .word 0xf940da31
 .word 0xb4000051
@@ -57134,7 +57277,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 2 2061 0
+.loc 2 2052 0
 .word 0xf9401fb1
 .word 0xf9412e31
 .word 0xb4000051
@@ -57142,7 +57285,7 @@ ldr x2, [x16, #16]
 .word 0xf9400ba0
 .word 0xb9802ba1
 .word 0xb9002801
-.loc 2 2062 0
+.loc 2 2053 0
 .word 0xf9401fb1
 .word 0xf9414a31
 .word 0xb4000051
@@ -57160,7 +57303,7 @@ Lme_2a9:
 	.align 4
 	.no_dead_strip System_Collections_Concurrent_ConcurrentDictionary_2_DictionaryEnumerator_TKey_INTPTR_TValue_REF__ctor_System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF
 System_Collections_Concurrent_ConcurrentDictionary_2_DictionaryEnumerator_TKey_INTPTR_TValue_REF__ctor_System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF:
-.loc 2 2074 0 prologue_end
+.loc 2 2065 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -57168,7 +57311,7 @@ System_Collections_Concurrent_ConcurrentDictionary_2_DictionaryEnumerator_TKey_I
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #880]
+ldr x16, [x16, #872]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -57185,7 +57328,7 @@ ldr x16, [x16, #880]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-.loc 2 2076 0
+.loc 2 2067 0
 .word 0xf94013b1
 .word 0xf9406a31
 .word 0xb4000051
@@ -57229,7 +57372,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 2 2077 0
+.loc 2 2068 0
 .word 0xf94013b1
 .word 0xf9411231
 .word 0xb4000051
@@ -57247,8 +57390,8 @@ Lme_2aa:
 	.align 4
 	.no_dead_strip System_Collections_ObjectModel_ReadOnlyCollection_1_T_INTPTR__ctor_System_Collections_Generic_IList_1_T_INTPTR
 System_Collections_ObjectModel_ReadOnlyCollection_1_T_INTPTR__ctor_System_Collections_Generic_IList_1_T_INTPTR:
-.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/mcs/class/referencesource/mscorlib/system/collections/objectmodel/readonlycollection.cs"
-.loc 7 27 0 prologue_end
+.file 6 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.4.0.214/src/mono/mcs/class/referencesource/mscorlib/system/collections/objectmodel/readonlycollection.cs"
+.loc 6 27 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -57257,7 +57400,7 @@ System_Collections_ObjectModel_ReadOnlyCollection_1_T_INTPTR__ctor_System_Collec
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #888]
+ldr x16, [x16, #880]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -57274,14 +57417,14 @@ ldr x16, [x16, #888]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-.loc 7 28 0
+.loc 6 28 0
 .word 0xf94013b1
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xb500011a
-.loc 7 29 0
+.loc 6 29 0
 .word 0xf94013b1
 .word 0xf9408631
 .word 0xb4000051
@@ -57289,7 +57432,7 @@ ldr x16, [x16, #888]
 .word 0xd28000e0
 .word 0xd28000e0
 bl _p_611
-.loc 7 31 0
+.loc 6 31 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
@@ -57313,7 +57456,7 @@ ldr x1, [x16, #16]
 .word 0x8b010000
 .word 0xd280003e
 .word 0x3900001e
-.loc 7 32 0
+.loc 6 32 0
 .word 0xf94013b1
 .word 0xf940fa31
 .word 0xb4000051
@@ -57332,8 +57475,8 @@ Lme_2ab:
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_INTPTR_Add_T_INTPTR
 System_Collections_Generic_List_1_T_INTPTR_Add_T_INTPTR:
-.file 8 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/list.cs"
-.loc 8 228 0 prologue_end
+.file 7 "/Library/Frameworks/Xamarin.iOS.framework/Versions/11.4.0.214/src/mono/mcs/class/referencesource/mscorlib/system/collections/generic/list.cs"
+.loc 7 228 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000bb9
@@ -57342,7 +57485,7 @@ System_Collections_Generic_List_1_T_INTPTR_Add_T_INTPTR:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #896]
+ldr x16, [x16, #888]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -57384,7 +57527,7 @@ bl _p_612
 .word 0xf94023a0
 .word 0xf94027a1
 .word 0xd63f0040
-.loc 8 229 0
+.loc 7 229 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -57413,7 +57556,7 @@ bl _p_612
 .word 0x8b020000
 .word 0x91008000
 .word 0xf9000001
-.loc 8 230 0
+.loc 7 230 0
 .word 0xf94017b1
 .word 0xf9414231
 .word 0xb4000051
@@ -57423,7 +57566,7 @@ bl _p_612
 .word 0xb9802421
 .word 0x11000421
 .word 0xb9002401
-.loc 8 231 0
+.loc 7 231 0
 .word 0xf94017b1
 .word 0xf9416631
 .word 0xb4000051
@@ -57436,7 +57579,7 @@ bl _p_612
 .word 0x910003bf
 .word 0xa8c57bfd
 .word 0xd65f03c0
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -57445,7 +57588,7 @@ Lme_2ac:
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_INTPTR__ctor_int
 System_Collections_Generic_List_1_T_INTPTR__ctor_int:
-.loc 8 60 0 prologue_end
+.loc 7 60 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -57454,7 +57597,7 @@ System_Collections_Generic_List_1_T_INTPTR__ctor_int:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #904]
+ldr x16, [x16, #896]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -57471,7 +57614,7 @@ ldr x16, [x16, #904]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-.loc 8 61 0
+.loc 7 61 0
 .word 0xf94013b1
 .word 0xf9406e31
 .word 0xb4000051
@@ -57489,7 +57632,7 @@ ldr x16, [x16, #904]
 .word 0xd2800180
 .word 0xd2800081
 bl _p_613
-.loc 8 64 0
+.loc 7 64 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
@@ -57500,7 +57643,7 @@ bl _p_613
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0x350003fa
-.loc 8 65 0
+.loc 7 65 0
 .word 0xf94013b1
 .word 0xf940da31
 .word 0xb4000051
@@ -57532,7 +57675,7 @@ ldr x2, [x16, #16]
 .word 0xd280003e
 .word 0x3900003e
 .word 0x1400001e
-.loc 8 67 0
+.loc 7 67 0
 .word 0xf94013b1
 .word 0xf9415231
 .word 0xb4000051
@@ -57559,7 +57702,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 8 68 0
+.loc 7 68 0
 .word 0xf94013b1
 .word 0xf941b631
 .word 0xb4000051
@@ -57578,7 +57721,7 @@ Lme_2ad:
 	.align 4
 	.no_dead_strip System_Collections_ObjectModel_ReadOnlyCollection_1_T_REF__ctor_System_Collections_Generic_IList_1_T_REF
 System_Collections_ObjectModel_ReadOnlyCollection_1_T_REF__ctor_System_Collections_Generic_IList_1_T_REF:
-.loc 7 27 0 prologue_end
+.loc 6 27 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -57587,7 +57730,7 @@ System_Collections_ObjectModel_ReadOnlyCollection_1_T_REF__ctor_System_Collectio
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #912]
+ldr x16, [x16, #904]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -57604,14 +57747,14 @@ ldr x16, [x16, #912]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-.loc 7 28 0
+.loc 6 28 0
 .word 0xf94013b1
 .word 0xf9406e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xb500011a
-.loc 7 29 0
+.loc 6 29 0
 .word 0xf94013b1
 .word 0xf9408631
 .word 0xb4000051
@@ -57619,7 +57762,7 @@ ldr x16, [x16, #912]
 .word 0xd28000e0
 .word 0xd28000e0
 bl _p_611
-.loc 7 31 0
+.loc 6 31 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
@@ -57643,7 +57786,7 @@ ldr x1, [x16, #16]
 .word 0x8b010000
 .word 0xd280003e
 .word 0x3900001e
-.loc 7 32 0
+.loc 6 32 0
 .word 0xf94013b1
 .word 0xf940fa31
 .word 0xb4000051
@@ -57662,7 +57805,7 @@ Lme_2ae:
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_REF_Add_T_REF
 System_Collections_Generic_List_1_T_REF_Add_T_REF:
-.loc 8 228 0 prologue_end
+.loc 7 228 0 prologue_end
 .word 0xa9bc7bfd
 .word 0x910003fd
 .word 0xf9000bb9
@@ -57671,7 +57814,7 @@ System_Collections_Generic_List_1_T_REF_Add_T_REF:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #920]
+ldr x16, [x16, #912]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -57704,7 +57847,7 @@ ldr x16, [x16, #920]
 .word 0xb9802021
 .word 0x11000421
 bl _p_617
-.loc 8 229 0
+.loc 7 229 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -57729,7 +57872,7 @@ bl _p_617
 .word 0xf9400063
 .word 0xf9408070
 .word 0xd63f0200
-.loc 8 230 0
+.loc 7 230 0
 .word 0xf94017b1
 .word 0xf9410e31
 .word 0xb4000051
@@ -57739,7 +57882,7 @@ bl _p_617
 .word 0xb9802421
 .word 0x11000421
 .word 0xb9002401
-.loc 8 231 0
+.loc 7 231 0
 .word 0xf94017b1
 .word 0xf9413231
 .word 0xb4000051
@@ -57758,7 +57901,7 @@ Lme_2af:
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_REF__ctor_int
 System_Collections_Generic_List_1_T_REF__ctor_int:
-.loc 8 60 0 prologue_end
+.loc 7 60 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -57767,7 +57910,7 @@ System_Collections_Generic_List_1_T_REF__ctor_int:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #928]
+ldr x16, [x16, #920]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -57784,7 +57927,7 @@ ldr x16, [x16, #928]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400fa0
-.loc 8 61 0
+.loc 7 61 0
 .word 0xf94013b1
 .word 0xf9406e31
 .word 0xb4000051
@@ -57802,7 +57945,7 @@ ldr x16, [x16, #928]
 .word 0xd2800180
 .word 0xd2800081
 bl _p_613
-.loc 8 64 0
+.loc 7 64 0
 .word 0xf94017b1
 .word 0xf9400231
 .word 0xb4000051
@@ -57813,7 +57956,7 @@ bl _p_613
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0x350003fa
-.loc 8 65 0
+.loc 7 65 0
 .word 0xf94013b1
 .word 0xf940da31
 .word 0xb4000051
@@ -57845,7 +57988,7 @@ ldr x2, [x16, #16]
 .word 0xd280003e
 .word 0x3900003e
 .word 0x1400001e
-.loc 8 67 0
+.loc 7 67 0
 .word 0xf94013b1
 .word 0xf9415231
 .word 0xb4000051
@@ -57872,7 +58015,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 8 68 0
+.loc 7 68 0
 .word 0xf94013b1
 .word 0xf941b631
 .word 0xb4000051
@@ -57901,7 +58044,7 @@ System_Array_InternalArray__get_Item_T_INST_int:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #936]
+ldr x16, [x16, #928]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -57937,13 +58080,13 @@ ldr x16, [x16, #936]
 .word 0xf940aa31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xd28538c0
-.word 0xd28538c0
-bl _p_274
+.word 0xd28472e0
+.word 0xd28472e0
+bl _p_272
 .word 0xaa0003e1
-.word 0xd28010e0
+.word 0xd2801240
 .word 0xf2a04000
-.word 0xd28010e0
+.word 0xd2801240
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
 bl _p_29
@@ -58030,7 +58173,7 @@ Lme_2b1:
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_INTPTR_CreateComparer
 System_Collections_Generic_EqualityComparer_1_T_INTPTR_CreateComparer:
-.loc 4 49 0 prologue_end
+.loc 5 49 0 prologue_end
 .word 0xa9af7bfd
 .word 0x910003fd
 .word 0xf9000bb3
@@ -58041,7 +58184,7 @@ System_Collections_Generic_EqualityComparer_1_T_INTPTR_CreateComparer:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #944]
+ldr x16, [x16, #936]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -58073,13 +58216,13 @@ bl _p_622
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #952]
+ldr x1, [x16, #944]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54004261
 .word 0xf94037a0
 .word 0xaa0003fa
-.loc 4 51 0
+.loc 5 51 0
 .word 0xf94027b1
 .word 0xf940c631
 .word 0xb4000051
@@ -58088,7 +58231,7 @@ ldr x1, [x16, #952]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #960]
+ldr x0, [x16, #952]
 .word 0xeb00035f
 .word 0x9a9f17e0
 .word 0xf9007ba0
@@ -58098,7 +58241,7 @@ ldr x0, [x16, #960]
 .word 0xd63f0220
 .word 0xf9407ba0
 .word 0x34000440
-.loc 4 52 0
+.loc 5 52 0
 .word 0xf94027b1
 .word 0xf9410a31
 .word 0xb4000051
@@ -58106,7 +58249,7 @@ ldr x0, [x16, #960]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #968]
+ldr x0, [x16, #960]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_1
@@ -58133,7 +58276,7 @@ bl _p_624
 .word 0x54003c21
 .word 0xf9406fa0
 .word 0x140001d4
-.loc 4 57 0
+.loc 5 57 0
 .word 0xf94027b1
 .word 0xf9418e31
 .word 0xb4000051
@@ -58142,7 +58285,7 @@ bl _p_624
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #976]
+ldr x0, [x16, #968]
 .word 0xeb00035f
 .word 0x9a9f17e0
 .word 0xf9007ba0
@@ -58152,7 +58295,7 @@ ldr x0, [x16, #976]
 .word 0xd63f0220
 .word 0xf9407ba0
 .word 0x34000420
-.loc 4 58 0
+.loc 5 58 0
 .word 0xf94027b1
 .word 0xf941d231
 .word 0xb4000051
@@ -58160,7 +58303,7 @@ ldr x0, [x16, #976]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #984]
+ldr x0, [x16, #976]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_1
@@ -58186,7 +58329,7 @@ bl _p_624
 .word 0xaa1703e0
 .word 0xaa1703e0
 .word 0x140001a3
-.loc 4 62 0
+.loc 5 62 0
 .word 0xf94027b1
 .word 0xf9425231
 .word 0xb4000051
@@ -58208,7 +58351,7 @@ bl _p_626
 .word 0xd63f0220
 .word 0xf9407ba0
 .word 0x34000400
-.loc 4 64 0
+.loc 5 64 0
 .word 0xf94027b1
 .word 0xf942a631
 .word 0xb4000051
@@ -58216,7 +58359,7 @@ bl _p_626
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #992]
+ldr x0, [x16, #984]
 .word 0xaa1a03e1
 .word 0xaa1a03e1
 bl _p_627
@@ -58241,7 +58384,7 @@ bl _p_624
 .word 0x54002f81
 .word 0xf94063a0
 .word 0x1400016f
-.loc 4 70 0
+.loc 5 70 0
 .word 0xf94027b1
 .word 0xf9432231
 .word 0xb4000051
@@ -58273,7 +58416,7 @@ bl _p_624
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1000]
+ldr x1, [x16, #992]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9007ba0
@@ -58283,7 +58426,7 @@ ldr x1, [x16, #1000]
 .word 0xd63f0220
 .word 0xf9407ba0
 .word 0x34000ec0
-.loc 4 71 0
+.loc 5 71 0
 .word 0xf94027b1
 .word 0xf943c231
 .word 0xb4000051
@@ -58315,13 +58458,13 @@ ldr x1, [x16, #1000]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #952]
+ldr x1, [x16, #944]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54002601
 .word 0xf94053a0
 .word 0xaa0003f9
-.loc 4 72 0
+.loc 5 72 0
 .word 0xf94027b1
 .word 0xf9445231
 .word 0xb4000051
@@ -58329,13 +58472,13 @@ ldr x1, [x16, #952]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1008]
+ldr x0, [x16, #1000]
 .word 0xf90087a0
 .word 0xd2800020
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1016]
+ldr x0, [x16, #1008]
 .word 0xd2800021
 bl _p_8
 .word 0xf90057a0
@@ -58374,7 +58517,7 @@ bl _p_8
 .word 0xd63f0220
 .word 0xf9407ba0
 .word 0x34000400
-.loc 4 74 0
+.loc 5 74 0
 .word 0xf94027b1
 .word 0xf9451a31
 .word 0xb4000051
@@ -58382,7 +58525,7 @@ bl _p_8
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1024]
+ldr x0, [x16, #1016]
 .word 0xaa1903e1
 .word 0xaa1903e1
 bl _p_627
@@ -58407,7 +58550,7 @@ bl _p_624
 .word 0x54001be1
 .word 0xf9405ba0
 .word 0x140000d2
-.loc 4 82 0
+.loc 5 82 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -58429,7 +58572,7 @@ bl _p_624
 .word 0xd63f0220
 .word 0xf9407ba0
 .word 0x34001480
-.loc 4 83 0
+.loc 5 83 0
 .word 0xf94027b1
 .word 0xf945ea31
 .word 0xb4000051
@@ -58453,7 +58596,7 @@ bl _p_258
 .word 0xf9407fa0
 .word 0xf9007ba0
 .word 0xaa0003f8
-.loc 4 88 0
+.loc 5 88 0
 .word 0xf94027b1
 .word 0xf9464631
 .word 0xb4000051
@@ -58469,11 +58612,11 @@ bl _p_258
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1032]
+ldr x0, [x16, #1024]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
-.loc 4 91 0
+.loc 5 91 0
 .word 0xf94027b1
 .word 0xf9468e31
 .word 0xb4000051
@@ -58481,7 +58624,7 @@ ldr x0, [x16, #1032]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1040]
+ldr x0, [x16, #1032]
 .word 0xaa1a03e1
 .word 0xaa1a03e1
 bl _p_627
@@ -58506,7 +58649,7 @@ bl _p_624
 .word 0x54001041
 .word 0xf94043a0
 .word 0x14000075
-.loc 4 97 0
+.loc 5 97 0
 .word 0xf94027b1
 .word 0xf9470a31
 .word 0xb4000051
@@ -58514,7 +58657,7 @@ bl _p_624
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1048]
+ldr x0, [x16, #1040]
 .word 0xaa1a03e1
 .word 0xaa1a03e1
 bl _p_627
@@ -58538,7 +58681,7 @@ bl _p_624
 .word 0xaa1503e0
 .word 0xaa1503e0
 .word 0x14000057
-.loc 4 106 0
+.loc 5 106 0
 .word 0xf94027b1
 .word 0xf9478231
 .word 0xb4000051
@@ -58546,7 +58689,7 @@ bl _p_624
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1056]
+ldr x0, [x16, #1048]
 .word 0xaa1a03e1
 .word 0xaa1a03e1
 bl _p_627
@@ -58570,7 +58713,7 @@ bl _p_624
 .word 0xaa1303e0
 .word 0xaa1303e0
 .word 0x14000039
-.loc 4 113 0
+.loc 5 113 0
 .word 0xf94027b1
 .word 0xf947fa31
 .word 0xb4000051
@@ -58578,7 +58721,7 @@ bl _p_624
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1056]
 .word 0xaa1a03e1
 .word 0xaa1a03e1
 bl _p_627
@@ -58603,7 +58746,7 @@ bl _p_624
 .word 0x540004e1
 .word 0xf9404ba0
 .word 0x1400001a
-.loc 4 120 0
+.loc 5 120 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -58640,10 +58783,10 @@ bl _p_630
 .word 0x910003bf
 .word 0xa8d17bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_3
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -58652,7 +58795,7 @@ Lme_2b2:
 	.align 4
 	.no_dead_strip System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
 System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer:
-.loc 4 49 0 prologue_end
+.loc 5 49 0 prologue_end
 .word 0xa9af7bfd
 .word 0x910003fd
 .word 0xf9000bb3
@@ -58663,7 +58806,7 @@ System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1072]
+ldr x16, [x16, #1064]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -58695,13 +58838,13 @@ bl _p_631
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #952]
+ldr x1, [x16, #944]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x540041c1
 .word 0xf94037a0
 .word 0xaa0003fa
-.loc 4 51 0
+.loc 5 51 0
 .word 0xf94027b1
 .word 0xf940c631
 .word 0xb4000051
@@ -58710,7 +58853,7 @@ ldr x1, [x16, #952]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1080]
+ldr x0, [x16, #1072]
 .word 0xeb00035f
 .word 0x9a9f17e0
 .word 0xf9007ba0
@@ -58720,7 +58863,7 @@ ldr x0, [x16, #1080]
 .word 0xd63f0220
 .word 0xf9407ba0
 .word 0x34000440
-.loc 4 52 0
+.loc 5 52 0
 .word 0xf94027b1
 .word 0xf9410a31
 .word 0xb4000051
@@ -58728,7 +58871,7 @@ ldr x0, [x16, #1080]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #968]
+ldr x0, [x16, #960]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_1
@@ -58755,7 +58898,7 @@ bl _p_632
 .word 0x54003b81
 .word 0xf9406fa0
 .word 0x140001cf
-.loc 4 57 0
+.loc 5 57 0
 .word 0xf94027b1
 .word 0xf9418e31
 .word 0xb4000051
@@ -58764,7 +58907,7 @@ bl _p_632
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1088]
+ldr x0, [x16, #1080]
 .word 0xeb00035f
 .word 0x9a9f17e0
 .word 0xf9007ba0
@@ -58774,7 +58917,7 @@ ldr x0, [x16, #1088]
 .word 0xd63f0220
 .word 0xf9407ba0
 .word 0x34000420
-.loc 4 58 0
+.loc 5 58 0
 .word 0xf94027b1
 .word 0xf941d231
 .word 0xb4000051
@@ -58782,7 +58925,7 @@ ldr x0, [x16, #1088]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #984]
+ldr x0, [x16, #976]
 .word 0xd2800201
 .word 0xd2800201
 bl _p_1
@@ -58808,7 +58951,7 @@ bl _p_632
 .word 0xaa1703e0
 .word 0xaa1703e0
 .word 0x1400019e
-.loc 4 62 0
+.loc 5 62 0
 .word 0xf94027b1
 .word 0xf9425231
 .word 0xb4000051
@@ -58830,7 +58973,7 @@ bl _p_633
 .word 0xd63f0220
 .word 0xf9407ba0
 .word 0x34000400
-.loc 4 64 0
+.loc 5 64 0
 .word 0xf94027b1
 .word 0xf942a631
 .word 0xb4000051
@@ -58838,7 +58981,7 @@ bl _p_633
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1096]
+ldr x0, [x16, #1088]
 .word 0xaa1a03e1
 .word 0xaa1a03e1
 bl _p_627
@@ -58863,7 +59006,7 @@ bl _p_632
 .word 0x54002ee1
 .word 0xf94063a0
 .word 0x1400016a
-.loc 4 70 0
+.loc 5 70 0
 .word 0xf94027b1
 .word 0xf9432231
 .word 0xb4000051
@@ -58895,7 +59038,7 @@ bl _p_632
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #1104]
+ldr x1, [x16, #1096]
 .word 0xeb01001f
 .word 0x9a9f17e0
 .word 0xf9007ba0
@@ -58905,7 +59048,7 @@ ldr x1, [x16, #1104]
 .word 0xd63f0220
 .word 0xf9407ba0
 .word 0x34000ec0
-.loc 4 71 0
+.loc 5 71 0
 .word 0xf94027b1
 .word 0xf943c231
 .word 0xb4000051
@@ -58937,13 +59080,13 @@ ldr x1, [x16, #1104]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x1, [x16, #952]
+ldr x1, [x16, #944]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54002561
 .word 0xf94053a0
 .word 0xaa0003f9
-.loc 4 72 0
+.loc 5 72 0
 .word 0xf94027b1
 .word 0xf9445231
 .word 0xb4000051
@@ -58951,13 +59094,13 @@ ldr x1, [x16, #952]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1112]
+ldr x0, [x16, #1104]
 .word 0xf90087a0
 .word 0xd2800020
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1016]
+ldr x0, [x16, #1008]
 .word 0xd2800021
 bl _p_8
 .word 0xf90057a0
@@ -58996,7 +59139,7 @@ bl _p_8
 .word 0xd63f0220
 .word 0xf9407ba0
 .word 0x34000400
-.loc 4 74 0
+.loc 5 74 0
 .word 0xf94027b1
 .word 0xf9451a31
 .word 0xb4000051
@@ -59004,7 +59147,7 @@ bl _p_8
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1120]
+ldr x0, [x16, #1112]
 .word 0xaa1903e1
 .word 0xaa1903e1
 bl _p_627
@@ -59029,7 +59172,7 @@ bl _p_632
 .word 0x54001b41
 .word 0xf9405ba0
 .word 0x140000cd
-.loc 4 82 0
+.loc 5 82 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -59051,7 +59194,7 @@ bl _p_632
 .word 0xd63f0220
 .word 0xf9407ba0
 .word 0x34001480
-.loc 4 83 0
+.loc 5 83 0
 .word 0xf94027b1
 .word 0xf945ea31
 .word 0xb4000051
@@ -59075,7 +59218,7 @@ bl _p_258
 .word 0xf9407fa0
 .word 0xf9007ba0
 .word 0xaa0003f8
-.loc 4 88 0
+.loc 5 88 0
 .word 0xf94027b1
 .word 0xf9464631
 .word 0xb4000051
@@ -59091,11 +59234,11 @@ bl _p_258
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1128]
+ldr x0, [x16, #1120]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
-.loc 4 91 0
+.loc 5 91 0
 .word 0xf94027b1
 .word 0xf9468e31
 .word 0xb4000051
@@ -59103,7 +59246,7 @@ ldr x0, [x16, #1128]
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1136]
+ldr x0, [x16, #1128]
 .word 0xaa1a03e1
 .word 0xaa1a03e1
 bl _p_627
@@ -59128,7 +59271,7 @@ bl _p_632
 .word 0x54000fa1
 .word 0xf94043a0
 .word 0x14000070
-.loc 4 97 0
+.loc 5 97 0
 .word 0xf94027b1
 .word 0xf9470a31
 .word 0xb4000051
@@ -59136,7 +59279,7 @@ bl _p_632
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1144]
+ldr x0, [x16, #1136]
 .word 0xaa1a03e1
 .word 0xaa1a03e1
 bl _p_627
@@ -59160,7 +59303,7 @@ bl _p_632
 .word 0xaa1503e0
 .word 0xaa1503e0
 .word 0x14000052
-.loc 4 106 0
+.loc 5 106 0
 .word 0xf94027b1
 .word 0xf9478231
 .word 0xb4000051
@@ -59168,7 +59311,7 @@ bl _p_632
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1152]
+ldr x0, [x16, #1144]
 .word 0xaa1a03e1
 .word 0xaa1a03e1
 bl _p_627
@@ -59192,7 +59335,7 @@ bl _p_632
 .word 0xaa1303e0
 .word 0xaa1303e0
 .word 0x14000034
-.loc 4 113 0
+.loc 5 113 0
 .word 0xf94027b1
 .word 0xf947fa31
 .word 0xb4000051
@@ -59200,7 +59343,7 @@ bl _p_632
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x0, [x16, #1160]
+ldr x0, [x16, #1152]
 .word 0xaa1a03e1
 .word 0xaa1a03e1
 bl _p_627
@@ -59225,7 +59368,7 @@ bl _p_632
 .word 0x54000441
 .word 0xf9404ba0
 .word 0x14000015
-.loc 4 120 0
+.loc 5 120 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -59257,10 +59400,10 @@ bl _p_635
 .word 0x910003bf
 .word 0xa8d17bfd
 .word 0xd65f03c0
-.word 0xd2801be0
+.word 0xd2801d40
 .word 0xaa1103e1
 bl _p_3
-.word 0xd2801b20
+.word 0xd2801c80
 .word 0xaa1103e1
 bl _p_3
 
@@ -59269,8 +59412,141 @@ Lme_2b3:
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_INTPTR_EnsureCapacity_int
 System_Collections_Generic_List_1_T_INTPTR_EnsureCapacity_int:
-.loc 8 413 0 prologue_end
+.loc 7 413 0 prologue_end
 .word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xa90167b8
+.word 0xf90013ba
+.word 0xf90017a0
+.word 0xaa0103fa
+
+adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
+add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
+ldr x16, [x16, #1160]
+.word 0xf9001bb0
+.word 0xf9400a11
+.word 0xf9001fb1
+.word 0xd2800019
+.word 0xf9401bb1
+.word 0xf9404231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9406231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a0
+.word 0xf9400800
+.word 0xb9801800
+.word 0xaa1a03e1
+.word 0x6b1a001f
+.word 0x5400092a
+.loc 7 414 0
+.word 0xf9401bb1
+.word 0xf9408a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a0
+.word 0xf9400800
+.word 0xb9801800
+.word 0x340000e0
+.word 0xf94017a0
+.word 0xf9400800
+.word 0xb9801800
+.word 0x531f7800
+.word 0xaa0003f8
+.word 0x14000003
+.word 0xd2800080
+.word 0xd2800098
+.word 0xaa1803e0
+.word 0xaa1803f9
+.loc 7 417 0
+.word 0xf9401bb1
+.word 0xf940d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xd29fffe0
+.word 0xf2affde0
+.word 0xd29ffffe
+.word 0xf2affdfe
+.word 0x6b1e031f
+.word 0x540000e9
+.word 0xf9401bb1
+.word 0xf940fe31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd29ffff9
+.word 0xf2affdf9
+.loc 7 418 0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9412631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0x6b1a033f
+.word 0x540000ea
+.word 0xf9401bb1
+.word 0xf9414631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03f9
+.loc 7 419 0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9416e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017a0
+.word 0xaa1903e1
+.word 0xf940001e
+.word 0xf9002ba0
+.word 0xf94017a0
+.word 0xf9400000
+bl _p_636
+.word 0xaa0003e2
+.word 0xf9402ba0
+.word 0xaa1903e1
+.word 0xd63f0040
+.loc 7 421 0
+.word 0xf9401fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf941ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf941ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94167b8
+.word 0xf94013ba
+.word 0x910003bf
+.word 0xa8c67bfd
+.word 0xd65f03c0
+
+Lme_2b4:
+.text
+	.align 4
+	.no_dead_strip System_Collections_Generic_List_1_T_REF_EnsureCapacity_int
+System_Collections_Generic_List_1_T_REF_EnsureCapacity_int:
+.loc 7 413 0 prologue_end
+.word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xa90167b8
 .word 0xf90013ba
@@ -59301,141 +59577,8 @@ ldr x16, [x16, #1168]
 .word 0xb9801800
 .word 0xaa1a03e1
 .word 0x6b1a001f
-.word 0x5400092a
-.loc 8 414 0
-.word 0xf9401bb1
-.word 0xf9408a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017a0
-.word 0xf9400800
-.word 0xb9801800
-.word 0x340000e0
-.word 0xf94017a0
-.word 0xf9400800
-.word 0xb9801800
-.word 0x531f7800
-.word 0xaa0003f8
-.word 0x14000003
-.word 0xd2800080
-.word 0xd2800098
-.word 0xaa1803e0
-.word 0xaa1803f9
-.loc 8 417 0
-.word 0xf9401bb1
-.word 0xf940d231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xd29fffe0
-.word 0xf2affde0
-.word 0xd29ffffe
-.word 0xf2affdfe
-.word 0x6b1e031f
-.word 0x540000e9
-.word 0xf9401bb1
-.word 0xf940fe31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd29ffff9
-.word 0xf2affdf9
-.loc 8 418 0
-.word 0xf9401fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9412631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xaa1a03e0
-.word 0x6b1a033f
-.word 0x540000ea
-.word 0xf9401bb1
-.word 0xf9414631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xaa1a03f9
-.loc 8 419 0
-.word 0xf9401fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9416e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017a0
-.word 0xaa1903e1
-.word 0xf940001e
-.word 0xf9002ba0
-.word 0xf94017a0
-.word 0xf9400000
-bl _p_636
-.word 0xaa0003e2
-.word 0xf9402ba0
-.word 0xaa1903e1
-.word 0xd63f0040
-.loc 8 421 0
-.word 0xf9401fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf941ba31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf941ca31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xa94167b8
-.word 0xf94013ba
-.word 0x910003bf
-.word 0xa8c67bfd
-.word 0xd65f03c0
-
-Lme_2b4:
-.text
-	.align 4
-	.no_dead_strip System_Collections_Generic_List_1_T_REF_EnsureCapacity_int
-System_Collections_Generic_List_1_T_REF_EnsureCapacity_int:
-.loc 8 413 0 prologue_end
-.word 0xa9bb7bfd
-.word 0x910003fd
-.word 0xa90167b8
-.word 0xf90013ba
-.word 0xf90017a0
-.word 0xaa0103fa
-
-adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
-add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1176]
-.word 0xf9001bb0
-.word 0xf9400a11
-.word 0xf9001fb1
-.word 0xd2800019
-.word 0xf9401bb1
-.word 0xf9404231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401fb1
-.word 0xf9400231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9406231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94017a0
-.word 0xf9400800
-.word 0xb9801800
-.word 0xaa1a03e1
-.word 0x6b1a001f
 .word 0x5400084a
-.loc 8 414 0
+.loc 7 414 0
 .word 0xf9401bb1
 .word 0xf9408a31
 .word 0xb4000051
@@ -59454,7 +59597,7 @@ ldr x16, [x16, #1176]
 .word 0xd2800098
 .word 0xaa1803e0
 .word 0xaa1803f9
-.loc 8 417 0
+.loc 7 417 0
 .word 0xf9401bb1
 .word 0xf940d231
 .word 0xb4000051
@@ -59472,7 +59615,7 @@ ldr x16, [x16, #1176]
 .word 0xd63f0220
 .word 0xd29ffff9
 .word 0xf2affdf9
-.loc 8 418 0
+.loc 7 418 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -59491,7 +59634,7 @@ ldr x16, [x16, #1176]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03f9
-.loc 8 419 0
+.loc 7 419 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -59504,7 +59647,7 @@ ldr x16, [x16, #1176]
 .word 0xaa1903e1
 .word 0xaa1903e1
 bl _p_637
-.loc 8 421 0
+.loc 7 421 0
 .word 0xf9401fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -59534,7 +59677,7 @@ System_Collections_Generic_ObjectEqualityComparer_1_T_INTPTR__ctor:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1184]
+ldr x16, [x16, #1176]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -59574,7 +59717,7 @@ System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1192]
+ldr x16, [x16, #1184]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -59601,7 +59744,7 @@ Lme_2b7:
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_INTPTR_set_Capacity_int
 System_Collections_Generic_List_1_T_INTPTR_set_Capacity_int:
-.loc 8 116 0 prologue_end
+.loc 7 116 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -59610,7 +59753,7 @@ System_Collections_Generic_List_1_T_INTPTR_set_Capacity_int:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1200]
+ldr x16, [x16, #1192]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -59632,7 +59775,7 @@ ldr x16, [x16, #1200]
 .word 0xb9802000
 .word 0x6b00035f
 .word 0x5400014a
-.loc 8 117 0
+.loc 7 117 0
 .word 0xf94017b1
 .word 0xf9408231
 .word 0xb4000051
@@ -59642,7 +59785,7 @@ ldr x16, [x16, #1200]
 .word 0xd28001e0
 .word 0xd28002a1
 bl _p_613
-.loc 8 121 0
+.loc 7 121 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -59657,7 +59800,7 @@ bl _p_613
 .word 0xb9801800
 .word 0x6b00035f
 .word 0x54000c80
-.loc 8 122 0
+.loc 7 122 0
 .word 0xf94017b1
 .word 0xf940de31
 .word 0xb4000051
@@ -59666,7 +59809,7 @@ bl _p_613
 .word 0xd2800000
 .word 0x6b1f035f
 .word 0x540007ed
-.loc 8 123 0
+.loc 7 123 0
 .word 0xf94017b1
 .word 0xf940fe31
 .word 0xb4000051
@@ -59678,7 +59821,7 @@ bl _p_640
 .word 0xaa1a03e1
 bl _p_8
 .word 0xaa0003f9
-.loc 8 124 0
+.loc 7 124 0
 .word 0xf94017b1
 .word 0xf9412a31
 .word 0xb4000051
@@ -59688,7 +59831,7 @@ bl _p_8
 .word 0xd2800001
 .word 0x6b1f001f
 .word 0x5400020d
-.loc 8 125 0
+.loc 7 125 0
 .word 0xf94017b1
 .word 0xf9414e31
 .word 0xb4000051
@@ -59704,7 +59847,7 @@ bl _p_8
 .word 0xaa1903e2
 .word 0xd2800003
 bl _p_403
-.loc 8 127 0
+.loc 7 127 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -59728,13 +59871,13 @@ ldr x1, [x16, #16]
 .word 0x8b010000
 .word 0xd280003e
 .word 0x3900001e
-.loc 8 128 0
+.loc 7 128 0
 .word 0xf94017b1
 .word 0xf941e231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000026
-.loc 8 130 0
+.loc 7 130 0
 .word 0xf94017b1
 .word 0xf941f631
 .word 0xb4000051
@@ -59765,7 +59908,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 8 133 0
+.loc 7 133 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -59788,7 +59931,7 @@ Lme_2b8:
 	.align 4
 	.no_dead_strip System_Collections_Generic_List_1_T_REF_set_Capacity_int
 System_Collections_Generic_List_1_T_REF_set_Capacity_int:
-.loc 8 116 0 prologue_end
+.loc 7 116 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -59797,7 +59940,7 @@ System_Collections_Generic_List_1_T_REF_set_Capacity_int:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1208]
+ldr x16, [x16, #1200]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -59819,7 +59962,7 @@ ldr x16, [x16, #1208]
 .word 0xb9802000
 .word 0x6b00035f
 .word 0x5400014a
-.loc 8 117 0
+.loc 7 117 0
 .word 0xf94017b1
 .word 0xf9408231
 .word 0xb4000051
@@ -59829,7 +59972,7 @@ ldr x16, [x16, #1208]
 .word 0xd28001e0
 .word 0xd28002a1
 bl _p_613
-.loc 8 121 0
+.loc 7 121 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -59844,7 +59987,7 @@ bl _p_613
 .word 0xb9801800
 .word 0x6b00035f
 .word 0x54000c80
-.loc 8 122 0
+.loc 7 122 0
 .word 0xf94017b1
 .word 0xf940de31
 .word 0xb4000051
@@ -59853,7 +59996,7 @@ bl _p_613
 .word 0xd2800000
 .word 0x6b1f035f
 .word 0x540007ed
-.loc 8 123 0
+.loc 7 123 0
 .word 0xf94017b1
 .word 0xf940fe31
 .word 0xb4000051
@@ -59865,7 +60008,7 @@ bl _p_643
 .word 0xaa1a03e1
 bl _p_8
 .word 0xaa0003f9
-.loc 8 124 0
+.loc 7 124 0
 .word 0xf94017b1
 .word 0xf9412a31
 .word 0xb4000051
@@ -59875,7 +60018,7 @@ bl _p_8
 .word 0xd2800001
 .word 0x6b1f001f
 .word 0x5400020d
-.loc 8 125 0
+.loc 7 125 0
 .word 0xf94017b1
 .word 0xf9414e31
 .word 0xb4000051
@@ -59891,7 +60034,7 @@ bl _p_8
 .word 0xaa1903e2
 .word 0xd2800003
 bl _p_403
-.loc 8 127 0
+.loc 7 127 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -59915,13 +60058,13 @@ ldr x1, [x16, #16]
 .word 0x8b010000
 .word 0xd280003e
 .word 0x3900001e
-.loc 8 128 0
+.loc 7 128 0
 .word 0xf94017b1
 .word 0xf941e231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000026
-.loc 8 130 0
+.loc 7 130 0
 .word 0xf94017b1
 .word 0xf941f631
 .word 0xb4000051
@@ -59952,7 +60095,7 @@ ldr x2, [x16, #16]
 .word 0x8b020021
 .word 0xd280003e
 .word 0x3900003e
-.loc 8 133 0
+.loc 7 133 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -59981,7 +60124,7 @@ System_Collections_Generic_EqualityComparer_1_T_INTPTR__ctor:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1216]
+ldr x16, [x16, #1208]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -60013,7 +60156,7 @@ System_Collections_Generic_EqualityComparer_1_T_REF__ctor:
 
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1224]
+ldr x16, [x16, #1216]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -60718,9 +60861,9 @@ bl wrapper_native_to_managed_SQLitePCL_SQLite3Provider_sqlite3_trace_hook_bridge
 bl wrapper_native_to_managed_SQLitePCL_SQLite3Provider_sqlite3_profile_hook_bridge_impl_intptr_intptr_long
 bl wrapper_native_to_managed_SQLitePCL_SQLite3Provider_sqlite3_progress_handler_hook_bridge_impl_intptr
 bl wrapper_native_to_managed_SQLitePCL_SQLite3Provider_sqlite3_authorizer_hook_bridge_impl_intptr_int_intptr_intptr_intptr_intptr
-bl System_Collections_Generic_EqualityComparer_1_T_INTPTR_get_Default
 bl System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Value
 bl System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Key
+bl System_Collections_Generic_EqualityComparer_1_T_INTPTR_get_Default
 bl System_Collections_Generic_EqualityComparer_1_T_REF_get_Default
 bl System_Array_Empty_T_GSHAREDVT
 bl System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF__ctor_TKey_INTPTR_TValue_REF
@@ -60750,7 +60893,7 @@ method_addresses_end:
 	.align 3
 unbox_trampolines:
 
-	.long 472,473,474,475,476,477,675,676
+	.long 472,473,474,475,476,477,674,675
 	.long 679
 unbox_trampolines_end:
 
@@ -60764,8 +60907,8 @@ bl ut_474
 bl ut_475
 bl ut_476
 bl ut_477
+bl ut_674
 bl ut_675
-bl ut_676
 bl ut_679
 
 	.long 0
@@ -60806,55 +60949,54 @@ unwind_info:
 	.byte 68,153,10,154,9,17,12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,154,32,16,12,31,0,68,14,64,157,8
 	.byte 158,7,68,13,29,68,152,6,34,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150
 	.byte 13,68,151,12,152,11,68,153,10,154,9,21,12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154
-	.byte 8,14,12,31,0,68,14,144,2,157,34,158,33,68,13,29,32,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68
-	.byte 147,18,148,17,68,149,16,150,15,68,151,14,152,13,68,154,12,27,12,31,0,68,14,144,1,157,18,158,17,68,13,29
-	.byte 68,150,16,151,15,68,152,14,153,13,68,154,12,17,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,16
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10,18,12,31,0,68,14,112,157,14,158,13,68,13,29,68,152
-	.byte 12,153,11,34,12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,147,30,148,29,68,149,28,150,27,68,151,26,152
-	.byte 25,68,153,24,154,23,29,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,149,20,150,19,68,151,18,152,17,68
-	.byte 153,16,154,15,17,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,154,20,24,12,31,0,68,14,128,1,157,16
-	.byte 158,15,68,13,29,68,151,14,152,13,68,153,12,154,11,27,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150
-	.byte 18,151,17,68,152,16,153,15,68,154,14,34,12,31,0,68,14,160,2,157,36,158,35,68,13,29,68,147,34,148,33,68
-	.byte 149,32,150,31,68,151,30,152,29,68,153,28,154,27,17,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,153,14
-	.byte 18,12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5,22,12,31,0,68,14,144,1,157,18,158,17,68
-	.byte 13,29,68,152,16,153,15,68,154,14,19,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15,34,12
-	.byte 31,0,68,14,224,1,157,28,158,27,68,13,29,68,147,26,148,25,68,149,24,150,23,68,151,22,152,21,68,153,20,154
-	.byte 19,19,12,31,0,68,14,224,2,157,44,158,43,68,13,29,68,153,42,154,41,27,12,31,0,68,14,144,1,157,18,158
-	.byte 17,68,13,29,68,149,16,150,15,68,151,14,152,13,68,154,12,19,12,31,0,68,14,80,157,10,158,9,68,13,29,68
-	.byte 152,8,68,154,7,29,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,149,18,150,17,68,151,16,152,15,68,153
-	.byte 14,154,13,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,17,12,31,0,68,14,144,1,157,18,158,17
-	.byte 68,13,29,68,154,16,34,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,147,18,148,17,68,149,16,150,15,68
-	.byte 151,14,152,13,68,153,12,154,11,24,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,150,16,151,15,68,152,14
-	.byte 153,13,23,12,31,0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9,39,12,31,0,68,14
-	.byte 224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9,68,155,8
-	.byte 156,7,23,12,31,0,68,14,96,157,12,158,11,68,13,29,68,150,10,151,9,68,152,8,153,7,34,12,31,0,68,14
-	.byte 128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7,24,12,31
-	.byte 0,68,14,128,1,157,16,158,15,68,13,29,68,150,14,151,13,68,152,12,153,11,39,12,31,0,68,14,208,1,157,26
-	.byte 158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9,68,155,8,156,7,24,12
-	.byte 31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15,39,12,31,0,68,14,128,2,157
-	.byte 32,158,31,68,13,29,76,147,18,148,17,68,149,16,150,15,68,151,14,152,13,68,153,12,154,11,68,155,10,156,9,27
-	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15,68,156,14,39,12,31,0,68
-	.byte 14,240,1,157,30,158,29,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9,154,8,68,155
-	.byte 7,156,6,39,12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152
-	.byte 10,68,153,9,154,8,68,155,7,156,6,39,12,31,0,68,14,240,1,157,30,158,29,68,13,29,76,147,17,148,16,68
-	.byte 149,15,150,14,68,151,13,152,12,68,153,11,154,10,68,155,9,156,8,39,12,31,0,68,14,192,1,157,24,158,23,68
-	.byte 13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9,154,8,68,155,7,156,6,39,12,31,0,68
-	.byte 14,192,1,157,24,158,23,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9,68,155
-	.byte 8,156,7,39,12,31,0,68,14,128,2,157,32,158,31,68,13,29,92,147,16,148,15,68,149,14,150,13,68,151,12,152
-	.byte 11,68,153,10,154,9,68,155,8,156,7,39,12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,18,148,17,68
-	.byte 149,16,150,15,68,151,14,152,13,68,153,12,154,11,68,155,10,156,9,39,12,31,0,68,14,224,1,157,28,158,27,68
-	.byte 13,29,76,147,19,148,18,68,149,17,150,16,68,151,15,152,14,68,153,13,154,12,68,155,11,156,10,39,12,31,0,68
-	.byte 14,128,2,157,32,158,31,68,13,29,76,147,19,148,18,68,149,17,150,16,68,151,15,152,14,68,153,13,154,12,68,155
-	.byte 11,156,10,39,12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,17,148,16,68,149,15,150,14,68,151,13,152
-	.byte 12,68,153,11,154,10,68,155,9,156,8,39,12,31,0,68,14,144,2,157,34,158,33,68,13,29,76,147,21,148,20,68
-	.byte 149,19,150,18,68,151,17,152,16,68,153,15,154,14,68,155,13,156,12,39,12,31,0,68,14,240,1,157,30,158,29,68
-	.byte 13,29,76,147,18,148,17,68,149,16,150,15,68,151,14,152,13,68,153,12,154,11,68,155,10,156,9,19,12,31,0,68
-	.byte 14,240,1,157,30,158,29,68,13,29,68,147,28,148,27,19,12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,150
-	.byte 24,151,23,19,12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,148,26,149,25,20,12,31,0,68,14,240,1,157
-	.byte 30,158,29,68,13,29,68,147,28,68,154,27,19,12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,149,24,150,23
-	.byte 19,12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,153,30,154,29,32,12,31,0,68,14,144,2,157,34,158,33
-	.byte 68,13,29,68,147,32,68,149,31,150,30,68,151,29,152,28,68,153,27,154,26,21,12,31,0,68,14,80,157,10,158,9
-	.byte 68,13,29,68,152,8,153,7,68,154,6
+	.byte 8,14,12,31,0,68,14,144,2,157,34,158,33,68,13,29,34,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68
+	.byte 147,22,148,21,68,149,20,150,19,68,151,18,152,17,68,153,16,154,15,27,12,31,0,68,14,144,1,157,18,158,17,68
+	.byte 13,29,68,150,16,151,15,68,152,14,153,13,68,154,12,17,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153
+	.byte 16,16,12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10,18,12,31,0,68,14,112,157,14,158,13,68,13,29
+	.byte 68,152,12,153,11,34,12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,147,32,148,31,68,149,30,150,29,68,151
+	.byte 28,152,27,68,153,26,154,25,29,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,149,22,150,21,68,151,20,152
+	.byte 19,68,153,18,154,17,17,12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,154,24,24,12,31,0,68,14,128,1
+	.byte 157,16,158,15,68,13,29,68,151,14,152,13,68,153,12,154,11,27,12,31,0,68,14,176,1,157,22,158,21,68,13,29
+	.byte 68,150,20,151,19,68,152,18,153,17,68,154,16,34,12,31,0,68,14,176,2,157,38,158,37,68,13,29,68,147,36,148
+	.byte 35,68,149,34,150,33,68,151,32,152,31,68,153,30,154,29,17,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68
+	.byte 153,14,22,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,152,16,153,15,68,154,14,19,12,31,0,68,14,144
+	.byte 1,157,18,158,17,68,13,29,68,153,16,154,15,34,12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,147,28,148
+	.byte 27,68,149,26,150,25,68,151,24,152,23,68,153,22,154,21,19,12,31,0,68,14,224,2,157,44,158,43,68,13,29,68
+	.byte 153,42,154,41,27,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,149,18,150,17,68,151,16,152,15,68,154,14
+	.byte 19,12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,68,154,9,29,12,31,0,68,14,160,1,157,20,158,19
+	.byte 68,13,29,68,149,18,150,17,68,151,16,152,15,68,153,14,154,13,16,12,31,0,68,14,64,157,8,158,7,68,13,29
+	.byte 68,153,6,17,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,154,16,34,12,31,0,68,14,160,1,157,20,158
+	.byte 19,68,13,29,68,147,18,148,17,68,149,16,150,15,68,151,14,152,13,68,153,12,154,11,24,12,31,0,68,14,144,1
+	.byte 157,18,158,17,68,13,29,68,150,16,151,15,68,152,14,153,13,23,12,31,0,68,14,112,157,14,158,13,68,13,29,68
+	.byte 150,12,151,11,68,152,10,153,9,39,12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,16,148,15,68,149,14
+	.byte 150,13,68,151,12,152,11,68,153,10,154,9,68,155,8,156,7,23,12,31,0,68,14,96,157,12,158,11,68,13,29,68
+	.byte 150,10,151,9,68,152,8,153,7,34,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12
+	.byte 150,11,68,151,10,152,9,68,153,8,154,7,24,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,150,14,151,13
+	.byte 68,152,12,153,11,39,12,31,0,68,14,208,1,157,26,158,25,68,13,29,76,147,16,148,15,68,149,14,150,13,68,151
+	.byte 12,152,11,68,153,10,154,9,68,155,8,156,7,24,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151
+	.byte 17,68,152,16,153,15,39,12,31,0,68,14,128,2,157,32,158,31,68,13,29,76,147,18,148,17,68,149,16,150,15,68
+	.byte 151,14,152,13,68,153,12,154,11,68,155,10,156,9,27,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18
+	.byte 151,17,68,152,16,153,15,68,156,14,39,12,31,0,68,14,240,1,157,30,158,29,68,13,29,76,147,15,148,14,68,149
+	.byte 13,150,12,68,151,11,152,10,68,153,9,154,8,68,155,7,156,6,39,12,31,0,68,14,208,1,157,26,158,25,68,13
+	.byte 29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10,68,153,9,154,8,68,155,7,156,6,39,12,31,0,68,14
+	.byte 240,1,157,30,158,29,68,13,29,76,147,17,148,16,68,149,15,150,14,68,151,13,152,12,68,153,11,154,10,68,155,9
+	.byte 156,8,39,12,31,0,68,14,192,1,157,24,158,23,68,13,29,76,147,15,148,14,68,149,13,150,12,68,151,11,152,10
+	.byte 68,153,9,154,8,68,155,7,156,6,39,12,31,0,68,14,192,1,157,24,158,23,68,13,29,76,147,16,148,15,68,149
+	.byte 14,150,13,68,151,12,152,11,68,153,10,154,9,68,155,8,156,7,39,12,31,0,68,14,128,2,157,32,158,31,68,13
+	.byte 29,92,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9,68,155,8,156,7,39,12,31,0,68,14
+	.byte 224,1,157,28,158,27,68,13,29,76,147,18,148,17,68,149,16,150,15,68,151,14,152,13,68,153,12,154,11,68,155,10
+	.byte 156,9,39,12,31,0,68,14,224,1,157,28,158,27,68,13,29,76,147,19,148,18,68,149,17,150,16,68,151,15,152,14
+	.byte 68,153,13,154,12,68,155,11,156,10,39,12,31,0,68,14,128,2,157,32,158,31,68,13,29,76,147,19,148,18,68,149
+	.byte 17,150,16,68,151,15,152,14,68,153,13,154,12,68,155,11,156,10,39,12,31,0,68,14,224,1,157,28,158,27,68,13
+	.byte 29,76,147,17,148,16,68,149,15,150,14,68,151,13,152,12,68,153,11,154,10,68,155,9,156,8,39,12,31,0,68,14
+	.byte 144,2,157,34,158,33,68,13,29,76,147,21,148,20,68,149,19,150,18,68,151,17,152,16,68,153,15,154,14,68,155,13
+	.byte 156,12,39,12,31,0,68,14,240,1,157,30,158,29,68,13,29,76,147,18,148,17,68,149,16,150,15,68,151,14,152,13
+	.byte 68,153,12,154,11,68,155,10,156,9,19,12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,147,28,148,27,19,12
+	.byte 31,0,68,14,208,1,157,26,158,25,68,13,29,68,150,24,151,23,19,12,31,0,68,14,224,1,157,28,158,27,68,13
+	.byte 29,68,148,26,149,25,20,12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,147,28,68,154,27,19,12,31,0,68
+	.byte 14,208,1,157,26,158,25,68,13,29,68,149,24,150,23,19,12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,153
+	.byte 30,154,29,32,12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,147,32,68,149,31,150,30,68,151,29,152,28,68
+	.byte 153,27,154,26,21,12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,153,7,68,154,6
 
 .text
 	.align 4
@@ -60865,5165 +61007,5165 @@ plt_wrapper_alloc_object_AllocSmall_intptr_intptr:
 _p_1:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1240]
+ldr x16, [x16, #1232]
 br x16
-.word 9242
+.word 9209
 	.no_dead_strip plt_System_Collections_Concurrent_ConcurrentDictionary_2_intptr_SQLitePCL_hooks_info_GetOrAdd_intptr_System_Func_2_intptr_SQLitePCL_hooks_info
 plt_System_Collections_Concurrent_ConcurrentDictionary_2_intptr_SQLitePCL_hooks_info_GetOrAdd_intptr_System_Func_2_intptr_SQLitePCL_hooks_info:
 _p_2:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1248]
+ldr x16, [x16, #1240]
 br x16
-.word 9250
+.word 9217
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_3:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1256]
+ldr x16, [x16, #1248]
 br x16
-.word 9261
+.word 9228
 	.no_dead_strip plt_System_Collections_Concurrent_ConcurrentDictionary_2_intptr_SQLitePCL_hooks_info_TryRemove_intptr_SQLitePCL_hooks_info_
 plt_System_Collections_Concurrent_ConcurrentDictionary_2_intptr_SQLitePCL_hooks_info_TryRemove_intptr_SQLitePCL_hooks_info_:
 _p_4:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1264]
+ldr x16, [x16, #1256]
 br x16
-.word 9296
+.word 9263
 	.no_dead_strip plt_SQLitePCL_hooks_info_free
 plt_SQLitePCL_hooks_info_free:
 _p_5:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1272]
+ldr x16, [x16, #1264]
 br x16
-.word 9307
+.word 9274
 	.no_dead_strip plt_System_Collections_Concurrent_ConcurrentDictionary_2_intptr_SQLitePCL_hooks_info__ctor
 plt_System_Collections_Concurrent_ConcurrentDictionary_2_intptr_SQLitePCL_hooks_info__ctor:
 _p_6:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1280]
+ldr x16, [x16, #1272]
 br x16
-.word 9310
+.word 9277
 	.no_dead_strip plt_System_Text_Encoding_get_UTF8
 plt_System_Text_Encoding_get_UTF8:
 _p_7:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1288]
+ldr x16, [x16, #1280]
 br x16
-.word 9321
+.word 9288
 	.no_dead_strip plt_wrapper_alloc_object_AllocVector_intptr_intptr
 plt_wrapper_alloc_object_AllocVector_intptr_intptr:
 _p_8:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1296]
+ldr x16, [x16, #1288]
 br x16
-.word 9326
+.word 9293
 	.no_dead_strip plt_intptr_op_Inequality_intptr_intptr
 plt_intptr_op_Inequality_intptr_intptr:
 _p_9:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1304]
+ldr x16, [x16, #1296]
 br x16
-.word 9334
+.word 9301
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_ReadByte_intptr_int
 plt_System_Runtime_InteropServices_Marshal_ReadByte_intptr_int:
 _p_10:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1312]
+ldr x16, [x16, #1304]
 br x16
-.word 9339
+.word 9306
 	.no_dead_strip plt_SQLitePCL_util_GetNativeUTF8Size_intptr
 plt_SQLitePCL_util_GetNativeUTF8Size_intptr:
 _p_11:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1320]
+ldr x16, [x16, #1312]
 br x16
-.word 9344
+.word 9311
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_Copy_intptr_byte___int_int
 plt_System_Runtime_InteropServices_Marshal_Copy_intptr_byte___int_int:
 _p_12:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1328]
+ldr x16, [x16, #1320]
 br x16
-.word 9346
+.word 9313
 	.no_dead_strip plt_System_Runtime_InteropServices_GCHandle_Alloc_object
 plt_System_Runtime_InteropServices_GCHandle_Alloc_object:
 _p_13:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1336]
+ldr x16, [x16, #1328]
 br x16
-.word 9351
+.word 9318
 	.no_dead_strip plt_System_Runtime_InteropServices_GCHandle_op_Explicit_System_Runtime_InteropServices_GCHandle
 plt_System_Runtime_InteropServices_GCHandle_op_Explicit_System_Runtime_InteropServices_GCHandle:
 _p_14:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1344]
+ldr x16, [x16, #1336]
 br x16
-.word 9356
+.word 9323
 	.no_dead_strip plt_System_Runtime_InteropServices_GCHandle_op_Explicit_intptr
 plt_System_Runtime_InteropServices_GCHandle_op_Explicit_intptr:
 _p_15:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1352]
+ldr x16, [x16, #1344]
 br x16
-.word 9361
+.word 9328
 	.no_dead_strip plt_System_Runtime_InteropServices_GCHandle_get_Target
 plt_System_Runtime_InteropServices_GCHandle_get_Target:
 _p_16:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1360]
+ldr x16, [x16, #1352]
 br x16
-.word 9366
+.word 9333
 	.no_dead_strip plt_System_Runtime_InteropServices_GCHandle_Free
 plt_System_Runtime_InteropServices_GCHandle_Free:
 _p_17:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1368]
+ldr x16, [x16, #1360]
 br x16
-.word 9371
+.word 9338
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_SizeOf_System_Type
 plt_System_Runtime_InteropServices_Marshal_SizeOf_System_Type:
 _p_18:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1376]
+ldr x16, [x16, #1368]
 br x16
-.word 9376
+.word 9343
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_ReadIntPtr_intptr_int
 plt_System_Runtime_InteropServices_Marshal_ReadIntPtr_intptr_int:
 _p_19:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1384]
+ldr x16, [x16, #1376]
 br x16
-.word 9381
+.word 9348
 	.no_dead_strip plt_SQLitePCL_util_from_utf8_intptr
 plt_SQLitePCL_util_from_utf8_intptr:
 _p_20:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1392]
+ldr x16, [x16, #1384]
 br x16
-.word 9386
+.word 9353
 	.no_dead_strip plt_SQLitePCL_scalar_function_hook_info_scalar_sqlite3_context__ctor_intptr_object
 plt_SQLitePCL_scalar_function_hook_info_scalar_sqlite3_context__ctor_intptr_object:
 _p_21:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1400]
+ldr x16, [x16, #1392]
 br x16
-.word 9388
+.word 9355
 	.no_dead_strip plt_SQLitePCL_sqlite3_value__ctor_intptr
 plt_SQLitePCL_sqlite3_value__ctor_intptr:
 _p_22:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1408]
+ldr x16, [x16, #1400]
 br x16
-.word 9391
+.word 9358
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_ReadIntPtr_intptr
 plt_System_Runtime_InteropServices_Marshal_ReadIntPtr_intptr:
 _p_23:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1416]
+ldr x16, [x16, #1408]
 br x16
-.word 9396
+.word 9363
 	.no_dead_strip plt_intptr_op_Equality_intptr_intptr
 plt_intptr_op_Equality_intptr_intptr:
 _p_24:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1424]
+ldr x16, [x16, #1416]
 br x16
-.word 9401
+.word 9368
 	.no_dead_strip plt_SQLitePCL_agg_function_hook_info_agg_sqlite3_context__ctor_object
 plt_SQLitePCL_agg_function_hook_info_agg_sqlite3_context__ctor_object:
 _p_25:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1432]
+ldr x16, [x16, #1424]
 br x16
-.word 9406
+.word 9373
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_WriteIntPtr_intptr_intptr
 plt_System_Runtime_InteropServices_Marshal_WriteIntPtr_intptr_intptr:
 _p_26:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1440]
+ldr x16, [x16, #1432]
 br x16
-.word 9409
+.word 9376
 	.no_dead_strip plt_SQLitePCL_agg_function_hook_info_agg_sqlite3_context_fix_ptr_intptr
 plt_SQLitePCL_agg_function_hook_info_agg_sqlite3_context_fix_ptr_intptr:
 _p_27:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1448]
+ldr x16, [x16, #1440]
 br x16
-.word 9414
+.word 9381
 	.no_dead_strip plt_SQLitePCL_agg_function_hook_info_get_context_intptr_intptr
 plt_SQLitePCL_agg_function_hook_info_get_context_intptr_intptr:
 _p_28:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1456]
+ldr x16, [x16, #1448]
 br x16
-.word 9417
+.word 9384
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
 _p_29:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1464]
+ldr x16, [x16, #1456]
 br x16
-.word 9419
+.word 9386
 	.no_dead_strip plt_SQLitePCL_util_to_utf8_string
 plt_SQLitePCL_util_to_utf8_string:
 _p_30:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1472]
+ldr x16, [x16, #1464]
 br x16
-.word 9447
+.word 9414
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_open_byte___intptr_
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_open_byte___intptr_:
 _p_31:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1480]
+ldr x16, [x16, #1472]
 br x16
-.word 9449
+.word 9416
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_open_v2_byte___intptr__int_byte__
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_open_v2_byte___intptr__int_byte__:
 _p_32:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1488]
+ldr x16, [x16, #1480]
 br x16
-.word 9452
+.word 9419
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_vfs_find_byte__
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_vfs_find_byte__:
 _p_33:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1496]
+ldr x16, [x16, #1488]
 br x16
-.word 9455
+.word 9422
 	.no_dead_strip plt_System_Runtime_InteropServices_Marshal_PtrToStructure_intptr_System_Type
 plt_System_Runtime_InteropServices_Marshal_PtrToStructure_intptr_System_Type:
 _p_34:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1504]
+ldr x16, [x16, #1496]
 br x16
-.word 9458
+.word 9425
 	.no_dead_strip plt_string_memcpy_byte__byte__int
 plt_string_memcpy_byte__byte__int:
 _p_35:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1512]
+ldr x16, [x16, #1504]
 br x16
-.word 9463
+.word 9430
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_close_v2_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_close_v2_intptr:
 _p_36:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1520]
+ldr x16, [x16, #1512]
 br x16
-.word 9468
+.word 9435
 	.no_dead_strip plt_SQLitePCL_hooks_removeFor_intptr
 plt_SQLitePCL_hooks_removeFor_intptr:
 _p_37:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1528]
+ldr x16, [x16, #1520]
 br x16
-.word 9471
+.word 9438
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_close_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_close_intptr:
 _p_38:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1536]
+ldr x16, [x16, #1528]
 br x16
-.word 9473
+.word 9440
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_enable_shared_cache_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_enable_shared_cache_int:
 _p_39:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1544]
+ldr x16, [x16, #1536]
 br x16
-.word 9476
+.word 9443
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_interrupt_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_interrupt_intptr:
 _p_40:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1552]
+ldr x16, [x16, #1544]
 br x16
-.word 9479
+.word 9446
 	.no_dead_strip plt_SQLitePCL_exec_hook_info_from_ptr_intptr
 plt_SQLitePCL_exec_hook_info_from_ptr_intptr:
 _p_41:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1560]
+ldr x16, [x16, #1552]
 br x16
-.word 9482
+.word 9449
 	.no_dead_strip plt_SQLitePCL_exec_hook_info_call_int_intptr_intptr
 plt_SQLitePCL_exec_hook_info_call_int_intptr_intptr:
 _p_42:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1568]
+ldr x16, [x16, #1560]
 br x16
-.word 9484
+.word 9451
 	.no_dead_strip plt_SQLitePCL_exec_hook_info__ctor_SQLitePCL_delegate_exec_object
 plt_SQLitePCL_exec_hook_info__ctor_SQLitePCL_delegate_exec_object:
 _p_43:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1576]
+ldr x16, [x16, #1568]
 br x16
-.word 9486
+.word 9453
 	.no_dead_strip plt_SQLitePCL_exec_hook_info_get_ptr
 plt_SQLitePCL_exec_hook_info_get_ptr:
 _p_44:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1584]
+ldr x16, [x16, #1576]
 br x16
-.word 9488
+.word 9455
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_exec_intptr_byte___SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_exec_intptr_intptr_
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_exec_intptr_byte___SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_exec_intptr_intptr_:
 _p_45:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1592]
+ldr x16, [x16, #1584]
 br x16
-.word 9490
+.word 9457
 	.no_dead_strip plt_SQLitePCL_exec_hook_info_free
 plt_SQLitePCL_exec_hook_info_free:
 _p_46:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1600]
+ldr x16, [x16, #1592]
 br x16
-.word 9493
+.word 9460
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_free_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_free_intptr:
 _p_47:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1608]
+ldr x16, [x16, #1600]
 br x16
-.word 9495
+.word 9462
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_complete_byte__
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_complete_byte__:
 _p_48:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1616]
+ldr x16, [x16, #1608]
 br x16
-.word 9498
+.word 9465
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_compileoption_get_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_compileoption_get_int:
 _p_49:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1624]
+ldr x16, [x16, #1616]
 br x16
-.word 9501
+.word 9468
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_compileoption_used_byte__
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_compileoption_used_byte__:
 _p_50:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1632]
+ldr x16, [x16, #1624]
 br x16
-.word 9504
+.word 9471
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_table_column_metadata_intptr_byte___byte___byte___intptr__intptr__int__int__int_
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_table_column_metadata_intptr_byte___byte___byte___intptr__intptr__int__int__int_:
 _p_51:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1640]
+ldr x16, [x16, #1632]
 br x16
-.word 9507
+.word 9474
 	.no_dead_strip plt_System_Runtime_InteropServices_GCHandle_Alloc_object_System_Runtime_InteropServices_GCHandleType
 plt_System_Runtime_InteropServices_GCHandle_Alloc_object_System_Runtime_InteropServices_GCHandleType:
 _p_52:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1648]
+ldr x16, [x16, #1640]
 br x16
-.word 9510
+.word 9477
 	.no_dead_strip plt_System_Runtime_InteropServices_GCHandle_AddrOfPinnedObject
 plt_System_Runtime_InteropServices_GCHandle_AddrOfPinnedObject:
 _p_53:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1656]
+ldr x16, [x16, #1648]
 br x16
-.word 9515
+.word 9482
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_prepare_v2_intptr_intptr_int_intptr__intptr_
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_prepare_v2_intptr_intptr_int_intptr__intptr_:
 _p_54:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1664]
+ldr x16, [x16, #1656]
 br x16
-.word 9520
+.word 9487
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_db_status_intptr_int_int__int__int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_db_status_intptr_int_int__int__int:
 _p_55:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1672]
+ldr x16, [x16, #1664]
 br x16
-.word 9523
+.word 9490
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_sql_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_sql_intptr:
 _p_56:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1680]
+ldr x16, [x16, #1672]
 br x16
-.word 9526
+.word 9493
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_db_handle_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_db_handle_intptr:
 _p_57:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1688]
+ldr x16, [x16, #1680]
 br x16
-.word 9529
+.word 9496
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_blob_open_intptr_byte___byte___byte___long_int_intptr_
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_blob_open_intptr_byte___byte___byte___long_int_intptr_:
 _p_58:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1696]
+ldr x16, [x16, #1688]
 br x16
-.word 9532
+.word 9499
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_blob_bytes_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_blob_bytes_intptr:
 _p_59:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1704]
+ldr x16, [x16, #1696]
 br x16
-.word 9535
+.word 9502
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_blob_close_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_blob_close_intptr:
 _p_60:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1712]
+ldr x16, [x16, #1704]
 br x16
-.word 9538
+.word 9505
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_blob_read_intptr_byte___int_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_blob_read_intptr_byte___int_int:
 _p_61:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1720]
+ldr x16, [x16, #1712]
 br x16
-.word 9541
+.word 9508
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_blob_write_intptr_byte___int_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_blob_write_intptr_byte___int_int:
 _p_62:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1728]
+ldr x16, [x16, #1720]
 br x16
-.word 9544
+.word 9511
 	.no_dead_strip plt_intptr_ToInt64
 plt_intptr_ToInt64:
 _p_63:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1736]
+ldr x16, [x16, #1728]
 br x16
-.word 9547
+.word 9514
 	.no_dead_strip plt_intptr__ctor_long
 plt_intptr__ctor_long:
 _p_64:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1744]
+ldr x16, [x16, #1736]
 br x16
-.word 9552
+.word 9519
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_other_sqlite3_blob_read_intptr_intptr_int_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_other_sqlite3_blob_read_intptr_intptr_int_int:
 _p_65:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1752]
+ldr x16, [x16, #1744]
 br x16
-.word 9557
+.word 9524
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_other_sqlite3_blob_write_intptr_intptr_int_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_other_sqlite3_blob_write_intptr_intptr_int_int:
 _p_66:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1760]
+ldr x16, [x16, #1752]
 br x16
-.word 9560
+.word 9527
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_backup_init_intptr_byte___intptr_byte__
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_backup_init_intptr_byte___intptr_byte__:
 _p_67:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1768]
+ldr x16, [x16, #1760]
 br x16
-.word 9563
+.word 9530
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_backup_step_intptr_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_backup_step_intptr_int:
 _p_68:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1776]
+ldr x16, [x16, #1768]
 br x16
-.word 9566
+.word 9533
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_backup_finish_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_backup_finish_intptr:
 _p_69:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1784]
+ldr x16, [x16, #1776]
 br x16
-.word 9569
+.word 9536
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_backup_remaining_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_backup_remaining_intptr:
 _p_70:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1792]
+ldr x16, [x16, #1784]
 br x16
-.word 9572
+.word 9539
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_backup_pagecount_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_backup_pagecount_intptr:
 _p_71:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1800]
+ldr x16, [x16, #1792]
 br x16
-.word 9575
+.word 9542
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_next_stmt_intptr_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_next_stmt_intptr_intptr:
 _p_72:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1808]
+ldr x16, [x16, #1800]
 br x16
-.word 9578
+.word 9545
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_last_insert_rowid_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_last_insert_rowid_intptr:
 _p_73:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1816]
+ldr x16, [x16, #1808]
 br x16
-.word 9581
+.word 9548
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_changes_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_changes_intptr:
 _p_74:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1824]
+ldr x16, [x16, #1816]
 br x16
-.word 9584
+.word 9551
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_total_changes_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_total_changes_intptr:
 _p_75:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1832]
+ldr x16, [x16, #1824]
 br x16
-.word 9587
+.word 9554
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_extended_result_codes_intptr_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_extended_result_codes_intptr_int:
 _p_76:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1840]
+ldr x16, [x16, #1832]
 br x16
-.word 9590
+.word 9557
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_errstr_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_errstr_int:
 _p_77:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1848]
+ldr x16, [x16, #1840]
 br x16
-.word 9593
+.word 9560
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_errcode_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_errcode_intptr:
 _p_78:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1856]
+ldr x16, [x16, #1848]
 br x16
-.word 9596
+.word 9563
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_extended_errcode_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_extended_errcode_intptr:
 _p_79:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1864]
+ldr x16, [x16, #1856]
 br x16
-.word 9599
+.word 9566
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_busy_timeout_intptr_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_busy_timeout_intptr_int:
 _p_80:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1872]
+ldr x16, [x16, #1864]
 br x16
-.word 9602
+.word 9569
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_get_autocommit_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_get_autocommit_intptr:
 _p_81:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1880]
+ldr x16, [x16, #1872]
 br x16
-.word 9605
+.word 9572
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_db_readonly_intptr_byte__
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_db_readonly_intptr_byte__:
 _p_82:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1888]
+ldr x16, [x16, #1880]
 br x16
-.word 9608
+.word 9575
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_db_filename_intptr_byte__
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_db_filename_intptr_byte__:
 _p_83:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1896]
+ldr x16, [x16, #1888]
 br x16
-.word 9611
+.word 9578
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_errmsg_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_errmsg_intptr:
 _p_84:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1904]
+ldr x16, [x16, #1896]
 br x16
-.word 9614
+.word 9581
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_libversion
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_libversion:
 _p_85:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1912]
+ldr x16, [x16, #1904]
 br x16
-.word 9617
+.word 9584
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_libversion_number
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_libversion_number:
 _p_86:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1920]
+ldr x16, [x16, #1912]
 br x16
-.word 9620
+.word 9587
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_threadsafe
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_threadsafe:
 _p_87:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1928]
+ldr x16, [x16, #1920]
 br x16
-.word 9623
+.word 9590
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_config_none_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_config_none_int:
 _p_88:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1936]
+ldr x16, [x16, #1928]
 br x16
-.word 9626
+.word 9593
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_config_int_int_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_config_int_int_int:
 _p_89:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1944]
+ldr x16, [x16, #1936]
 br x16
-.word 9629
+.word 9596
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_initialize
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_initialize:
 _p_90:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1952]
+ldr x16, [x16, #1944]
 br x16
-.word 9632
+.word 9599
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_shutdown
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_shutdown:
 _p_91:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1960]
+ldr x16, [x16, #1952]
 br x16
-.word 9635
+.word 9602
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_enable_load_extension_intptr_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_enable_load_extension_intptr_int:
 _p_92:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1968]
+ldr x16, [x16, #1960]
 br x16
-.word 9638
+.word 9605
 	.no_dead_strip plt_SQLitePCL_commit_hook_info_from_ptr_intptr
 plt_SQLitePCL_commit_hook_info_from_ptr_intptr:
 _p_93:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1976]
+ldr x16, [x16, #1968]
 br x16
-.word 9641
+.word 9608
 	.no_dead_strip plt_SQLitePCL_commit_hook_info_call
 plt_SQLitePCL_commit_hook_info_call:
 _p_94:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1984]
+ldr x16, [x16, #1976]
 br x16
-.word 9643
+.word 9610
 	.no_dead_strip plt_SQLitePCL_hooks_getOrCreateFor_intptr
 plt_SQLitePCL_hooks_getOrCreateFor_intptr:
 _p_95:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1992]
+ldr x16, [x16, #1984]
 br x16
-.word 9645
+.word 9612
 	.no_dead_strip plt_SQLitePCL_commit_hook_info_free
 plt_SQLitePCL_commit_hook_info_free:
 _p_96:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2000]
+ldr x16, [x16, #1992]
 br x16
-.word 9647
+.word 9614
 	.no_dead_strip plt_SQLitePCL_commit_hook_info__ctor_SQLitePCL_delegate_commit_object
 plt_SQLitePCL_commit_hook_info__ctor_SQLitePCL_delegate_commit_object:
 _p_97:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2008]
+ldr x16, [x16, #2000]
 br x16
-.word 9649
+.word 9616
 	.no_dead_strip plt_SQLitePCL_commit_hook_info_get_ptr
 plt_SQLitePCL_commit_hook_info_get_ptr:
 _p_98:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2016]
+ldr x16, [x16, #2008]
 br x16
-.word 9651
+.word 9618
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_commit_hook_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_commit_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_commit_hook_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_commit_intptr:
 _p_99:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2024]
+ldr x16, [x16, #2016]
 br x16
-.word 9653
+.word 9620
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_user_data_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_user_data_intptr:
 _p_100:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2032]
+ldr x16, [x16, #2024]
 br x16
-.word 9656
+.word 9623
 	.no_dead_strip plt_SQLitePCL_scalar_function_hook_info_from_ptr_intptr
 plt_SQLitePCL_scalar_function_hook_info_from_ptr_intptr:
 _p_101:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2040]
+ldr x16, [x16, #2032]
 br x16
-.word 9659
+.word 9626
 	.no_dead_strip plt_SQLitePCL_scalar_function_hook_info_call_intptr_int_intptr
 plt_SQLitePCL_scalar_function_hook_info_call_intptr_int_intptr:
 _p_102:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2048]
+ldr x16, [x16, #2040]
 br x16
-.word 9661
+.word 9628
 	.no_dead_strip plt_string_Format_string_object_object
 plt_string_Format_string_object_object:
 _p_103:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2056]
+ldr x16, [x16, #2048]
 br x16
-.word 9663
+.word 9630
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_scalar_function_hook_info_ContainsKey_string
 plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_scalar_function_hook_info_ContainsKey_string:
 _p_104:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2064]
+ldr x16, [x16, #2056]
 br x16
-.word 9668
+.word 9635
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_scalar_function_hook_info_get_Item_string
 plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_scalar_function_hook_info_get_Item_string:
 _p_105:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2072]
+ldr x16, [x16, #2064]
 br x16
-.word 9679
+.word 9646
 	.no_dead_strip plt_SQLitePCL_scalar_function_hook_info_free
 plt_SQLitePCL_scalar_function_hook_info_free:
 _p_106:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2080]
+ldr x16, [x16, #2072]
 br x16
-.word 9690
+.word 9657
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_scalar_function_hook_info_Remove_string
 plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_scalar_function_hook_info_Remove_string:
 _p_107:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2088]
+ldr x16, [x16, #2080]
 br x16
-.word 9692
+.word 9659
 	.no_dead_strip plt_SQLitePCL_scalar_function_hook_info__ctor_SQLitePCL_delegate_function_scalar_object
 plt_SQLitePCL_scalar_function_hook_info__ctor_SQLitePCL_delegate_function_scalar_object:
 _p_108:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2096]
+ldr x16, [x16, #2088]
 br x16
-.word 9703
+.word 9670
 	.no_dead_strip plt_SQLitePCL_scalar_function_hook_info_get_ptr
 plt_SQLitePCL_scalar_function_hook_info_get_ptr:
 _p_109:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2104]
+ldr x16, [x16, #2096]
 br x16
-.word 9705
+.word 9672
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_create_function_v2_intptr_byte___int_int_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_scalar_function_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_agg_function_step_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_agg_function_final_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_destroy
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_create_function_v2_intptr_byte___int_int_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_scalar_function_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_agg_function_step_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_agg_function_final_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_destroy:
 _p_110:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2112]
+ldr x16, [x16, #2104]
 br x16
-.word 9707
+.word 9674
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_scalar_function_hook_info_set_Item_string_SQLitePCL_scalar_function_hook_info
 plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_scalar_function_hook_info_set_Item_string_SQLitePCL_scalar_function_hook_info:
 _p_111:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2120]
+ldr x16, [x16, #2112]
 br x16
-.word 9710
+.word 9677
 	.no_dead_strip plt_SQLitePCL_log_hook_info_from_ptr_intptr
 plt_SQLitePCL_log_hook_info_from_ptr_intptr:
 _p_112:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2128]
+ldr x16, [x16, #2120]
 br x16
-.word 9721
+.word 9688
 	.no_dead_strip plt_SQLitePCL_log_hook_info_call_int_string
 plt_SQLitePCL_log_hook_info_call_int_string:
 _p_113:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2136]
+ldr x16, [x16, #2128]
 br x16
-.word 9723
+.word 9690
 	.no_dead_strip plt_SQLitePCL_log_hook_info_free
 plt_SQLitePCL_log_hook_info_free:
 _p_114:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2144]
+ldr x16, [x16, #2136]
 br x16
-.word 9725
+.word 9692
 	.no_dead_strip plt_SQLitePCL_log_hook_info__ctor_SQLitePCL_delegate_log_object
 plt_SQLitePCL_log_hook_info__ctor_SQLitePCL_delegate_log_object:
 _p_115:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2152]
+ldr x16, [x16, #2144]
 br x16
-.word 9727
+.word 9694
 	.no_dead_strip plt_SQLitePCL_log_hook_info_get_ptr
 plt_SQLitePCL_log_hook_info_get_ptr:
 _p_116:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2160]
+ldr x16, [x16, #2152]
 br x16
-.word 9729
+.word 9696
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_config_log_int_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_log_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_config_log_int_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_log_intptr:
 _p_117:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2168]
+ldr x16, [x16, #2160]
 br x16
-.word 9731
+.word 9698
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_aggregate_context_intptr_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_aggregate_context_intptr_int:
 _p_118:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2176]
+ldr x16, [x16, #2168]
 br x16
-.word 9734
+.word 9701
 	.no_dead_strip plt_SQLitePCL_agg_function_hook_info_from_ptr_intptr
 plt_SQLitePCL_agg_function_hook_info_from_ptr_intptr:
 _p_119:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2184]
+ldr x16, [x16, #2176]
 br x16
-.word 9737
+.word 9704
 	.no_dead_strip plt_SQLitePCL_agg_function_hook_info_call_step_intptr_intptr_int_intptr
 plt_SQLitePCL_agg_function_hook_info_call_step_intptr_intptr_int_intptr:
 _p_120:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2192]
+ldr x16, [x16, #2184]
 br x16
-.word 9739
+.word 9706
 	.no_dead_strip plt_SQLitePCL_agg_function_hook_info_call_final_intptr_intptr
 plt_SQLitePCL_agg_function_hook_info_call_final_intptr_intptr:
 _p_121:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2200]
+ldr x16, [x16, #2192]
 br x16
-.word 9741
+.word 9708
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_agg_function_hook_info_ContainsKey_string
 plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_agg_function_hook_info_ContainsKey_string:
 _p_122:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2208]
+ldr x16, [x16, #2200]
 br x16
-.word 9743
+.word 9710
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_agg_function_hook_info_get_Item_string
 plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_agg_function_hook_info_get_Item_string:
 _p_123:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2216]
+ldr x16, [x16, #2208]
 br x16
-.word 9754
+.word 9721
 	.no_dead_strip plt_SQLitePCL_agg_function_hook_info_free
 plt_SQLitePCL_agg_function_hook_info_free:
 _p_124:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2224]
+ldr x16, [x16, #2216]
 br x16
-.word 9765
+.word 9732
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_agg_function_hook_info_Remove_string
 plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_agg_function_hook_info_Remove_string:
 _p_125:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2232]
+ldr x16, [x16, #2224]
 br x16
-.word 9767
+.word 9734
 	.no_dead_strip plt_SQLitePCL_agg_function_hook_info__ctor_SQLitePCL_delegate_function_aggregate_step_SQLitePCL_delegate_function_aggregate_final_object
 plt_SQLitePCL_agg_function_hook_info__ctor_SQLitePCL_delegate_function_aggregate_step_SQLitePCL_delegate_function_aggregate_final_object:
 _p_126:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2240]
+ldr x16, [x16, #2232]
 br x16
-.word 9778
+.word 9745
 	.no_dead_strip plt_SQLitePCL_agg_function_hook_info_get_ptr
 plt_SQLitePCL_agg_function_hook_info_get_ptr:
 _p_127:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2248]
+ldr x16, [x16, #2240]
 br x16
-.word 9780
+.word 9747
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_agg_function_hook_info_set_Item_string_SQLitePCL_agg_function_hook_info
 plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_agg_function_hook_info_set_Item_string_SQLitePCL_agg_function_hook_info:
 _p_128:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2256]
+ldr x16, [x16, #2248]
 br x16
-.word 9782
+.word 9749
 	.no_dead_strip plt_SQLitePCL_collation_hook_info_from_ptr_intptr
 plt_SQLitePCL_collation_hook_info_from_ptr_intptr:
 _p_129:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2264]
+ldr x16, [x16, #2256]
 br x16
-.word 9793
+.word 9760
 	.no_dead_strip plt_SQLitePCL_util_from_utf8_intptr_int
 plt_SQLitePCL_util_from_utf8_intptr_int:
 _p_130:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2272]
+ldr x16, [x16, #2264]
 br x16
-.word 9795
+.word 9762
 	.no_dead_strip plt_SQLitePCL_collation_hook_info_call_string_string
 plt_SQLitePCL_collation_hook_info_call_string_string:
 _p_131:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2280]
+ldr x16, [x16, #2272]
 br x16
-.word 9797
+.word 9764
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_collation_hook_info_ContainsKey_string
 plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_collation_hook_info_ContainsKey_string:
 _p_132:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2288]
+ldr x16, [x16, #2280]
 br x16
-.word 9799
+.word 9766
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_collation_hook_info_get_Item_string
 plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_collation_hook_info_get_Item_string:
 _p_133:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2296]
+ldr x16, [x16, #2288]
 br x16
-.word 9810
+.word 9777
 	.no_dead_strip plt_SQLitePCL_collation_hook_info_free
 plt_SQLitePCL_collation_hook_info_free:
 _p_134:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2304]
+ldr x16, [x16, #2296]
 br x16
-.word 9821
+.word 9788
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_collation_hook_info_Remove_string
 plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_collation_hook_info_Remove_string:
 _p_135:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2312]
+ldr x16, [x16, #2304]
 br x16
-.word 9823
+.word 9790
 	.no_dead_strip plt_SQLitePCL_collation_hook_info__ctor_SQLitePCL_delegate_collation_object
 plt_SQLitePCL_collation_hook_info__ctor_SQLitePCL_delegate_collation_object:
 _p_136:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2320]
+ldr x16, [x16, #2312]
 br x16
-.word 9834
+.word 9801
 	.no_dead_strip plt_SQLitePCL_collation_hook_info_get_ptr
 plt_SQLitePCL_collation_hook_info_get_ptr:
 _p_137:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2328]
+ldr x16, [x16, #2320]
 br x16
-.word 9836
+.word 9803
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_create_collation_intptr_byte___int_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_collation
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_create_collation_intptr_byte___int_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_collation:
 _p_138:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2336]
+ldr x16, [x16, #2328]
 br x16
-.word 9838
+.word 9805
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_collation_hook_info_set_Item_string_SQLitePCL_collation_hook_info
 plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_collation_hook_info_set_Item_string_SQLitePCL_collation_hook_info:
 _p_139:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2344]
+ldr x16, [x16, #2336]
 br x16
-.word 9841
+.word 9808
 	.no_dead_strip plt_SQLitePCL_update_hook_info_from_ptr_intptr
 plt_SQLitePCL_update_hook_info_from_ptr_intptr:
 _p_140:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2352]
+ldr x16, [x16, #2344]
 br x16
-.word 9852
+.word 9819
 	.no_dead_strip plt_SQLitePCL_update_hook_info_call_int_string_string_long
 plt_SQLitePCL_update_hook_info_call_int_string_string_long:
 _p_141:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2360]
+ldr x16, [x16, #2352]
 br x16
-.word 9854
+.word 9821
 	.no_dead_strip plt_SQLitePCL_update_hook_info_free
 plt_SQLitePCL_update_hook_info_free:
 _p_142:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2368]
+ldr x16, [x16, #2360]
 br x16
-.word 9856
+.word 9823
 	.no_dead_strip plt_SQLitePCL_update_hook_info__ctor_SQLitePCL_delegate_update_object
 plt_SQLitePCL_update_hook_info__ctor_SQLitePCL_delegate_update_object:
 _p_143:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2376]
+ldr x16, [x16, #2368]
 br x16
-.word 9858
+.word 9825
 	.no_dead_strip plt_SQLitePCL_update_hook_info_get_ptr
 plt_SQLitePCL_update_hook_info_get_ptr:
 _p_144:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2384]
+ldr x16, [x16, #2376]
 br x16
-.word 9860
+.word 9827
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_update_hook_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_update_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_update_hook_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_update_intptr:
 _p_145:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2392]
+ldr x16, [x16, #2384]
 br x16
-.word 9862
+.word 9829
 	.no_dead_strip plt_SQLitePCL_rollback_hook_info_from_ptr_intptr
 plt_SQLitePCL_rollback_hook_info_from_ptr_intptr:
 _p_146:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2400]
+ldr x16, [x16, #2392]
 br x16
-.word 9865
+.word 9832
 	.no_dead_strip plt_SQLitePCL_rollback_hook_info_call
 plt_SQLitePCL_rollback_hook_info_call:
 _p_147:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2408]
+ldr x16, [x16, #2400]
 br x16
-.word 9867
+.word 9834
 	.no_dead_strip plt_SQLitePCL_rollback_hook_info_free
 plt_SQLitePCL_rollback_hook_info_free:
 _p_148:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2416]
+ldr x16, [x16, #2408]
 br x16
-.word 9869
+.word 9836
 	.no_dead_strip plt_SQLitePCL_rollback_hook_info__ctor_SQLitePCL_delegate_rollback_object
 plt_SQLitePCL_rollback_hook_info__ctor_SQLitePCL_delegate_rollback_object:
 _p_149:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2424]
+ldr x16, [x16, #2416]
 br x16
-.word 9871
+.word 9838
 	.no_dead_strip plt_SQLitePCL_rollback_hook_info_get_ptr
 plt_SQLitePCL_rollback_hook_info_get_ptr:
 _p_150:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2432]
+ldr x16, [x16, #2424]
 br x16
-.word 9873
+.word 9840
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_rollback_hook_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_rollback_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_rollback_hook_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_rollback_intptr:
 _p_151:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2440]
+ldr x16, [x16, #2432]
 br x16
-.word 9875
+.word 9842
 	.no_dead_strip plt_SQLitePCL_trace_hook_info_from_ptr_intptr
 plt_SQLitePCL_trace_hook_info_from_ptr_intptr:
 _p_152:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2448]
+ldr x16, [x16, #2440]
 br x16
-.word 9878
+.word 9845
 	.no_dead_strip plt_SQLitePCL_trace_hook_info_call_string
 plt_SQLitePCL_trace_hook_info_call_string:
 _p_153:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2456]
+ldr x16, [x16, #2448]
 br x16
-.word 9880
+.word 9847
 	.no_dead_strip plt_SQLitePCL_trace_hook_info_free
 plt_SQLitePCL_trace_hook_info_free:
 _p_154:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2464]
+ldr x16, [x16, #2456]
 br x16
-.word 9882
+.word 9849
 	.no_dead_strip plt_SQLitePCL_trace_hook_info__ctor_SQLitePCL_delegate_trace_object
 plt_SQLitePCL_trace_hook_info__ctor_SQLitePCL_delegate_trace_object:
 _p_155:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2472]
+ldr x16, [x16, #2464]
 br x16
-.word 9884
+.word 9851
 	.no_dead_strip plt_SQLitePCL_trace_hook_info_get_ptr
 plt_SQLitePCL_trace_hook_info_get_ptr:
 _p_156:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2480]
+ldr x16, [x16, #2472]
 br x16
-.word 9886
+.word 9853
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_trace_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_trace_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_trace_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_trace_intptr:
 _p_157:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2488]
+ldr x16, [x16, #2480]
 br x16
-.word 9888
+.word 9855
 	.no_dead_strip plt_SQLitePCL_profile_hook_info_from_ptr_intptr
 plt_SQLitePCL_profile_hook_info_from_ptr_intptr:
 _p_158:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2496]
+ldr x16, [x16, #2488]
 br x16
-.word 9891
+.word 9858
 	.no_dead_strip plt_SQLitePCL_profile_hook_info_call_string_long
 plt_SQLitePCL_profile_hook_info_call_string_long:
 _p_159:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2504]
+ldr x16, [x16, #2496]
 br x16
-.word 9893
+.word 9860
 	.no_dead_strip plt_SQLitePCL_profile_hook_info_free
 plt_SQLitePCL_profile_hook_info_free:
 _p_160:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2512]
+ldr x16, [x16, #2504]
 br x16
-.word 9895
+.word 9862
 	.no_dead_strip plt_SQLitePCL_profile_hook_info__ctor_SQLitePCL_delegate_profile_object
 plt_SQLitePCL_profile_hook_info__ctor_SQLitePCL_delegate_profile_object:
 _p_161:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2520]
+ldr x16, [x16, #2512]
 br x16
-.word 9897
+.word 9864
 	.no_dead_strip plt_SQLitePCL_profile_hook_info_get_ptr
 plt_SQLitePCL_profile_hook_info_get_ptr:
 _p_162:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2528]
+ldr x16, [x16, #2520]
 br x16
-.word 9899
+.word 9866
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_profile_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_profile_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_profile_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_profile_intptr:
 _p_163:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2536]
+ldr x16, [x16, #2528]
 br x16
-.word 9901
+.word 9868
 	.no_dead_strip plt_SQLitePCL_progress_handler_hook_info_from_ptr_intptr
 plt_SQLitePCL_progress_handler_hook_info_from_ptr_intptr:
 _p_164:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2544]
+ldr x16, [x16, #2536]
 br x16
-.word 9904
+.word 9871
 	.no_dead_strip plt_SQLitePCL_progress_handler_hook_info_call
 plt_SQLitePCL_progress_handler_hook_info_call:
 _p_165:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2552]
+ldr x16, [x16, #2544]
 br x16
-.word 9906
+.word 9873
 	.no_dead_strip plt_SQLitePCL_progress_handler_hook_info_free
 plt_SQLitePCL_progress_handler_hook_info_free:
 _p_166:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2560]
+ldr x16, [x16, #2552]
 br x16
-.word 9908
+.word 9875
 	.no_dead_strip plt_SQLitePCL_progress_handler_hook_info__ctor_SQLitePCL_delegate_progress_handler_object
 plt_SQLitePCL_progress_handler_hook_info__ctor_SQLitePCL_delegate_progress_handler_object:
 _p_167:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2568]
+ldr x16, [x16, #2560]
 br x16
-.word 9910
+.word 9877
 	.no_dead_strip plt_SQLitePCL_progress_handler_hook_info_get_ptr
 plt_SQLitePCL_progress_handler_hook_info_get_ptr:
 _p_168:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2576]
+ldr x16, [x16, #2568]
 br x16
-.word 9912
+.word 9879
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_progress_handler_intptr_int_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_progress_handler_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_progress_handler_intptr_int_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_progress_handler_intptr:
 _p_169:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2584]
+ldr x16, [x16, #2576]
 br x16
-.word 9914
+.word 9881
 	.no_dead_strip plt_SQLitePCL_authorizer_hook_info_from_ptr_intptr
 plt_SQLitePCL_authorizer_hook_info_from_ptr_intptr:
 _p_170:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2592]
+ldr x16, [x16, #2584]
 br x16
-.word 9917
+.word 9884
 	.no_dead_strip plt_SQLitePCL_authorizer_hook_info_call_int_string_string_string_string
 plt_SQLitePCL_authorizer_hook_info_call_int_string_string_string_string:
 _p_171:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2600]
+ldr x16, [x16, #2592]
 br x16
-.word 9919
+.word 9886
 	.no_dead_strip plt_SQLitePCL_authorizer_hook_info_free
 plt_SQLitePCL_authorizer_hook_info_free:
 _p_172:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2608]
+ldr x16, [x16, #2600]
 br x16
-.word 9921
+.word 9888
 	.no_dead_strip plt_SQLitePCL_authorizer_hook_info__ctor_SQLitePCL_delegate_authorizer_object
 plt_SQLitePCL_authorizer_hook_info__ctor_SQLitePCL_delegate_authorizer_object:
 _p_173:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2616]
+ldr x16, [x16, #2608]
 br x16
-.word 9923
+.word 9890
 	.no_dead_strip plt_SQLitePCL_authorizer_hook_info_get_ptr
 plt_SQLitePCL_authorizer_hook_info_get_ptr:
 _p_174:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2624]
+ldr x16, [x16, #2616]
 br x16
-.word 9925
+.word 9892
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_set_authorizer_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_authorizer_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_set_authorizer_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_authorizer_intptr:
 _p_175:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2632]
+ldr x16, [x16, #2624]
 br x16
-.word 9927
+.word 9894
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_memory_used
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_memory_used:
 _p_176:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2640]
+ldr x16, [x16, #2632]
 br x16
-.word 9930
+.word 9897
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_memory_highwater_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_memory_highwater_int:
 _p_177:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2648]
+ldr x16, [x16, #2640]
 br x16
-.word 9933
+.word 9900
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_status_int_int__int__int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_status_int_int__int__int:
 _p_178:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2656]
+ldr x16, [x16, #2648]
 br x16
-.word 9936
+.word 9903
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_sourceid
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_sourceid:
 _p_179:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2664]
+ldr x16, [x16, #2656]
 br x16
-.word 9939
+.word 9906
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_int64_intptr_long
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_int64_intptr_long:
 _p_180:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2672]
+ldr x16, [x16, #2664]
 br x16
-.word 9942
+.word 9909
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_int_intptr_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_int_intptr_int:
 _p_181:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2680]
+ldr x16, [x16, #2672]
 br x16
-.word 9945
+.word 9912
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_double_intptr_double
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_double_intptr_double:
 _p_182:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2688]
+ldr x16, [x16, #2680]
 br x16
-.word 9948
+.word 9915
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_null_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_null_intptr:
 _p_183:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2696]
+ldr x16, [x16, #2688]
 br x16
-.word 9951
+.word 9918
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_error_intptr_byte___int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_error_intptr_byte___int:
 _p_184:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2704]
+ldr x16, [x16, #2696]
 br x16
-.word 9954
+.word 9921
 	.no_dead_strip plt_intptr__ctor_int
 plt_intptr__ctor_int:
 _p_185:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2712]
+ldr x16, [x16, #2704]
 br x16
-.word 9957
+.word 9924
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_text_intptr_byte___int_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_text_intptr_byte___int_intptr:
 _p_186:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2720]
+ldr x16, [x16, #2712]
 br x16
-.word 9962
+.word 9929
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_blob_intptr_byte___int_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_blob_intptr_byte___int_intptr:
 _p_187:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2728]
+ldr x16, [x16, #2720]
 br x16
-.word 9965
+.word 9932
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_zeroblob_intptr_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_zeroblob_intptr_int:
 _p_188:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2736]
+ldr x16, [x16, #2728]
 br x16
-.word 9968
+.word 9935
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_error_toobig_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_error_toobig_intptr:
 _p_189:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2744]
+ldr x16, [x16, #2736]
 br x16
-.word 9971
+.word 9938
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_error_nomem_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_error_nomem_intptr:
 _p_190:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2752]
+ldr x16, [x16, #2744]
 br x16
-.word 9974
+.word 9941
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_error_code_intptr_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_error_code_intptr_int:
 _p_191:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2760]
+ldr x16, [x16, #2752]
 br x16
-.word 9977
+.word 9944
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_blob_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_blob_intptr:
 _p_192:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2768]
+ldr x16, [x16, #2760]
 br x16
-.word 9980
+.word 9947
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_bytes_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_bytes_intptr:
 _p_193:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2776]
+ldr x16, [x16, #2768]
 br x16
-.word 9983
+.word 9950
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_double_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_double_intptr:
 _p_194:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2784]
+ldr x16, [x16, #2776]
 br x16
-.word 9986
+.word 9953
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_int_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_int_intptr:
 _p_195:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2792]
+ldr x16, [x16, #2784]
 br x16
-.word 9989
+.word 9956
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_int64_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_int64_intptr:
 _p_196:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2800]
+ldr x16, [x16, #2792]
 br x16
-.word 9992
+.word 9959
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_type_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_type_intptr:
 _p_197:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2808]
+ldr x16, [x16, #2800]
 br x16
-.word 9995
+.word 9962
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_text_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_text_intptr:
 _p_198:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2816]
+ldr x16, [x16, #2808]
 br x16
-.word 9998
+.word 9965
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_int_intptr_int_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_int_intptr_int_int:
 _p_199:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2824]
+ldr x16, [x16, #2816]
 br x16
-.word 10001
+.word 9968
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_int64_intptr_int_long
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_int64_intptr_int_long:
 _p_200:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2832]
+ldr x16, [x16, #2824]
 br x16
-.word 10004
+.word 9971
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_text_intptr_int_byte___int_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_text_intptr_int_byte___int_intptr:
 _p_201:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2840]
+ldr x16, [x16, #2832]
 br x16
-.word 10007
+.word 9974
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_double_intptr_int_double
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_double_intptr_int_double:
 _p_202:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2848]
+ldr x16, [x16, #2840]
 br x16
-.word 10010
+.word 9977
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_blob_intptr_int_byte___int_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_blob_intptr_int_byte___int_intptr:
 _p_203:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2856]
+ldr x16, [x16, #2848]
 br x16
-.word 10013
+.word 9980
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_zeroblob_intptr_int_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_zeroblob_intptr_int_int:
 _p_204:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2864]
+ldr x16, [x16, #2856]
 br x16
-.word 10016
+.word 9983
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_null_intptr_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_null_intptr_int:
 _p_205:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2872]
+ldr x16, [x16, #2864]
 br x16
-.word 10019
+.word 9986
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_parameter_count_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_parameter_count_intptr:
 _p_206:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2880]
+ldr x16, [x16, #2872]
 br x16
-.word 10022
+.word 9989
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_parameter_name_intptr_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_parameter_name_intptr_int:
 _p_207:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2888]
+ldr x16, [x16, #2880]
 br x16
-.word 10025
+.word 9992
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_parameter_index_intptr_byte__
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_parameter_index_intptr_byte__:
 _p_208:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2896]
+ldr x16, [x16, #2888]
 br x16
-.word 10028
+.word 9995
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_step_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_step_intptr:
 _p_209:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2904]
+ldr x16, [x16, #2896]
 br x16
-.word 10031
+.word 9998
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_stmt_busy_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_stmt_busy_intptr:
 _p_210:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2912]
+ldr x16, [x16, #2904]
 br x16
-.word 10034
+.word 10001
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_stmt_readonly_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_stmt_readonly_intptr:
 _p_211:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2920]
+ldr x16, [x16, #2912]
 br x16
-.word 10037
+.word 10004
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_int_intptr_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_int_intptr_int:
 _p_212:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2928]
+ldr x16, [x16, #2920]
 br x16
-.word 10040
+.word 10007
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_int64_intptr_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_int64_intptr_int:
 _p_213:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2936]
+ldr x16, [x16, #2928]
 br x16
-.word 10043
+.word 10010
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_text_intptr_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_text_intptr_int:
 _p_214:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2944]
+ldr x16, [x16, #2936]
 br x16
-.word 10046
+.word 10013
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_decltype_intptr_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_decltype_intptr_int:
 _p_215:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2952]
+ldr x16, [x16, #2944]
 br x16
-.word 10049
+.word 10016
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_double_intptr_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_double_intptr_int:
 _p_216:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2960]
+ldr x16, [x16, #2952]
 br x16
-.word 10052
+.word 10019
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_blob_intptr_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_blob_intptr_int:
 _p_217:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2968]
+ldr x16, [x16, #2960]
 br x16
-.word 10055
+.word 10022
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_bytes_intptr_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_bytes_intptr_int:
 _p_218:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2976]
+ldr x16, [x16, #2968]
 br x16
-.word 10058
+.word 10025
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_type_intptr_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_type_intptr_int:
 _p_219:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2984]
+ldr x16, [x16, #2976]
 br x16
-.word 10061
+.word 10028
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_count_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_count_intptr:
 _p_220:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2992]
+ldr x16, [x16, #2984]
 br x16
-.word 10064
+.word 10031
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_data_count_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_data_count_intptr:
 _p_221:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3000]
+ldr x16, [x16, #2992]
 br x16
-.word 10067
+.word 10034
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_name_intptr_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_name_intptr_int:
 _p_222:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3008]
+ldr x16, [x16, #3000]
 br x16
-.word 10070
+.word 10037
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_origin_name_intptr_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_origin_name_intptr_int:
 _p_223:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3016]
+ldr x16, [x16, #3008]
 br x16
-.word 10073
+.word 10040
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_table_name_intptr_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_table_name_intptr_int:
 _p_224:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3024]
+ldr x16, [x16, #3016]
 br x16
-.word 10076
+.word 10043
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_database_name_intptr_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_database_name_intptr_int:
 _p_225:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3032]
+ldr x16, [x16, #3024]
 br x16
-.word 10079
+.word 10046
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_reset_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_reset_intptr:
 _p_226:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3040]
+ldr x16, [x16, #3032]
 br x16
-.word 10082
+.word 10049
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_clear_bindings_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_clear_bindings_intptr:
 _p_227:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3048]
+ldr x16, [x16, #3040]
 br x16
-.word 10085
+.word 10052
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_stmt_status_intptr_int_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_stmt_status_intptr_int_int:
 _p_228:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3056]
+ldr x16, [x16, #3048]
 br x16
-.word 10088
+.word 10055
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_finalize_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_finalize_intptr:
 _p_229:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3064]
+ldr x16, [x16, #3056]
 br x16
-.word 10091
+.word 10058
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_wal_autocheckpoint_intptr_int
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_wal_autocheckpoint_intptr_int:
 _p_230:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3072]
+ldr x16, [x16, #3064]
 br x16
-.word 10094
+.word 10061
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_wal_checkpoint_intptr_byte__
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_wal_checkpoint_intptr_byte__:
 _p_231:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3080]
+ldr x16, [x16, #3072]
 br x16
-.word 10097
+.word 10064
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_wal_checkpoint_v2_intptr_byte___int_int__int_
 plt_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_wal_checkpoint_v2_intptr_byte___int_int__int_:
 _p_232:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3088]
+ldr x16, [x16, #3080]
 br x16
-.word 10100
+.word 10067
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_collation_hook_info_get_Values
 plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_collation_hook_info_get_Values:
 _p_233:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3096]
+ldr x16, [x16, #3088]
 br x16
-.word 10103
+.word 10070
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ValueCollection_string_SQLitePCL_collation_hook_info_GetEnumerator
 plt_System_Collections_Generic_Dictionary_2_ValueCollection_string_SQLitePCL_collation_hook_info_GetEnumerator:
 _p_234:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3104]
+ldr x16, [x16, #3096]
 br x16
-.word 10114
+.word 10081
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_SQLitePCL_collation_hook_info_get_Current
 plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_SQLitePCL_collation_hook_info_get_Current:
 _p_235:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3112]
+ldr x16, [x16, #3104]
 br x16
-.word 10125
+.word 10092
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_SQLitePCL_collation_hook_info_MoveNext
 plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_SQLitePCL_collation_hook_info_MoveNext:
 _p_236:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3120]
+ldr x16, [x16, #3112]
 br x16
-.word 10136
+.word 10103
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_SQLitePCL_collation_hook_info_Dispose
 plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_SQLitePCL_collation_hook_info_Dispose:
 _p_237:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3128]
+ldr x16, [x16, #3120]
 br x16
-.word 10147
+.word 10114
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_scalar_function_hook_info_get_Values
 plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_scalar_function_hook_info_get_Values:
 _p_238:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3136]
+ldr x16, [x16, #3128]
 br x16
-.word 10171
+.word 10138
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ValueCollection_string_SQLitePCL_scalar_function_hook_info_GetEnumerator
 plt_System_Collections_Generic_Dictionary_2_ValueCollection_string_SQLitePCL_scalar_function_hook_info_GetEnumerator:
 _p_239:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3144]
+ldr x16, [x16, #3136]
 br x16
-.word 10182
+.word 10149
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_SQLitePCL_scalar_function_hook_info_get_Current
 plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_SQLitePCL_scalar_function_hook_info_get_Current:
 _p_240:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3152]
+ldr x16, [x16, #3144]
 br x16
-.word 10193
+.word 10160
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_SQLitePCL_scalar_function_hook_info_MoveNext
 plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_SQLitePCL_scalar_function_hook_info_MoveNext:
 _p_241:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3160]
+ldr x16, [x16, #3152]
 br x16
-.word 10204
+.word 10171
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_SQLitePCL_scalar_function_hook_info_Dispose
 plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_SQLitePCL_scalar_function_hook_info_Dispose:
 _p_242:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3168]
+ldr x16, [x16, #3160]
 br x16
-.word 10215
+.word 10182
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_agg_function_hook_info_get_Values
 plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_agg_function_hook_info_get_Values:
 _p_243:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3176]
+ldr x16, [x16, #3168]
 br x16
-.word 10239
+.word 10206
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ValueCollection_string_SQLitePCL_agg_function_hook_info_GetEnumerator
 plt_System_Collections_Generic_Dictionary_2_ValueCollection_string_SQLitePCL_agg_function_hook_info_GetEnumerator:
 _p_244:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3184]
+ldr x16, [x16, #3176]
 br x16
-.word 10250
+.word 10217
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_SQLitePCL_agg_function_hook_info_get_Current
 plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_SQLitePCL_agg_function_hook_info_get_Current:
 _p_245:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3192]
+ldr x16, [x16, #3184]
 br x16
-.word 10261
+.word 10228
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_SQLitePCL_agg_function_hook_info_MoveNext
 plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_SQLitePCL_agg_function_hook_info_MoveNext:
 _p_246:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3200]
+ldr x16, [x16, #3192]
 br x16
-.word 10272
+.word 10239
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_SQLitePCL_agg_function_hook_info_Dispose
 plt_System_Collections_Generic_Dictionary_2_ValueCollection_Enumerator_string_SQLitePCL_agg_function_hook_info_Dispose:
 _p_247:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3208]
+ldr x16, [x16, #3200]
 br x16
-.word 10283
+.word 10250
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_collation_hook_info__ctor
 plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_collation_hook_info__ctor:
 _p_248:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3216]
+ldr x16, [x16, #3208]
 br x16
-.word 10307
+.word 10274
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_scalar_function_hook_info__ctor
 plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_scalar_function_hook_info__ctor:
 _p_249:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3224]
+ldr x16, [x16, #3216]
 br x16
-.word 10318
+.word 10285
 	.no_dead_strip plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_agg_function_hook_info__ctor
 plt_System_Collections_Generic_Dictionary_2_string_SQLitePCL_agg_function_hook_info__ctor:
 _p_250:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3232]
+ldr x16, [x16, #3224]
 br x16
-.word 10329
+.word 10296
 	.no_dead_strip plt_SQLitePCL_hooks__c__ctor
 plt_SQLitePCL_hooks__c__ctor:
 _p_251:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3240]
+ldr x16, [x16, #3232]
 br x16
-.word 10340
+.word 10307
 	.no_dead_strip plt_SQLitePCL_hooks_info__ctor
 plt_SQLitePCL_hooks_info__ctor:
 _p_252:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3248]
+ldr x16, [x16, #3240]
 br x16
-.word 10343
+.word 10310
 	.no_dead_strip plt_SQLitePCL_sqlite3_context__ctor_object
 plt_SQLitePCL_sqlite3_context__ctor_object:
 _p_253:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3256]
+ldr x16, [x16, #3248]
 br x16
-.word 10346
+.word 10313
 	.no_dead_strip plt_SQLitePCL_sqlite3_context_set_context_ptr_intptr
 plt_SQLitePCL_sqlite3_context_set_context_ptr_intptr:
 _p_254:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3264]
+ldr x16, [x16, #3256]
 br x16
-.word 10351
+.word 10318
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_255:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3272]
+ldr x16, [x16, #3264]
 br x16
-.word 10356
+.word 10323
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_256:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3280]
+ldr x16, [x16, #3272]
 br x16
-.word 10415
+.word 10382
 	.no_dead_strip plt_System_Type_get_IsValueType
 plt_System_Type_get_IsValueType:
 _p_257:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3288]
+ldr x16, [x16, #3280]
 br x16
-.word 10423
+.word 10390
 	.no_dead_strip plt_System_Type_GetTypeCode_System_Type
 plt_System_Type_GetTypeCode_System_Type:
 _p_258:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3296]
+ldr x16, [x16, #3288]
 br x16
-.word 10428
+.word 10395
 	.no_dead_strip plt_intptr_get_Size
 plt_intptr_get_Size:
 _p_259:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3304]
+ldr x16, [x16, #3296]
 br x16
-.word 10433
+.word 10400
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_260:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3312]
+ldr x16, [x16, #3304]
 br x16
-.word 10459
+.word 10426
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_261:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3320]
+ldr x16, [x16, #3312]
 br x16
-.word 10467
+.word 10434
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_262:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3328]
+ldr x16, [x16, #3320]
 br x16
-.word 10502
+.word 10460
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_263:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3336]
+ldr x16, [x16, #3328]
 br x16
-.word 10510
+.word 10528
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_264:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3344]
+ldr x16, [x16, #3336]
 br x16
-.word 10533
+.word 10560
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_265:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3352]
+ldr x16, [x16, #3344]
 br x16
-.word 10601
+.word 10583
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_266:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3360]
+ldr x16, [x16, #3352]
 br x16
-.word 10633
+.word 10591
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_267:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3368]
+ldr x16, [x16, #3360]
 br x16
-.word 10656
+.word 10617
 	.no_dead_strip plt__rgctx_fetch_9
 plt__rgctx_fetch_9:
 _p_268:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3376]
+ldr x16, [x16, #3368]
 br x16
-.word 10664
+.word 10625
 	.no_dead_strip plt__rgctx_fetch_10
 plt__rgctx_fetch_10:
 _p_269:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3384]
+ldr x16, [x16, #3376]
 br x16
-.word 10690
+.word 10660
 	.no_dead_strip plt__rgctx_fetch_11
 plt__rgctx_fetch_11:
 _p_270:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3392]
+ldr x16, [x16, #3384]
 br x16
-.word 10698
+.word 10683
 	.no_dead_strip plt__rgctx_fetch_12
 plt__rgctx_fetch_12:
 _p_271:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
+ldr x16, [x16, #3392]
+br x16
+.word 10709
+	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
+plt__jit_icall_mono_helper_ldstr_mscorlib:
+_p_272:
+adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
+add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
 ldr x16, [x16, #3400]
 br x16
-.word 10733
-	.no_dead_strip plt__rgctx_fetch_13
-plt__rgctx_fetch_13:
-_p_272:
+.word 10735
+	.no_dead_strip plt_object__ctor
+plt_object__ctor:
+_p_273:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
 ldr x16, [x16, #3408]
 br x16
-.word 10756
-	.no_dead_strip plt__rgctx_fetch_14
-plt__rgctx_fetch_14:
-_p_273:
+.word 10764
+	.no_dead_strip plt__rgctx_fetch_13
+plt__rgctx_fetch_13:
+_p_274:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
 ldr x16, [x16, #3416]
 br x16
-.word 10782
-	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
-plt__jit_icall_mono_helper_ldstr_mscorlib:
-_p_274:
+.word 10802
+	.no_dead_strip plt__rgctx_fetch_14
+plt__rgctx_fetch_14:
+_p_275:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
 ldr x16, [x16, #3424]
 br x16
-.word 10808
-	.no_dead_strip plt_object__ctor
-plt_object__ctor:
-_p_275:
-adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
-add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3432]
-br x16
-.word 10837
+.word 10824
 	.no_dead_strip plt__rgctx_fetch_15
 plt__rgctx_fetch_15:
 _p_276:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3440]
+ldr x16, [x16, #3432]
 br x16
-.word 10875
+.word 10832
 	.no_dead_strip plt__rgctx_fetch_16
 plt__rgctx_fetch_16:
 _p_277:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3448]
+ldr x16, [x16, #3440]
 br x16
-.word 10897
+.word 10867
 	.no_dead_strip plt__rgctx_fetch_17
 plt__rgctx_fetch_17:
 _p_278:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3456]
+ldr x16, [x16, #3448]
 br x16
-.word 10905
+.word 10875
 	.no_dead_strip plt__rgctx_fetch_18
 plt__rgctx_fetch_18:
 _p_279:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3464]
+ldr x16, [x16, #3456]
 br x16
-.word 10952
+.word 10919
 	.no_dead_strip plt__rgctx_fetch_19
 plt__rgctx_fetch_19:
 _p_280:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3472]
+ldr x16, [x16, #3464]
 br x16
-.word 10999
+.word 10966
 	.no_dead_strip plt__rgctx_fetch_20
 plt__rgctx_fetch_20:
 _p_281:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3480]
+ldr x16, [x16, #3472]
 br x16
-.word 11009
+.word 10976
 	.no_dead_strip plt__rgctx_fetch_21
 plt__rgctx_fetch_21:
 _p_282:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3488]
+ldr x16, [x16, #3480]
 br x16
-.word 11017
+.word 10984
 	.no_dead_strip plt__rgctx_fetch_22
 plt__rgctx_fetch_22:
 _p_283:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3496]
+ldr x16, [x16, #3488]
 br x16
-.word 11043
+.word 11010
 	.no_dead_strip plt__rgctx_fetch_23
 plt__rgctx_fetch_23:
 _p_284:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3504]
+ldr x16, [x16, #3496]
 br x16
-.word 11090
+.word 11057
 	.no_dead_strip plt__rgctx_fetch_24
 plt__rgctx_fetch_24:
 _p_285:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3512]
+ldr x16, [x16, #3504]
 br x16
-.word 11098
+.word 11065
 	.no_dead_strip plt__rgctx_fetch_25
 plt__rgctx_fetch_25:
 _p_286:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3520]
+ldr x16, [x16, #3512]
 br x16
-.word 11124
+.word 11091
 	.no_dead_strip plt__rgctx_fetch_26
 plt__rgctx_fetch_26:
 _p_287:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3528]
+ldr x16, [x16, #3520]
 br x16
-.word 11147
+.word 11114
 	.no_dead_strip plt__rgctx_fetch_27
 plt__rgctx_fetch_27:
 _p_288:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3536]
+ldr x16, [x16, #3528]
 br x16
-.word 11194
+.word 11161
 	.no_dead_strip plt__rgctx_fetch_28
 plt__rgctx_fetch_28:
 _p_289:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3544]
+ldr x16, [x16, #3536]
 br x16
-.word 11202
+.word 11169
 	.no_dead_strip plt__rgctx_fetch_29
 plt__rgctx_fetch_29:
 _p_290:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3552]
+ldr x16, [x16, #3544]
 br x16
-.word 11228
+.word 11195
 	.no_dead_strip plt__rgctx_fetch_30
 plt__rgctx_fetch_30:
 _p_291:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3560]
+ldr x16, [x16, #3552]
 br x16
-.word 11275
+.word 11242
 	.no_dead_strip plt__rgctx_fetch_31
 plt__rgctx_fetch_31:
 _p_292:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3568]
+ldr x16, [x16, #3560]
 br x16
-.word 11283
+.word 11250
 	.no_dead_strip plt__rgctx_fetch_32
 plt__rgctx_fetch_32:
 _p_293:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3576]
+ldr x16, [x16, #3568]
 br x16
-.word 11309
+.word 11276
 	.no_dead_strip plt__rgctx_fetch_33
 plt__rgctx_fetch_33:
 _p_294:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3584]
+ldr x16, [x16, #3576]
 br x16
-.word 11356
+.word 11323
 	.no_dead_strip plt__rgctx_fetch_34
 plt__rgctx_fetch_34:
 _p_295:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3592]
+ldr x16, [x16, #3584]
 br x16
-.word 11379
+.word 11346
 	.no_dead_strip plt__rgctx_fetch_35
 plt__rgctx_fetch_35:
 _p_296:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3600]
+ldr x16, [x16, #3592]
 br x16
-.word 11387
+.word 11354
 	.no_dead_strip plt__jit_icall_mono_monitor_enter_v4_internal
 plt__jit_icall_mono_monitor_enter_v4_internal:
 _p_297:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3608]
+ldr x16, [x16, #3600]
 br x16
-.word 11413
+.word 11380
 	.no_dead_strip plt__rgctx_fetch_36
 plt__rgctx_fetch_36:
 _p_298:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3616]
+ldr x16, [x16, #3608]
 br x16
-.word 11446
+.word 11413
 	.no_dead_strip plt__rgctx_fetch_37
 plt__rgctx_fetch_37:
 _p_299:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3624]
+ldr x16, [x16, #3616]
 br x16
-.word 11478
+.word 11445
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_TValue_REF_get_Default
 plt_System_Collections_Generic_EqualityComparer_1_TValue_REF_get_Default:
 _p_300:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3632]
+ldr x16, [x16, #3624]
 br x16
-.word 11486
+.word 11453
 	.no_dead_strip plt__rgctx_fetch_38
 plt__rgctx_fetch_38:
 _p_301:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3640]
+ldr x16, [x16, #3632]
 br x16
-.word 11505
+.word 11472
 	.no_dead_strip plt__rgctx_fetch_39
 plt__rgctx_fetch_39:
 _p_302:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3648]
+ldr x16, [x16, #3640]
 br x16
-.word 11515
+.word 11482
 	.no_dead_strip plt_System_Threading_Monitor_Exit_object
 plt_System_Threading_Monitor_Exit_object:
 _p_303:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3656]
+ldr x16, [x16, #3648]
 br x16
-.word 11539
+.word 11506
 	.no_dead_strip plt__rgctx_fetch_40
 plt__rgctx_fetch_40:
 _p_304:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3664]
+ldr x16, [x16, #3656]
 br x16
-.word 11565
+.word 11532
 	.no_dead_strip plt__rgctx_fetch_41
 plt__rgctx_fetch_41:
 _p_305:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3672]
+ldr x16, [x16, #3664]
 br x16
-.word 11573
+.word 11540
 	.no_dead_strip plt__rgctx_fetch_42
 plt__rgctx_fetch_42:
 _p_306:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3680]
+ldr x16, [x16, #3672]
 br x16
-.word 11599
+.word 11566
 	.no_dead_strip plt__rgctx_fetch_43
 plt__rgctx_fetch_43:
 _p_307:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3688]
+ldr x16, [x16, #3680]
 br x16
-.word 11622
+.word 11589
 	.no_dead_strip plt__rgctx_fetch_44
 plt__rgctx_fetch_44:
 _p_308:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3696]
+ldr x16, [x16, #3688]
 br x16
-.word 11669
+.word 11636
 	.no_dead_strip plt__rgctx_fetch_45
 plt__rgctx_fetch_45:
 _p_309:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3704]
+ldr x16, [x16, #3696]
 br x16
-.word 11677
+.word 11644
 	.no_dead_strip plt__rgctx_fetch_46
 plt__rgctx_fetch_46:
 _p_310:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3712]
+ldr x16, [x16, #3704]
 br x16
-.word 11703
+.word 11670
 	.no_dead_strip plt__rgctx_fetch_47
 plt__rgctx_fetch_47:
 _p_311:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3720]
+ldr x16, [x16, #3712]
 br x16
-.word 11713
+.word 11680
 	.no_dead_strip plt__rgctx_fetch_48
 plt__rgctx_fetch_48:
 _p_312:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3728]
+ldr x16, [x16, #3720]
 br x16
-.word 11737
+.word 11704
 	.no_dead_strip plt__rgctx_fetch_49
 plt__rgctx_fetch_49:
 _p_313:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3736]
+ldr x16, [x16, #3728]
 br x16
-.word 11781
+.word 11748
 	.no_dead_strip plt__rgctx_fetch_50
 plt__rgctx_fetch_50:
 _p_314:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3744]
+ldr x16, [x16, #3736]
 br x16
-.word 11807
+.word 11774
 	.no_dead_strip plt__rgctx_fetch_51
 plt__rgctx_fetch_51:
 _p_315:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3752]
+ldr x16, [x16, #3744]
 br x16
-.word 11817
+.word 11784
 	.no_dead_strip plt__rgctx_fetch_52
 plt__rgctx_fetch_52:
 _p_316:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3760]
+ldr x16, [x16, #3752]
 br x16
-.word 11825
+.word 11792
 	.no_dead_strip plt_System_Math_Max_int_int
 plt_System_Math_Max_int_int:
 _p_317:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3768]
+ldr x16, [x16, #3760]
 br x16
-.word 11851
+.word 11818
 	.no_dead_strip plt__rgctx_fetch_53
 plt__rgctx_fetch_53:
 _p_318:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3776]
+ldr x16, [x16, #3768]
 br x16
-.word 11856
+.word 11823
 	.no_dead_strip plt__rgctx_fetch_54
 plt__rgctx_fetch_54:
 _p_319:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3784]
+ldr x16, [x16, #3776]
 br x16
-.word 11903
+.word 11870
 	.no_dead_strip plt__rgctx_fetch_55
 plt__rgctx_fetch_55:
 _p_320:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3792]
+ldr x16, [x16, #3784]
 br x16
-.word 11929
+.word 11896
 	.no_dead_strip plt__rgctx_fetch_56
 plt__rgctx_fetch_56:
 _p_321:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3800]
+ldr x16, [x16, #3792]
 br x16
-.word 11955
+.word 11922
 	.no_dead_strip plt__rgctx_fetch_57
 plt__rgctx_fetch_57:
 _p_322:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3808]
+ldr x16, [x16, #3800]
 br x16
-.word 12002
+.word 11969
 	.no_dead_strip plt__rgctx_fetch_58
 plt__rgctx_fetch_58:
 _p_323:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3816]
+ldr x16, [x16, #3808]
 br x16
-.word 12028
+.word 11995
 	.no_dead_strip plt__rgctx_fetch_59
 plt__rgctx_fetch_59:
 _p_324:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3824]
+ldr x16, [x16, #3816]
 br x16
-.word 12052
+.word 12018
 	.no_dead_strip plt__rgctx_fetch_60
 plt__rgctx_fetch_60:
 _p_325:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3832]
+ldr x16, [x16, #3824]
 br x16
-.word 12076
+.word 12041
 	.no_dead_strip plt__rgctx_fetch_61
 plt__rgctx_fetch_61:
 _p_326:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3840]
+ldr x16, [x16, #3832]
 br x16
-.word 12086
+.word 12051
 	.no_dead_strip plt__rgctx_fetch_62
 plt__rgctx_fetch_62:
 _p_327:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3848]
+ldr x16, [x16, #3840]
 br x16
-.word 12112
+.word 12077
 	.no_dead_strip plt__rgctx_fetch_63
 plt__rgctx_fetch_63:
 _p_328:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3856]
+ldr x16, [x16, #3848]
 br x16
-.word 12159
+.word 12124
 	.no_dead_strip plt__rgctx_fetch_64
 plt__rgctx_fetch_64:
 _p_329:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3864]
+ldr x16, [x16, #3856]
 br x16
-.word 12167
+.word 12132
 	.no_dead_strip plt__rgctx_fetch_65
 plt__rgctx_fetch_65:
 _p_330:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3872]
+ldr x16, [x16, #3864]
 br x16
-.word 12214
+.word 12179
 	.no_dead_strip plt_System_Collections_DictionaryEntry__ctor_object_object
 plt_System_Collections_DictionaryEntry__ctor_object_object:
 _p_331:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3880]
+ldr x16, [x16, #3872]
 br x16
-.word 12222
+.word 12187
 	.no_dead_strip plt__rgctx_fetch_66
 plt__rgctx_fetch_66:
 _p_332:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3888]
+ldr x16, [x16, #3880]
 br x16
-.word 12248
+.word 12213
 	.no_dead_strip plt__rgctx_fetch_67
 plt__rgctx_fetch_67:
 _p_333:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3896]
+ldr x16, [x16, #3888]
 br x16
-.word 12256
+.word 12221
 	.no_dead_strip plt__rgctx_fetch_68
 plt__rgctx_fetch_68:
 _p_334:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3904]
+ldr x16, [x16, #3896]
 br x16
-.word 12315
+.word 12280
 	.no_dead_strip plt__rgctx_fetch_69
 plt__rgctx_fetch_69:
 _p_335:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3912]
+ldr x16, [x16, #3904]
 br x16
-.word 12323
+.word 12288
 	.no_dead_strip plt__rgctx_fetch_70
 plt__rgctx_fetch_70:
 _p_336:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3920]
+ldr x16, [x16, #3912]
 br x16
-.word 12370
+.word 12335
 	.no_dead_strip plt__rgctx_fetch_71
 plt__rgctx_fetch_71:
 _p_337:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3928]
+ldr x16, [x16, #3920]
 br x16
-.word 12378
+.word 12343
 	.no_dead_strip plt__rgctx_fetch_72
 plt__rgctx_fetch_72:
 _p_338:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3936]
+ldr x16, [x16, #3928]
 br x16
-.word 12404
+.word 12369
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_339:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3944]
+ldr x16, [x16, #3936]
 br x16
-.word 12427
+.word 12392
 	.no_dead_strip plt__rgctx_fetch_73
 plt__rgctx_fetch_73:
 _p_340:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3952]
+ldr x16, [x16, #3944]
 br x16
-.word 12453
+.word 12418
 	.no_dead_strip plt__rgctx_fetch_74
 plt__rgctx_fetch_74:
 _p_341:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3960]
+ldr x16, [x16, #3952]
 br x16
-.word 12461
+.word 12426
 	.no_dead_strip plt__rgctx_fetch_75
 plt__rgctx_fetch_75:
 _p_342:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3968]
+ldr x16, [x16, #3960]
 br x16
-.word 12469
+.word 12434
 	.no_dead_strip plt__rgctx_fetch_76
 plt__rgctx_fetch_76:
 _p_343:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3976]
+ldr x16, [x16, #3968]
 br x16
-.word 12495
+.word 12460
 	.no_dead_strip plt__rgctx_fetch_77
 plt__rgctx_fetch_77:
 _p_344:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3984]
+ldr x16, [x16, #3976]
 br x16
-.word 12505
+.word 12470
 	.no_dead_strip plt__rgctx_fetch_78
 plt__rgctx_fetch_78:
 _p_345:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #3992]
+ldr x16, [x16, #3984]
 br x16
-.word 12529
+.word 12494
 	.no_dead_strip plt__rgctx_fetch_79
 plt__rgctx_fetch_79:
 _p_346:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #4000]
+ldr x16, [x16, #3992]
 br x16
-.word 12576
+.word 12541
 	.no_dead_strip plt__rgctx_fetch_80
 plt__rgctx_fetch_80:
 _p_347:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #4008]
+ldr x16, [x16, #4000]
 br x16
-.word 12602
+.word 12567
 	.no_dead_strip plt__rgctx_fetch_81
 plt__rgctx_fetch_81:
 _p_348:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #4016]
+ldr x16, [x16, #4008]
 br x16
-.word 12610
+.word 12575
 	.no_dead_strip plt__rgctx_fetch_82
 plt__rgctx_fetch_82:
 _p_349:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #4024]
+ldr x16, [x16, #4016]
 br x16
-.word 12657
+.word 12622
 	.no_dead_strip plt__rgctx_fetch_83
 plt__rgctx_fetch_83:
 _p_350:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #4032]
+ldr x16, [x16, #4024]
 br x16
-.word 12665
+.word 12630
 	.no_dead_strip plt__rgctx_fetch_84
 plt__rgctx_fetch_84:
 _p_351:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #4040]
+ldr x16, [x16, #4032]
 br x16
-.word 12691
+.word 12656
 	.no_dead_strip plt__rgctx_fetch_85
 plt__rgctx_fetch_85:
 _p_352:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #4048]
+ldr x16, [x16, #4040]
 br x16
-.word 12714
+.word 12679
 	.no_dead_strip plt__rgctx_fetch_86
 plt__rgctx_fetch_86:
 _p_353:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #4056]
+ldr x16, [x16, #4048]
 br x16
-.word 12761
+.word 12726
 	.no_dead_strip plt__rgctx_fetch_87
 plt__rgctx_fetch_87:
 _p_354:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #4064]
+ldr x16, [x16, #4056]
 br x16
-.word 12787
+.word 12752
 	.no_dead_strip plt__rgctx_fetch_88
 plt__rgctx_fetch_88:
 _p_355:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #4072]
+ldr x16, [x16, #4064]
 br x16
-.word 12813
+.word 12778
 	.no_dead_strip plt__rgctx_fetch_89
 plt__rgctx_fetch_89:
 _p_356:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #4080]
+ldr x16, [x16, #4072]
 br x16
-.word 12860
+.word 12825
 	.no_dead_strip plt__rgctx_fetch_90
 plt__rgctx_fetch_90:
 _p_357:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #4088]
+ldr x16, [x16, #4080]
 br x16
-.word 12868
+.word 12833
 	.no_dead_strip plt__rgctx_fetch_91
 plt__rgctx_fetch_91:
 _p_358:
-adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
+adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+4096
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #0]
+ldr x16, [x16, #4088]
 br x16
-.word 12894
+.word 12859
 	.no_dead_strip plt__rgctx_fetch_92
 plt__rgctx_fetch_92:
 _p_359:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #8]
+ldr x16, [x16, #0]
 br x16
-.word 12917
+.word 12882
 	.no_dead_strip plt__rgctx_fetch_93
 plt__rgctx_fetch_93:
 _p_360:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #16]
+ldr x16, [x16, #8]
 br x16
-.word 12943
+.word 12908
 	.no_dead_strip plt__rgctx_fetch_94
 plt__rgctx_fetch_94:
 _p_361:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #24]
+ldr x16, [x16, #16]
 br x16
-.word 12990
+.word 12955
 	.no_dead_strip plt__rgctx_fetch_95
 plt__rgctx_fetch_95:
 _p_362:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #32]
+ldr x16, [x16, #24]
 br x16
-.word 13037
+.word 13002
 	.no_dead_strip plt__rgctx_fetch_96
 plt__rgctx_fetch_96:
 _p_363:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #40]
+ldr x16, [x16, #32]
 br x16
-.word 13084
+.word 13049
 	.no_dead_strip plt__rgctx_fetch_97
 plt__rgctx_fetch_97:
 _p_364:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #48]
+ldr x16, [x16, #40]
 br x16
-.word 13131
+.word 13096
 	.no_dead_strip plt__rgctx_fetch_98
 plt__rgctx_fetch_98:
 _p_365:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #56]
+ldr x16, [x16, #48]
 br x16
-.word 13139
+.word 13104
 	.no_dead_strip plt__rgctx_fetch_99
 plt__rgctx_fetch_99:
 _p_366:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #64]
+ldr x16, [x16, #56]
 br x16
-.word 13165
+.word 13130
 	.no_dead_strip plt__rgctx_fetch_100
 plt__rgctx_fetch_100:
 _p_367:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #72]
+ldr x16, [x16, #64]
 br x16
-.word 13203
+.word 13168
 	.no_dead_strip plt__rgctx_fetch_101
 plt__rgctx_fetch_101:
 _p_368:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #80]
+ldr x16, [x16, #72]
 br x16
-.word 13250
+.word 13215
 	.no_dead_strip plt__rgctx_fetch_102
 plt__rgctx_fetch_102:
 _p_369:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #88]
+ldr x16, [x16, #80]
 br x16
-.word 13258
+.word 13223
 	.no_dead_strip plt__rgctx_fetch_103
 plt__rgctx_fetch_103:
 _p_370:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #96]
+ldr x16, [x16, #88]
 br x16
-.word 13284
+.word 13249
 	.no_dead_strip plt__rgctx_fetch_104
 plt__rgctx_fetch_104:
 _p_371:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #104]
+ldr x16, [x16, #96]
 br x16
-.word 13310
+.word 13275
 	.no_dead_strip plt__rgctx_fetch_105
 plt__rgctx_fetch_105:
 _p_372:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #112]
+ldr x16, [x16, #104]
 br x16
-.word 13318
+.word 13283
 	.no_dead_strip plt__rgctx_fetch_106
 plt__rgctx_fetch_106:
 _p_373:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #120]
+ldr x16, [x16, #112]
 br x16
-.word 13365
+.word 13330
 	.no_dead_strip plt__rgctx_fetch_107
 plt__rgctx_fetch_107:
 _p_374:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #128]
+ldr x16, [x16, #120]
 br x16
-.word 13373
+.word 13338
 	.no_dead_strip plt__rgctx_fetch_108
 plt__rgctx_fetch_108:
 _p_375:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #136]
+ldr x16, [x16, #128]
 br x16
-.word 13399
+.word 13364
 	.no_dead_strip plt__rgctx_fetch_109
 plt__rgctx_fetch_109:
 _p_376:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #144]
+ldr x16, [x16, #136]
 br x16
-.word 13425
+.word 13390
 	.no_dead_strip plt__rgctx_fetch_110
 plt__rgctx_fetch_110:
 _p_377:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #152]
+ldr x16, [x16, #144]
 br x16
-.word 13472
+.word 13437
 	.no_dead_strip plt__rgctx_fetch_111
 plt__rgctx_fetch_111:
 _p_378:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #160]
+ldr x16, [x16, #152]
 br x16
-.word 13531
+.word 13496
 	.no_dead_strip plt__rgctx_fetch_112
 plt__rgctx_fetch_112:
 _p_379:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #168]
+ldr x16, [x16, #160]
 br x16
-.word 13539
+.word 13504
 	.no_dead_strip plt__rgctx_fetch_113
 plt__rgctx_fetch_113:
 _p_380:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #176]
+ldr x16, [x16, #168]
 br x16
-.word 13586
+.word 13551
 	.no_dead_strip plt__rgctx_fetch_114
 plt__rgctx_fetch_114:
 _p_381:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #184]
+ldr x16, [x16, #176]
 br x16
-.word 13633
+.word 13598
 	.no_dead_strip plt__rgctx_fetch_115
 plt__rgctx_fetch_115:
 _p_382:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #192]
+ldr x16, [x16, #184]
 br x16
-.word 13641
+.word 13606
 	.no_dead_strip plt__rgctx_fetch_116
 plt__rgctx_fetch_116:
 _p_383:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #200]
+ldr x16, [x16, #192]
 br x16
-.word 13667
+.word 13632
 	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
 _p_384:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #208]
+ldr x16, [x16, #200]
 br x16
-.word 13675
+.word 13640
 	.no_dead_strip plt__rgctx_fetch_117
 plt__rgctx_fetch_117:
 _p_385:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #216]
+ldr x16, [x16, #208]
 br x16
-.word 13683
+.word 13648
 	.no_dead_strip plt__rgctx_fetch_118
 plt__rgctx_fetch_118:
 _p_386:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #224]
+ldr x16, [x16, #216]
 br x16
-.word 13691
+.word 13656
 	.no_dead_strip plt__rgctx_fetch_119
 plt__rgctx_fetch_119:
 _p_387:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #232]
+ldr x16, [x16, #224]
 br x16
-.word 13738
+.word 13703
 	.no_dead_strip plt__rgctx_fetch_120
 plt__rgctx_fetch_120:
 _p_388:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #240]
+ldr x16, [x16, #232]
 br x16
-.word 13746
+.word 13711
 	.no_dead_strip plt__rgctx_fetch_121
 plt__rgctx_fetch_121:
 _p_389:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #248]
+ldr x16, [x16, #240]
 br x16
-.word 13772
+.word 13737
 	.no_dead_strip plt__rgctx_fetch_122
 plt__rgctx_fetch_122:
 _p_390:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #256]
+ldr x16, [x16, #248]
 br x16
-.word 13780
+.word 13745
 	.no_dead_strip plt__rgctx_fetch_123
 plt__rgctx_fetch_123:
 _p_391:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #264]
+ldr x16, [x16, #256]
 br x16
-.word 13788
+.word 13753
 	.no_dead_strip plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___castclass_with_cache_object_intptr_intptr:
 _p_392:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #272]
+ldr x16, [x16, #264]
 br x16
-.word 13796
+.word 13761
 	.no_dead_strip plt__rgctx_fetch_124
 plt__rgctx_fetch_124:
 _p_393:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #280]
+ldr x16, [x16, #272]
 br x16
-.word 13804
+.word 13769
 	.no_dead_strip plt__rgctx_fetch_125
 plt__rgctx_fetch_125:
 _p_394:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #288]
+ldr x16, [x16, #280]
 br x16
-.word 13851
+.word 13816
 	.no_dead_strip plt__rgctx_fetch_126
 plt__rgctx_fetch_126:
 _p_395:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #296]
+ldr x16, [x16, #288]
 br x16
-.word 13877
+.word 13842
 	.no_dead_strip plt__rgctx_fetch_127
 plt__rgctx_fetch_127:
 _p_396:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #304]
+ldr x16, [x16, #296]
 br x16
-.word 13887
+.word 13852
 	.no_dead_strip plt__rgctx_fetch_128
 plt__rgctx_fetch_128:
 _p_397:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #312]
+ldr x16, [x16, #304]
 br x16
-.word 13913
+.word 13878
 	.no_dead_strip plt__rgctx_fetch_129
 plt__rgctx_fetch_129:
 _p_398:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #320]
+ldr x16, [x16, #312]
 br x16
-.word 13939
+.word 13904
 	.no_dead_strip plt__rgctx_fetch_130
 plt__rgctx_fetch_130:
 _p_399:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #328]
+ldr x16, [x16, #320]
 br x16
-.word 13965
+.word 13930
 	.no_dead_strip plt__rgctx_fetch_131
 plt__rgctx_fetch_131:
 _p_400:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #336]
+ldr x16, [x16, #328]
 br x16
-.word 14012
+.word 13977
 	.no_dead_strip plt__jit_icall___emul_op_imul_ovf
 plt__jit_icall___emul_op_imul_ovf:
 _p_401:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #344]
+ldr x16, [x16, #336]
 br x16
-.word 14038
+.word 14003
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
 _p_402:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #352]
+ldr x16, [x16, #344]
 br x16
-.word 14059
+.word 14024
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
 _p_403:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #360]
+ldr x16, [x16, #352]
 br x16
-.word 14098
+.word 14063
 	.no_dead_strip plt__rgctx_fetch_132
 plt__rgctx_fetch_132:
 _p_404:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #368]
+ldr x16, [x16, #360]
 br x16
-.word 14103
+.word 14068
 	.no_dead_strip plt__rgctx_fetch_133
 plt__rgctx_fetch_133:
 _p_405:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #376]
+ldr x16, [x16, #368]
 br x16
-.word 14113
+.word 14078
 	.no_dead_strip plt__rgctx_fetch_134
 plt__rgctx_fetch_134:
 _p_406:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #384]
+ldr x16, [x16, #376]
 br x16
-.word 14121
+.word 14086
 	.no_dead_strip plt__rgctx_fetch_135
 plt__rgctx_fetch_135:
 _p_407:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #392]
+ldr x16, [x16, #384]
 br x16
-.word 14147
+.word 14112
 	.no_dead_strip plt__rgctx_fetch_136
 plt__rgctx_fetch_136:
 _p_408:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #400]
+ldr x16, [x16, #392]
 br x16
-.word 14155
+.word 14120
 	.no_dead_strip plt__rgctx_fetch_137
 plt__rgctx_fetch_137:
 _p_409:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #408]
+ldr x16, [x16, #400]
 br x16
-.word 14181
+.word 14146
 	.no_dead_strip plt__rgctx_fetch_138
 plt__rgctx_fetch_138:
 _p_410:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #416]
+ldr x16, [x16, #408]
 br x16
-.word 14189
+.word 14154
 	.no_dead_strip plt__rgctx_fetch_139
 plt__rgctx_fetch_139:
 _p_411:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #424]
+ldr x16, [x16, #416]
 br x16
-.word 14215
+.word 14180
 	.no_dead_strip plt_System_Threading_PlatformHelper_get_ProcessorCount
 plt_System_Threading_PlatformHelper_get_ProcessorCount:
 _p_412:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #432]
+ldr x16, [x16, #424]
 br x16
-.word 14241
+.word 14206
 	.no_dead_strip plt_System_Diagnostics_Tracing_EventSource_IsEnabled
 plt_System_Diagnostics_Tracing_EventSource_IsEnabled:
 _p_413:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #440]
+ldr x16, [x16, #432]
 br x16
-.word 14246
+.word 14211
 	.no_dead_strip plt_System_Collections_Concurrent_CDSCollectionETWBCLProvider_ConcurrentDictionary_AcquiringAllLocks_int
 plt_System_Collections_Concurrent_CDSCollectionETWBCLProvider_ConcurrentDictionary_AcquiringAllLocks_int:
 _p_414:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #448]
+ldr x16, [x16, #440]
 br x16
-.word 14251
+.word 14216
 	.no_dead_strip plt__rgctx_fetch_140
 plt__rgctx_fetch_140:
 _p_415:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #456]
+ldr x16, [x16, #448]
 br x16
-.word 14277
+.word 14242
 	.no_dead_strip plt__rgctx_fetch_141
 plt__rgctx_fetch_141:
 _p_416:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #464]
+ldr x16, [x16, #456]
 br x16
-.word 14324
+.word 14289
 	.no_dead_strip plt__rgctx_fetch_142
 plt__rgctx_fetch_142:
 _p_417:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #472]
+ldr x16, [x16, #464]
 br x16
-.word 14350
+.word 14315
 	.no_dead_strip plt__rgctx_fetch_143
 plt__rgctx_fetch_143:
 _p_418:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #480]
+ldr x16, [x16, #472]
 br x16
-.word 14385
+.word 14350
 	.no_dead_strip plt__rgctx_fetch_144
 plt__rgctx_fetch_144:
 _p_419:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #488]
+ldr x16, [x16, #480]
 br x16
-.word 14393
+.word 14358
 	.no_dead_strip plt__rgctx_fetch_145
 plt__rgctx_fetch_145:
 _p_420:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #496]
+ldr x16, [x16, #488]
 br x16
-.word 14416
+.word 14381
 	.no_dead_strip plt__rgctx_fetch_146
 plt__rgctx_fetch_146:
 _p_421:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #504]
+ldr x16, [x16, #496]
 br x16
-.word 14448
+.word 14413
 	.no_dead_strip plt__rgctx_fetch_147
 plt__rgctx_fetch_147:
 _p_422:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #512]
+ldr x16, [x16, #504]
 br x16
-.word 14456
+.word 14421
 	.no_dead_strip plt__rgctx_fetch_148
 plt__rgctx_fetch_148:
 _p_423:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #520]
+ldr x16, [x16, #512]
 br x16
-.word 14479
+.word 14444
 	.no_dead_strip plt__rgctx_fetch_149
 plt__rgctx_fetch_149:
 _p_424:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #528]
+ldr x16, [x16, #520]
 br x16
-.word 14526
+.word 14491
 	.no_dead_strip plt__rgctx_fetch_150
 plt__rgctx_fetch_150:
 _p_425:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #536]
+ldr x16, [x16, #528]
 br x16
-.word 14552
+.word 14517
 	.no_dead_strip plt__rgctx_fetch_151
 plt__rgctx_fetch_151:
 _p_426:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #544]
+ldr x16, [x16, #536]
 br x16
-.word 14587
+.word 14552
 	.no_dead_strip plt_System_Collections_Generic_List_1_TValue_REF__ctor_int
 plt_System_Collections_Generic_List_1_TValue_REF__ctor_int:
 _p_427:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #552]
+ldr x16, [x16, #544]
 br x16
-.word 14595
+.word 14560
 	.no_dead_strip plt_System_Collections_Generic_List_1_TValue_REF_Add_TValue_REF
 plt_System_Collections_Generic_List_1_TValue_REF_Add_TValue_REF:
 _p_428:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #560]
+ldr x16, [x16, #552]
 br x16
-.word 14614
+.word 14579
 	.no_dead_strip plt__rgctx_fetch_152
 plt__rgctx_fetch_152:
 _p_429:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #568]
+ldr x16, [x16, #560]
 br x16
-.word 14642
+.word 14607
 	.no_dead_strip plt_System_Collections_ObjectModel_ReadOnlyCollection_1_TValue_REF__ctor_System_Collections_Generic_IList_1_TValue_REF
 plt_System_Collections_ObjectModel_ReadOnlyCollection_1_TValue_REF__ctor_System_Collections_Generic_IList_1_TValue_REF:
 _p_430:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #576]
+ldr x16, [x16, #568]
 br x16
-.word 14650
+.word 14615
 	.no_dead_strip plt__rgctx_fetch_153
 plt__rgctx_fetch_153:
 _p_431:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #584]
+ldr x16, [x16, #576]
 br x16
-.word 14669
+.word 14634
 	.no_dead_strip plt__rgctx_fetch_154
 plt__rgctx_fetch_154:
 _p_432:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #592]
+ldr x16, [x16, #584]
 br x16
-.word 14716
+.word 14681
 	.no_dead_strip plt__rgctx_fetch_155
 plt__rgctx_fetch_155:
 _p_433:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #600]
+ldr x16, [x16, #592]
 br x16
-.word 14724
+.word 14689
 	.no_dead_strip plt__rgctx_fetch_156
 plt__rgctx_fetch_156:
 _p_434:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #608]
+ldr x16, [x16, #600]
 br x16
-.word 14750
+.word 14715
 	.no_dead_strip plt__rgctx_fetch_157
 plt__rgctx_fetch_157:
 _p_435:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #616]
+ldr x16, [x16, #608]
 br x16
-.word 14776
+.word 14741
 	.no_dead_strip plt__rgctx_fetch_158
 plt__rgctx_fetch_158:
 _p_436:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #624]
+ldr x16, [x16, #616]
 br x16
-.word 14800
+.word 14764
 	.no_dead_strip plt__rgctx_fetch_159
 plt__rgctx_fetch_159:
 _p_437:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #632]
+ldr x16, [x16, #624]
 br x16
-.word 14842
+.word 14805
 	.no_dead_strip plt__rgctx_fetch_160
 plt__rgctx_fetch_160:
 _p_438:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #640]
+ldr x16, [x16, #632]
 br x16
-.word 14850
+.word 14813
 	.no_dead_strip plt__rgctx_fetch_161
 plt__rgctx_fetch_161:
 _p_439:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #648]
+ldr x16, [x16, #640]
 br x16
-.word 14873
+.word 14836
 	.no_dead_strip plt__rgctx_fetch_162
 plt__rgctx_fetch_162:
 _p_440:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #656]
+ldr x16, [x16, #648]
 br x16
-.word 14909
+.word 14870
 	.no_dead_strip plt__rgctx_fetch_163
 plt__rgctx_fetch_163:
 _p_441:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #664]
+ldr x16, [x16, #656]
 br x16
-.word 14917
+.word 14878
 	.no_dead_strip plt__jit_icall_mono_delegate_begin_invoke
 plt__jit_icall_mono_delegate_begin_invoke:
 _p_442:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #672]
+ldr x16, [x16, #664]
 br x16
-.word 14940
+.word 14901
 	.no_dead_strip plt__jit_icall_mono_delegate_end_invoke
 plt__jit_icall_mono_delegate_end_invoke:
 _p_443:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #680]
+ldr x16, [x16, #672]
 br x16
-.word 14969
+.word 14930
 	.no_dead_strip plt__jit_icall_mono_array_to_lparray
 plt__jit_icall_mono_array_to_lparray:
 _p_444:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #688]
+ldr x16, [x16, #680]
 br x16
-.word 14996
+.word 14957
 	.no_dead_strip plt__jit_icall_mono_free_lparray
 plt__jit_icall_mono_free_lparray:
 _p_445:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #696]
+ldr x16, [x16, #688]
 br x16
-.word 15020
+.word 14981
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_close_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_close_intptr:
 _p_446:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #704]
+ldr x16, [x16, #696]
 br x16
-.word 15040
+.word 15001
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_close_v2_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_close_v2_intptr:
 _p_447:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #712]
+ldr x16, [x16, #704]
 br x16
-.word 15043
+.word 15004
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_enable_shared_cache_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_enable_shared_cache_int:
 _p_448:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #720]
+ldr x16, [x16, #712]
 br x16
-.word 15046
+.word 15007
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_interrupt_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_interrupt_intptr:
 _p_449:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #728]
+ldr x16, [x16, #720]
 br x16
-.word 15049
+.word 15010
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_finalize_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_finalize_intptr:
 _p_450:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #736]
+ldr x16, [x16, #728]
 br x16
-.word 15052
+.word 15013
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_reset_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_reset_intptr:
 _p_451:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #744]
+ldr x16, [x16, #736]
 br x16
-.word 15055
+.word 15016
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_clear_bindings_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_clear_bindings_intptr:
 _p_452:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #752]
+ldr x16, [x16, #744]
 br x16
-.word 15058
+.word 15019
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_stmt_status_intptr_int_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_stmt_status_intptr_int_int:
 _p_453:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #760]
+ldr x16, [x16, #752]
 br x16
-.word 15061
+.word 15022
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_parameter_name_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_parameter_name_intptr_int:
 _p_454:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #768]
+ldr x16, [x16, #760]
 br x16
-.word 15064
+.word 15025
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_database_name_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_database_name_intptr_int:
 _p_455:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #776]
+ldr x16, [x16, #768]
 br x16
-.word 15067
+.word 15028
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_database_name16_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_database_name16_intptr_int:
 _p_456:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #784]
+ldr x16, [x16, #776]
 br x16
-.word 15070
+.word 15031
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_decltype_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_decltype_intptr_int:
 _p_457:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #792]
+ldr x16, [x16, #784]
 br x16
-.word 15073
+.word 15034
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_decltype16_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_decltype16_intptr_int:
 _p_458:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #800]
+ldr x16, [x16, #792]
 br x16
-.word 15076
+.word 15037
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_name_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_name_intptr_int:
 _p_459:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #808]
+ldr x16, [x16, #800]
 br x16
-.word 15079
+.word 15040
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_name16_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_name16_intptr_int:
 _p_460:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #816]
+ldr x16, [x16, #808]
 br x16
-.word 15082
+.word 15043
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_origin_name_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_origin_name_intptr_int:
 _p_461:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #824]
+ldr x16, [x16, #816]
 br x16
-.word 15085
+.word 15046
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_origin_name16_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_origin_name16_intptr_int:
 _p_462:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #832]
+ldr x16, [x16, #824]
 br x16
-.word 15088
+.word 15049
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_table_name_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_table_name_intptr_int:
 _p_463:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #840]
+ldr x16, [x16, #832]
 br x16
-.word 15091
+.word 15052
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_table_name16_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_table_name16_intptr_int:
 _p_464:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #848]
+ldr x16, [x16, #840]
 br x16
-.word 15094
+.word 15055
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_text_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_text_intptr_int:
 _p_465:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #856]
+ldr x16, [x16, #848]
 br x16
-.word 15097
+.word 15058
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_text16_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_text16_intptr_int:
 _p_466:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #856]
 br x16
-.word 15100
+.word 15061
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_errmsg_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_errmsg_intptr:
 _p_467:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #864]
 br x16
-.word 15103
+.word 15064
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_db_readonly_intptr_byte__
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_db_readonly_intptr_byte__:
 _p_468:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #880]
+ldr x16, [x16, #872]
 br x16
-.word 15106
+.word 15067
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_db_filename_intptr_byte__
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_db_filename_intptr_byte__:
 _p_469:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #888]
+ldr x16, [x16, #880]
 br x16
-.word 15109
+.word 15070
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_prepare_intptr_intptr_int_intptr__intptr_
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_prepare_intptr_intptr_int_intptr__intptr_:
 _p_470:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #896]
+ldr x16, [x16, #888]
 br x16
-.word 15112
+.word 15073
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_prepare_v2_intptr_intptr_int_intptr__intptr_
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_prepare_v2_intptr_intptr_int_intptr__intptr_:
 _p_471:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #904]
+ldr x16, [x16, #896]
 br x16
-.word 15115
+.word 15076
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_db_status_intptr_int_int__int__int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_db_status_intptr_int_int__int__int:
 _p_472:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #912]
+ldr x16, [x16, #904]
 br x16
-.word 15118
+.word 15079
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_complete_byte__
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_complete_byte__:
 _p_473:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #920]
+ldr x16, [x16, #912]
 br x16
-.word 15121
+.word 15082
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_compileoption_used_byte__
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_compileoption_used_byte__:
 _p_474:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #928]
+ldr x16, [x16, #920]
 br x16
-.word 15124
+.word 15085
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_compileoption_get_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_compileoption_get_int:
 _p_475:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #936]
+ldr x16, [x16, #928]
 br x16
-.word 15127
+.word 15088
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_table_column_metadata_intptr_byte___byte___byte___intptr__intptr__int__int__int_
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_table_column_metadata_intptr_byte___byte___byte___intptr__intptr__int__int__int_:
 _p_476:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #944]
+ldr x16, [x16, #936]
 br x16
-.word 15130
+.word 15091
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_text_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_text_intptr:
 _p_477:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #952]
+ldr x16, [x16, #944]
 br x16
-.word 15133
+.word 15094
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_text16_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_text16_intptr:
 _p_478:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #960]
+ldr x16, [x16, #952]
 br x16
-.word 15136
+.word 15097
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_enable_load_extension_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_enable_load_extension_intptr_int:
 _p_479:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #968]
+ldr x16, [x16, #960]
 br x16
-.word 15139
+.word 15100
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_load_extension_intptr_byte___byte___intptr_
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_load_extension_intptr_byte___byte___intptr_:
 _p_480:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #976]
+ldr x16, [x16, #968]
 br x16
-.word 15142
+.word 15103
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_initialize
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_initialize:
 _p_481:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #976]
 br x16
-.word 15145
+.word 15106
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_shutdown
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_shutdown:
 _p_482:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #992]
+ldr x16, [x16, #984]
 br x16
-.word 15148
+.word 15109
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_libversion
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_libversion:
 _p_483:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1000]
+ldr x16, [x16, #992]
 br x16
-.word 15151
+.word 15112
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_libversion_number
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_libversion_number:
 _p_484:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1008]
+ldr x16, [x16, #1000]
 br x16
-.word 15154
+.word 15115
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_threadsafe
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_threadsafe:
 _p_485:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1016]
+ldr x16, [x16, #1008]
 br x16
-.word 15157
+.word 15118
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_sourceid
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_sourceid:
 _p_486:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1024]
+ldr x16, [x16, #1016]
 br x16
-.word 15160
+.word 15121
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_malloc_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_malloc_int:
 _p_487:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1032]
+ldr x16, [x16, #1024]
 br x16
-.word 15163
+.word 15124
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_realloc_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_realloc_intptr_int:
 _p_488:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1040]
+ldr x16, [x16, #1032]
 br x16
-.word 15166
+.word 15127
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_free_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_free_intptr:
 _p_489:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1048]
+ldr x16, [x16, #1040]
 br x16
-.word 15169
+.word 15130
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_open_byte___intptr_
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_open_byte___intptr_:
 _p_490:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1056]
+ldr x16, [x16, #1048]
 br x16
-.word 15172
+.word 15133
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_open_v2_byte___intptr__int_byte__
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_open_v2_byte___intptr__int_byte__:
 _p_491:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1064]
+ldr x16, [x16, #1056]
 br x16
-.word 15175
+.word 15136
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_vfs_find_byte__
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_vfs_find_byte__:
 _p_492:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1072]
+ldr x16, [x16, #1064]
 br x16
-.word 15178
+.word 15139
 	.no_dead_strip plt__jit_icall_mono_marshal_string_to_utf16
 plt__jit_icall_mono_marshal_string_to_utf16:
 _p_493:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1080]
+ldr x16, [x16, #1072]
 br x16
-.word 15181
+.word 15142
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_open16_string_intptr_
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_open16_string_intptr_:
 _p_494:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1088]
+ldr x16, [x16, #1080]
 br x16
-.word 15212
+.word 15173
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_last_insert_rowid_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_last_insert_rowid_intptr:
 _p_495:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1096]
+ldr x16, [x16, #1088]
 br x16
-.word 15215
+.word 15176
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_changes_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_changes_intptr:
 _p_496:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1104]
+ldr x16, [x16, #1096]
 br x16
-.word 15218
+.word 15179
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_total_changes_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_total_changes_intptr:
 _p_497:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1112]
+ldr x16, [x16, #1104]
 br x16
-.word 15221
+.word 15182
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_memory_used
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_memory_used:
 _p_498:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1120]
+ldr x16, [x16, #1112]
 br x16
-.word 15224
+.word 15185
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_memory_highwater_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_memory_highwater_int:
 _p_499:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1128]
+ldr x16, [x16, #1120]
 br x16
-.word 15227
+.word 15188
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_status_int_int__int__int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_status_int_int__int__int:
 _p_500:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1136]
+ldr x16, [x16, #1128]
 br x16
-.word 15230
+.word 15191
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_busy_timeout_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_busy_timeout_intptr_int:
 _p_501:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1144]
+ldr x16, [x16, #1136]
 br x16
-.word 15233
+.word 15194
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_blob_intptr_int_byte___int_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_blob_intptr_int_byte___int_intptr:
 _p_502:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1152]
+ldr x16, [x16, #1144]
 br x16
-.word 15236
+.word 15197
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_zeroblob_intptr_int_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_zeroblob_intptr_int_int:
 _p_503:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1160]
+ldr x16, [x16, #1152]
 br x16
-.word 15239
+.word 15200
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_double_intptr_int_double
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_double_intptr_int_double:
 _p_504:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1168]
+ldr x16, [x16, #1160]
 br x16
-.word 15242
+.word 15203
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_int_intptr_int_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_int_intptr_int_int:
 _p_505:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1176]
+ldr x16, [x16, #1168]
 br x16
-.word 15245
+.word 15206
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_int64_intptr_int_long
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_int64_intptr_int_long:
 _p_506:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1184]
+ldr x16, [x16, #1176]
 br x16
-.word 15248
+.word 15209
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_null_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_null_intptr_int:
 _p_507:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1192]
+ldr x16, [x16, #1184]
 br x16
-.word 15251
+.word 15212
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_text_intptr_int_byte___int_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_text_intptr_int_byte___int_intptr:
 _p_508:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1200]
+ldr x16, [x16, #1192]
 br x16
-.word 15254
+.word 15215
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_parameter_count_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_parameter_count_intptr:
 _p_509:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1208]
+ldr x16, [x16, #1200]
 br x16
-.word 15257
+.word 15218
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_parameter_index_intptr_byte__
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_parameter_index_intptr_byte__:
 _p_510:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1216]
+ldr x16, [x16, #1208]
 br x16
-.word 15260
+.word 15221
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_count_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_count_intptr:
 _p_511:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1224]
+ldr x16, [x16, #1216]
 br x16
-.word 15263
+.word 15224
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_data_count_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_data_count_intptr:
 _p_512:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1232]
+ldr x16, [x16, #1224]
 br x16
-.word 15266
+.word 15227
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_step_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_step_intptr:
 _p_513:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1240]
+ldr x16, [x16, #1232]
 br x16
-.word 15269
+.word 15230
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_sql_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_sql_intptr:
 _p_514:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1248]
+ldr x16, [x16, #1240]
 br x16
-.word 15272
+.word 15233
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_double_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_double_intptr_int:
 _p_515:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1256]
+ldr x16, [x16, #1248]
 br x16
-.word 15275
+.word 15236
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_int_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_int_intptr_int:
 _p_516:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1264]
+ldr x16, [x16, #1256]
 br x16
-.word 15278
+.word 15239
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_int64_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_int64_intptr_int:
 _p_517:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1272]
+ldr x16, [x16, #1264]
 br x16
-.word 15281
+.word 15242
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_blob_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_blob_intptr_int:
 _p_518:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1280]
+ldr x16, [x16, #1272]
 br x16
-.word 15284
+.word 15245
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_bytes_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_bytes_intptr_int:
 _p_519:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1288]
+ldr x16, [x16, #1280]
 br x16
-.word 15287
+.word 15248
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_type_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_column_type_intptr_int:
 _p_520:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1296]
+ldr x16, [x16, #1288]
 br x16
-.word 15290
+.word 15251
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_aggregate_count_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_aggregate_count_intptr:
 _p_521:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1304]
+ldr x16, [x16, #1296]
 br x16
-.word 15293
+.word 15254
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_blob_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_blob_intptr:
 _p_522:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1312]
+ldr x16, [x16, #1304]
 br x16
-.word 15296
+.word 15257
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_bytes_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_bytes_intptr:
 _p_523:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1320]
+ldr x16, [x16, #1312]
 br x16
-.word 15299
+.word 15260
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_double_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_double_intptr:
 _p_524:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1328]
+ldr x16, [x16, #1320]
 br x16
-.word 15302
+.word 15263
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_int_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_int_intptr:
 _p_525:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1336]
+ldr x16, [x16, #1328]
 br x16
-.word 15305
+.word 15266
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_int64_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_int64_intptr:
 _p_526:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1344]
+ldr x16, [x16, #1336]
 br x16
-.word 15308
+.word 15269
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_type_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_value_type_intptr:
 _p_527:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1352]
+ldr x16, [x16, #1344]
 br x16
-.word 15311
+.word 15272
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_user_data_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_user_data_intptr:
 _p_528:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1360]
+ldr x16, [x16, #1352]
 br x16
-.word 15314
+.word 15275
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_blob_intptr_byte___int_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_blob_intptr_byte___int_intptr:
 _p_529:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1368]
+ldr x16, [x16, #1360]
 br x16
-.word 15317
+.word 15278
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_double_intptr_double
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_double_intptr_double:
 _p_530:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1376]
+ldr x16, [x16, #1368]
 br x16
-.word 15320
+.word 15281
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_error_intptr_byte___int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_error_intptr_byte___int:
 _p_531:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1384]
+ldr x16, [x16, #1376]
 br x16
-.word 15323
+.word 15284
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_int_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_int_intptr_int:
 _p_532:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1392]
+ldr x16, [x16, #1384]
 br x16
-.word 15326
+.word 15287
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_int64_intptr_long
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_int64_intptr_long:
 _p_533:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1400]
+ldr x16, [x16, #1392]
 br x16
-.word 15329
+.word 15290
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_null_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_null_intptr:
 _p_534:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1408]
+ldr x16, [x16, #1400]
 br x16
-.word 15332
+.word 15293
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_text_intptr_byte___int_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_text_intptr_byte___int_intptr:
 _p_535:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1416]
+ldr x16, [x16, #1408]
 br x16
-.word 15335
+.word 15296
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_zeroblob_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_zeroblob_intptr_int:
 _p_536:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1424]
+ldr x16, [x16, #1416]
 br x16
-.word 15338
+.word 15299
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_error_toobig_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_error_toobig_intptr:
 _p_537:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1432]
+ldr x16, [x16, #1424]
 br x16
-.word 15341
+.word 15302
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_error_nomem_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_error_nomem_intptr:
 _p_538:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1440]
+ldr x16, [x16, #1432]
 br x16
-.word 15344
+.word 15305
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_error_code_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_error_code_intptr_int:
 _p_539:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1448]
+ldr x16, [x16, #1440]
 br x16
-.word 15347
+.word 15308
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_aggregate_context_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_aggregate_context_intptr_int:
 _p_540:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1456]
+ldr x16, [x16, #1448]
 br x16
-.word 15350
+.word 15311
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_text16_intptr_int_string_int_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_bind_text16_intptr_int_string_int_intptr:
 _p_541:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1464]
+ldr x16, [x16, #1456]
 br x16
-.word 15353
+.word 15314
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_error16_intptr_string_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_error16_intptr_string_int:
 _p_542:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1472]
+ldr x16, [x16, #1464]
 br x16
-.word 15356
+.word 15317
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_text16_intptr_string_int_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_result_text16_intptr_string_int_intptr:
 _p_543:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1480]
+ldr x16, [x16, #1472]
 br x16
-.word 15359
+.word 15320
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_config_none_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_config_none_int:
 _p_544:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1488]
+ldr x16, [x16, #1480]
 br x16
-.word 15362
+.word 15323
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_config_int_int_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_config_int_int_int:
 _p_545:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1496]
+ldr x16, [x16, #1488]
 br x16
-.word 15365
+.word 15326
 	.no_dead_strip plt__jit_icall_mono_delegate_to_ftnptr
 plt__jit_icall_mono_delegate_to_ftnptr:
 _p_546:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1504]
+ldr x16, [x16, #1496]
 br x16
-.word 15368
+.word 15329
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_config_log_int_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_log_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_config_log_int_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_log_intptr:
 _p_547:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1512]
+ldr x16, [x16, #1504]
 br x16
-.word 15394
+.word 15355
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_create_function_v2_intptr_byte___int_int_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_scalar_function_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_agg_function_step_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_agg_function_final_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_destroy
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_create_function_v2_intptr_byte___int_int_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_scalar_function_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_agg_function_step_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_agg_function_final_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_destroy:
 _p_548:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1520]
+ldr x16, [x16, #1512]
 br x16
-.word 15397
+.word 15358
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_create_collation_intptr_byte___int_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_collation
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_create_collation_intptr_byte___int_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_collation:
 _p_549:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1528]
+ldr x16, [x16, #1520]
 br x16
-.word 15400
+.word 15361
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_update_hook_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_update_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_update_hook_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_update_intptr:
 _p_550:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1536]
+ldr x16, [x16, #1528]
 br x16
-.word 15403
+.word 15364
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_commit_hook_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_commit_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_commit_hook_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_commit_intptr:
 _p_551:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1544]
+ldr x16, [x16, #1536]
 br x16
-.word 15406
+.word 15367
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_profile_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_profile_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_profile_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_profile_intptr:
 _p_552:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1552]
+ldr x16, [x16, #1544]
 br x16
-.word 15409
+.word 15370
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_progress_handler_intptr_int_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_progress_handler_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_progress_handler_intptr_int_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_progress_handler_intptr:
 _p_553:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1560]
+ldr x16, [x16, #1552]
 br x16
-.word 15412
+.word 15373
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_trace_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_trace_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_trace_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_trace_intptr:
 _p_554:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1568]
+ldr x16, [x16, #1560]
 br x16
-.word 15415
+.word 15376
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_rollback_hook_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_rollback_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_rollback_hook_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_rollback_intptr:
 _p_555:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1576]
+ldr x16, [x16, #1568]
 br x16
-.word 15418
+.word 15379
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_db_handle_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_db_handle_intptr:
 _p_556:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1584]
+ldr x16, [x16, #1576]
 br x16
-.word 15421
+.word 15382
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_next_stmt_intptr_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_next_stmt_intptr_intptr:
 _p_557:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1592]
+ldr x16, [x16, #1584]
 br x16
-.word 15424
+.word 15385
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_stmt_busy_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_stmt_busy_intptr:
 _p_558:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1600]
+ldr x16, [x16, #1592]
 br x16
-.word 15427
+.word 15388
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_stmt_readonly_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_stmt_readonly_intptr:
 _p_559:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1608]
+ldr x16, [x16, #1600]
 br x16
-.word 15430
+.word 15391
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_exec_intptr_byte___SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_exec_intptr_intptr_
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_exec_intptr_byte___SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_exec_intptr_intptr_:
 _p_560:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1616]
+ldr x16, [x16, #1608]
 br x16
-.word 15433
+.word 15394
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_get_autocommit_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_get_autocommit_intptr:
 _p_561:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1624]
+ldr x16, [x16, #1616]
 br x16
-.word 15436
+.word 15397
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_extended_result_codes_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_extended_result_codes_intptr_int:
 _p_562:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1632]
+ldr x16, [x16, #1624]
 br x16
-.word 15439
+.word 15400
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_errcode_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_errcode_intptr:
 _p_563:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1640]
+ldr x16, [x16, #1632]
 br x16
-.word 15442
+.word 15403
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_extended_errcode_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_extended_errcode_intptr:
 _p_564:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1648]
+ldr x16, [x16, #1640]
 br x16
-.word 15445
+.word 15406
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_errstr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_errstr_int:
 _p_565:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1656]
+ldr x16, [x16, #1648]
 br x16
-.word 15448
+.word 15409
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_log_int_byte__
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_log_int_byte__:
 _p_566:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1664]
+ldr x16, [x16, #1656]
 br x16
-.word 15451
+.word 15412
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_file_control_intptr_byte___int_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_file_control_intptr_byte___int_intptr:
 _p_567:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1672]
+ldr x16, [x16, #1664]
 br x16
-.word 15454
+.word 15415
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_backup_init_intptr_byte___intptr_byte__
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_backup_init_intptr_byte___intptr_byte__:
 _p_568:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1680]
+ldr x16, [x16, #1672]
 br x16
-.word 15457
+.word 15418
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_backup_step_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_backup_step_intptr_int:
 _p_569:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1688]
+ldr x16, [x16, #1680]
 br x16
-.word 15460
+.word 15421
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_backup_finish_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_backup_finish_intptr:
 _p_570:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1696]
+ldr x16, [x16, #1688]
 br x16
-.word 15463
+.word 15424
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_backup_remaining_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_backup_remaining_intptr:
 _p_571:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1704]
+ldr x16, [x16, #1696]
 br x16
-.word 15466
+.word 15427
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_backup_pagecount_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_backup_pagecount_intptr:
 _p_572:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1712]
+ldr x16, [x16, #1704]
 br x16
-.word 15469
+.word 15430
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_blob_open_intptr_byte___byte___byte___long_int_intptr_
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_blob_open_intptr_byte___byte___byte___long_int_intptr_:
 _p_573:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1720]
+ldr x16, [x16, #1712]
 br x16
-.word 15472
+.word 15433
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_blob_write_intptr_byte___int_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_blob_write_intptr_byte___int_int:
 _p_574:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1728]
+ldr x16, [x16, #1720]
 br x16
-.word 15475
+.word 15436
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_blob_read_intptr_byte___int_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_blob_read_intptr_byte___int_int:
 _p_575:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1736]
+ldr x16, [x16, #1728]
 br x16
-.word 15478
+.word 15439
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_other_sqlite3_blob_write_intptr_intptr_int_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_other_sqlite3_blob_write_intptr_intptr_int_int:
 _p_576:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1744]
+ldr x16, [x16, #1736]
 br x16
-.word 15481
+.word 15442
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_other_sqlite3_blob_read_intptr_intptr_int_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_other_sqlite3_blob_read_intptr_intptr_int_int:
 _p_577:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1752]
+ldr x16, [x16, #1744]
 br x16
-.word 15484
+.word 15445
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_blob_bytes_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_blob_bytes_intptr:
 _p_578:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1760]
+ldr x16, [x16, #1752]
 br x16
-.word 15487
+.word 15448
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_blob_close_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_blob_close_intptr:
 _p_579:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1768]
+ldr x16, [x16, #1760]
 br x16
-.word 15490
+.word 15451
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_wal_autocheckpoint_intptr_int
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_wal_autocheckpoint_intptr_int:
 _p_580:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1776]
+ldr x16, [x16, #1768]
 br x16
-.word 15493
+.word 15454
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_wal_checkpoint_intptr_byte__
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_wal_checkpoint_intptr_byte__:
 _p_581:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1784]
+ldr x16, [x16, #1776]
 br x16
-.word 15496
+.word 15457
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_wal_checkpoint_v2_intptr_byte___int_int__int_
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_wal_checkpoint_v2_intptr_byte___int_int__int_:
 _p_582:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1792]
+ldr x16, [x16, #1784]
 br x16
-.word 15499
+.word 15460
 	.no_dead_strip plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_set_authorizer_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_authorizer_intptr
 plt__icall_native_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_sqlite3_set_authorizer_intptr_SQLitePCL_SQLite3Provider_sqlite3_NativeMethods_callback_authorizer_intptr:
 _p_583:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1800]
+ldr x16, [x16, #1792]
 br x16
-.word 15502
+.word 15463
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_exec_hook_bridge_intptr_int_intptr_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_exec_hook_bridge_intptr_int_intptr_intptr:
 _p_584:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1808]
+ldr x16, [x16, #1800]
 br x16
-.word 15505
+.word 15466
 	.no_dead_strip plt__jit_icall_mono_gchandle_new
 plt__jit_icall_mono_gchandle_new:
 _p_585:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1816]
+ldr x16, [x16, #1808]
 br x16
-.word 15507
+.word 15468
 	.no_dead_strip plt__jit_icall_mono_marshal_ftnptr_eh_callback
 plt__jit_icall_mono_marshal_ftnptr_eh_callback:
 _p_586:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1824]
+ldr x16, [x16, #1816]
 br x16
-.word 15527
+.word 15488
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_commit_hook_bridge_impl_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_commit_hook_bridge_impl_intptr:
 _p_587:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1832]
+ldr x16, [x16, #1824]
 br x16
-.word 15561
+.word 15522
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_scalar_function_hook_bridge_impl_intptr_int_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_scalar_function_hook_bridge_impl_intptr_int_intptr:
 _p_588:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1840]
+ldr x16, [x16, #1832]
 br x16
-.word 15563
+.word 15524
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_log_hook_bridge_impl_intptr_int_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_log_hook_bridge_impl_intptr_int_intptr:
 _p_589:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1848]
+ldr x16, [x16, #1840]
 br x16
-.word 15565
+.word 15526
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_agg_function_hook_bridge_step_impl_intptr_int_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_agg_function_hook_bridge_step_impl_intptr_int_intptr:
 _p_590:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1856]
+ldr x16, [x16, #1848]
 br x16
-.word 15568
+.word 15529
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_agg_function_hook_bridge_final_impl_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_agg_function_hook_bridge_final_impl_intptr:
 _p_591:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1864]
+ldr x16, [x16, #1856]
 br x16
-.word 15571
+.word 15532
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_collation_hook_bridge_impl_intptr_int_intptr_int_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_collation_hook_bridge_impl_intptr_int_intptr_int_intptr:
 _p_592:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1872]
+ldr x16, [x16, #1864]
 br x16
-.word 15574
+.word 15535
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_update_hook_bridge_impl_intptr_int_intptr_intptr_long
 plt_SQLitePCL_SQLite3Provider_sqlite3_update_hook_bridge_impl_intptr_int_intptr_intptr_long:
 _p_593:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1880]
+ldr x16, [x16, #1872]
 br x16
-.word 15577
+.word 15538
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_rollback_hook_bridge_impl_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_rollback_hook_bridge_impl_intptr:
 _p_594:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1888]
+ldr x16, [x16, #1880]
 br x16
-.word 15580
+.word 15541
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_trace_hook_bridge_impl_intptr_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_trace_hook_bridge_impl_intptr_intptr:
 _p_595:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1896]
+ldr x16, [x16, #1888]
 br x16
-.word 15583
+.word 15544
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_profile_hook_bridge_impl_intptr_intptr_long
 plt_SQLitePCL_SQLite3Provider_sqlite3_profile_hook_bridge_impl_intptr_intptr_long:
 _p_596:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1904]
+ldr x16, [x16, #1896]
 br x16
-.word 15586
+.word 15547
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_progress_handler_hook_bridge_impl_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_progress_handler_hook_bridge_impl_intptr:
 _p_597:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1912]
+ldr x16, [x16, #1904]
 br x16
-.word 15589
+.word 15550
 	.no_dead_strip plt_SQLitePCL_SQLite3Provider_sqlite3_authorizer_hook_bridge_impl_intptr_int_intptr_intptr_intptr_intptr
 plt_SQLitePCL_SQLite3Provider_sqlite3_authorizer_hook_bridge_impl_intptr_int_intptr_intptr_intptr_intptr:
 _p_598:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1920]
+ldr x16, [x16, #1912]
 br x16
-.word 15592
+.word 15553
 	.no_dead_strip plt__rgctx_fetch_164
 plt__rgctx_fetch_164:
 _p_599:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1928]
+ldr x16, [x16, #1920]
 br x16
-.word 15613
+.word 15574
 	.no_dead_strip plt__rgctx_fetch_165
 plt__rgctx_fetch_165:
 _p_600:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1936]
+ldr x16, [x16, #1928]
 br x16
-.word 15621
+.word 15582
 	.no_dead_strip plt__rgctx_fetch_166
 plt__rgctx_fetch_166:
 _p_601:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1944]
+ldr x16, [x16, #1936]
 br x16
-.word 15629
+.word 15590
 	.no_dead_strip plt__rgctx_fetch_167
 plt__rgctx_fetch_167:
 _p_602:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1952]
+ldr x16, [x16, #1944]
 br x16
-.word 15670
+.word 15631
 	.no_dead_strip plt__rgctx_fetch_168
 plt__rgctx_fetch_168:
 _p_603:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1960]
+ldr x16, [x16, #1952]
 br x16
-.word 15678
+.word 15639
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
 plt_System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer:
 _p_604:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1968]
+ldr x16, [x16, #1960]
 br x16
-.word 15686
+.word 15647
 	.no_dead_strip plt__rgctx_fetch_169
 plt__rgctx_fetch_169:
 _p_605:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1976]
+ldr x16, [x16, #1968]
 br x16
-.word 15724
+.word 15684
 	.no_dead_strip plt__rgctx_fetch_170
 plt__rgctx_fetch_170:
 _p_606:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1984]
+ldr x16, [x16, #1976]
 br x16
-.word 15760
+.word 15719
 	.no_dead_strip plt__rgctx_fetch_171
 plt__rgctx_fetch_171:
 _p_607:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #1992]
+ldr x16, [x16, #1984]
 br x16
-.word 15768
+.word 15727
 	.no_dead_strip plt__rgctx_fetch_172
 plt__rgctx_fetch_172:
 _p_608:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2000]
+ldr x16, [x16, #1992]
 br x16
-.word 15776
+.word 15735
 	.no_dead_strip plt__rgctx_fetch_173
 plt__rgctx_fetch_173:
 _p_609:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2008]
+ldr x16, [x16, #2000]
 br x16
-.word 15819
+.word 15778
 	.no_dead_strip plt__rgctx_fetch_174
 plt__rgctx_fetch_174:
 _p_610:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2016]
+ldr x16, [x16, #2008]
 br x16
-.word 15827
+.word 15786
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument
 plt_System_ThrowHelper_ThrowArgumentNullException_System_ExceptionArgument:
 _p_611:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2024]
+ldr x16, [x16, #2016]
 br x16
-.word 15853
+.word 15812
 	.no_dead_strip plt__rgctx_fetch_175
 plt__rgctx_fetch_175:
 _p_612:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2032]
+ldr x16, [x16, #2024]
 br x16
-.word 15876
+.word 15835
 	.no_dead_strip plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource
 plt_System_ThrowHelper_ThrowArgumentOutOfRangeException_System_ExceptionArgument_System_ExceptionResource:
 _p_613:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2040]
+ldr x16, [x16, #2032]
 br x16
-.word 15899
+.word 15858
 	.no_dead_strip plt__rgctx_fetch_176
 plt__rgctx_fetch_176:
 _p_614:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2048]
+ldr x16, [x16, #2040]
 br x16
-.word 15922
+.word 15881
 	.no_dead_strip plt__rgctx_fetch_177
 plt__rgctx_fetch_177:
 _p_615:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2056]
+ldr x16, [x16, #2048]
 br x16
-.word 15930
+.word 15889
 	.no_dead_strip plt__rgctx_fetch_178
 plt__rgctx_fetch_178:
 _p_616:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2064]
+ldr x16, [x16, #2056]
 br x16
-.word 15938
+.word 15897
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_EnsureCapacity_int
 plt_System_Collections_Generic_List_1_T_REF_EnsureCapacity_int:
 _p_617:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2072]
+ldr x16, [x16, #2064]
 br x16
-.word 15948
+.word 15907
 	.no_dead_strip plt__rgctx_fetch_179
 plt__rgctx_fetch_179:
 _p_618:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2080]
+ldr x16, [x16, #2072]
 br x16
-.word 15985
+.word 15944
 	.no_dead_strip plt__rgctx_fetch_180
 plt__rgctx_fetch_180:
 _p_619:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2088]
+ldr x16, [x16, #2080]
 br x16
-.word 15993
+.word 15952
 	.no_dead_strip plt__rgctx_fetch_181
 plt__rgctx_fetch_181:
 _p_620:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2096]
+ldr x16, [x16, #2088]
 br x16
-.word 16001
+.word 15960
 	.no_dead_strip plt__rgctx_fetch_182
 plt__rgctx_fetch_182:
 _p_621:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2104]
+ldr x16, [x16, #2096]
 br x16
-.word 16030
+.word 15988
 	.no_dead_strip plt__rgctx_fetch_183
 plt__rgctx_fetch_183:
 _p_622:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2112]
+ldr x16, [x16, #2104]
 br x16
-.word 16072
+.word 16029
 	.no_dead_strip plt_System_Collections_Generic_ByteEqualityComparer__ctor
 plt_System_Collections_Generic_ByteEqualityComparer__ctor:
 _p_623:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2120]
+ldr x16, [x16, #2112]
 br x16
-.word 16080
+.word 16037
 	.no_dead_strip plt__rgctx_fetch_184
 plt__rgctx_fetch_184:
 _p_624:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2128]
+ldr x16, [x16, #2120]
 br x16
-.word 16085
+.word 16042
 	.no_dead_strip plt_System_Collections_Generic_InternalStringComparer__ctor
 plt_System_Collections_Generic_InternalStringComparer__ctor:
 _p_625:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2136]
+ldr x16, [x16, #2128]
 br x16
-.word 16093
+.word 16050
 	.no_dead_strip plt__rgctx_fetch_185
 plt__rgctx_fetch_185:
 _p_626:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2144]
+ldr x16, [x16, #2136]
 br x16
-.word 16107
+.word 16064
 	.no_dead_strip plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType
 plt_System_RuntimeType_CreateInstanceForAnotherGenericParameter_System_Type_System_RuntimeType:
 _p_627:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2152]
+ldr x16, [x16, #2144]
 br x16
-.word 16115
+.word 16072
 	.no_dead_strip plt_System_Enum_GetUnderlyingType_System_Type
 plt_System_Enum_GetUnderlyingType_System_Type:
 _p_628:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2160]
+ldr x16, [x16, #2152]
 br x16
-.word 16120
+.word 16077
 	.no_dead_strip plt__rgctx_fetch_186
 plt__rgctx_fetch_186:
 _p_629:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2168]
+ldr x16, [x16, #2160]
 br x16
-.word 16134
+.word 16091
 	.no_dead_strip plt__rgctx_fetch_187
 plt__rgctx_fetch_187:
 _p_630:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2176]
+ldr x16, [x16, #2168]
 br x16
-.word 16142
+.word 16099
 	.no_dead_strip plt__rgctx_fetch_188
 plt__rgctx_fetch_188:
 _p_631:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2184]
+ldr x16, [x16, #2176]
 br x16
-.word 16183
+.word 16140
 	.no_dead_strip plt__rgctx_fetch_189
 plt__rgctx_fetch_189:
 _p_632:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2192]
+ldr x16, [x16, #2184]
 br x16
-.word 16191
+.word 16148
 	.no_dead_strip plt__rgctx_fetch_190
 plt__rgctx_fetch_190:
 _p_633:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2200]
+ldr x16, [x16, #2192]
 br x16
-.word 16208
+.word 16165
 	.no_dead_strip plt__rgctx_fetch_191
 plt__rgctx_fetch_191:
 _p_634:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2208]
+ldr x16, [x16, #2200]
 br x16
-.word 16225
+.word 16182
 	.no_dead_strip plt_System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor
 plt_System_Collections_Generic_ObjectEqualityComparer_1_T_REF__ctor:
 _p_635:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2216]
+ldr x16, [x16, #2208]
 br x16
-.word 16233
+.word 16190
 	.no_dead_strip plt__rgctx_fetch_192
 plt__rgctx_fetch_192:
 _p_636:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2224]
+ldr x16, [x16, #2216]
 br x16
-.word 16270
+.word 16227
 	.no_dead_strip plt_System_Collections_Generic_List_1_T_REF_set_Capacity_int
 plt_System_Collections_Generic_List_1_T_REF_set_Capacity_int:
 _p_637:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2232]
+ldr x16, [x16, #2224]
 br x16
-.word 16293
+.word 16250
 	.no_dead_strip plt__rgctx_fetch_193
 plt__rgctx_fetch_193:
 _p_638:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2240]
+ldr x16, [x16, #2232]
 br x16
-.word 16339
+.word 16296
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_T_REF__ctor
 plt_System_Collections_Generic_EqualityComparer_1_T_REF__ctor:
 _p_639:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2248]
+ldr x16, [x16, #2240]
 br x16
-.word 16371
+.word 16328
 	.no_dead_strip plt__rgctx_fetch_194
 plt__rgctx_fetch_194:
 _p_640:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2256]
+ldr x16, [x16, #2248]
 br x16
-.word 16408
+.word 16365
 	.no_dead_strip plt__rgctx_fetch_195
 plt__rgctx_fetch_195:
 _p_641:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2264]
+ldr x16, [x16, #2256]
 br x16
-.word 16420
+.word 16375
 	.no_dead_strip plt__rgctx_fetch_196
 plt__rgctx_fetch_196:
 _p_642:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2272]
+ldr x16, [x16, #2264]
 br x16
-.word 16430
+.word 16383
 	.no_dead_strip plt__rgctx_fetch_197
 plt__rgctx_fetch_197:
 _p_643:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2280]
+ldr x16, [x16, #2272]
 br x16
-.word 16458
+.word 16409
 	.no_dead_strip plt__rgctx_fetch_198
 plt__rgctx_fetch_198:
 _p_644:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2288]
+ldr x16, [x16, #2280]
 br x16
-.word 16470
+.word 16421
 	.no_dead_strip plt__rgctx_fetch_199
 plt__rgctx_fetch_199:
 _p_645:
 adrp x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGE+8192
 add x16, x16, mono_aot_SQLitePCLRaw_provider_sqlite3_got@PAGEOFF
-ldr x16, [x16, #2296]
+ldr x16, [x16, #2288]
 br x16
-.word 16480
+.word 16431
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_SQLitePCLRaw_provider_sqlite3_got, 10496
+.lcomm mono_aot_SQLitePCLRaw_provider_sqlite3_got, 10488
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -66131,13 +66273,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 666,10496,646,700,70,391195135,0,99116
-	.long 128,8,8,10,0,25,112776,13648
+	.long 665,10488,646,700,70,391195135,0,99170
+	.long 128,8,8,10,0,24,112824,13648
 	.long 13344,10760,0,11968,13264,11080,0,8432
 	.long 912,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 245,83,72,83,240,150,199,74,203,129,169,75,122,58,77,193
+	.byte 116,166,220,75,185,55,132,25,65,253,88,143,230,117,8,236
 	.globl _mono_aot_module_SQLitePCLRaw_provider_sqlite3_info
 	.align 3
 _mono_aot_module_SQLitePCLRaw_provider_sqlite3_info:
@@ -77944,7 +78086,7 @@ Lfde215_start:
 LDIFF_SYM1490=Lme_1a0 - System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF__ctor
 	.long LDIFF_SYM1490
 	.long 0
-	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
 Lfde215_end:
 
@@ -77993,7 +78135,7 @@ LDIFF_SYM1496=LTDIE_74 - Ldebug_info_start
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:InitializeFromCollection"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_InitializeFromCollection_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF"
 
-	.byte 1,233,1
+	.byte 1,227,1
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_InitializeFromCollection_System_Collections_Generic_IEnumerable_1_System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF
 	.quad Lme_1a1
 
@@ -78047,7 +78189,7 @@ Lfde216_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:.ctor"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF__ctor_int_int_bool_System_Collections_Generic_IEqualityComparer_1_TKey_INTPTR"
 
-	.byte 1,144,2
+	.byte 1,136,2
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF__ctor_int_int_bool_System_Collections_Generic_IEqualityComparer_1_TKey_INTPTR
 	.quad Lme_1a2
 
@@ -78056,7 +78198,7 @@ Lfde216_end:
 
 LDIFF_SYM1504=LTDIE_70_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1504
-	.byte 3,141,200,0,3
+	.byte 3,141,208,0,3
 	.asciz "concurrencyLevel"
 
 LDIFF_SYM1505=LDIE_I4 - Ldebug_info_start
@@ -78071,12 +78213,12 @@ LDIFF_SYM1506=LDIE_I4 - Ldebug_info_start
 
 LDIFF_SYM1507=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM1507
-	.byte 3,141,208,0,3
+	.byte 3,141,216,0,3
 	.asciz "comparer"
 
 LDIFF_SYM1508=LTDIE_72_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1508
-	.byte 1,106,11
+	.byte 3,141,224,0,11
 	.asciz "locks"
 
 LDIFF_SYM1509=LDIE_SZARRAY - Ldebug_info_start
@@ -78111,7 +78253,8 @@ Lfde217_start:
 LDIFF_SYM1514=Lme_1a2 - System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF__ctor_int_int_bool_System_Collections_Generic_IEqualityComparer_1_TKey_INTPTR
 	.long LDIFF_SYM1514
 	.long 0
-	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,147,18,148,17,68,149,16,150,15,68,151,14,152,13,68,154,12
+	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,147,22,148,21,68,149,20,150,19,68,151,18,152,17,68,153,16
+	.byte 154,15
 	.align 3
 Lfde217_end:
 
@@ -78121,7 +78264,7 @@ Lfde217_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:OnSerializing"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_OnSerializing_System_Runtime_Serialization_StreamingContext"
 
-	.byte 1,182,2
+	.byte 1,173,2
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_OnSerializing_System_Runtime_Serialization_StreamingContext
 	.quad Lme_1a3
 
@@ -78165,7 +78308,7 @@ Lfde218_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:OnSerialized"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_OnSerialized_System_Runtime_Serialization_StreamingContext"
 
-	.byte 1,194,2
+	.byte 1,185,2
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_OnSerialized_System_Runtime_Serialization_StreamingContext
 	.quad Lme_1a4
 
@@ -78204,7 +78347,7 @@ Lfde219_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:OnDeserialized"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_OnDeserialized_System_Runtime_Serialization_StreamingContext"
 
-	.byte 1,201,2
+	.byte 1,192,2
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_OnDeserialized_System_Runtime_Serialization_StreamingContext
 	.quad Lme_1a5
 
@@ -78268,7 +78411,7 @@ Lfde220_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:TryAdd"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryAdd_TKey_INTPTR_TValue_REF"
 
-	.byte 1,232,2
+	.byte 1,223,2
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryAdd_TKey_INTPTR_TValue_REF
 	.quad Lme_1a6
 
@@ -78317,7 +78460,7 @@ Lfde221_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:ContainsKey"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_ContainsKey_TKey_INTPTR"
 
-	.byte 1,249,2
+	.byte 1,240,2
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_ContainsKey_TKey_INTPTR
 	.quad Lme_1a7
 
@@ -78361,7 +78504,7 @@ Lfde222_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:TryRemove"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryRemove_TKey_INTPTR_TValue_REF_"
 
-	.byte 1,141,3
+	.byte 1,132,3
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryRemove_TKey_INTPTR_TValue_REF_
 	.quad Lme_1a8
 
@@ -78452,7 +78595,7 @@ LDIFF_SYM1557=LTDIE_75 - Ldebug_info_start
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:TryRemoveInternal"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryRemoveInternal_TKey_INTPTR_TValue_REF__bool_TValue_REF"
 
-	.byte 1,158,3
+	.byte 1,149,3
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryRemoveInternal_TKey_INTPTR_TValue_REF__bool_TValue_REF
 	.quad Lme_1a9
 
@@ -78541,8 +78684,8 @@ Lfde224_start:
 LDIFF_SYM1573=Lme_1a9 - System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryRemoveInternal_TKey_INTPTR_TValue_REF__bool_TValue_REF
 	.long LDIFF_SYM1573
 	.long 0
-	.byte 12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,147,30,148,29,68,149,28,150,27,68,151,26,152,25,68,153,24
-	.byte 154,23
+	.byte 12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,147,32,148,31,68,149,30,150,29,68,151,28,152,27,68,153,26
+	.byte 154,25
 	.align 3
 Lfde224_end:
 
@@ -78552,7 +78695,7 @@ Lfde224_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:TryGetValue"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryGetValue_TKey_INTPTR_TValue_REF_"
 
-	.byte 1,229,3
+	.byte 1,220,3
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryGetValue_TKey_INTPTR_TValue_REF_
 	.quad Lme_1aa
 
@@ -78596,7 +78739,7 @@ Lfde225_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:TryGetValueInternal"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryGetValueInternal_TKey_INTPTR_int_TValue_REF_"
 
-	.byte 1,238,3
+	.byte 1,229,3
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryGetValueInternal_TKey_INTPTR_int_TValue_REF_
 	.quad Lme_1ab
 
@@ -78650,7 +78793,7 @@ Lfde226_start:
 LDIFF_SYM1587=Lme_1ab - System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryGetValueInternal_TKey_INTPTR_int_TValue_REF_
 	.long LDIFF_SYM1587
 	.long 0
-	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,149,20,150,19,68,151,18,152,17,68,153,16,154,15
+	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,149,22,150,21,68,151,20,152,19,68,153,18,154,17
 	.align 3
 Lfde226_end:
 
@@ -78660,7 +78803,7 @@ Lfde226_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:Clear"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Clear"
 
-	.byte 1,239,4
+	.byte 1,230,4
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Clear
 	.quad Lme_1ac
 
@@ -78694,7 +78837,7 @@ Lfde227_start:
 LDIFF_SYM1592=Lme_1ac - System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_Clear
 	.long LDIFF_SYM1592
 	.long 0
-	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,154,20
+	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,154,24
 	.align 3
 Lfde227_end:
 
@@ -78704,7 +78847,7 @@ Lfde227_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue_CopyTo_System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF___int"
 
-	.byte 1,149,5
+	.byte 1,140,5
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue_CopyTo_System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF___int
 	.quad Lme_1ad
 
@@ -78763,7 +78906,7 @@ Lfde228_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:ToArray"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_ToArray"
 
-	.byte 1,185,5
+	.byte 1,176,5
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_ToArray
 	.quad Lme_1ae
 
@@ -78822,7 +78965,7 @@ Lfde229_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:CopyToPairs"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_CopyToPairs_System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF___int"
 
-	.byte 1,220,5
+	.byte 1,211,5
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_CopyToPairs_System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF___int
 	.quad Lme_1af
 
@@ -78871,7 +79014,7 @@ Lfde230_start:
 LDIFF_SYM1616=Lme_1af - System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_CopyToPairs_System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF___int
 	.long LDIFF_SYM1616
 	.long 0
-	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15,68,154,14
+	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,150,20,151,19,68,152,18,153,17,68,154,16
 	.align 3
 Lfde230_end:
 
@@ -78881,7 +79024,7 @@ Lfde230_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:CopyToEntries"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_CopyToEntries_System_Collections_DictionaryEntry___int"
 
-	.byte 1,238,5
+	.byte 1,229,5
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_CopyToEntries_System_Collections_DictionaryEntry___int
 	.quad Lme_1b0
 
@@ -78940,7 +79083,7 @@ Lfde231_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:CopyToObjects"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_CopyToObjects_object___int"
 
-	.byte 1,128,6
+	.byte 1,247,5
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_CopyToObjects_object___int
 	.quad Lme_1b1
 
@@ -78989,7 +79132,7 @@ Lfde232_start:
 LDIFF_SYM1632=Lme_1b1 - System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_CopyToObjects_object___int
 	.long LDIFF_SYM1632
 	.long 0
-	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,150,18,151,17,68,152,16,153,15,68,154,14
+	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,150,20,151,19,68,152,18,153,17,68,154,16
 	.align 3
 Lfde232_end:
 
@@ -79033,7 +79176,7 @@ Lfde233_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:TryAddInternal"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryAddInternal_TKey_INTPTR_int_TValue_REF_bool_bool_TValue_REF_"
 
-	.byte 1,178,6
+	.byte 1,169,6
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryAddInternal_TKey_INTPTR_int_TValue_REF_bool_bool_TValue_REF_
 	.quad Lme_1b3
 
@@ -79132,8 +79275,8 @@ Lfde234_start:
 LDIFF_SYM1653=Lme_1b3 - System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_TryAddInternal_TKey_INTPTR_int_TValue_REF_bool_bool_TValue_REF_
 	.long LDIFF_SYM1653
 	.long 0
-	.byte 12,31,0,68,14,160,2,157,36,158,35,68,13,29,68,147,34,148,33,68,149,32,150,31,68,151,30,152,29,68,153,28
-	.byte 154,27
+	.byte 12,31,0,68,14,176,2,157,38,158,37,68,13,29,68,147,36,148,35,68,149,34,150,33,68,151,32,152,31,68,153,30
+	.byte 154,29
 	.align 3
 Lfde234_end:
 
@@ -79143,7 +79286,7 @@ Lfde234_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:get_Item"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_get_Item_TKey_INTPTR"
 
-	.byte 1,165,7
+	.byte 1,156,7
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_get_Item_TKey_INTPTR
 	.quad Lme_1b4
 
@@ -79187,7 +79330,7 @@ Lfde235_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:set_Item"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_set_Item_TKey_INTPTR_TValue_REF"
 
-	.byte 1,173,7
+	.byte 1,164,7
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_set_Item_TKey_INTPTR_TValue_REF
 	.quad Lme_1b5
 
@@ -79236,7 +79379,7 @@ Lfde236_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:ThrowKeyNotFoundException"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_ThrowKeyNotFoundException"
 
-	.byte 1,186,7
+	.byte 1,177,7
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_ThrowKeyNotFoundException
 	.quad Lme_1b6
 
@@ -79265,7 +79408,7 @@ Lfde237_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:ThrowKeyNullException"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_ThrowKeyNullException"
 
-	.byte 1,192,7
+	.byte 1,183,7
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_ThrowKeyNullException
 	.quad Lme_1b7
 
@@ -79294,7 +79437,7 @@ Lfde238_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:get_Count"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_get_Count"
 
-	.byte 1,210,7
+	.byte 1,201,7
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_get_Count
 	.quad Lme_1b8
 
@@ -79338,7 +79481,7 @@ Lfde239_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:GetCountInternal"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetCountInternal"
 
-	.byte 1,240,7
+	.byte 1,231,7
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetCountInternal
 	.quad Lme_1b9
 
@@ -79372,7 +79515,7 @@ Lfde240_start:
 LDIFF_SYM1678=Lme_1b9 - System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetCountInternal
 	.long LDIFF_SYM1678
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,154,5
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,154,7
 	.align 3
 Lfde240_end:
 
@@ -79404,7 +79547,7 @@ LDIFF_SYM1682=LTDIE_76 - Ldebug_info_start
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:GetOrAdd"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetOrAdd_TKey_INTPTR_System_Func_2_TKey_INTPTR_TValue_REF"
 
-	.byte 1,140,8
+	.byte 1,131,8
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetOrAdd_TKey_INTPTR_System_Func_2_TKey_INTPTR_TValue_REF
 	.quad Lme_1ba
 
@@ -79458,7 +79601,7 @@ Lfde241_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:System.Collections.Generic.IDictionary<TKey,TValue>.Add"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_IDictionary_TKey_TValue_Add_TKey_INTPTR_TValue_REF"
 
-	.byte 1,156,10
+	.byte 1,147,10
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_IDictionary_TKey_TValue_Add_TKey_INTPTR_TValue_REF
 	.quad Lme_1bb
 
@@ -79502,7 +79645,7 @@ Lfde242_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:System.Collections.Generic.IDictionary<TKey,TValue>.Remove"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_IDictionary_TKey_TValue_Remove_TKey_INTPTR"
 
-	.byte 1,177,10
+	.byte 1,168,10
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_IDictionary_TKey_TValue_Remove_TKey_INTPTR
 	.quad Lme_1bc
 
@@ -79546,7 +79689,7 @@ Lfde243_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:get_Values"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_get_Values"
 
-	.byte 1,211,10
+	.byte 1,202,10
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_get_Values
 	.quad Lme_1bd
 
@@ -79580,7 +79723,7 @@ Lfde244_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue_Add_System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF"
 
-	.byte 1,244,10
+	.byte 1,235,10
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue_Add_System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF
 	.quad Lme_1be
 
@@ -79619,7 +79762,7 @@ Lfde245_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue_Contains_System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF"
 
-	.byte 1,131,11
+	.byte 1,250,10
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue_Contains_System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF
 	.quad Lme_1bf
 
@@ -79663,7 +79806,7 @@ Lfde246_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue_get_IsReadOnly"
 
-	.byte 1,147,11
+	.byte 1,138,11
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue_get_IsReadOnly
 	.quad Lme_1c0
 
@@ -79697,7 +79840,7 @@ Lfde247_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue_Remove_System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF"
 
-	.byte 1,163,11
+	.byte 1,154,11
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue_Remove_System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF
 	.quad Lme_1c1
 
@@ -79741,7 +79884,7 @@ Lfde248_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:System.Collections.IEnumerable.GetEnumerator"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_IEnumerable_GetEnumerator"
 
-	.byte 1,184,11
+	.byte 1,175,11
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_IEnumerable_GetEnumerator
 	.quad Lme_1c2
 
@@ -79775,7 +79918,7 @@ Lfde249_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:System.Collections.IDictionary.GetEnumerator"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_IDictionary_GetEnumerator"
 
-	.byte 1,249,11
+	.byte 1,240,11
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_IDictionary_GetEnumerator
 	.quad Lme_1c3
 
@@ -79809,7 +79952,7 @@ Lfde250_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:System.Collections.IDictionary.get_Keys"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_IDictionary_get_Keys"
 
-	.byte 1,158,12
+	.byte 1,149,12
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_IDictionary_get_Keys
 	.quad Lme_1c4
 
@@ -79843,7 +79986,7 @@ Lfde251_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:System.Collections.IDictionary.get_Item"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_IDictionary_get_Item_object"
 
-	.byte 1,212,12
+	.byte 1,203,12
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_IDictionary_get_Item_object
 	.quad Lme_1c5
 
@@ -79887,7 +80030,7 @@ Lfde252_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:System.Collections.IDictionary.set_Item"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_IDictionary_set_Item_object_object"
 
-	.byte 1,224,12
+	.byte 1,215,12
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_IDictionary_set_Item_object_object
 	.quad Lme_1c6
 
@@ -79931,7 +80074,7 @@ Lfde253_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:System.Collections.ICollection.CopyTo"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_ICollection_CopyTo_System_Array_int"
 
-	.byte 1,129,13
+	.byte 1,248,12
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_ICollection_CopyTo_System_Array_int
 	.quad Lme_1c7
 
@@ -80000,8 +80143,8 @@ Lfde254_start:
 LDIFF_SYM1750=Lme_1c7 - System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_ICollection_CopyTo_System_Array_int
 	.long LDIFF_SYM1750
 	.long 0
-	.byte 12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,147,26,148,25,68,149,24,150,23,68,151,22,152,21,68,153,20
-	.byte 154,19
+	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,147,28,148,27,68,149,26,150,25,68,151,24,152,23,68,153,22
+	.byte 154,21
 	.align 3
 Lfde254_end:
 
@@ -80011,7 +80154,7 @@ Lfde254_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:System.Collections.ICollection.get_IsSynchronized"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_ICollection_get_IsSynchronized"
 
-	.byte 1,195,13
+	.byte 1,186,13
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_ICollection_get_IsSynchronized
 	.quad Lme_1c8
 
@@ -80045,7 +80188,7 @@ Lfde255_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:System.Collections.ICollection.get_SyncRoot"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_ICollection_get_SyncRoot"
 
-	.byte 1,207,13
+	.byte 1,198,13
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_System_Collections_ICollection_get_SyncRoot
 	.quad Lme_1c9
 
@@ -80079,7 +80222,7 @@ Lfde256_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:GrowTable"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GrowTable_System_Collections_Concurrent_ConcurrentDictionary_2_Tables_TKey_INTPTR_TValue_REF"
 
-	.byte 1,222,13
+	.byte 1,213,13
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GrowTable_System_Collections_Concurrent_ConcurrentDictionary_2_Tables_TKey_INTPTR_TValue_REF
 	.quad Lme_1ca
 
@@ -80183,7 +80326,7 @@ Lfde257_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:GetBucket"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetBucket_int_int"
 
-	.byte 1,231,14
+	.byte 1,222,14
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetBucket_int_int
 	.quad Lme_1cb
 
@@ -80222,7 +80365,7 @@ Lfde258_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:GetBucketAndLockNo"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetBucketAndLockNo_int_int__int__int_int"
 
-	.byte 1,241,14
+	.byte 1,232,14
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetBucketAndLockNo_int_int__int__int_int
 	.quad Lme_1cc
 
@@ -80276,7 +80419,7 @@ Lfde259_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:get_DefaultConcurrencyLevel"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_get_DefaultConcurrencyLevel"
 
-	.byte 1,253,14
+	.byte 1,244,14
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_get_DefaultConcurrencyLevel
 	.quad Lme_1cd
 
@@ -80305,7 +80448,7 @@ Lfde260_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:AcquireAllLocks"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_AcquireAllLocks_int_"
 
-	.byte 1,135,15
+	.byte 1,254,14
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_AcquireAllLocks_int_
 	.quad Lme_1ce
 
@@ -80344,7 +80487,7 @@ Lfde261_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:AcquireLocks"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_AcquireLocks_int_int_int_"
 
-	.byte 1,157,15
+	.byte 1,148,15
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_AcquireLocks_int_int_int_
 	.quad Lme_1cf
 
@@ -80398,7 +80541,7 @@ Lfde262_start:
 LDIFF_SYM1799=Lme_1cf - System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_AcquireLocks_int_int_int_
 	.long LDIFF_SYM1799
 	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,149,16,150,15,68,151,14,152,13,68,154,12
+	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,149,18,150,17,68,151,16,152,15,68,154,14
 	.align 3
 Lfde262_end:
 
@@ -80408,7 +80551,7 @@ Lfde262_end:
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:ReleaseLocks"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_ReleaseLocks_int_int"
 
-	.byte 1,183,15
+	.byte 1,174,15
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_ReleaseLocks_int_int
 	.quad Lme_1d0
 
@@ -80447,7 +80590,7 @@ Lfde263_start:
 LDIFF_SYM1805=Lme_1d0 - System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_ReleaseLocks_int_int
 	.long LDIFF_SYM1805
 	.long 0
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,152,8,68,154,7
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,68,154,9
 	.align 3
 Lfde263_end:
 
@@ -80552,7 +80695,7 @@ LDIFF_SYM1822=LTDIE_78 - Ldebug_info_start
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:GetKeys"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetKeys"
 
-	.byte 1,194,15
+	.byte 1,185,15
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetKeys
 	.quad Lme_1d1
 
@@ -80706,7 +80849,7 @@ LDIFF_SYM1847=LTDIE_81 - Ldebug_info_start
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2<TKey_INTPTR,_TValue_REF>:GetValues"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetValues"
 
-	.byte 1,226,15
+	.byte 1,217,15
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF_GetValues
 	.quad Lme_1d2
 
@@ -94724,123 +94867,67 @@ Lfde469_end:
 LTDIE_107:
 
 	.byte 5
-	.asciz "System_Collections_Generic_EqualityComparer`1"
-
-	.byte 16,16
-LDIFF_SYM3824=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM3824
-	.byte 2,35,0,0,7
-	.asciz "System_Collections_Generic_EqualityComparer`1"
-
-LDIFF_SYM3825=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM3825
-LTDIE_107_POINTER:
-
-	.byte 13
-LDIFF_SYM3826=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM3826
-LTDIE_107_REFERENCE:
-
-	.byte 14
-LDIFF_SYM3827=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM3827
-	.byte 2
-	.asciz "System.Collections.Generic.EqualityComparer`1<T_INTPTR>:get_Default"
-	.asciz "System_Collections_Generic_EqualityComparer_1_T_INTPTR_get_Default"
-
-	.byte 3,32
-	.quad System_Collections_Generic_EqualityComparer_1_T_INTPTR_get_Default
-	.quad Lme_2a2
-
-	.byte 2,118,16,11
-	.asciz "comparer"
-
-LDIFF_SYM3828=LTDIE_107_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM3828
-	.byte 1,106,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM3829=Lfde470_end - Lfde470_start
-	.long LDIFF_SYM3829
-Lfde470_start:
-
-	.long 0
-	.align 3
-	.quad System_Collections_Generic_EqualityComparer_1_T_INTPTR_get_Default
-
-LDIFF_SYM3830=Lme_2a2 - System_Collections_Generic_EqualityComparer_1_T_INTPTR_get_Default
-	.long LDIFF_SYM3830
-	.long 0
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
-	.align 3
-Lfde470_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_108:
-
-	.byte 5
 	.asciz "System_Collections_Generic_KeyValuePair`2"
 
 	.byte 32,16
-LDIFF_SYM3831=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM3831
+LDIFF_SYM3824=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM3824
 	.byte 2,35,0,6
 	.asciz "key"
 
-LDIFF_SYM3832=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3832
+LDIFF_SYM3825=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3825
 	.byte 2,35,16,6
 	.asciz "value"
 
-LDIFF_SYM3833=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM3833
+LDIFF_SYM3826=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM3826
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_Generic_KeyValuePair`2"
 
-LDIFF_SYM3834=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM3834
-LTDIE_108_POINTER:
+LDIFF_SYM3827=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM3827
+LTDIE_107_POINTER:
 
 	.byte 13
-LDIFF_SYM3835=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM3835
-LTDIE_108_REFERENCE:
+LDIFF_SYM3828=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM3828
+LTDIE_107_REFERENCE:
 
 	.byte 14
-LDIFF_SYM3836=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM3836
+LDIFF_SYM3829=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM3829
 	.byte 2
 	.asciz "System.Collections.Generic.KeyValuePair`2<TKey_INTPTR,_TValue_REF>:get_Value"
 	.asciz "System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Value"
 
-	.byte 4,40
+	.byte 3,69
 	.quad System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Value
-	.quad Lme_2a3
+	.quad Lme_2a2
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3837=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3837
+LDIFF_SYM3830=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3830
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM3838=Lfde471_end - Lfde471_start
-	.long LDIFF_SYM3838
-Lfde471_start:
+LDIFF_SYM3831=Lfde470_end - Lfde470_start
+	.long LDIFF_SYM3831
+Lfde470_start:
 
 	.long 0
 	.align 3
 	.quad System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Value
 
-LDIFF_SYM3839=Lme_2a3 - System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Value
-	.long LDIFF_SYM3839
+LDIFF_SYM3832=Lme_2a2 - System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Value
+	.long LDIFF_SYM3832
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde471_end:
+Lfde470_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -94848,16 +94935,72 @@ Lfde471_end:
 	.asciz "System.Collections.Generic.KeyValuePair`2<TKey_INTPTR,_TValue_REF>:get_Key"
 	.asciz "System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Key"
 
-	.byte 4,36
+	.byte 3,64
 	.quad System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Key
-	.quad Lme_2a4
+	.quad Lme_2a3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3840=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM3840
+LDIFF_SYM3833=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM3833
 	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM3834=Lfde471_end - Lfde471_start
+	.long LDIFF_SYM3834
+Lfde471_start:
+
+	.long 0
+	.align 3
+	.quad System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Key
+
+LDIFF_SYM3835=Lme_2a3 - System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Key
+	.long LDIFF_SYM3835
+	.long 0
+	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.align 3
+Lfde471_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_108:
+
+	.byte 5
+	.asciz "System_Collections_Generic_EqualityComparer`1"
+
+	.byte 16,16
+LDIFF_SYM3836=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM3836
+	.byte 2,35,0,0,7
+	.asciz "System_Collections_Generic_EqualityComparer`1"
+
+LDIFF_SYM3837=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM3837
+LTDIE_108_POINTER:
+
+	.byte 13
+LDIFF_SYM3838=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM3838
+LTDIE_108_REFERENCE:
+
+	.byte 14
+LDIFF_SYM3839=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM3839
+	.byte 2
+	.asciz "System.Collections.Generic.EqualityComparer`1<T_INTPTR>:get_Default"
+	.asciz "System_Collections_Generic_EqualityComparer_1_T_INTPTR_get_Default"
+
+	.byte 4,32
+	.quad System_Collections_Generic_EqualityComparer_1_T_INTPTR_get_Default
+	.quad Lme_2a4
+
+	.byte 2,118,16,11
+	.asciz "comparer"
+
+LDIFF_SYM3840=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM3840
+	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
@@ -94867,12 +95010,12 @@ Lfde472_start:
 
 	.long 0
 	.align 3
-	.quad System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Key
+	.quad System_Collections_Generic_EqualityComparer_1_T_INTPTR_get_Default
 
-LDIFF_SYM3842=Lme_2a4 - System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF_get_Key
+LDIFF_SYM3842=Lme_2a4 - System_Collections_Generic_EqualityComparer_1_T_INTPTR_get_Default
 	.long LDIFF_SYM3842
 	.long 0
-	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
 Lfde472_end:
 
@@ -94904,7 +95047,7 @@ LDIFF_SYM3846=LTDIE_109 - Ldebug_info_start
 	.asciz "System.Collections.Generic.EqualityComparer`1<T_REF>:get_Default"
 	.asciz "System_Collections_Generic_EqualityComparer_1_T_REF_get_Default"
 
-	.byte 3,32
+	.byte 4,32
 	.quad System_Collections_Generic_EqualityComparer_1_T_REF_get_Default
 	.quad Lme_2a5
 
@@ -94938,7 +95081,7 @@ Lfde473_end:
 	.asciz "System.Array:Empty<T_GSHAREDVT>"
 	.asciz "System_Array_Empty_T_GSHAREDVT"
 
-	.byte 5,157,10
+	.byte 2,230,4
 	.quad System_Array_Empty_T_GSHAREDVT
 	.quad Lme_2a6
 
@@ -94967,7 +95110,7 @@ Lfde474_end:
 	.asciz "System.Collections.Generic.KeyValuePair`2<TKey_INTPTR,_TValue_REF>:.ctor"
 	.asciz "System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF__ctor_TKey_INTPTR_TValue_REF"
 
-	.byte 4,31
+	.byte 3,58
 	.quad System_Collections_Generic_KeyValuePair_2_TKey_INTPTR_TValue_REF__ctor_TKey_INTPTR_TValue_REF
 	.quad Lme_2a7
 
@@ -95303,7 +95446,7 @@ LDIFF_SYM3907=LTDIE_115 - Ldebug_info_start
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2/Node<TKey_INTPTR,_TValue_REF>:.ctor"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_Node_TKey_INTPTR_TValue_REF__ctor_TKey_INTPTR_TValue_REF_int_System_Collections_Concurrent_ConcurrentDictionary_2_Node_TKey_INTPTR_TValue_REF"
 
-	.byte 1,136,16
+	.byte 1,255,15
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_Node_TKey_INTPTR_TValue_REF__ctor_TKey_INTPTR_TValue_REF_int_System_Collections_Concurrent_ConcurrentDictionary_2_Node_TKey_INTPTR_TValue_REF
 	.quad Lme_2a9
 
@@ -95520,7 +95663,7 @@ LDIFF_SYM3943=LTDIE_118 - Ldebug_info_start
 	.asciz "System.Collections.Concurrent.ConcurrentDictionary`2/DictionaryEnumerator<TKey_INTPTR,_TValue_REF>:.ctor"
 	.asciz "System_Collections_Concurrent_ConcurrentDictionary_2_DictionaryEnumerator_TKey_INTPTR_TValue_REF__ctor_System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF"
 
-	.byte 1,154,16
+	.byte 1,145,16
 	.quad System_Collections_Concurrent_ConcurrentDictionary_2_DictionaryEnumerator_TKey_INTPTR_TValue_REF__ctor_System_Collections_Concurrent_ConcurrentDictionary_2_TKey_INTPTR_TValue_REF
 	.quad Lme_2aa
 
@@ -95611,7 +95754,7 @@ LDIFF_SYM3956=LTDIE_121 - Ldebug_info_start
 	.asciz "System.Collections.ObjectModel.ReadOnlyCollection`1<T_INTPTR>:.ctor"
 	.asciz "System_Collections_ObjectModel_ReadOnlyCollection_1_T_INTPTR__ctor_System_Collections_Generic_IList_1_T_INTPTR"
 
-	.byte 6,27
+	.byte 5,27
 	.quad System_Collections_ObjectModel_ReadOnlyCollection_1_T_INTPTR__ctor_System_Collections_Generic_IList_1_T_INTPTR
 	.quad Lme_2ab
 
@@ -95692,7 +95835,7 @@ LDIFF_SYM3968=LTDIE_123 - Ldebug_info_start
 	.asciz "System.Collections.Generic.List`1<T_INTPTR>:Add"
 	.asciz "System_Collections_Generic_List_1_T_INTPTR_Add_T_INTPTR"
 
-	.byte 7,228,1
+	.byte 6,228,1
 	.quad System_Collections_Generic_List_1_T_INTPTR_Add_T_INTPTR
 	.quad Lme_2ac
 
@@ -95736,7 +95879,7 @@ Lfde480_end:
 	.asciz "System.Collections.Generic.List`1<T_INTPTR>:.ctor"
 	.asciz "System_Collections_Generic_List_1_T_INTPTR__ctor_int"
 
-	.byte 7,60
+	.byte 6,60
 	.quad System_Collections_Generic_List_1_T_INTPTR__ctor_int
 	.quad Lme_2ad
 
@@ -95827,7 +95970,7 @@ LDIFF_SYM3986=LTDIE_124 - Ldebug_info_start
 	.asciz "System.Collections.ObjectModel.ReadOnlyCollection`1<T_REF>:.ctor"
 	.asciz "System_Collections_ObjectModel_ReadOnlyCollection_1_T_REF__ctor_System_Collections_Generic_IList_1_T_REF"
 
-	.byte 6,27
+	.byte 5,27
 	.quad System_Collections_ObjectModel_ReadOnlyCollection_1_T_REF__ctor_System_Collections_Generic_IList_1_T_REF
 	.quad Lme_2ae
 
@@ -95908,7 +96051,7 @@ LDIFF_SYM3998=LTDIE_126 - Ldebug_info_start
 	.asciz "System.Collections.Generic.List`1<T_REF>:Add"
 	.asciz "System_Collections_Generic_List_1_T_REF_Add_T_REF"
 
-	.byte 7,228,1
+	.byte 6,228,1
 	.quad System_Collections_Generic_List_1_T_REF_Add_T_REF
 	.quad Lme_2af
 
@@ -95952,7 +96095,7 @@ Lfde483_end:
 	.asciz "System.Collections.Generic.List`1<T_REF>:.ctor"
 	.asciz "System_Collections_Generic_List_1_T_REF__ctor_int"
 
-	.byte 7,60
+	.byte 6,60
 	.quad System_Collections_Generic_List_1_T_REF__ctor_int
 	.quad Lme_2b0
 
@@ -96035,7 +96178,7 @@ Lfde485_end:
 	.asciz "System.Collections.Generic.EqualityComparer`1<T_INTPTR>:CreateComparer"
 	.asciz "System_Collections_Generic_EqualityComparer_1_T_INTPTR_CreateComparer"
 
-	.byte 3,49
+	.byte 4,49
 	.quad System_Collections_Generic_EqualityComparer_1_T_INTPTR_CreateComparer
 	.quad Lme_2b2
 
@@ -96079,7 +96222,7 @@ Lfde486_end:
 	.asciz "System.Collections.Generic.EqualityComparer`1<T_REF>:CreateComparer"
 	.asciz "System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer"
 
-	.byte 3,49
+	.byte 4,49
 	.quad System_Collections_Generic_EqualityComparer_1_T_REF_CreateComparer
 	.quad Lme_2b3
 
@@ -96123,7 +96266,7 @@ Lfde487_end:
 	.asciz "System.Collections.Generic.List`1<T_INTPTR>:EnsureCapacity"
 	.asciz "System_Collections_Generic_List_1_T_INTPTR_EnsureCapacity_int"
 
-	.byte 7,157,3
+	.byte 6,157,3
 	.quad System_Collections_Generic_List_1_T_INTPTR_EnsureCapacity_int
 	.quad Lme_2b4
 
@@ -96167,7 +96310,7 @@ Lfde488_end:
 	.asciz "System.Collections.Generic.List`1<T_REF>:EnsureCapacity"
 	.asciz "System_Collections_Generic_List_1_T_REF_EnsureCapacity_int"
 
-	.byte 7,157,3
+	.byte 6,157,3
 	.quad System_Collections_Generic_List_1_T_REF_EnsureCapacity_int
 	.quad Lme_2b5
 
@@ -96369,7 +96512,7 @@ Lfde491_end:
 	.asciz "System.Collections.Generic.List`1<T_INTPTR>:set_Capacity"
 	.asciz "System_Collections_Generic_List_1_T_INTPTR_set_Capacity_int"
 
-	.byte 7,116
+	.byte 6,116
 	.quad System_Collections_Generic_List_1_T_INTPTR_set_Capacity_int
 	.quad Lme_2b8
 
@@ -96413,7 +96556,7 @@ Lfde492_end:
 	.asciz "System.Collections.Generic.List`1<T_REF>:set_Capacity"
 	.asciz "System_Collections_Generic_List_1_T_REF_set_Capacity_int"
 
-	.byte 7,116
+	.byte 6,116
 	.quad System_Collections_Generic_List_1_T_REF_set_Capacity_int
 	.quad Lme_2b9
 
@@ -96464,7 +96607,7 @@ Lfde493_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM4065=LTDIE_107_REFERENCE - Ldebug_info_start
+LDIFF_SYM4065=LTDIE_108_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM4065
 	.byte 2,141,16,0
 

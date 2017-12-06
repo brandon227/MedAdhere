@@ -33,7 +33,7 @@
             </Grid>
             <Label Text="{Binding MedTime}" />
             <Button Text="Save" HorizontalOptions="FillAndExpand" BackgroundColor="Green" TextColor="White" Clicked="Save_Clicked" />
-            <Button Text="Cancel" HorizontalOptions="FillAndExpand" BackgroundColor="Blue" WidthRequest="160" TextColor="White" />
+            <Button Text="Cancel" HorizontalOptions="FillAndExpand" BackgroundColor="Blue" WidthRequest="160" TextColor="White" Clicked="Cancel_Clicked"/>
             <Button Text="Delete" HorizontalOptions="FillAndExpand" BackgroundColor="Red" TextColor="White" Clicked="Delete_Clicked" />
         </StackLayout>
     </ContentPage.Content>

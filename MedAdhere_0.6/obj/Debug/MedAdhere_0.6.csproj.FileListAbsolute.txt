@@ -36,6 +36,7 @@
 /Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/obj/Debug/MedAdhere_0.AddPage.xaml.g.cs
 /Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/obj/Debug/MedAdhere_0.DeviceListPage.xaml.g.cs
 /Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/obj/Debug/MedAdhere_0.SettingsPage.xaml.g.cs
+/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/obj/Debug/MedAdhere_0.DispenserPage.xaml.g.cs
 /Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/obj/Debug/MedAdhere_0.6.dll
 /Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/obj/Debug/MedAdhere_0.6.pdb
-/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/obj/Debug/MedAdhere_0.DispenserPage.xaml.g.cs
+/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/obj/Debug/MedAdhere_0.TappedNotificationPage.xaml.g.cs

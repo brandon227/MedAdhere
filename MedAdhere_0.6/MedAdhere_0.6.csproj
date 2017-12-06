@@ -44,6 +44,10 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="DispenserPage.xaml" />
+    <EmbeddedResource Include="TappedNotificationPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -76,6 +80,12 @@
     <Compile Include="NotificationSetup.cs" />
     <Compile Include="DispenserPage.xaml.cs" />
     <Compile Include="Lights.cs" />
+    <Compile Include="ContinuousTask.cs" />
+    <Compile Include="TappedNotificationPage.xaml.cs">
+      <DependentUpon>TappedNotificationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AdherenceDatabase.cs" />
+    <Compile Include="Adhere.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="SQLite-net">

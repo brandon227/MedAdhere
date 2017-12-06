@@ -64,7 +64,7 @@ void xamarin_setup_impl ()
 	xamarin_init_mono_debug = TRUE;
 	xamarin_executable_name = "MedAdhere_0.6.iOS.exe";
 	mono_use_llvm = FALSE;
-	xamarin_log_level = 2;
+	xamarin_log_level = 0;
 	xamarin_arch_name = "arm64";
 	xamarin_marshal_objectivec_exception_mode = MarshalObjectiveCExceptionModeDisable;
 	xamarin_debug_mode = TRUE;

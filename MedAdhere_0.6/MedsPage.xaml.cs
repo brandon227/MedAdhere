@@ -59,7 +59,13 @@ namespace MedAdhere_0
 
             await App.Database.SaveMedsAsync(meds);
             DependencyService.Get<IMedNotification>().SaveAlarm();
+            BluetoothManager.Instance.CheckBluetoothConnection();
             await DisplayAlert("Success", "Medication has been saved", "OK");
+            await Navigation.PopAsync();
+        }
+
+        async void Cancel_Clicked(object sender, System.EventArgs e)
+        {
             await Navigation.PopAsync();
         }
 
@@ -74,6 +80,7 @@ namespace MedAdhere_0
             meds.Dinner = false;
             meds.Sleep = false;
             await App.Database.SaveMedsAsync(meds);
+            DependencyService.Get<IMedNotification>().SaveAlarm();
             await DisplayAlert("Success", "Medication has been deleted", "OK");
             await Navigation.PopAsync();
         }

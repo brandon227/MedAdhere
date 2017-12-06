@@ -103,22 +103,22 @@
 @class UIKit_UIView_UIViewAppearance;
 @class UIKit_UINavigationBar_UINavigationBarAppearance;
 @class __UIPanGestureRecognizer;
+@class __UIPinchGestureRecognizer;
 @class UIKit_UIControl_UIControlAppearance;
 @class __UIRotationGestureRecognizer;
 @class __UITapGestureRecognizer;
-@class __UIPinchGestureRecognizer;
 @class __UISwipeGestureRecognizer;
 @class __UIScreenEdgePanGestureRecognizer;
+@class UIKit_UISearchBar__UISearchBarDelegate;
 @class UIKit_UIBarButtonItem_Callback;
 @class UIKit_UIButton_UIButtonAppearance;
-@class UIKit_UISearchBar__UISearchBarDelegate;
-@class UIKit_UITextField__UITextFieldDelegate;
 @class UIKit_UIScrollView__UIScrollViewDelegate;
+@class UIKit_UITextField__UITextFieldDelegate;
 @class UIKit_UITextView__UITextViewDelegate;
 @class UIKit_UISplitViewController__UISplitViewControllerDelegate;
 @class UIKit_UITabBarController__UITabBarControllerDelegate;
-@class GLKit_GLKView__GLKViewDelegate;
 @class UIKit_UIWebView__UIWebViewDelegate;
+@class GLKit_GLKView__GLKViewDelegate;
 
 @protocol UIPickerViewModel<UIPickerViewDataSource, UIPickerViewDelegate>
 @end

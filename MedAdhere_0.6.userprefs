@@ -1,34 +1,31 @@
 ﻿<Properties StartupConfiguration="{7BFCBECD-C3DD-458C-A55E-C3904952CAB4}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="MedAdhere_0.6/App.xaml.cs">
     <Files>
-      <File FileName="MedAdhere_0.6/DispenserPage.xaml" Line="5" Column="55" />
-      <File FileName="MedAdhere_0.6/DispenserPage.xaml.cs" Line="32" Column="61" />
-      <File FileName="MedAdhere_0.6/MedsPage.xaml" Line="30" Column="17" />
-      <File FileName="MedAdhere_0.6/MedsPage.xaml.cs" Line="61" Column="67" />
-      <File FileName="MedAdhere_0.6/MedsDatabase.cs" Line="24" Column="13" />
-      <File FileName="MedAdhere_0.6/SettingsPage.xaml.cs" Line="58" Column="23" />
-      <File FileName="MedAdhere_0.6/AlarmsDatabase.cs" Line="38" Column="13" />
-      <File FileName="MedAdhere_0.6/Meds.cs" Line="23" Column="44" />
-      <File FileName="MedAdhere_0.6/MedsListPage.xaml.cs" Line="51" Column="19" />
-      <File FileName="MedAdhere_0.6/MedAdhere_0.6Page.xaml" Line="29" Column="14" />
-      <File FileName="iOS/MedNotification.cs" Line="22" Column="1" />
-      <File FileName="MedAdhere_0.6/SchedulePage.xaml.cs" Line="18" Column="10" />
-      <File FileName="MedAdhere_0.6/Lights.cs" Line="14" Column="40" />
-      <File FileName="iOS/ILights.cs" Line="6" Column="31" />
-      <File FileName="MedAdhere_0.6/BLE/BluetoothManager.cs" Line="174" Column="18" />
-      <File FileName="iOS/AppDelegate.cs" Line="71" Column="29" />
-      <File FileName="MedAdhere_0.6/RecordPage.xaml" Line="18" Column="1" />
-      <File FileName="MedAdhere_0.6/RecordPage.xaml.cs" Line="6" Column="21" />
-      <File FileName="MedAdhere_0.6/IMedNotification.cs" Line="7" Column="6" />
-      <File FileName="MedAdhere_0.6/MedAdhere_0.6Page.xaml.cs" Line="11" Column="28" />
-      <File FileName="MedAdhere_0.6/App.xaml.cs" Line="16" Column="47" />
+      <File FileName="iOS/MedNotification.cs" Line="93" Column="61" />
+      <File FileName="MedAdhere_0.6/TappedNotificationPage.xaml" Line="9" Column="1" />
+      <File FileName="MedAdhere_0.6/TappedNotificationPage.xaml.cs" Line="23" Column="18" />
+      <File FileName="MedAdhere_0.6/DispenserPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="MedAdhere_0.6/MedsPage.xaml" Line="38" Column="23" />
+      <File FileName="MedAdhere_0.6/MedsPage.xaml.cs" Line="77" Column="31" />
+      <File FileName="MedAdhere_0.6/SettingsPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="MedAdhere_0.6/MedsDatabase.cs" Line="1" Column="1" />
+      <File FileName="MedAdhere_0.6/RecordPage.xaml.cs" Line="58" Column="95" />
+      <File FileName="MedAdhere_0.6/BLE/BluetoothManager.cs" Line="133" Column="52" />
+      <File FileName="MedAdhere_0.6/AlarmsDatabase.cs" Line="14" Column="9" />
+      <File FileName="MedAdhere_0.6/AdherenceDatabase.cs" Line="1" Column="1" />
+      <File FileName="MedAdhere_0.6/App.xaml.cs" Line="103" Column="10" />
+      <File FileName="MedAdhere_0.6/Adhere.cs" Line="11" Column="51" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/ContinuousTask.cs" relfile="MedAdhere_0.6/ContinuousTask.cs" line="9" column="1" />
+      <Breakpoint file="/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/AppDelegate.cs" relfile="iOS/AppDelegate.cs" line="110" column="1" />
+      <Breakpoint file="/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/AppDelegate.cs" relfile="iOS/AppDelegate.cs" line="84" column="83" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.MedAdhere__0.6.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.c54e381b4ca1f292ed61b7177dc92de68f3052b0" />
+  <MonoDevelop.Ide.ItemProperties.MedAdhere__0.6.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.67E89304-3084-4C22-BA77-13FAB64C147C" automaticSigning="False" />
   <MultiItemStartupConfigurations />
 </Properties>
