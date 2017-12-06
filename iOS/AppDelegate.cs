@@ -40,7 +40,7 @@ namespace MedAdhere_0.iOS
                 //var notificationTitle = (aps[new NSString("title")] as NSString).ToString();
                 //var notificationMessage = (aps[new NSString("job_id")] as NSString).ToString();
                 //var NotificationId = (aps[new NSString("TaskID")] as NSString).ToString();
-                App.Current.MainPage = new TappedNotificationPage();
+                App.Current.MainPage = new MedAdhere_0_6Page();
                 /*
                 if (UIApplication.SharedApplication.ApplicationState.Equals(UIApplicationState.Active))
                 {

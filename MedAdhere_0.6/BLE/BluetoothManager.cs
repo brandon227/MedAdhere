@@ -129,10 +129,11 @@ namespace MedAdhere_0
                 if (Instance.AdapterBLE.ConnectedDevices.Count == 0)
                 {
 
-                    //Reconnect to BLEDevice
+                    //Reconnect to BLEDevice and set dose taken to 1
                     if (Instance.BLEDevice != null)
                     {
                         Instance.OnConnectionLost(Instance.BLEDevice);
+
                     }
                     else
                     {
@@ -150,8 +151,15 @@ namespace MedAdhere_0
 
 
         //Automatically connect to bluetooth if connection lost
-        public void OnConnectionLost(IDevice lostDevice)
+        public async void OnConnectionLost(IDevice lostDevice)
         {
+
+            //Set Dose Taken to 1
+            Adhere thisDose = new Adhere();
+            thisDose = await App.AdhereDB.GetRecentAdhereAsync();
+            thisDose.DoseTaken = true;
+            await App.AdhereDB.SaveAdhereAsync(thisDose);
+
             AttemptReconnect(lostDevice.Id, cancellationToken);
 
         }

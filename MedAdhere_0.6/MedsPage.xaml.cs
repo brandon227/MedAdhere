@@ -57,8 +57,36 @@ namespace MedAdhere_0
             meds.Dosage = meddose.Text;
             //System.Diagnostics.Debug.WriteLine("New WakeTime is:" + alarm.WakeTime);
 
+            //Save meds to Database
             await App.Database.SaveMedsAsync(meds);
+
+            //Save and Set Notifications
             DependencyService.Get<IMedNotification>().SaveAlarm();
+
+            //Delete all future doses
+            try
+            {
+                Adhere toDelete = new Adhere();
+                int x = 1;
+                while (x != 0)
+                {
+                    toDelete = await App.AdhereDB.GetFutureAdhereAsync();
+                    if (toDelete != null)
+                    {
+                        await App.AdhereDB.DeleteAdhereAsync(toDelete);
+                    }
+                    else
+                    {
+                        x = 0;
+                    }
+                }
+            }
+            catch
+            {
+                System.Diagnostics.Debug.WriteLine("Could not delete future doses");
+            }
+
+            //Start checking for bluetooth connection. Should be connected to start. Upon disconnect, will mark dose as taken.
             BluetoothManager.Instance.CheckBluetoothConnection();
             await DisplayAlert("Success", "Medication has been saved", "OK");
             await Navigation.PopAsync();

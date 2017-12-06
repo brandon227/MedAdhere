@@ -5,7 +5,8 @@ using Xamarin.Forms;
 
 namespace MedAdhere_0
 {
-    public partial class TappedNotificationPage : NavigationPage
+    //Make this a naviagtion page later
+    public partial class TappedNotificationPage : ContentPage
     {
 
         Alarms alarm = new Alarms();
@@ -18,11 +19,12 @@ namespace MedAdhere_0
         }
 
         //Change label of MedStatus depending on if medication has been taken or not
+        /*
         void AdherenceCheck()
         {
             if ()
-        }
-
+        }*/
+        /*
         protected async void ScheduleLights()
         {
             
@@ -46,6 +48,6 @@ namespace MedAdhere_0
                 // Don't repeat the timer (we will start a new timer when the request is finished)
                 return false;
             });
-        }
+        }*/
     }
 }

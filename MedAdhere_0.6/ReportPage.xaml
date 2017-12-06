@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MedAdhere_0.ReportPage" 
-    Title="Report" 
+    Title="Reports" 
     Icon="ic_insert_chart.png">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-            <Label Text="Find Medical Reports Here!" />
+        <StackLayout VerticalOptions="Center" HorizontalOptions="FillAndExpand" Padding="30">
+            <Label Text="Find Medical Reports Here!" HorizontalOptions="Center"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Text="Missed Doses This Month:" Grid.Row="1" Grid.Column="0" FontSize="16"/>
+                <Label x:Name="MissedDoses_Month" Grid.Row="1" Grid.Column="1" FontSize="16"/>
+                <Label Text="Total Missed Doses:" Grid.Row="2" Grid.Column="0" FontSize="16"/>
+                <Label x:Name="MissedDoses_Total" Grid.Row="2" Grid.Column="1" FontSize="16"/>
+               
+            </Grid>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
