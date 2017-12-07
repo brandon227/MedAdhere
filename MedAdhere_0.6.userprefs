@@ -1,48 +1,28 @@
 ﻿<Properties StartupConfiguration="{7BFCBECD-C3DD-458C-A55E-C3904952CAB4}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MedAdhere_0.6/Adhere.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MedAdhere_0.6/DeviceListPage.xaml.cs">
     <Files>
-      <File FileName="iOS/MedNotification.cs" Line="100" Column="1" />
-      <File FileName="MedAdhere_0.6/TappedNotificationPage.xaml.cs" Line="11" Column="9" />
-      <File FileName="MedAdhere_0.6/DispenserPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="MedAdhere_0.6/MedsPage.xaml" Line="6" Column="100" />
-      <File FileName="MedAdhere_0.6/ReportPage.xaml" Line="8" Column="19" />
-      <File FileName="MedAdhere_0.6/ReportPage.xaml.cs" Line="21" Column="1" />
-      <File FileName="MedAdhere_0.6/AdherenceDatabase.cs" Line="57" Column="1" />
-      <File FileName="MedAdhere_0.6/MedsPage.xaml.cs" Line="82" Column="18" />
-      <File FileName="MedAdhere_0.6/BLE/BluetoothManager.cs" Line="135" Column="1" />
-      <File FileName="MedAdhere_0.6/App.xaml.cs" Line="54" Column="18" />
-      <File FileName="MedAdhere_0.6/Adhere.cs" Line="11" Column="51" />
-      <File FileName="MedAdhere_0.6/MedAdhere_0.6Page.xaml" Line="29" Column="14" />
-      <File FileName="MedAdhere_0.6/MedAdhere_0.6Page.xaml.cs" Line="1" Column="1" />
-      <File FileName="MedAdhere_0.6/DispenserPage.xaml" Line="4" Column="26" />
+      <File FileName="iOS/MedNotification.cs" Line="108" Column="36" />
+      <File FileName="MedAdhere_0.6/SchedulePage.xaml" Line="3" Column="44" />
+      <File FileName="MedAdhere_0.6/SchedulePage.xaml.cs" Line="21" Column="13" />
+      <File FileName="MedAdhere_0.6/AdherenceDatabase.cs" Line="35" Column="9" />
+      <File FileName="MedAdhere_0.6/BLE/BluetoothManager.cs" Line="129" Column="1" />
+      <File FileName="MedAdhere_0.6/MedAdhere_0.6Page.xaml.cs" Line="21" Column="13" />
+      <File FileName="MedAdhere_0.6/DispenserPage.xaml.cs" Line="32" Column="16" />
+      <File FileName="iOS/AppDelegate.cs" Line="115" Column="86" />
+      <File FileName="MedAdhere_0.6/MedAdhere_0.6Page.xaml" Line="37" Column="14" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="MedAdhere_0.6/Adhere.cs" Line="4" Column="22" />
+      <File FileName="MedAdhere_0.6/ReportPage.xaml" Line="4" Column="5" />
+      <File FileName="MedAdhere_0.6/DispenserPage.xaml" Line="11" Column="75" />
+      <File FileName="MedAdhere_0.6/App.xaml.cs" Line="134" Column="63" />
+      <File FileName="MedAdhere_0.6/DeviceListPage.xaml.cs" Line="50" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/ContinuousTask.cs" relfile="MedAdhere_0.6/ContinuousTask.cs" line="9" column="1" />
-      <Breakpoint file="/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/TappedNotificationPage.xaml.cs" relfile="MedAdhere_0.6/TappedNotificationPage.xaml.cs" line="25" column="1" />
-      <Breakpoint file="/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/MedsPage.xaml.cs" relfile="MedAdhere_0.6/MedsPage.xaml.cs" line="90" column="1" />
-      <Breakpoint file="/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/AdherenceDatabase.cs" relfile="MedAdhere_0.6/AdherenceDatabase.cs" line="43" column="1" />
-      <Breakpoint file="/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/AdherenceDatabase.cs" relfile="MedAdhere_0.6/AdherenceDatabase.cs" line="44" column="1" />
-      <Breakpoint file="/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/AdherenceDatabase.cs" relfile="MedAdhere_0.6/AdherenceDatabase.cs" line="45" column="1" />
-      <Breakpoint file="/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/MedsPage.xaml.cs" relfile="MedAdhere_0.6/MedsPage.xaml.cs" line="73" column="1" />
-      <Breakpoint file="/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/MedsPage.xaml.cs" relfile="MedAdhere_0.6/MedsPage.xaml.cs" line="76" column="1" />
-      <Breakpoint file="/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/MedsPage.xaml.cs" relfile="MedAdhere_0.6/MedsPage.xaml.cs" line="86" column="1" />
-      <Breakpoint file="/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/MedsPage.xaml.cs" relfile="MedAdhere_0.6/MedsPage.xaml.cs" line="80" column="1" />
-      <Breakpoint file="/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/BLE/BluetoothManager.cs" relfile="MedAdhere_0.6/BLE/BluetoothManager.cs" line="135" column="1" />
-      <Breakpoint file="/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/BLE/BluetoothManager.cs" relfile="MedAdhere_0.6/BLE/BluetoothManager.cs" line="158" column="1" />
-      <Breakpoint file="/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/BLE/BluetoothManager.cs" relfile="MedAdhere_0.6/BLE/BluetoothManager.cs" line="159" column="1" />
-      <Breakpoint file="/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/BLE/BluetoothManager.cs" relfile="MedAdhere_0.6/BLE/BluetoothManager.cs" line="160" column="1" />
-      <Breakpoint file="/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/BLE/BluetoothManager.cs" relfile="MedAdhere_0.6/BLE/BluetoothManager.cs" line="161" column="1" />
-      <Breakpoint file="/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/BLE/BluetoothManager.cs" relfile="MedAdhere_0.6/BLE/BluetoothManager.cs" line="163" column="1" />
-      <Breakpoint file="/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/AdherenceDatabase.cs" relfile="MedAdhere_0.6/AdherenceDatabase.cs" line="31" column="1" />
-      <Breakpoint file="/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/MedsPage.xaml.cs" relfile="MedAdhere_0.6/MedsPage.xaml.cs" line="64" column="1" />
-      <Breakpoint file="/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/AdherenceDatabase.cs" relfile="MedAdhere_0.6/AdherenceDatabase.cs" line="57" column="1" />
-      <Breakpoint file="/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/ReportPage.xaml.cs" relfile="MedAdhere_0.6/ReportPage.xaml.cs" line="21" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.MedAdhere__0.6.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.c54e381b4ca1f292ed61b7177dc92de68f3052b0" automaticSigning="False" />
+  <MonoDevelop.Ide.ItemProperties.MedAdhere__0.6.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.c54e381b4ca1f292ed61b7177dc92de68f3052b0" />
   <MultiItemStartupConfigurations />
 </Properties>

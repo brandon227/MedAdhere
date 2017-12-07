@@ -1,13 +1,11 @@
 {
   "images": [
     {
-      "filename": "4040.png",
       "size": "20x20",
       "scale": "2x",
       "idiom": "iphone"
     },
     {
-      "filename": "6060.png",
       "size": "20x20",
       "scale": "3x",
       "idiom": "iphone"
@@ -28,19 +26,16 @@
       "idiom": "iphone"
     },
     {
-      "filename": "120120.png",
       "size": "40x40",
       "scale": "3x",
       "idiom": "iphone"
     },
     {
-      "filename": "120120.png",
       "size": "60x60",
       "scale": "2x",
       "idiom": "iphone"
     },
     {
-      "filename": "180180.png",
       "size": "60x60",
       "scale": "3x",
       "idiom": "iphone"

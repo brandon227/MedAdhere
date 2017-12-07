@@ -10,20 +10,28 @@
         </x:Arguments>
     </NavigationPage>
     <!-- <local:MedsListPage /> -->
+    <!--
     <NavigationPage Title="Schedule">
         <x:Arguments>
                 <local:SchedulePage>
                 </local:SchedulePage>
         </x:Arguments>
     </NavigationPage>
-
+    -->
     <!-- local:SettingsPage /-->
-    <NavigationPage Title="Record" Icon="ic_done.png">
+    <NavigationPage Title="Journal" Icon="ic_done.png">
         <x:Arguments>
+            <!--
             <local:RecordPage>
             </local:RecordPage>
+            -->
+            <local:VitalsListPage />
         </x:Arguments>
     </NavigationPage>
-    <local:ReportPage>
-    </local:ReportPage>
+    <NavigationPage Title="Reports" Icon="ic_insert_chart.png">
+        <x:Arguments>
+            <local:ReportPage>
+            </local:ReportPage>
+        </x:Arguments>
+    </NavigationPage>
 </TabbedPage>

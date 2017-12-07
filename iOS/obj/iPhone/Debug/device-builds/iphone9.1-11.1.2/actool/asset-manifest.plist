@@ -8,8 +8,6 @@
 		<array>
 			<string>/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhone/Debug/device-builds/iphone9.1-11.1.2/actool/bundle/AppIcon20x20@2x.png</string>
 			<string>/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhone/Debug/device-builds/iphone9.1-11.1.2/actool/bundle/AppIcon20x20@3x.png</string>
-			<string>/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhone/Debug/device-builds/iphone9.1-11.1.2/actool/bundle/AppIcon40x40@3x.png</string>
-			<string>/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhone/Debug/device-builds/iphone9.1-11.1.2/actool/bundle/AppIcon60x60@2x.png</string>
 			<string>/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhone/Debug/device-builds/iphone9.1-11.1.2/actool/bundle/AppIcon60x60@3x.png</string>
 			<string>/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhone/Debug/device-builds/iphone9.1-11.1.2/actool/bundle/Assets.car</string>
 			<string>/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhone/Debug/device-builds/iphone9.1-11.1.2/actool/partial-info.plist</string>
@@ -17,6 +15,18 @@
 	</dict>
 	<key>com.apple.actool.document.warnings</key>
 	<array>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhone/Debug/device-builds/iphone9.1-11.1.2/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>A 60x60@2x app icon is required for iPhone apps targeting iOS 7.0 and later</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
 		<dict>
 			<key>affected-items</key>
 			<array>

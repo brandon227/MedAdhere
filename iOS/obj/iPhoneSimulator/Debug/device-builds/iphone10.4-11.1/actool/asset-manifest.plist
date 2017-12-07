@@ -6,17 +6,24 @@
 	<dict>
 		<key>output-files</key>
 		<array>
-			<string>/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/bundle/AppIcon20x20@2x.png</string>
-			<string>/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/bundle/AppIcon20x20@3x.png</string>
-			<string>/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/bundle/AppIcon40x40@3x.png</string>
-			<string>/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/bundle/AppIcon60x60@2x.png</string>
-			<string>/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/bundle/AppIcon60x60@3x.png</string>
 			<string>/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/bundle/Assets.car</string>
 			<string>/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/partial-info.plist</string>
 		</array>
 	</dict>
 	<key>com.apple.actool.document.warnings</key>
 	<array>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>A 60x60@2x app icon is required for iPhone apps targeting iOS 7.0 and later</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
 		<dict>
 			<key>affected-items</key>
 			<array>
@@ -40,6 +47,30 @@
 			<string>A 83.5x83.5@2x app icon is required for iPad apps targeting iOS 9.0 and later</string>
 			<key>type</key>
 			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/(null)[2d][4040.png]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The app icon set "AppIcon" has an unassigned child.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/(null)[2d][4040.png]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/BrandonTran/Projects/MedAdhere_0.6/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The app icon set "AppIcon" has an unassigned child.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
 		</dict>
 	</array>
 </dict>

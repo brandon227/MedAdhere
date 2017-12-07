@@ -46,6 +46,7 @@ namespace MedAdhere_0
                     //Add reconnect here
                     await DisplayAlert("Bluetooth Successful!", "You are now connected to: " + device, "OK");
                     await Navigation.PopToRootAsync();
+
 				}
 				else
 				{

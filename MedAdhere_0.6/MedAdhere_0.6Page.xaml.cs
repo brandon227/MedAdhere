@@ -5,9 +5,19 @@ namespace MedAdhere_0
 {
     public partial class MedAdhere_0_6Page : TabbedPage
     {
-        public MedAdhere_0_6Page()
+        public MedAdhere_0_6Page(int fromWhere)
         {
             InitializeComponent();
+
+            if (fromWhere == 1)
+            {
+                BluetoothManager.Instance.CheckBluetoothConnection();
+                System.Diagnostics.Debug.WriteLine("Came from Notification");
+                //var masterPage = this.Parent as TabbedPage;
+                //masterPage.CurrentPage = masterPage.Children[2];
+            }
+
+            NavigationPage.SetHasNavigationBar(this, false);
 
             /*
             if (token == 1)

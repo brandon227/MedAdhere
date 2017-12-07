@@ -40,3 +40,5 @@
 /Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/obj/Debug/MedAdhere_0.6.dll
 /Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/obj/Debug/MedAdhere_0.6.pdb
 /Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/obj/Debug/MedAdhere_0.TappedNotificationPage.xaml.g.cs
+/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/obj/Debug/MedAdhere_0.VitalsListPage.xaml.g.cs
+/Users/BrandonTran/Projects/MedAdhere_0.6/MedAdhere_0.6/obj/Debug/MedAdhere_0.VitalsPage.xaml.g.cs

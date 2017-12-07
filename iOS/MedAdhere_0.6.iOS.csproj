@@ -134,10 +134,9 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\10241024.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\120120.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\180180.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\4040.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\6060.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\180180.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />

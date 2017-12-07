@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MedAdhere_0.DeviceListPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MedAdhere_0.DeviceListPage"
+    Title="Connect to CUREKA">
 	<ContentPage.Content>
 		<ListView ItemsSource="{Binding .}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="White" ItemTapped="Device_ItemTapped">
 			<ListView.ItemTemplate>

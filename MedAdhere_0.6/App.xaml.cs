@@ -11,13 +11,15 @@ namespace MedAdhere_0
         static MedsDatabase medsdatabase;
         static AlarmsDatabase alarmsdatabase;
         static AdherenceDatabase adherencedatabase;
+        static VitalsDatabase vitalsdatabase;
         //static NotificationSetup sendnotification;
 
         public App()
         {
             InitializeComponent();
 
-            MainPage = new MedAdhere_0_6Page();
+            //MainPage = new NavigationPage(new SchedulePage());
+            MainPage = new MedAdhere_0_6Page(0);
         }
 
         public static MedsDatabase Database
@@ -53,6 +55,18 @@ namespace MedAdhere_0
                     adherencedatabase = new AdherenceDatabase(DependencyService.Get<ILocalFileHelper>().GetLocalFilePath("AdhereDb.db3"));
                 }
                 return adherencedatabase;
+            }
+        }
+
+        public static VitalsDatabase VitalsDB
+        {
+            get
+            {
+                if (vitalsdatabase == null)
+                {
+                    vitalsdatabase = new VitalsDatabase(DependencyService.Get<ILocalFileHelper>().GetLocalFilePath("VitalsDb.db3"));
+                }
+                return vitalsdatabase;
             }
         }
 
@@ -103,7 +117,11 @@ namespace MedAdhere_0
 
         protected override void OnStart()
         {
-
+            /*
+            if (BluetoothManager.Instance.AdapterBLE.ConnectedDevices.Count == 0)
+            {
+                MainPage = new DeviceListPage();
+            }*/
         }
 
         protected override void OnSleep()
@@ -113,6 +131,7 @@ namespace MedAdhere_0
 
         protected override void OnResume()
         {
+            //MainPage = new NavigationPage(new SchedulePage());
             //LoadPersistedValues();
         }
     }

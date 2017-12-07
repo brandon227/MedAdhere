@@ -9,14 +9,6 @@
       <LogicalName>AppIcon20x20@3x.png</LogicalName>
       <Optimize>false</Optimize>
     </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone9.1-11.1.2/actool/bundle/AppIcon40x40@3x.png">
-      <LogicalName>AppIcon40x40@3x.png</LogicalName>
-      <Optimize>false</Optimize>
-    </_BundleResourceWithLogicalName>
-    <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone9.1-11.1.2/actool/bundle/AppIcon60x60@2x.png">
-      <LogicalName>AppIcon60x60@2x.png</LogicalName>
-      <Optimize>false</Optimize>
-    </_BundleResourceWithLogicalName>
     <_BundleResourceWithLogicalName Include="obj/iPhone/Debug/device-builds/iphone9.1-11.1.2/actool/bundle/AppIcon60x60@3x.png">
       <LogicalName>AppIcon60x60@3x.png</LogicalName>
       <Optimize>false</Optimize>

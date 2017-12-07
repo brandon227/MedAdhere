@@ -87,7 +87,7 @@ namespace MedAdhere_0
             }
 
             //Start checking for bluetooth connection. Should be connected to start. Upon disconnect, will mark dose as taken.
-            BluetoothManager.Instance.CheckBluetoothConnection();
+            //BluetoothManager.Instance.CheckBluetoothConnection();
             await DisplayAlert("Success", "Medication has been saved", "OK");
             await Navigation.PopAsync();
         }

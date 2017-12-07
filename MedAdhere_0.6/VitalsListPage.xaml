@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MedAdhere_0.VitalsListPage"
+    Title="My Health Journal">
+	<ContentPage.Content>
+        <ListView x:Name="VitalsListView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" ItemSelected="ListView_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding rectime, StringFormat='{0:MMMM dd, yyyy}'}" Detail="{Binding rectime, StringFormat='{}{0:hh\\:mm tt}'}"  />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+	</ContentPage.Content>
+</ContentPage>

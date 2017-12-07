@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MedAdhere_0.VitalsPage" 
+    xmlns:sys="clr-namespace:System;assembly=mscorlib" Title="Health Entry">
+    <ContentPage.Content>
+        <ScrollView Padding="20">
+            <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
+                <Label x:Name="recdatetime" Text="{Binding rectime, StringFormat='{0:MMMM dd, yyyy}  {0:hh\\:mm tt}'}" />
+                <Label Text="Blood Pressure:" HorizontalOptions="Start" VerticalOptions="Center" />
+                <Entry x:Name="recsbp" Placeholder="Systolic Blood Pressure" Text="{Binding sbp}" />
+                <Entry x:Name="recdbp" Placeholder="Diastolic Blood Pressure" Text="{Binding dbp}" />
+                <Label Text="Blood Glucose:" HorizontalOptions="Start" VerticalOptions="Center" />
+                <Entry x:Name="recsugar" Placeholder="Units for Blood Sugar" Text="{Binding sugar}" />
+                <Label Text="Heart Rate:" HorizontalOptions="Start" VerticalOptions="Center" />
+                <Entry x:Name="rechr" Placeholder="Beats per Minute" Text="{Binding bpm}" />
+                <Label Text="How do you feel on a scale from 1-10?" HorizontalOptions="Start" VerticalOptions="Center" />
+                <Slider x:Name="mySlider" Minimum="0" Maximum="10" ValueChanged="mySlider_ValueChanged" Value="{Binding rating}"/>
+                <Label x:Name="txtResult" Text="{Binding rating}" FontSize="13" HorizontalOptions="Center" />
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Label Text="Headache:" Grid.Row="0" Grid.Column="0" />
+                    <Switch x:Name="HeadToggle" IsToggled="{Binding Headache}" Grid.Row="0" Grid.Column="1" />
+                    <Label Text="Nausea:" Grid.Row="1" Grid.Column="0" />
+                    <Switch x:Name="NauseaToggle" IsToggled="{Binding Nausea}" Grid.Row="1" Grid.Column="1" />
+                    <Label Text="Fatigue:" Grid.Row="2" Grid.Column="0" />
+                    <Switch x:Name="FatigueToggle" IsToggled="{Binding Fatigue}" Grid.Row="2" Grid.Column="1" />
+                    <Label Text="Vision Problems:" Grid.Row="3" Grid.Column="0" />
+                    <Switch x:Name="VisionToggle" IsToggled="{Binding Vision}" Grid.Row="3" Grid.Column="1" />
+                    <Label Text="Dizziness:" Grid.Row="4" Grid.Column="0" />
+                    <Switch x:Name="DizzinessToggle" IsToggled="{Binding Dizzy}" Grid.Row="4" Grid.Column="1" />
+                    <Label Text="Chest Pain:" Grid.Row="5" Grid.Column="0" />
+                    <Switch x:Name="ChestToggle" IsToggled="{Binding Chestpain}" Grid.Row="5" Grid.Column="1" />
+                    <Label Text="Breathing Difficulty:" Grid.Row="6" Grid.Column="0" />
+                    <Switch x:Name="BreathingToggle" IsToggled="{Binding Breathing}" Grid.Row="6" Grid.Column="1" />
+                    <Label Text="Irregular Heartbeat:" Grid.Row="7" Grid.Column="0" />
+                    <Switch x:Name="HeartbeatToggle" IsToggled="{Binding Heartbeat}" Grid.Row="7" Grid.Column="1" />
+                    <Label Text="Depression:" Grid.Row="8" Grid.Column="0" />
+                    <Switch x:Name="DepressionToggle" IsToggled="{Binding Depression}" Grid.Row="8" Grid.Column="1" />
+                    <Label Text="Diarrhea:" Grid.Row="9" Grid.Column="0" />
+                    <Switch x:Name="DiarrheaToggle" IsToggled="{Binding Diarrhea}" Grid.Row="9" Grid.Column="1" />
+                    <Label Text="Other Notes" Grid.Row="10" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Center" />
+                    <Entry x:Name="other" Placeholder="Enter Other Notes Here" Text="{Binding Other}" Grid.Row="11" Grid.Column="0" />
+                </Grid>
+
+                <Button Text="Save" Clicked="Save_Clicked" />
+                <Button Text="Delete" Clicked="Delete_Clicked" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

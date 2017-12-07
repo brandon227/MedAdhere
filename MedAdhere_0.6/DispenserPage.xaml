@@ -8,6 +8,7 @@
             <Button x:name="Bin2" Text="Compartment 2" HeightRequest="90" HorizontalOptions="FillAndExpand" BackgroundColor="Blue" TextColor="White" Clicked="Bin2_Clicked" />
             <Button x:name="Bin3" Text="Compartment 3" HeightRequest="90" HorizontalOptions="FillAndExpand" BackgroundColor="Red" TextColor="White" Clicked="Bin3_Clicked" />
             <Button x:name="Bin4" Text="Compartment 4" HeightRequest="90" HorizontalOptions="FillAndExpand" BackgroundColor="Purple" TextColor="White" Clicked="Bin4_Clicked" />
+            <Button Text="Play Speaker Sound" Clicked="Speaker_Clicked" />
         </StackLayout>
 	</ContentPage.Content>
 </ContentPage>

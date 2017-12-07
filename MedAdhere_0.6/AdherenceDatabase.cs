@@ -10,7 +10,7 @@ namespace MedAdhere_0
     public class AdherenceDatabase
     {
 
-        CancellationToken token;
+        //CancellationToken token;
         readonly SQLiteAsyncConnection adherencedatabase;
 
         public AdherenceDatabase(string dataPath)
@@ -28,8 +28,9 @@ namespace MedAdhere_0
 
         public Task<Adhere> GetRecentAdhereAsync()
         {
-            return adherencedatabase.Table<Adhere>().Where(i => i.DoseDateTime > (DateTime.Now - TimeSpan.FromMinutes(60))
-                                                           && i.DoseDateTime < (DateTime.Now)).FirstOrDefaultAsync();
+            DateTime recent = DateTime.Now - TimeSpan.FromMinutes(60);
+            //Where(i => i.DoseDateTime > recent && i.DoseDateTime < (DateTime.Now))
+            return adherencedatabase.Table<Adhere>().OrderByDescending(dt => dt.DoseDateTime).FirstOrDefaultAsync();
         }
 
         public Task<Adhere> GetFutureAdhereAsync()

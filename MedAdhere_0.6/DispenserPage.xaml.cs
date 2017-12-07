@@ -23,6 +23,16 @@ namespace MedAdhere_0
             ToolbarItems.Add(toolbarItem); 
         }
 
+        protected override void OnAppearing()
+        {
+            
+            if (BluetoothManager.Instance.BLEDevice == null)
+            {
+                Navigation.PushAsync(new DeviceListPage());
+            }
+        }
+            
+
         async void Bin1_Clicked(object sender, System.EventArgs e)
         {
             int bin = 0;
@@ -62,6 +72,11 @@ namespace MedAdhere_0
                 await Navigation.PushAsync(new MedsPage(bin));
 
             }
+        }
+
+        void Speaker_Clicked(object sender, System.EventArgs e)
+        {
+            BluetoothManager.Instance.Speaker();
         }
     }
 }

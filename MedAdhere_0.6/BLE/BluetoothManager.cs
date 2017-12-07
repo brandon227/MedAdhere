@@ -28,7 +28,8 @@ namespace MedAdhere_0
         public IDevice CUREKA;
         public ICharacteristic Characteristic;
         public IService Service;
-        public CancellationTokenSource _cancellationSource;
+        //public CancellationTokenSource _cancellationSource = new CancellationTokenSource();
+
         //public static device;
 
         public ObservableCollection<IDevice> DeviceList { get; set; }
@@ -123,17 +124,20 @@ namespace MedAdhere_0
 
         public void CheckBluetoothConnection()
         {
+            System.Diagnostics.Debug.WriteLine("Checking for Bluetooth Connection...");
+            CancellationTokenSource _cancellationSource = new CancellationTokenSource();
+
             Task.Factory.StartNewTaskContinuously(() =>
             {
                 //If device is disconnected, note that medication hasn't been missed and reconnect
                 if (Instance.AdapterBLE.ConnectedDevices.Count == 0)
                 {
-
                     //Reconnect to BLEDevice and set dose taken to 1
                     if (Instance.BLEDevice != null)
                     {
                         Instance.OnConnectionLost(Instance.BLEDevice);
-
+                        Task.Delay(1500);
+                        _cancellationSource.Cancel();
                     }
                     else
                     {
@@ -145,7 +149,7 @@ namespace MedAdhere_0
                     System.Diagnostics.Debug.WriteLine("Device still connected. Medication has not yet been taken");
                 }
 
-            }, cancellationToken, (TimeSpan.FromSeconds(1)));
+            }, _cancellationSource.Token, (TimeSpan.FromSeconds(1)));
 
         }
 
@@ -159,7 +163,7 @@ namespace MedAdhere_0
             thisDose = await App.AdhereDB.GetRecentAdhereAsync();
             thisDose.DoseTaken = true;
             await App.AdhereDB.SaveAdhereAsync(thisDose);
-
+            System.Diagnostics.Debug.WriteLine("Dose taken");
             AttemptReconnect(lostDevice.Id, cancellationToken);
 
         }
@@ -170,6 +174,7 @@ namespace MedAdhere_0
             try
             {
                 await AdapterBLE.ConnectToKnownDeviceAsync(deviceId);
+                System.Diagnostics.Debug.WriteLine("Successfully Reconnected!");
             }
             catch (TaskCanceledException)
             {

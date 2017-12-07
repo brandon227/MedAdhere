@@ -56,9 +56,9 @@ namespace MedAdhere_0
             //var device = Guid.Parse("6E400001-B5A3-F393-E0A9-E50E24DCCA9E");
             //await BluetoothManager.Instance.AdapterBLE.ConnectToDeviceAsync(device);
             //BluetoothManager.Instance.OnConnectionLost(BluetoothManager.Instance.BLEDevice);
-            BluetoothManager.Instance.Test();
+            //BluetoothManager.Instance.Test();
 
-            //await BluetoothManager.Instance.AdapterBLE.DiscoverDeviceAsync(dev => dev.Name.Equals("Adafruit Bluefruit LE"));
+            await BluetoothManager.Instance.AdapterBLE.DiscoverDeviceAsync(dev => dev.Name.Equals("CUREKA"));
             //await DisplayAlert("Bluetooth Successful!", "You are now connected to: ", "OK");
 
         }

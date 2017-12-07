@@ -48,6 +48,14 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="VitalsListPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VitalsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -86,6 +94,14 @@
     </Compile>
     <Compile Include="AdherenceDatabase.cs" />
     <Compile Include="Adhere.cs" />
+    <Compile Include="VitalsListPage.xaml.cs">
+      <DependentUpon>VitalsListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vitals.cs" />
+    <Compile Include="VitalsDatabase.cs" />
+    <Compile Include="VitalsPage.xaml.cs">
+      <DependentUpon>VitalsPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="SQLite-net">
